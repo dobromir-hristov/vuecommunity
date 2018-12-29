@@ -1,0 +1,14 @@
+{
+  "name": "vue-community",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^0.12.0"
+  }
+}
