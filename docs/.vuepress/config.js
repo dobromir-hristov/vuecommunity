@@ -71,6 +71,7 @@ module.exports = {
               '/guide/ecosystem/documentation.md',
               '/guide/ecosystem/gridsome.md',
               '/guide/ecosystem/hosting.md',
+              '/guide/ecosystem/forms.md',
               '/guide/ecosystem/server-side-rendering.md',
               '/guide/ecosystem/legacy.md',
             ]
