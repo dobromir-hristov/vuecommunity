@@ -8,7 +8,7 @@ The [guide](https://vuejs.org/v2/guide) is commonly praised as one of the main r
 
 The best way to learn from the guide is by following the [Essentials](https://vuejs.org/v2/guide) section chapter by chapter. Then you can continue with [Components In-Depth](https://vuejs.org/v2/guide/components-registration.html). 
 
-If you need more details on specific features, use the robust search system or browse the [API page](https://vuejs.org/v2/api/) of the guide.
+If you need more details on specific features, use the robust search system or browse the [API documentation](https://vuejs.org/v2/api/).
 
 ### Single File Components
 
