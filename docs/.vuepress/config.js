@@ -46,7 +46,7 @@ module.exports = {
             title: 'Learning',
             collapsable: false,
             children: [
-              '/guide/learning/official-guides.md',
+              '/guide/learning/official-documentation.md',
               '/guide/learning/blogs-and-articles.md',
               '/guide/learning/books.md',
               '/guide/learning/courses.md',
