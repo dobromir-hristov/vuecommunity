@@ -36,7 +36,6 @@ module.exports = {
             children: [
               '/guide/community/conferences.md',
               '/guide/community/meetups.md',
-              '/guide/community/discord-chat.md',
               '/guide/community/social-media.md',
               '/guide/community/diversity.md',
               '/guide/community/job-market.md'
