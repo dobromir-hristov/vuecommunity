@@ -27,17 +27,15 @@ As the Vue community continues to grow, more and more specialized groups appear 
 
 ### Discord
 
-  - Nuxt
-  - Vuetify
-  - Quasar
-  - VueJobs
-  - Vue-Material
-  - Gridsome
-  - Vuesax
-  - Bueify
-  - Egoist
-  - Vue-a11y
-  
+  - [Nuxt](https://discord.nuxtjs.org/)
+  - [Vuetify](https://community.vuetifyjs.com/)
+  - [Quasar](https://discord.gg/5TDhbDg)
+  - [VueJobs](https://discordapp.com/invite/PJrSZqm)
+  - [Vue-Material](https://discord.gg/vuematerial)
+  - [Gridsome](https://discordapp.com/invite/7znJUkH)
+  - [Vuesax](https://discord.gg/9dsKtvB)
+  - [Bueify](https://discordapp.com/invite/ZkdFJMr)
+  - [EGOIST OSS](https://discord.gg/2t5mdCz)
 
 ### Slack
 
@@ -68,3 +66,4 @@ As the Vue community continues to grow, more and more specialized groups appear 
   - WeexEn
   - Element-UI
   - iView
+  - Semantic-ui-vue
