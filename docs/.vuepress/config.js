@@ -38,7 +38,8 @@ module.exports = {
               '/guide/community/meetups.md',
               '/guide/community/social-media.md',
               '/guide/community/diversity.md',
-              '/guide/community/job-market.md'
+              '/guide/community/job-market.md',
+              '/guide/community/fighting-for-vue.md',
             ]
           },
           {
