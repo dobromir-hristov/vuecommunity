@@ -4,46 +4,35 @@ Short info about the current Vue.js job market and its growth in the past years.
 
 ## VueJobs
 
-VueJobs is the leading website for companies to post their Vue related job ads. It offers a nice search mechanism, where users can filter job listings by 
-a variety of criteria, like full-time, part-time, remote and so on. 
+[VueJobs](https://vuejobs.com) is a job market advertisement platform with the status of an official Vue.js community partner. It allows both job adverts from companies as well as creating developer profiles by individual Vue.js professionals.
 
-Developers can create a _developer profile_ where they state the technologies they know and can work with.
+The job posts are shared across multiple social media platforms, both own accounts as well as through partner sites like the official [Vue Newsletter](https://news.vuejs.org).
 
-Every job post is shared across various social media platforms as well as on Vue.js partners like the [Official Vue Newsletter](), [Vue.js Developers]() and [Vue.js Feed]()
+Developers looking for a Vue.js related job can also subscribe to a weekly newsletter or take part in discussions on VueJob's [chat on Discord](), where professionals from around the world share their experiences and impressions from companies offering job with Vue.
 
-Developers can subscribe to the [VueJobs Newsletter]() to get a weekly list of the newest job offers. The official [VueJobs Discord chat]() is the place where 
-users share their experiences and impressions from companies offering Vue related work.
+A significant percentage of the income is distributed to the authors of both Vue.js and key ecosystem projects.
 
-VueJobs is an official Vue.js partner and they donate part of their income to both Vue.js Development and Vue Communities around the world. 
-Every new job listing contributes to the future of Vue.js in one way or another.
+[website](https://vuejobs.com) [chat](https://discord.gg/kVqcTzj)
 
-## Other places to find Vue related Jobs
+## Other platforms
 
 ### StackOverflow
-[Stack overflow](https://stackoverflow.com/jobs/developer-jobs-using-vuejs) has an active jobs section and it has been getting more and more Vue related job offers lately. 
+[Stack overflow](https://stackoverflow.com/jobs/developer-jobs-using-vuejs) has an active jobs section and it has been getting an increase of Vue related job offers lately. 
 
 ### JSRemotely
-[JS Remotely](https://jsremotely.com/) has a Vue related jobs filter. It has a new job post every 5 days or so with various seniority level.
-
-## How to sell Vue to your boss
-
-The lack of a large company backing Vue is the First thing companies point at when being offered Vue for their projects. Compared to React and Angular, Vue is entirely Open Source and community driven,
-with big decisions being made by the whole community. The framework has shown an incredible growth in both popularity and adoption on the past year with no signs of slowing down.
-
-The entry level compared to other popular frameworks is very low, so developers of any experience level can get up to speed with Vue in a matter of days. This makes adoption in both smaller and larger companies
-easier as they can spend less time and money on educating their developers.
-
-Vue's progressive nature means it can be embedded to both fresh projects and those that are already in production, written with various other javascript libraries in mind.
-
-It has a very live and evolving social community, where people constantly share technical posts, ask questions, share ideas and organize meetups.
-
-Among the many smaller companies, Vue.js is used in big companies like Gitlab, Adobe, Alibaba and more. Check Montreal's article on [State of Vue 2017]() where they go into much more detail on how and why 
-those large companies chose Vue for their projects.
+[JS Remotely](https://jsremotely.com/) includes Vue.js among its filters. There should be a new job post around once a week with various seniority level.
 
 ## What skills are employers looking for in Vue Developers
 
-There are many fields where a developer can emphasize on, when applying for a job. Are you good at working on mobile apps? Do you feel comfortable being involved in writing styles for the company framework. Do you mind
-using a framework like Vuetify or Quasar, or do you prefer building your own?
+Some explanation on what is most commonly searched for by employers when looking for Vue developers. Common pitfalls. This section should provide a general overview and leave the individual cases for the next one.
+
+## Tips from the employers' side
+
+The guidelines listed in this section come from actual Human Resources workers or Vue.js developers who take active part in the rectuitment process in their respective companies. Unlike the summary above, these tips come from individual experiences and should be treated as such. 
+
+They won't necessarily apply to each use case but they provide good insight into what you should expect on different stages of job hunting.
+
+### Dobromir Hristov
 
 Below is a list of common skills that employers are looking for in candidates and make a very good impression when mastered. 
 
@@ -60,11 +49,7 @@ No one is expecting you to know them all, but the more you know, the better firs
   - Basic Webpack Knowledge - Knowing how Webpack works and to setup its build chain is always a plus, even when using Vue CLI.
   - Code Optimisation - Dynamic Imports (when does it make sense), Code Speed Optimisation, Time to first paint, General Page Speed Optimisations, Working on slow networks.
 
-We advice you to apply for a position, even if you don't cover all the points. Depending on the position, most of the times there will be a senior developer guiding you to improve where you are lacking.
-
-## Tips from Skilled Vue Devs
-
-Here are some tips from senior Vue Developers on how to approach interviews and score a good job.
+I advice you to apply for a position, even if you don't cover all the points. Depending on the position, most of the times there will be a senior developer guiding you to improve where you are lacking.
   
   - Dont answer interview questions with just one word. Explain very briefly why you chose that answer.
   - If a project is still in discussion phase, you can steer towards using Vue as a framework by showcasing usage examples and it's benefits.
