@@ -39,7 +39,7 @@ Below is a list of common skills that I think can make a developer standout from
 No one is expecting you to know them all, but the more you know, the better first impression you will make.
 
   - Multi level component communication - Vuex, Buss or other pub-sub mechanism, Vue Events - Know when you should chose one over the other, pros and cons of them.
-  - Popular Vue framework knowledge - When does it make sense to use a framework and when not. Which one can fit for the job without major rewrite of styles or functionality.
+  - Popular Vue framework knowledge - When does it make sense to use a framework and when not. Which one can fit for the job without major rewrite of styles or functionality. Is one following better UX practices than the other?
   - Mobile Device Framework - Should you go with a PWA, Native code compiled or Cordova Hybrid app. Pro's and Cons of each.
   - Large Form Handling - How to handle large, complicated forms, reuse common logic across components, data validation.
   - Code Reusability - Methods of sharing code across components - Mixins, Factories, Services, Store Actions, Utility Functions, these can make a big difference in large applications.
@@ -48,6 +48,7 @@ No one is expecting you to know them all, but the more you know, the better firs
   - Popular Coding Standards (ESLint, Prettier) - Understanding the need for ESLint or Prettier in a project. How to set it up and when to override popular presets.
   - Basic Webpack Knowledge - Knowing how Webpack works and to setup its build chain is always a plus, even when using Vue CLI.
   - Code Optimisation - Dynamic Imports (when does it make sense), Code Speed Optimisation, Time to first paint, General Page Speed Optimisations, Working on slow networks.
+  - Cross Browser compatibility - Polyfilling, Ponyfilling and graceful fallback for older browsers that your app supports.
 
 I advice you to apply for a position, even if you don't cover all the points. Depending on the position, most of the times there will be a senior developer guiding you to improve where you are lacking.
   
