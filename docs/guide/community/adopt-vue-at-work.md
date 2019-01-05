@@ -1,5 +1,5 @@
 ---
-title: Using Vue at work
+title: Adopting Vue at work
 ---
 
 # Making a case for Vue at your company
