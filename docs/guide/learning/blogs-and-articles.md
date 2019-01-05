@@ -9,3 +9,6 @@ Vue.js Developers is a blog originally started by Anthony Gore and one of best r
 ## Alligator
 
 Alligator is a blog related to all Javascript ecosystem, but it's selection of Vue.js articles is worth reading. Blablabla.
+
+## Markus Oberlehner
+[Blog](https://markus.oberlehner.net/blog/) - Markus Oberlehner writes in his personal blog about Vue.js, JavaScript, CSS, Test Driven Development and Front-End Architecture in general. It has very well written articles, some longer than others, most of which showing specific edge cases or usage examples, that are common, yet no one writes about.
