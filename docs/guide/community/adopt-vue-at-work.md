@@ -10,9 +10,9 @@ Other than showing your own enthusiasm and trust in Vue.js by providing your own
 
 ## Strongest points of Vue.js
 
-Well, are there any?
-  - Easy to start with from people with any level
-  - Progressively embeddable
+  - Easy to get started with
+  - Easily readable components
+  - Progressively embeddable into websites
   - Can work without build tools
 
 ## In defense of Vue.js
@@ -41,8 +41,35 @@ There is also less competition on the market for experienced Vue.js developers, 
 
 *Another argument based on the size of the community and ecosystem around Vue.js. A commonly mentioned data to back it up is the number of Stack Overflow answers.*
 
+Vue.js has its own forum where you can find lots of the most common questions already answered. Along with that is the Vueland Discord Chat, which has a very active userbase, who help and answer user questions. Last by not least is the Vue Docs, which usually has answers to most of the questions new Vue developers are looking for.
+ 
+ Stack overflow also helps but the quality of the answers there is not always great.
+
 ### There's not enough success stories of big companies using Vue.js
+
+*Argument lies on the small amount of large or popular companies that use Vue in their applications*
+
+This argument is also a bit misleading to the people living in the Western world. Vue has a huge market share in Asia, where titans in the industry use it on a daily basis.
+
+Here is a nice post by Michał Sajnóg on Netguru titled [13 Top Companies That Have Trusted Vue.js](https://www.netguru.com/blog/13-top-companies-that-have-trusted-vue.js-examples-of-applications) which does a good job at listing some of those big companies.
 
 ### There's no clear set of best practices and guidelines of how to use Vue.js on enterprise level
 
+*This argument was actually a valid one for quite some time. As large companies started adopting Vue in their projects, none of them shared patterns or tips to the Vue userbase.*
+
+Currently one of the most referenced Vue enterprise resources is Chris Fritz's [Vue Enterprise Boilerplate](https://github.com/chrisvfritz/vue-enterprise-boilerplate/) which is filled with good practices for large scale Vue applications.
+
+You can a look at our [Boilerplates](../ecosystem/boilerplates.md) page, where we dive deeper into the official Vue boilerplates.
+
+Here are a few cool articles on how to structure larger Vue apps:
+  - [Vue.js Application Structure and CSS Architecture - Markus Oberlehner](https://markus.oberlehner.net/blog/vue-application-structure-and-css-architecture/)
+  - [Making a large scale app with vue.js - Stephane Souron](https://medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502)
+  - [How to Structure a Vue.js Project - Sandoche ADITTANE](https://itnext.io/how-to-structure-a-vue-js-project-29e4ddc1aeeb)
+
 ### There's no native mobile solution as good as React Native
+
+*Argument coming from the fact that Vue does not have a solution like React Native, which is kind of an official way to write truly Native mobile applications in React*
+
+Even though Vue does not have an official solution, like React Native for React, its versatility has allowed for a few very good solutions to come up like Nativescript-Vue, Quasar and Vue Native.
+
+Read about them in our [Mobile Apps](../ecosystem/mobile-apps.md) page.
