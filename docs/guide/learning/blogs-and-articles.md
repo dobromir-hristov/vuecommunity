@@ -16,3 +16,16 @@ It's got its own active Slack community and well maintained profiles across popu
 
 ## Markus Oberlehner
 [Blog](https://markus.oberlehner.net/blog/) - Markus Oberlehner writes in his personal blog about Vue.js, JavaScript, CSS, Test Driven Development and Front-End Architecture in general. It has very well written articles, some longer than others, most of which showing specific edge cases or usage examples, that are common, yet not talked about.
+
+
+## Scotch.io
+[Scotch.io](https://scotch.io/tag/vue) - Scotch.io is a very popular learning platform on a wide range topics like Vue, React, Angular, Node, Laravel and much more. Their blog is where they post articles from top notch developers around to world. 
+
+## Dev.to
+[Dev.to](https://dev.to/t/vue)
+
+## The Vue Point
+[The Vue Point](https://medium.com/the-vue-point) - Official Vue.js blog on Medium. Expect articles directly from the Vue Core team or Evan You himself.
+
+## Medium
+[Medium Vue Tags](https://medium.com/search?q=vue) - 
