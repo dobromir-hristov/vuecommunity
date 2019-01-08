@@ -14,6 +14,10 @@ It's got its own active Slack community and well maintained profiles across popu
 
 [Alligator.io](https://alligator.io/) is a blog related to general Web development, with categories spanning across CSS, general JavaScript, and frameworks like Vue, React amd Angular. It's collection of Vue.js articles is worth reading, touching everything from beginner to the more advanced topics.
 
+## VueSchool Articles
+[VueSchool Articles](https://vueschool.io/articles/) - By now you probably know about VueSchool's courses on teaching Vue. Did you know they also have a blog? Their articles are
+authored by the same tutors that do the courses so you can expect top notch quality there as well. They write about beginner as well as more advanced topics like Testing, Component design and more.
+
 ## Markus Oberlehner
 [Blog](https://markus.oberlehner.net/blog/) - Markus Oberlehner writes in his personal blog about Vue.js, JavaScript, CSS, Test Driven Development and Front-End Architecture in general. It has very well written articles, some longer than others, most of which showing specific edge cases or usage examples, that are common, yet not talked about.
 
