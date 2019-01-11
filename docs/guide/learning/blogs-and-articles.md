@@ -21,12 +21,17 @@ authored by the same tutors that do the courses so you can expect top notch qual
 ## Markus Oberlehner
 [Blog](https://markus.oberlehner.net/blog/) - Markus Oberlehner writes in his personal blog about Vue.js, JavaScript, CSS, Test Driven Development and Front-End Architecture in general. It has very well written articles, some longer than others, most of which showing specific edge cases or usage examples, that are common, yet not talked about.
 
+## CSS-Tricks
+[CSS-Tricks Articles](https://css-tricks.com/tag/vue/) - CSS-Tricks is well known for its awesome tutorials and quality content overall. Checkout some of their Vue tutorials and articles, some of which are written by Sarah Drasner her self.
 
 ## Scotch.io
 [Scotch.io](https://scotch.io/tag/vue) - Scotch.io is a very popular learning platform on a wide range topics like Vue, React, Angular, Node, Laravel and much more. Their blog is where they post articles from top notch developers around to world. 
 
 ## Dev.to
 [Dev.to](https://dev.to/t/vue)
+
+## ITNEXT
+[ITNEXT](https://itnext.io/)
 
 ## The Vue Point
 [The Vue Point](https://medium.com/the-vue-point) - Official Vue.js blog on Medium. Expect articles directly from the Vue Core team or Evan You himself.
