@@ -12,7 +12,11 @@ Link: [Testing Vue.js components with Jest](https://leanpub.com/testingvuejscomp
 ### Testing Vue.js Applications 
 **Author:** Edd Yerburgh 
 
-Testing Vue.js Applications is a comprehensive guide to testing Vue components, events and more. The book is written towards people with little to no previous Vue experience. Author Edd Yerburgh, creator of the official Vue testing utility, explains the best testing practices in Vue along with general tips for testing any web application.
+Testing Vue.js Applications is a comprehensive guide to testing Vue components, events and more. The book is written towards people with little to no previous Vue experience.
+ 
+ Author Edd Yerburgh, creator of the official Vue testing utility, explains the best testing practices in Vue, like mocking dependencies, testing and mocking a Vuex Store, Vue Router, mixins, along with general tips for testing any web application.
+ 
+ The book makes the assumption the reader is a novice Vue developer as it spends a good part of each section explaining in detail what will be done and how.
 
 Link: [Testing Vue.js Applications](https://www.manning.com/books/testing-vue-js-applications)
 

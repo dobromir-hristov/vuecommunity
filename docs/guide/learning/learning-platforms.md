@@ -10,4 +10,5 @@
 
 ## Frontend Masters
 
-## Whatever
+## Egghead
+
