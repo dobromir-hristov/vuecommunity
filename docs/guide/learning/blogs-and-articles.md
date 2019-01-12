@@ -2,7 +2,7 @@
 
 Finding the right place where you can read quality Vue articles, or even submit your own is not as easy as one might think.
 
-Below we list a few of the best resources for general web related resources as well as specialized Vue blogs.
+The list below includes some of the best resources for general web development articles as well as specialized Vue blogs.
 
 ## Vue.js Developers
 
@@ -12,23 +12,29 @@ It's got its own active Slack community and well maintained profiles across popu
 
 ## Alligator.io
 
-[Alligator.io](https://alligator.io/) is a blog related to general Web development, with categories spanning across CSS, general JavaScript, and frameworks like Vue, React amd Angular. It's collection of Vue.js articles is worth reading, touching everything from beginner to the more advanced topics.
+[Alligator.io](https://alligator.io/) is a blog related to general Web development, with categories spanning across CSS, general JavaScript, and frameworks like Vue, React amd Angular. 
+
+Its collection of Vue.js articles is worth reading, touching everything from beginner to the more advanced topics.
 
 ## VueSchool Articles
-[VueSchool Articles](https://vueschool.io/articles/) - By now you probably know about VueSchool's courses on teaching Vue. Did you know they also have a blog? Their articles are
-authored by the same tutors that do the courses so you can expect top notch quality there as well. They write about beginner as well as more advanced topics like Testing, Component design and more.
+[VueSchool Articles](https://vueschool.io/articles/) - By now you probably know about VueSchool's courses on teaching Vue. Did you know they also have a blog? Some of the articles are
+authored by the same tutors that do the courses so you can expect top notch quality there as well. 
+
+They write about beginner as well as more advanced topics like Testing, Component design and more.
 
 ## Markus Oberlehner
 [Blog](https://markus.oberlehner.net/blog/) - Markus Oberlehner writes in his personal blog about Vue.js, JavaScript, CSS, Test Driven Development and Front-End Architecture in general. It has very well written articles, some longer than others, most of which showing specific edge cases or usage examples, that are common, yet not talked about.
 
 ## CSS-Tricks
-[CSS-Tricks Articles](https://css-tricks.com/tag/vue/) - CSS-Tricks is well known for its awesome tutorials and quality content overall. Checkout some of their Vue tutorials and articles, some of which are written by Sarah Drasner her self.
+[CSS-Tricks Articles](https://css-tricks.com/tag/vue/) - CSS-Tricks is well known for its awesome demos and well written explanations and tutorials. Their blog is no exception, with Vue tutorials and articles, some of which are written by popular Vue enthusiasts, like Sarah Drasner her self.
 
 ## Scotch.io
-[Scotch.io](https://scotch.io/tag/vue) - Scotch.io is a very popular learning platform on a wide range topics like Vue, React, Angular, Node, Laravel and much more. Their blog is where they post articles from top notch developers around to world. 
+[Scotch.io](https://scotch.io/tag/vue) - Scotch.io is a very popular learning platform on a wide range topics like Vue, React, Angular, Node, Laravel and much more. Their blog is where they post articles from top notch developers around to world.
 
 ## Dev.to
-[Dev.to](https://dev.to/t/vue)
+[Dev.to](https://dev.to/t/vue) is an online community for sharing and discovering great ideas, having debates, and making friends. Anyone can share articles, questions, discussions about general development. They allow cross-posting from other sources as well, as long as you have rights to the content.
+
+There are new Vue articles on a weekly basis, which are worth checking out.
 
 ## ITNEXT
 [ITNEXT](https://itnext.io/)
