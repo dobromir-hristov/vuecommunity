@@ -1,5 +1,5 @@
 # Video courses
-Showcase Vue related video courses. Platforms go into the [learning platforms](./learning-platforms.md) page.
+Showcase individual Vue related video courses. Platforms go into the [learning platforms](./learning-platforms.md) page.
 
 ## Advanced Vue Component Design
 **Author:** Adam Wathan
@@ -8,12 +8,12 @@ Created by Adam Wathan, popular Laravel figure and author of Tailwind CSS, this 
 
 As an advanced course, it covers topics like building custom controlled components, implementing external libraries, modals, component composition, render functions, renderless components, data providers and more. It uses ES6+ features, Single File Components, slots and others, so be prepared as users are expected to know how to work with them.
 
-[adamwathan.me](https://adamwathan.me/advanced-vue-component-design/)
+Link: [adamwathan.me](https://adamwathan.me/advanced-vue-component-design/)
 
 ## Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex) 
 **Author:** Maximilian Schwarzmüller
 
-The course covers all the important topics, from the Vue basics, binding props, form handling, Vuex and Vue Router. The course is being updated, as new features are added to the framework and its ecosystem, like Vue CLI 3 for example.
+The course covers all the important topics, from the Vue basics, binding props, form handling, Vuex and Vue Router. Material is being updated, as new features are added to the framework and its ecosystem, like Vue CLI 3 for example.
 
 Maximilian does a great job at explaining things in a simple and easy to follow manner, plus extra free videos are available on YouTube.
 
@@ -22,18 +22,16 @@ Link: [Udemy](https://www.udemy.com/vuejs-2-the-complete-guide/)
 ## Enterprise Vue
 **Author:** Anthony Gore
 
-This course will teach you how to build a full-stack Vue.js CRUD application with an authenticated Node.js API, along with unit testing, modern JavaScript and best practices.
+The course will teach you how to build a full-stack Vue.js CRUD application with an authenticated Node.js API, along with unit testing, modern JavaScript and best practices.
 
 Throughout the course you will use Vue CLI 3, Vuetify framework, MongoDB, Jest, Vue-test-utils, Nightwatch, deployment to Heroku and more.
-
-This course is created by Anthony Gore, creator of [Vue.js Developers](./blogs-and-articles.md#vuejs-developers) and author of [Full-Stack Vue 2 & Laravel 5](./books.md#full-stack-vuejs-2-and-laravel-5).
 
 Link: [Vuejsdevelopers.com](https://vuejsdevelopers.com/courses/enterprise-vue/)
 
 ## Vue.js Essentials - 3 Course Bundle 
 **Author:** Anthony Gore
 
-Vuejsdevelopers.com hosts not only Vue articles, but also a few beginner video courses. The Vue.js essentials is sold as a 3 course bundle or separate.
+Vuejsdevelopers.com hosts not only Vue articles, but also a few beginner video courses. The "Vue.js essentials" is sold as a 3 course bundle or separate.
 
 It goes through basics of building a Vue app, multi page websites using Vue Router and finally how to implement Vuex and Server-Side rendering for a high performance, SEO optimised website.
 
@@ -41,6 +39,10 @@ Link: [Vuejsdevelopers.com](https://courses.vuejsdevelopers.com/)
 
 ## The Ultimate Vue JS 2 Developers Course
 **Author:** Anthony Gore
+
+In this course users are lead through the process of building three real world, professional Vue.js applications that, together, demonstrate all the features and capabilities of Vue from the basics to the more advanced features. 
+
+Through the course, users first create a basic e-commerce UI, then go through multi page apps using Vue Router and finally do a Google Calendar clone using Vuex and Server Side Rendering.
 
 Link: [Udemy](https://www.udemy.com/vuejs-2-essentials/)
 
@@ -57,3 +59,14 @@ The course is for absolute beginners who want to get up and running quickly, wit
 In this free course you will go from Installing Vue (Three different methods), creating Vue Components, styling approaches, handling forms , animations and multi page routing.
 
 Link: [YouTube](https://www.youtube.com/watch?v=78tNYZUS-ps)
+
+## Nuxt.js - Vue.js on Steroids
+**Author:** Maximilian Schwarzmüller
+
+This course, will teach you how to create Nuxt/ Vue apps from scratch! Users will build an entire course project and dive into the core features Nuxt.js offers.
+
+It goes through what Nuxt.js is exactly and how it connects to Vue, how to configure files and folders when using the framework, the different build targets, how to build a fully working app with authentication and more.
+
+By the end of the course, users would have made a complete Vue app, built with Nuxt.js, which can be rendered on the server (or as a static website!) and which is highly optimized.
+
+Link [Udemy](https://www.udemy.com/nuxtjs-vuejs-on-steroids/)
