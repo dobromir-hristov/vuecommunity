@@ -15,6 +15,6 @@ Workshops mostly range from half a day to the more in depth ones spanning across
 ## Where to find workshops
 One of the common places to find workshops is the days before and after larger tech events. On those days, event speakers and other experts give half or full day workshops, in small to medium groups with mentors helping out where needed.
 
-These workshops are usually payed, with good discounts if you plan to attend the main event as well.
+These workshops are generally paid, with good discounts if you plan to attend the main event as well. Free workshops around events are also not uncommon, as they are organised by larger organisations, to help out specific groups or search for talent.
 
 Other great way to learn about future workshops is either your local Vue.js group or on the various Vue community social websites. Checkout [Meetups](../community/meetups.md) to find a Vue community near you as well as [Social Media](../community/social-media.md) to start following and interacting your preferred community.
