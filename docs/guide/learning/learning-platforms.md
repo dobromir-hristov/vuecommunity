@@ -23,7 +23,7 @@ The platforms listed below cover wider range of topics, with some more specializ
 All of them have Vue courses, among other things, that are definitely worth checking out.
 
 ### Laracast
-[Laracasts](https://laracasts.com/) is an online learning platform targeted mainly towards Laravel developers. Their Vue courses are nice, with extra smaller videos mixed into other lessons, like the "Let's Build A Forum with Laravel and TDD" one, which shows how they used Vue.js to build components for their own Laracasts forum.
+[Laracasts](https://laracasts.com/) is an online learning platform targeted mainly towards Laravel developers. Their Vue courses are nice, with extra smaller videos mixed into other lessons, like the "Let's Build A Forum with Laravel and TDD" one, which shows how they used Vue.js to build components for the Laracasts forum.
 
 The videos explain in detail real world examples, reusable patterns, no generic todo apps or shop pages. For Laravel developers who like to tinker with Vue, the platform is a really good investment, as it covers both.
 
