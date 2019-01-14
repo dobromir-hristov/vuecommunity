@@ -23,17 +23,30 @@ The platforms listed below cover wider range of topics, with some more specializ
 All of them have Vue courses, among other things, that are definitely worth checking out.
 
 ### Laracast
+[Laracasts](https://laracasts.com/) is an online learning platform targeted mainly towards Laravel developers. Their Vue courses are nice, with extra smaller videos mixed into other lessons, like the "Let's Build A Forum with Laravel and TDD" one, which shows how they used Vue.js to build components for their own Laracasts forum.
 
-### Scotch
+The videos explain in detail real world examples, reusable patterns, no generic todo apps or shop pages. For Laravel developers who like to tinker with Vue, the platform is a really good investment, as it covers both.
+
+The instructor and author of the platform, Jeffrey Way, is a pro when it comes to teaching. He has years of experience behind his back, and the quality of the videos is very good.
+
+### Scotch.io
+[Skotch.io](http://scotch.io/) 
+
+    A few words about the platform.
+    
+    A sentence or two about their Vue articles and who the platform is good for. 
+    
+    Finishing sentence about instructors, quality of videos, so on.
+
 
 ### Frontend Masters
+[Frontend Masters](https://frontendmasters.com/)
 
-### Egghead
+### Egghead.io
+[Egghead.io](https://egghead.io/)
 
 ### Codecourse
-
-https://codecourse.com
+[Codecourse](https://codecourse.com)
 
 ### Tutsplus
-
-https://code.tutsplus.com/categories/vue
+[Tutsplus](https://code.tutsplus.com/)
