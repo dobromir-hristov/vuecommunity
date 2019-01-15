@@ -36,11 +36,11 @@ Docute, in a nutshell, fetches Markdown files and renders them on the fly, servi
 
 Docute also allows for Vue components, to be defined and used inside markdown files, so lots of room for improvement.
 
-Here are the naswers from the above questions:
+Here are the answers from the above questions:
   - Pages are written in `.md` files, along with the option of having Vue components inside the files.
-  - To update/change the team's theme is harder, as you ave to be very specific..
-  - There is no pre-build step, `.msd`files is fetched and rendered runtime.
-  - As can register Vue Component, so customized components are a possible thing.
+  - It is hard to update/change the website's default theme.
+  - There is no pre-build step. `.msd`files is fetched and rendered runtime.
+  - As can register Vue Components globally, so customized components are possible.
   - Docute websites are just plain static websites, so twe might find the clue or not.
   
 ## Other website doc platforms
