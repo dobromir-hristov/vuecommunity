@@ -30,33 +30,31 @@ So to answer the questions above:
 Learn all about Vuepress on their [documentation website](https://vuepress.vuejs.org/guide/#features) (also built with Vuepress).
 
 ### Docute
-[Docute](https://docute.org/) is another Vue-powered website, though it is not Server Side Render, but a normal SPA.
+[Docute](https://docute.org/) is another Vue-powered Single Page Application.
 
-Docute, in a nutshell, fetches Markdown files and renders them on the fly, serving a fully working SPA. Because there is no build process, users can preview and deploy changes immediately, without any pre-build steps.
+In a nutshell, Docute fetches Markdown files and renders them on the fly in the browser, serving a fully working SPA. Because there is no build process, users can preview and deploy changes immediately, without any pre-build steps.
 
-Docute also allows for Vue components, to be defined and used inside markdown files, so lots of room for improvement.
+Because it is built with Vue, components can be defined and used inside the markdown files, which as Vuepress, gives allot of flexibility and customisation.
 
 Here are the answers from the above questions:
-  - Pages are written in `.md` files, along with the option of having Vue components inside the files.
-  - It is hard to update/change the website's default theme.
-  - There is no pre-build step. `.msd`files is fetched and rendered runtime.
-  - As can register Vue Components globally, so customized components are possible.
-  - Docute websites are just plain static websites, so twe might find the clue or not.
+  - Pages are written in `.md` files, along with the option of using Vue components inside them.
+  - It comes with a predefined template, which allows some customisation, with currently no other themes available.
+  - As a normal SPA, not an SSR website, SEO might not be as good in some cases.
+  - There is no pre-build step. Markdown files are fetched and rendered in the browser.
+  - It supports plugins as well as custom Vue Components, making customisation quite possible.
+  - Docute websites can be hosted on static file hosting services, same as Vuepress.
   
+Checkout Docute plugins and its other features on their [documentation website](https://docute.org/).
+
 ## Other website doc platforms
 Below are a few other good choices for documentation machines. 
 
-### Docsify
-[Docsify](https://docsify.js.org/#/)
-
-### Jekyll
-[Jekyll](https://jekyllrb.com/)
-
-### Hexo
-[Hexo](https://hexo.io/)
-
-### GitBook
-[GitBook](https://www.gitbook.com/)  
+- [Docsify](https://docsify.js.org/#/) - native javascript alternative to Docute, with a bit more features and themes.
+- [Jekyll](https://jekyllrb.com/)
+- [Hexo](https://hexo.io/)
+- [GitBook](https://www.gitbook.com/)  
+- [Docusaurus](https://github.com/facebook/docusaurus)
+- [Docz](https://www.docz.site/)
 
 ## Automatic documentation generators
 Automatic documentation generators scan your files and output a structured format, that is easy to either use directly or be passed to another tool.
