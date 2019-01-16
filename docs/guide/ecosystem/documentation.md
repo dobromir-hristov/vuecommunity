@@ -57,6 +57,29 @@ Below are a few other good choices for documentation machines.
 
 ### GitBook
 [GitBook](https://www.gitbook.com/)  
-## Automatic documentation generators
 
-> such that scan components and even jsdoc and generate json objects or whole docs files
+## Automatic documentation generators
+Automatic documentation generators scan your files and output a structured format, that is easy to either use directly or be passed to another tool.
+
+Such tools can scan your files for JSDoc blocks and output either a json file or full blown websites, ready to deploy.
+
+### Vue Styledguidist
+https://github.com/vue-styleguidist/vue-styleguidist
+
+### Vuedoc
+https://gitlab.com/vuedoc/md
+
+### JSDoc Vuejs
+https://github.com/Kocal/jsdoc-vuejs
+
+### Vue Design System
+https://github.com/viljamis/vue-design-system
+
+## Other useful tools
+
+### Storybook
+[Storybook](https://storybook.js.org/) is a development environment for UI components. It allows developers to setup interactive examples of how a UI component can be used. Simply put, you can setup a Vue component by passing different props to it, showcasing how it can be used.
+
+This is very powerful when working in big teams with lots of custom UI components. A real rendered component with usage example can be easier to understand than just a written example.
+
+The project is very mature, used by Angular, React and many other big players.
