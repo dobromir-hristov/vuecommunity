@@ -64,6 +64,9 @@ Such tools can scan your files for JSDoc blocks and output either a json file or
 ### Vue Styledguidist
 https://github.com/vue-styleguidist/vue-styleguidist
 
+### Vuese
+https://github.com/vuese/vuese
+
 ### Vuedoc
 https://gitlab.com/vuedoc/md
 
