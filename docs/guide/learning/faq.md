@@ -2,12 +2,6 @@
 
 ## General Vue related
 
-### Why is this undefined when using fat arrow functions
-
-### How do I update a prop?
-
-### Why isn't my property reactive
-
 ### Is Vue a good solution for normal websites
 
 ### What kinds of websites can take advantage of being a SPA
@@ -19,6 +13,26 @@
 ### How do I pass data to distant component
 
 ### How do I pass data to sibling
+
+### Why is this undefined when using fat arrow functions
+
+### How do I update a prop?
+
+### Why isn't my property reactive
+
+### When should I extract a component
+
+### How can I pass parameters to a computed property
+
+### How do I attach event listeners to a slot?
+
+### What are functional components used for?
+
+### How do I use computed properties inside functional component?
+
+### How to define methods or computed properties inside functional template components?
+
+### Why are Set and Map not reactive when I define them in my data.
 
 ## Vuex
 
@@ -37,6 +51,12 @@
 ### Should I do client-server communication in components or vuex actions?
 
 ### Should I move all my business logic to Vuex?
+
+### How do I access the Vuex store outside of Vue components or in hooks without access to instance?
+
+### What is the point of mapGetter, mapSetter and other helpers?
+
+### Can adding very big objects in Vuex slow my website down?
 
 ## UI Libraries
 
