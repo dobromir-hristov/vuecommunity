@@ -1,4 +1,7 @@
 # Frequently Asked Questions
+Below is a collection of the most commonly asked questions that new Vue developers have.
+
+Answers to questions may contain links to internal other Vue community pages, external articles and blog posts, or places in the docs, where said feature is explained in detail.
 
 ## General Vue related
 
