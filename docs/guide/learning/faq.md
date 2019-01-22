@@ -1,9 +1,10 @@
 # Frequently Asked Questions
 Below is a collection of the most commonly asked questions that new Vue developers have.
 
-Answers to questions may contain links to internal other Vue community pages, external articles and blog posts, or places in the docs, where said feature is explained in detail.
+Answers may contain links to other Vue community pages, external articles and blog posts, or even links to specialized docs, where said feature is explained in detail.
 
 ## General Vue related
+These are general Vue related questions that span from basic component usage to more specific caveats and edge cases.
 
 ### Is Vue a good solution for normal websites
 
@@ -11,7 +12,9 @@ Answers to questions may contain links to internal other Vue community pages, ex
 
 ### What do I need to know to start writing Vue code
 
-### How do I pass data to component from server inside template
+### Must I know ES201x or can I use normal JavaScript
+
+### How do I pass data to a component from server inside template
 
 ### How do I pass data to distant component
 
@@ -19,13 +22,21 @@ Answers to questions may contain links to internal other Vue community pages, ex
 
 ### Why is this undefined when using fat arrow functions
 
-### How do I update a prop?
-
 ### Why isn't my property reactive
+
+### How do I update a prop?
 
 ### When should I extract a component
 
 ### How can I pass parameters to a computed property
+
+### Where and how can I fetch data in component from API
+
+### How can I call a method when more than one property on the instance updates?
+
+### How can I call a method when a vuex getter or state updates?
+
+### Is it a bad practice to make methods, lifecycle hooks or watchers async?
 
 ### How do I attach event listeners to a slot?
 
@@ -35,7 +46,7 @@ Answers to questions may contain links to internal other Vue community pages, ex
 
 ### How to define methods or computed properties inside functional template components?
 
-### Why are Set and Map not reactive when I define them in my data.
+### Why are Set and Map not reactive when I have predefined them in my data.
 
 ## Vuex
 
@@ -51,6 +62,8 @@ Answers to questions may contain links to internal other Vue community pages, ex
 
 ### How to use state management libraries from other frameworks (Redux, RxJS)
 
+### How can I pass parameters to getters?
+
 ### Should I do client-server communication in components or vuex actions?
 
 ### Should I move all my business logic to Vuex?
@@ -60,6 +73,10 @@ Answers to questions may contain links to internal other Vue community pages, ex
 ### What is the point of mapGetter, mapSetter and other helpers?
 
 ### Can adding very big objects in Vuex slow my website down?
+
+### Should all my modules be namespaced or can I mix with global ones?
+
+### How can a namespaced module access properties on a global one and vice versa?
 
 ## UI Libraries
 
