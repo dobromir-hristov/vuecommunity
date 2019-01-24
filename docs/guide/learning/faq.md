@@ -26,8 +26,6 @@ These are general Vue related questions that span from basic component usage to 
 
 ### How do I update a prop?
 
-### When should I extract a component
-
 ### How can I pass parameters to a computed property
 
 ### Where and how can I fetch data in component from API
@@ -40,13 +38,21 @@ These are general Vue related questions that span from basic component usage to 
 
 ### How do I attach event listeners to a slot?
 
+### Why are Set and Map not reactive when I have predefined them in my data.
+
+## Vue Components
+
+### When should I extract components into subcomponents?
+
+### Global vs Local registered components
+
+### Am I supposed to use .vue files?
+
 ### What are functional components used for?
 
 ### How do I use computed properties inside functional component?
 
 ### How to define methods or computed properties inside functional template components?
-
-### Why are Set and Map not reactive when I have predefined them in my data.
 
 ## Vuex
 
@@ -106,14 +112,6 @@ These are general Vue related questions that span from basic component usage to 
 ### What SSR solution should I pick?
 
 ### Will SSR boost my website to top google spot
-
-### Vue Components
-
-### When should I extract components into subcomponents?
-
-### Global vs Local registered components
-
-### Am I supposed to use .vue components?
 
 ## Toolchain
 

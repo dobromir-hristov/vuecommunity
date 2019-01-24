@@ -46,3 +46,5 @@ Opposed to Static File Hosting, this kind of hosting offers a configured server,
 One would use such a hosting service typically for hosting a PHP, Python or Node.js backed website. 
 
 ### Heroku
+
+### Digital Ocean
