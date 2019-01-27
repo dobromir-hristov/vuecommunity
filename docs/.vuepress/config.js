@@ -9,6 +9,7 @@ module.exports = {
   serviceWorker: true,
   themeConfig: {
     docsDir: 'docs',
+    repo: 'https://github.com/dobromir-hristov/vuecommunity',
     locales: {
       '/': {
         label: 'English',
@@ -22,10 +23,6 @@ module.exports = {
           {
             text: 'Contributing',
             link: '/contributing/'
-          },
-          {
-            text: 'Github',
-            link: 'https://github.com/'
           }
         ],
         sidebar: [
