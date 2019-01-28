@@ -13,6 +13,10 @@ or native GUI. First one is represented with Electron and NW.js, second option i
 
 ## Electron
 
+[Electron](https://electronjs.org/) is an open source library developed by GitHub for building cross-platform desktop applications with HTML, CSS, and JavaScript. Electron accomplishes this by combining Chromium and Node.js into a single runtime and apps can be packaged for Mac, Windows, and Linux
+
+Electron is by far the most popular library for writing JavaScript desktop applications today: the most well-known of them are [Slack](https://slack.com/) and [Discord](https://discordapp.com/) messengers as well as [Atom](https://atom.io/) code editor and [Visual Studio Code](https://code.visualstudio.com/) IDE.
+
 ## NW.js
 
 ## Vuido
