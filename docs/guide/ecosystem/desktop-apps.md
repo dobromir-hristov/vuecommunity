@@ -9,7 +9,7 @@ With Vue you're not limited to developing web and [native mobile](./mobile-apps.
 Although there are some downsides common for all JavaScript-powered desktop applications. Usually they have big package size (more than 100 MB) and heavy RAM usage.
 
 We have two main options to build a desktop application with Vue: it's HTML+CSS-based solutions
-or native GUI. First one is represent with Electron and NW.js, second option is Vuido.
+or native GUI. First one is represented with Electron and NW.js, second option is Vuido.
 
 ## Electron
 
