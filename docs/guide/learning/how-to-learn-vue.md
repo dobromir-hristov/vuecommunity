@@ -5,29 +5,131 @@ Checkout the [Official Documentation](./official-documentation.md) page on this 
 
 If you are a tutorial or course learner, go over the [Courses](./courses.md) and [Learning Platforms](./learning-platforms.md) pages, where we go over the best premium and free resources to learn from. If you prefer books, then the [Books](./books.md) page might be a better match.
 
-If you want to find out how other people learn, the [Tips from Mentors](./tips-from-mentors.md) page gives a good insight into how Vue experts have started with Vue.
+If you want to find out how other people learn, the [Tips from Mentors](./tips-from-mentors.md) page gives a good insight into how Vue experts have started developing with Vue.
 
 ## Categorizing applications by technology
-When beginning to develop with Vue.js, it helps to know what kind of application you will be building. This will help you outline the kind of technologies you will need to master in order to start building apps with Vue.
+When beginning to develop with Vue.js, it helps to know what kind of application you will be building. This will help you outline the kind of technologies you will need to master in order to start developing with Vue.
 
-In this section, we will go over the categories under which most Vue powered websites fall under and what tech they require.
+In this section, we will go over the categories under which most websites fall under and the tech a developer needs to know to develop them with Vue. 
 
-### SPA Websites
+## Vue enhanced websites
 
--- General tech needed to build those. Links to some pages from here + some tuts
+Vue enhanced websites are traditional websites, rendered by a server side language, be it PHP, Node or other. 
 
-### Static Websites
+Vue components can be used to enhance certain parts of the website, but they are not rendered on the server. As such, the HTML returned will include just the component tag, without any of its template markup. This means there will be a flash of unstyled content on each page load, until Vue loads and renders the components.
 
--- Short introduction, why those make sense, links to such frameworks and tuts
+Such websites can be split into:
 
-### Vue enhanced websites
+### Websites without a bundler
+ 
+Vue can be added with a simple CDN link, components are built in plain JavaScript, with templates added to the HTML markup. 
+ 
+This approach works for smaller websites or those that will not implement complex Vue components. The larger the websites gets and more components it requires, the less ideal this approach becomes. 
 
--- Explain what these are, when it makes sense for those and most common use cases.
-Links to tutorials, etc.
+ **Minimum required technologies**
+* JavaScript - ES5 or above, depending on the supported browsers.
+* HTML - For the inline templates and website markup
+
+**Pros**
+* Dead simple to start with
+* Can be added to any legacy application
+* No extra knowledge except Vue itself
+
+**Cons** 
+* Larger applications tend to become harder to maintain
+* Component templates live inside the HTML markup of pages, making them harder to work with.
+
+**Useful links**
+* [Using vue.js in existing websites, the easy way](https://medium.com/@disjfa/using-vue-js-in-existing-websites-the-easy-way-d46cd1f0c945).
+
+### Using a Bundler
+ As the approach above, routing and page rendering is handled on the server, while Vue components are built using `.vue` single file components (SFC), keeping the codebase in an easier to manage state. This approach also allows for splitting up different parts of the application into small reusable modules.
+ 
+ In this case, a bundler like Webpack or Parcel is required, to process and transpile the code, extract assets and reusable chunks. If possible, using Vue CLI is heavily encouraged, as it takes care of configuring the whole bundling process. 
+ 
+ This is the preferred way when building more complex web applications, that do not require a full blown SPA.
+
+ Check the [Build Tools Page](../ecosystem/build-tools.md) for information on popular ways to bundle your code.
+    
+ **Minimum required technologies**
+ * Vue CLI or bundler - Knowledge of how to integrate Vue CLI in the application. If not possible, basic knowledge of setting up а modern bundler process. Some frameworks have integrated solutions, like [Laravel Mix](https://laravel.com/docs/5.7/mix). 
+ * Transpiler Setup - optional if using any ES2015+ features, that are not supported by older browsers. Vue CLI takes care of this as well.
+ * HTML - used inside `.vue` files and the website markup.
+ 
+ **Pros**
+ * Allows for larger and more complex applications compared to none bundler approach
+ * Code splitting and other optimisations are possible with the help of tooling
+ 
+ **Cons**
+ * Requires a pre-build step on each change of the source files
+ * Requires knowledge of setting up build tools
+ 
+ **Useful link**
+ * [Why should you use Vue.js when using Laravel](https://blog.pusher.com/why-vuejs-laravel/)
+ * [Persist Vuex State with vuex-persist](https://alligator.io/vuejs/vuex-persist-state/)
+ * [Passing data from Laravel to Vue - Props](https://medium.com/@m_ramsden/passing-data-from-laravel-to-vue-98b9d2a4bd23)
+ * [Passing variable from Laravel to VueJS 2 component](https://www.spicydog.org/blog/passing-variable-laravel-vuejs-2-component/)
+ 
+## SPA Websites
+Single Page Applications (SPA) handle routing and page rendering with Vue.js on the client's browser. This approach allows for page navigation without refresh, resulting in smoother and generally faster feeling websites.
+
+Because the complexity of these applications, its common to use а build process, for packaging the application, keeping components, pages and other logic in separate files, ensuring an easier to manage codebase.
+
+If the project allows, it is strongly recommended to use the Vue CLI to build the website, as it takes care of preprocessors, transpilation and bundling altogether, otherwise a manual setup will have to be taken in consideration.
+
+**Required technologies**
+* Vue CLI - For bundling the application. If project does not allow for Vue CLI usage, a knowledge of setting up a modern bundler is required.
+* Vue Router - For managing the pages and routing of the application.
+* Async requests - Required for fetching data from remote resources asynchronously.
+* ES2015+ - While not required, it is encouraged to use newer ECMAScript versions.
+
+**Pros**
+* Faster page navigation - routing and pages rendering are done on the client, so navigation can feel much faster.
+* Advanced optimisations - code splitting, pre-loading and other techniques allow for serving the minimal code needed to the user.
+
+**Cons**
+* Worse SEO - pages are rendered with JavaScript on the client, so some search engines cannot read those pages.
+* No real 404 status code - all requests are redirected with a status **200** to a single `index.html` endpoint, as the server generally does not know what endpoints exist on the app.
+
+## Statically generated websites
+Statically generated websites have an automatically generated static HTML file for each page. These websites are usually pre-built before being uploaded to the server, using a dedicated site builders like [Vuepress](http://vuepress.vuejs.org/), [Gridsome](../ecosystem/gridsome.md), [Nuxt](../ecosystem/nuxt.md) or a tool like [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin).
+
+**Pros**
+* Improved SEO - Pages are pre-rendered as static HTML, so search engines can crawl them.
+* Lower server costs - Hosting for static sites is usually much cheaper, even free compared to hosting with a dynamic server language support.
+
+**Cons**
+* Configuration - Some tooling requires complex configuration and mapping of the website's pages.
+* Not suitable for highly dynamic websites
+
+**Useful links**
+* [How to Pre-render Vue.js Powered Websites With webpack](https://markus.oberlehner.net/blog/how-to-pre-render-vue-powered-websites-with-webpack/)
+
+## SSR SPA websites
+Server-side rendered single-page applications are taking best of both worlds and applying them for a both SEO optimized and super fast loading websites. 
+
+They are most commonly SPA's that leverage Vue's rendering and routing to build the website. However, there is a process on the server, that renders the pages on every request, returning a fully rendered page.
+After receiving the page, the application goes into SPA mode, routing and rendering pages on clients browser.
+
+This whole process can be quite intimidating to setup, luckily frameworks like Nuxt make it much easier. Checkout the [Server-side rendering page](../ecosystem/server-side-rendering.md) to learn about the various tools available in the Vue Ecosystem.
+
+**Required technologies**
+* SSR tool - Knowledge of how to setup server-side rendering tool or framework
+* Node.js - Setting up a running Node.js server for the rendering process
+
+**Pros**
+* Suitable for websites with dynamic and constantly updating data
+* Improved SEO as pages are rendered on the server, so crawlers can parse the provided HTML.
+* The renderer knows what endpoints are available, so proper status codes are returned.
+
+**Cons**
+* SSR caveats - There are certain caveats and issues with SSR that need to be addressed. [Server-side rendering page](../ecosystem/server-side-rendering.md) cover some of them.
+* Expensive hosting - Hosting is generally more expensive as it requires a constantly running node server.
 
 ## Coming from other technology
--- this section is meant to help people coming from other technology backgrounds to get up and running faster with Vue.
-It should explain how those either compare or can be implemented with Vue.
+When coming from another technology, it is normal to compare common methods and patterns to those used in Vue.
+
+In this section, we will go over the most popular technologies and the struggles developers have when migrating from them to Vue.
 
 ### Angular
 
