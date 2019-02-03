@@ -92,26 +92,31 @@ If the project allows, it is strongly recommended to use the Vue CLI to build th
 * No real 404 status code - all requests are redirected with a status **200** to a single `index.html` endpoint, as the server generally does not know what endpoints exist on the app.
 
 ## Statically generated websites
-Statically generated websites have an automatically generated static HTML file for each page. These websites are usually pre-built before being uploaded to the server, using a dedicated site builders like [Vuepress](http://vuepress.vuejs.org/), [Gridsome](../ecosystem/gridsome.md), [Nuxt](../ecosystem/nuxt.md) or a tool like [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin).
+Statically generated websites have an automatically generated static HTML file for each dynamic page. These websites are usually pre-built before being uploaded to the server, using dedicated site builders like [Vuepress](http://vuepress.vuejs.org/), [Gridsome](../ecosystem/gridsome.md), [Nuxt](../ecosystem/nuxt.md) or a tool like [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin).
+ 
+ These kinds of websites are more suitable for cases, where the content of the website is less dynamic and changes less often. In comparison, Server-side rendered websites are rendered on the server on each request, making them more suitable for sites with highly dynamic content.
+
+**Required technologies**
+* Static website generators - need to know how to work with a static website generator.
 
 **Pros**
 * Improved SEO - Pages are pre-rendered as static HTML, so search engines can crawl them.
 * Lower server costs - Hosting for static sites is usually much cheaper, even free compared to hosting with a dynamic server language support.
+* Page load times can be near instant
 
 **Cons**
 * Configuration - Some tooling requires complex configuration and mapping of the website's pages.
 * Not suitable for highly dynamic websites
 
 **Useful links**
-* [How to Pre-render Vue.js Powered Websites With webpack](https://markus.oberlehner.net/blog/how-to-pre-render-vue-powered-websites-with-webpack/)
+* [How to Pre-render Vue.js Powered Websites with Webpack](https://markus.oberlehner.net/blog/how-to-pre-render-vue-powered-websites-with-webpack/)
 
 ## SSR SPA websites
 Server-side rendered single-page applications are taking best of both worlds and applying them for a both SEO optimized and super fast loading websites. 
 
-They are most commonly SPA's that leverage Vue's rendering and routing to build the website. However, there is a process on the server, that renders the pages on every request, returning a fully rendered page.
-After receiving the page, the application goes into SPA mode, routing and rendering pages on clients browser.
+Websites leverage Vue's rendering and routing, as a standard SPA. However, there is a process on the server, that renders the pages on every request, returning a fully working page with all if its content ready. After the browser receives the page, Vue kicks in and goes into SPA mode, routing and rendering the pages on the clients browser.
 
-This whole process can be quite intimidating to setup, luckily frameworks like Nuxt make it much easier. Checkout the [Server-side rendering page](../ecosystem/server-side-rendering.md) to learn about the various tools available in the Vue Ecosystem.
+This whole process can be quite intimidating to setup, luckily frameworks like Nuxt make it much easier. Checkout the [Server-side rendering](../ecosystem/server-side-rendering.md) page to learn about the various tools available in the Vue Ecosystem.
 
 **Required technologies**
 * SSR tool - Knowledge of how to setup server-side rendering tool or framework
