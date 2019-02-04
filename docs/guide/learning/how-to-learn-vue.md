@@ -7,6 +7,10 @@ If you are a tutorial or course learner, go over the [Courses](./courses.md) and
 
 If you want to find out how other people learn, the [Tips from Mentors](./tips-from-mentors.md) page gives a good insight into how Vue experts have started developing with Vue.
 
+**Useful links**
+
+* [Vue Development In 2019: What You Need To Know](https://medium.com/@anthonygore/vue-development-in-2019-what-you-need-to-know-2170942f0e54)
+
 ## Categorizing applications by technology
 When beginning to develop with Vue.js, it helps to know what kind of application you will be building. This will help you outline the kind of technologies you will need to master in order to start developing with Vue.
 
@@ -20,7 +24,7 @@ Vue components can be used to enhance certain parts of the website, but they are
 
 Such websites can be split into:
 
-### Websites without a bundler
+### Vue enhanced websites without a bundler
  
 Vue can be added with a simple CDN link, components are built in plain JavaScript, with templates added to the HTML markup. 
  
@@ -42,7 +46,7 @@ This approach works for smaller websites or those that will not implement comple
 **Useful links**
 * [Using vue.js in existing websites, the easy way](https://medium.com/@disjfa/using-vue-js-in-existing-websites-the-easy-way-d46cd1f0c945).
 
-### Using a Bundler
+### Vue enhanced websites using a bundler
  As the approach above, routing and page rendering is handled on the server, while Vue components are built using `.vue` single file components (SFC), keeping the codebase in an easier to manage state. This approach also allows for splitting up different parts of the application into small reusable modules.
  
  In this case, a bundler like Webpack or Parcel is required, to process and transpile the code, extract assets and reusable chunks. If possible, using Vue CLI is heavily encouraged, as it takes care of configuring the whole bundling process. 
@@ -64,7 +68,7 @@ This approach works for smaller websites or those that will not implement comple
  * Requires a pre-build step on each change of the source files
  * Requires knowledge of setting up build tools
  
- **Useful link**
+ **Useful links**
  * [Why should you use Vue.js when using Laravel](https://blog.pusher.com/why-vuejs-laravel/)
  * [Persist Vuex State with vuex-persist](https://alligator.io/vuejs/vuex-persist-state/)
  * [Passing data from Laravel to Vue - Props](https://medium.com/@m_ramsden/passing-data-from-laravel-to-vue-98b9d2a4bd23)
@@ -88,15 +92,18 @@ If the project allows, it is strongly recommended to use the Vue CLI to build th
 * Advanced optimisations - code splitting, pre-loading and other techniques allow for serving the minimal code needed to the user.
 
 **Cons**
-* Worse SEO - pages are rendered with JavaScript on the client, so some search engines cannot read those pages.
+* Worse SEO - pages are rendered with JavaScript on the client, so some search engines cannot read them.
 * No real 404 status code - all requests are redirected with a status **200** to a single `index.html` endpoint, as the server generally does not know what endpoints exist on the app.
 
 ## Statically generated websites
-Statically generated websites have an automatically generated static HTML file for each dynamic page. These websites are usually pre-built before being uploaded to the server, using dedicated site builders like [Vuepress](http://vuepress.vuejs.org/), [Gridsome](../ecosystem/gridsome.md), [Nuxt](../ecosystem/nuxt.md) or a tool like [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin).
+Statically generated websites have an automatically generated static HTML file for each web page. Such applications are usually pre-built before being uploaded to the server, using dedicated site builders like [Vuepress](http://vuepress.vuejs.org/), [Gridsome](../ecosystem/gridsome.md), [Nuxt](../ecosystem/nuxt.md) or a tool like [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin).
  
- These kinds of websites are more suitable for cases, where the content of the website is less dynamic and changes less often. In comparison, Server-side rendered websites are rendered on the server on each request, making them more suitable for sites with highly dynamic content.
+Such websites are more suitable for cases, where the page content changes less frequently. In comparison, Server-side rendered websites are rendered on the server on each request, making them more suitable for highly dynamic websites.
+
+You can read more on this topic in our [Static site generators](../ecosystem/static-site-generators.md) page.
 
 **Required technologies**
+* Everything from SPA websites
 * Static website generators - need to know how to work with a static website generator.
 
 **Pros**
@@ -107,9 +114,6 @@ Statically generated websites have an automatically generated static HTML file f
 **Cons**
 * Configuration - Some tooling requires complex configuration and mapping of the website's pages.
 * Not suitable for highly dynamic websites
-
-**Useful links**
-* [How to Pre-render Vue.js Powered Websites with Webpack](https://markus.oberlehner.net/blog/how-to-pre-render-vue-powered-websites-with-webpack/)
 
 ## SSR SPA websites
 Server-side rendered single-page applications are taking best of both worlds and applying them for a both SEO optimized and super fast loading websites. 
@@ -136,13 +140,32 @@ When coming from another technology, it is normal to compare common methods and 
 
 In this section, we will go over the most popular technologies and the struggles developers have when migrating from them to Vue.
 
+    * List similarities between X framework and Vue
+    * List main differences, taking notes of possible tripping points
+    * Briefly list benefits of Vue over X
+    * Optional links to well written articles on the topic
+
 ### Angular
 
-### AngularJS
+### AngularJS (Angular 1.x)
 
 ### React
 
+### Polymer
+
 ### No framework - jQuery
+
+## Usage with Backend Frameworks
+
+    * List why this combination may be a good fit
+    * Showcase possible drawbacks of this combination
+    * Optional links to articles 
+
+### Express
+
+### Koa
+
+### Adonis
 
 ### Laravel
 
