@@ -70,6 +70,7 @@ module.exports = {
               '/guide/ecosystem/hosting.md',
               '/guide/ecosystem/forms.md',
               '/guide/ecosystem/server-side-rendering.md',
+              '/guide/ecosystem/static-site-generators.md',
               '/guide/ecosystem/legacy.md',
             ]
           }
