@@ -47,9 +47,9 @@ Here are the answers from the above questions:
 Checkout Docute plugins and its other features on their [documentation website](https://docute.org/).
 
 ## Other website doc platforms
-Below are a few other good choices for documentation machines. 
+Below is a list of popular documentation generators, that are not connected to Vue. 
 
-- [Docsify](https://docsify.js.org/#/) - native javascript alternative to Docute, with a bit more features and themes.
+- [Docsify](https://docsify.js.org/#/) - native javascript alternative to Docute, with a bit more features, plugins and themes.
 - [Jekyll](https://jekyllrb.com/)
 - [Hexo](https://hexo.io/)
 - [GitBook](https://www.gitbook.com/)  
