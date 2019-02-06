@@ -8,8 +8,7 @@ With Vue you're not limited to developing web and [native mobile](./mobile-apps.
 
 Although there are some downsides common for all JavaScript-powered desktop applications. Usually they have big package size (more than 100 MB) and heavy RAM usage.
 
-We have two main options to build a desktop application with Vue: it's HTML+CSS-based solutions
-or native GUI. First one is represented with Electron and NW.js, second option is Vuido.
+We have two main options to build a desktop application with Vue: it's HTML+CSS-based solutions or native GUI. First one is represented with Electron and NW.js, second option is Vuido.
 
 ## Electron
 
@@ -17,6 +16,25 @@ or native GUI. First one is represented with Electron and NW.js, second option i
 
 Electron is by far the most popular library for writing JavaScript desktop applications today: the most well-known of them are [Slack](https://slack.com/) and [Discord](https://discordapp.com/) messengers as well as [Atom](https://atom.io/) code editor and [Visual Studio Code](https://code.visualstudio.com/) IDE.
 
+**Pros**
+
+- easy to start with;
+- good development documentation;
+- no need to change an existing source code;
+- has [Vue CLI plugin](https://github.com/nklayman/vue-cli-plugin-electron-builder).
+
+**Cons**
+
+- big package size;
+- high memory usage;
+
+## Useful resources
+
+- [Vue.js & Electron: The easy way](https://medium.com/@mikeal/vue-js-electron-the-easy-way-adc3ca09234a)
+- [Building a Desktop App with Vue: Electron](https://dev.to/vuevixens/building-a-desktop-app-with-vue-electron-3pl)
+
 ## NW.js
+
+
 
 ## Vuido
