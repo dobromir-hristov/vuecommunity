@@ -60,4 +60,10 @@ Electron and NW.js share many features: they are both built on top of Chromium a
 - high memory usage
 - significantly less used than Electron
 
+## Useful resources
+
+- [vue-desktop-basic boilerplate](https://github.com/TheJaredWilcurt/vue-desktop-basic)
+- [Building a Desktop App with Vue: NW.js](https://dev.to/vuevixens/building-a-desktop-app-with-vue-nwjs-1f9e)
+- [Reducing app distribution size in NW.js](https://dev.to/thejaredwilcurt/reducing-app-distribution-size-in-nwjs-3d5f)
+
 ## Vuido
