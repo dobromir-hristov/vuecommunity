@@ -2,11 +2,11 @@
 
 With Vue you're not limited to developing web and [native mobile](./mobile-apps.md) applications only: you can build a desktop app as well. Why using Vue for it instead of developing it on native languages? There are some important reasons:
 
-- cross-platform: all applications developed with JavaScript can be packaged for Windows/MacOS/Linux;
-- easy to build: with some frameworks you simply develop a web application and then 'convert' it to desktop one with a packager;
-- community: if you maintain an open-source desktop project, you will more likely to find contributors for your it.
+- **cross-platform**: all applications developed with JavaScript can be packaged for Windows/MacOS/Linux;
+- **easy to build**: with some frameworks you simply develop a web application and then 'convert' it to desktop one with a packager;
+- **community**: if you maintain an open-source desktop project, you will more likely to find contributors for your it.
 
-Although there are some downsides common for all JavaScript-powered desktop applications. Usually they have big package size (more than 100 MB) and heavy RAM usage.
+Although there are some downsides common for all JavaScript-powered desktop applications. Usually they have big package size (at least 30 MB) and heavy RAM usage.
 
 We have two main options to build a desktop application with Vue: it's HTML+CSS-based solutions or native GUI. First one is represented with Electron and NW.js, second option is Vuido.
 
@@ -30,7 +30,7 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 - high memory usage
 - unprotected source code in package
 
-## Useful resources
+### Useful resources
 
 - [Vue.js & Electron: The easy way](https://medium.com/@mikeal/vue-js-electron-the-easy-way-adc3ca09234a)
 - [Building a Desktop App with Vue: Electron](https://dev.to/vuevixens/building-a-desktop-app-with-vue-electron-3pl)
@@ -39,7 +39,7 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 
 [NW.js](https://nwjs.io/) (previosly known as node-webkit) is a framework for building desktop applications with HTML, CSS, and JavaScript. It's based on Chromium and Node.js as well as [Electron](#electron). NW.js lets you call Node.js code and modules directly from browser and also use Web technologies in your app. Further, you can easily package a web application to a native application.
 
-## Differences from Electron
+### Differences from Electron
 
 Electron and NW.js share many features: they are both built on top of Chromium and Node.js and use HTML, CSS and JS for building a desktop app. But they also have some notable differences:
 
@@ -60,10 +60,34 @@ Electron and NW.js share many features: they are both built on top of Chromium a
 - high memory usage
 - significantly less used than Electron
 
-## Useful resources
+### Useful resources
 
 - [vue-desktop-basic boilerplate](https://github.com/TheJaredWilcurt/vue-desktop-basic)
 - [Building a Desktop App with Vue: NW.js](https://dev.to/vuevixens/building-a-desktop-app-with-vue-nwjs-1f9e)
 - [Reducing app distribution size in NW.js](https://dev.to/thejaredwilcurt/reducing-app-distribution-size-in-nwjs-3d5f)
 
 ## Vuido
+
+[Vuido](https://vuido.mimec.org/) is a framework for creating native desktop applications based on Vue.js. Applications using Vuido can run on Windows, OS X and Linux, using native GUI components.
+
+Under the hood, Vuido uses the [libui](https://github.com/andlabs/libui) library which provides native GUI components for each desktop platform, and the [libui-node](https://github.com/parro-it/libui-node) bindings for Node.js.
+
+The core difference of using Vuido comparing to Electron and NW.js is you're not going to use HTML tags or CSS styles: you have a set of UI components and you're limited to it.
+
+**Pros**
+
+- easy to build
+- provides small package size compared to Electron or NW.js apps
+- well-documented
+
+**Cons**
+
+- appearance is limited to OS native GUI components
+- doesn't have a Vue CLI plugin, only Vue CLI 2 boilerplate
+
+### Useful resources
+
+- [Vue CLI 2 Vuido boilerplate](https://github.com/mimecorg/vuido-webpack-template)
+- [Native desktop applications using Vue.js](https://codeburst.io/native-desktop-applications-using-vue-js-964e841e3c1d)
+- [Building a Desktop App with Vue: Vuido](https://dev.to/vuevixens/building-a-desktop-app-with-vue-vuido-490n)
+
