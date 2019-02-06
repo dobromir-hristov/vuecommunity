@@ -13,8 +13,11 @@ Static file hosting is generally used to serve rarely changing assets, that are 
 [Article explaining static content](https://www.maxcdn.com/one/visual-glossary/static-content/)
 
 ### Netlify
-Netlify is one of the most popular static file hosting services. It has an easy to work with interface, offers great speed, free and super easy to setup SSL, url rewrites, custom header setup, cloud functions and more. This makes it a top choice for most people building SPA's. They offer integration for GitHub, Bitbucket and GitLab. Netlify offers a free hosting tier, which should suite most people's needs.
+Netlify is a popular choice for a static file hosting service. It offers a simple to use interface, global CDN, free and easy to setup SSL, url rewrites, custom header setup, cloud functions and more. 
 
+They offer integration with GitHub, Bitbucket and GitLab. Netlify offers a free hosting tier, which should suite most people's needs.
+
+[Netlify](https://netlify.com)
 [CSS-Tricks article on Netlify](https://css-tricks.com/static-file-hosting-doesnt-have-to-be-so-static/)
 
 ### GitHub/GitLab/Bitbucket Pages

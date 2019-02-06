@@ -17,7 +17,7 @@ When choosing a platform to write your docs on, think about your priorities and 
 ### Vuepress
 [Vuepress](http://vuepress.vuejs.org/) is a Vue-powered static site generator, that by default is optimized for technical documentation.
 
-Vuepress websites are actually Vue based SPA's that use Vue Router and webpack, with content built from plain markdown files. During the build process, a static server side rendered version of website is generated, ensuring great loading performance and improved SEO, compared to a traditional SPA.
+Vuepress websites are actually Vue based SPA's that use Vue Router and Webpack, with content built from plain markdown files. During the build process, a static server side rendered version of website is generated, ensuring great loading performance and improved SEO, compared to a traditional SPA.
 
 So to answer the questions above:
   - You will write in `.md` files, but have the option to use actual Vue components inside them. This gives it an enormous advantage to other similar platforms.
@@ -47,9 +47,9 @@ Here are the answers from the above questions:
 Checkout Docute plugins and its other features on their [documentation website](https://docute.org/).
 
 ## Other website doc platforms
-Below are a few other good choices for documentation machines. 
+Below is a list of popular documentation generators, that are not connected to Vue. 
 
-- [Docsify](https://docsify.js.org/#/) - native javascript alternative to Docute, with a bit more features and themes.
+- [Docsify](https://docsify.js.org/#/) - native javascript alternative to Docute, with a bit more features, plugins and themes.
 - [Jekyll](https://jekyllrb.com/)
 - [Hexo](https://hexo.io/)
 - [GitBook](https://www.gitbook.com/)  

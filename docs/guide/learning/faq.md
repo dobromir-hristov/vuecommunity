@@ -118,6 +118,7 @@ These are general Vue related questions that span from basic component usage to 
 ### When and why should I use vue-cli
 
 ### Are there alternatives to Vue CLI
+Yes! You are not tied to Vue CLI, you can roll with your own build setup or you read about one of the alternates covered on our [Build Tools](../ecosystem/build-tools.md) page
 
 ### Can I bundle Vue plugins with VueCLI
 
