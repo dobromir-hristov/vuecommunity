@@ -20,7 +20,7 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 
 - easy to start with
 - good development documentation
-- no need to change an existing source code
+- no need to change existing source code
 - has [Vue CLI plugin](https://github.com/nklayman/vue-cli-plugin-electron-builder)
 - mature developer community
 
