@@ -2,7 +2,7 @@
 
 Vue is not limited to just developing web and [native mobile](./mobile-apps.md) applications, it allows building desktop apps as well. Here are some important reasons why one would choose Vue over a native language solution:
 
-- **cross-platform**: all applications developed with JavaScript can be packaged for Windows/MacOS/Linux;
+- **cross-platform**: all applications are developed with JavaScript, and can be packaged for Windows/MacOS/Linux;
 - **easy to build**: with some frameworks you simply develop a web application and then 'convert' it to desktop one with a packager;
 - **community**: if you maintain an open-source desktop project, you will more likely to find contributors for your it.
 
