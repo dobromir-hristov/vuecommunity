@@ -72,7 +72,7 @@ Electron and NW.js share many features: they are both built on top of Chromium a
 
 Under the hood, Vuido uses the [libui](https://github.com/andlabs/libui) library which provides native GUI components for each desktop platform, and the [libui-node](https://github.com/parro-it/libui-node) bindings for Node.js.
 
-The core difference of using Vuido comparing to Electron and NW.js is you're not going to use HTML tags or CSS styles: you have a set of UI components and you're limited to it.
+The core difference between Vuido and Electron or NW.js is that you're not going to use HTML tags or CSS styles with Vuido, you are limited to a predefined set of UI components, that the OS platforms provide.
 
 **Pros**
 
