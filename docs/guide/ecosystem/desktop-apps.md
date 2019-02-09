@@ -37,7 +37,7 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 
 ## NW.js
 
-[NW.js](https://nwjs.io/) (previosly known as node-webkit) is a framework for building desktop applications with HTML, CSS, and JavaScript. It's based on Chromium and Node.js as well as [Electron](#electron). NW.js lets you call Node.js code and modules directly from browser and also use Web technologies in your app. Further, you can easily package a web application to a native application.
+[NW.js](https://nwjs.io/) (previosly known as node-webkit) is a framework for building desktop applications with HTML, CSS, and JavaScript. Similar to [Electron](#electron), it is based on Chromium and Node.js. NW.js lets you call Node.js code and modules directly from browser, along with using Web technologies in your app. Further, you can easily package a web application to a native application.
 
 ### Differences from Electron
 
