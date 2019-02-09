@@ -44,7 +44,7 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 Electron and NW.js share many features: they are both built on top of Chromium and Node.js and use HTML, CSS and JS for building desktop apps. They also have some notable differences:
 
 - In NW.js the main entry point of an application is a web page or a JS script. You specify this entry via `package.json` `main` property. In Electron, the entry point is a JavaScript script. Instead of providing a URL directly, you manually create a browser window and load an HTML file using the API.
-- On build process NW.js builds all Chromium; Electron uses [libchromiumcontent](https://github.com/electron/libchromiumcontent) to access Chromium's Content API
+- During the build process NW.js builds the whole Chromium; Electron uses [libchromiumcontent](https://github.com/electron/libchromiumcontent) to access Chromium's Content API
 - NW.js has [built-in support](http://docs.nwjs.io/en/latest/For%20Users/Advanced/Protect%20JavaScript%20Source%20Code/) for compiling your source code to protected binaries. Electron is packaging its applications with [asar](https://github.com/electron/asar), which contains the applications' unprotected source code.
 
 **Pros**
