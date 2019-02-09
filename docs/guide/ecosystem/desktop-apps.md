@@ -14,7 +14,7 @@ There are mainly two ways to build a desktop application with Vue: HTML+CSS-base
 
 [Electron](https://electronjs.org/) is an open source library developed by GitHub for building cross-platform desktop applications with HTML, CSS, and JavaScript. Electron accomplishes this by combining [Chromium](http://www.chromium.org/) and [Node.js](https://nodejs.org/en/) into a single runtime and apps can be packaged for Mac, Windows, and Linux
 
-Electron is by far the most popular library for writing JavaScript desktop applications today: the most well-known of them are [Slack](https://slack.com/) and [Discord](https://discordapp.com/) messengers as well as [Atom](https://atom.io/) code editor and [Visual Studio Code](https://code.visualstudio.com/) IDE.
+Electron is by far the most popular library for writing JavaScript desktop applications today. Some of the more well-known apps are [Slack](https://slack.com/) and [Discord](https://discordapp.com/) messengers, [Atom](https://atom.io/) code editor and [Visual Studio Code](https://code.visualstudio.com/) IDE.
 
 **Pros**
 
