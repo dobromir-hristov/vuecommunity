@@ -4,7 +4,7 @@ Vue is not limited to just developing web and [native mobile](./mobile-apps.md) 
 
 - **cross-platform**: all applications are developed with JavaScript, and can be packaged for Windows/MacOS/Linux;
 - **easy to build**: frameworks allow you to simply develop a web application and then 'convert' it to a desktop one using a packager;
-- **community**: if you maintain an open-source desktop project, you will more likely to find contributors for your it.
+- **community**: if you maintain an open-source desktop project, you will more likely find contributors for it.
 
 Although there are some downsides common for all JavaScript-powered desktop applications. Usually they have big package size (at least 30 MB) and heavy RAM usage.
 
