@@ -6,7 +6,7 @@ Vue is not limited to just developing web and [native mobile](./mobile-apps.md) 
 - **easy to build**: frameworks allow you to simply develop a web application and then 'convert' it to a desktop one using a packager;
 - **community**: if you maintain an open-source desktop project, you will more likely find contributors for it.
 
-Although there are some downsides common for all JavaScript-powered desktop applications. Usually they have big package size (at least 30 MB) and heavy RAM usage.
+There are however some downsides, common for all JavaScript-powered desktop applications. They tend to have big package size (at least 30 MB) and are know to have heavy RAM usage.
 
 We have two main options to build a desktop application with Vue: it's HTML+CSS-based solutions or native GUI. First one is represented with Electron and NW.js, second option is Vuido.
 
