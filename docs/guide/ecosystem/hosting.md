@@ -1,11 +1,14 @@
 # Hosting
 
-Choosing a proper hosting for a Vue.js website can be frustrating. You need to know the type of website you are working with, to choose a proper hosting provider. Typically Vue.js websites can be split into 4 major categories. 
+Choosing a proper hosting for a Vue.js website can be frustrating. You need to know the type of website you are working with, to choose a proper hosting provider. Typically Vue.js websites can be split into 2 major categories. 
 
-* Pre-rendered - Websites that are pre-rendered before deploying to a server, meaning each page consists of a static html file.
-* SPA - Websites consisting of a single index.html entry and a bunch of generated static assets. Page rendering and routing is done on the client in the Browser. Such websites do not require a dedicated server to run and can be hosted on a static file hosting.
-* SSR (Universal) SPA - Websites are initially rendered on the server upon visit, then the SPA part of the website takes over routing, rendering and other functionality. These typically require a Node.js server constantly running.
-* Server rendered none SPA website - Server rendered websites, that rely on the server to render and handle routing, using Vue for additional in-browser functionality. Most commonly seen are Laravel, Wordpress, Rails or Django based websites.
+## Static file websites
+These websites are made out of only static files, that require no server scripts, and are entirely run on the clients browser. Such websites are:
+
+* Pre-rendered - Websites that are pre-rendered before deploying to a server, meaning each page is represented by a static html file. Checkout the [Statically generated websites](../learning/how-to-learn-vue.md#statically-generated-websites) for mor info.
+* SPA - Websites consisting of a single index.html entry and a bunch of generated static assets. Page rendering and routing is done on the client in the Browser. Such websites do not require a dedicated server to run and can be hosted on a static file hosting. Checkout the [SPA websites](../learning/how-to-learn-vue.md#spa-websites) page for mor info.
+
+These websites can be hosted on [Traditional Hosting](#traditional-server-hosting) or on the cheaper [Static File Hosting](#static-file-hosting) described below.
 
 ## Static File Hosting
 Static file hosting is generally used to serve rarely changing assets, that are processed and generated upfront, to the client's browser in the most optimized and fast way. Such hosting solutions are perfect for SPA's or Pre-rendered websites, as they are mostly a collection of static files and require no runtime processing. These hosting services cannot run files containing dynamic code like `.php` or `.js` node scripts.
@@ -40,6 +43,15 @@ CloudFront is a fast content delivery network by Amazon. They boast high speed, 
 ### Surge.sh
 
 ### Now.sh
+
+## Server Rendered websites
+These websites can be SPA's or normal websites that have only parts of them written in Vue. They usually require a script to be run on the server to render the page, be it Node.js, PHP or other server language. Examples of such are Laravel websites, Node.js apps written on Express, Koa, Adonis or other similar framework.
+
+
+* SSR (Universal) SPA - Websites are rendered on the server upon visit, then the SPA part of the website takes over routing, rendering and other functionality. These typically require a Node.js server constantly running. Checkout the [What are Server Side Rendered apps](../learning/how-to-learn-vue.md#ssr-spa-websites) page for more info.
+* Server rendered none SPA website - Server rendered websites, that rely on the server to render and handle routing, using Vue for additional in-browser functionality. Most commonly seen are Laravel, Wordpress, Rails or Django based websites. Checkout the [Vue enhanced websites](../learning/how-to-learn-vue.md#vue-enhanced-websites) page for more info.
+
+These websites can only be run on a more traditional server hosting, where a server script is always listening and handling incoming requests.
 
 ## Traditional Server Hosting
 If you are planning to build a Laravel or Nuxt powered website, then you will need a more traditional hosting solution.
