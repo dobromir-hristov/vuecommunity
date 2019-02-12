@@ -1,7 +1,7 @@
-# Build Tools and Frameworks
+# Build Tools
 Modern web applications are often a mix of custom written modules and third party packages, written in various versions of languages, most of which not supported by older browsers. 
 
-To be used in both browser and sometimes in server context, the application needs to be transformed by a various tools. Their number can vary widely depending on the applied technologies in the project.
+To be used in both browser and sometimes in server context, the application needs to be transformed by a various tools like Babel, PostCSS, Sass, Typescript to name a few. Their number can vary widely depending on the applied technologies in the project.
 
 Configuring all these tools, making them work across operating systems, and more importantly between each other is not a simple task. Luckily there are tools that ease this process, most of which are abstractions on top of other tools, making configuration and setup even simpler.
 
