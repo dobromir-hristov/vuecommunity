@@ -50,3 +50,6 @@ The instructor and author of the platform, Jeffrey Way, is a pro when it comes t
 
 ### Tutsplus
 [Tutsplus](https://code.tutsplus.com/)
+
+### Pluralsight
+[Pluralsight](https://www.pluralsight.com/paths/vue)
