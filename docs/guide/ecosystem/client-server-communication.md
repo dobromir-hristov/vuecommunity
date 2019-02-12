@@ -19,8 +19,7 @@ You can directly import Axios from npm and use it in your components, without th
 
 Fetch is a newer Promise based API that is integrated into [modern Browsers](https://caniuse.com/#search=fetch). 
 
-> Fetch makes it easier to make web requests and handle responses than with the older XMLHttpRequest, which often requires additional logic (for example, for handling redirects).
-[Working with the Fetch API - Google - Progressive Web Apps Training ](https://developers.google.com/web/ilt/pwa/working-with-the-fetch-api)
+> Fetch makes it easier to make web requests and handle responses than with the older XMLHttpRequest, which often requires additional logic (for example, for handling redirects). - [Working with the Fetch API - Google - Progressive Web Apps Training ](https://developers.google.com/web/ilt/pwa/working-with-the-fetch-api)
 
 You can also import a library like `isomorphic-fetch` for using fetch in Node.js environment, where it is not available.
 
@@ -29,18 +28,20 @@ You can also import a library like `isomorphic-fetch` for using fetch in Node.js
 * [Understanding the Fetch API](https://flaviocopes.com/fetch-api/)
 
 ## GraphQL
-
--- what is GraphQL
--- When does it make sense to use it
--- links to tutorials
+::: tip
+ This part of the page needs a bit of love. If you can, please contribute by adding the missing info.
+:::
+- what is GraphQL
+- When does it make sense to use it
+- links to tutorials
 
 ### Vue Apollo
 
--- What is Apollo
--- common use cases
--- why use with vue
--- links to tutorials
--- Vue packages
+- What is Apollo
+- common use cases
+- why use with vue
+- links to tutorials
+- Vue packages
 
 ## Websockets
 
@@ -62,54 +63,73 @@ Pusher can be used for chats, games, location sharing and more.
 
 ### Firebase
 
-Firebase is a service by Google which offers a realtime NoSQL database, that users can write or read from. Client data gets synchronized in real time between all connected.
+> Store and sync data with our NoSQL cloud database. Data is synced across all clients in realtime, and remains available when your app goes offline. - Firebase Docs
 
--- Improve description
--- Note Common usages
--- why use with vue
--- Note Vue Packages
--- tutorials
+Along with database, they offer authentication, static hosting, data storage and more. Thanks to their server-side libraries and REST api's you can connect Firebase to your existing backend. You can build realtime chats, dashboards, cross device notifications and much more.
+
+Implementing Firebase into your Vue app directly with their SDK can be a bit of a hassle as you need to keep track of allot of things, bind documents, etc. Luckily there is the official [Vuefire](https://github.com/vuejs/vuefire) package that makes it allot easier.
+
+**Useful Links**
+* [Building a Vue app with Firebase authentication ](https://medium.com/@anas.mammeri/vue-2-firebase-how-to-build-a-vue-app-with-firebase-authentication-system-in-15-minutes-fdce6f289c3c)
+* [Full Stack Vue.js with Firestore](https://medium.com/vue-mastery/full-stack-vue-js-with-firestore-62e2fe2ec1f3)
+* [Vue.js Firebase Integration with VueFire](https://alligator.io/vuejs/vuefire-firebase/)
 
 ### Feathers
 
--- What is Feathers
--- Common usages
--- Why use with Vue
--- Popular Vue Packages
--- tutorials
+- What is Feathers
+- Common usages
+- Why use with Vue
+- Popular Vue Packages
+- tutorials
 
 ### Meteor
 
--- What is Meteor
--- Common usages
--- Why use with Vue
--- Popular Vue Packages
--- tutorials
+- What is Meteor
+- Common usages
+- Why use with Vue
+- Popular Vue Packages
+- tutorials
 
 ### SocketIO
 
--- What is SocketIO
--- Common usages
--- Why use with Vue
--- Popular Vue Packages
--- tutorials
+::: tip
+ This part of the page needs a bit of love. If you can, please contribute by adding the missing info.
+:::
+
+- What is SocketIO
+- Common usages
+- Why use with Vue
+- Popular Vue Packages
+- tutorials
 
 [Integrating Vue.js and Socket.io](https://alligator.io/vuejs/vue-socketio/)
 
 ## SSE - Server Sent Events
 
--- What are SSE
--- Common usages
--- Why use with Vue
--- Popular Vue Packages
--- tutorials
+::: tip
+ This part of the page needs a bit of love. If you can, please contribute by adding the missing info.
+:::
+
+- What are SSE
+- Common usages
+- Why use with Vue
+- Popular Vue Packages
+- tutorials
 
 https://github.com/tserkov/vue-sse#readme
 
 ## MQTT
 
--- What is MQTT
--- Common usages
--- Why use with Vue
--- Popular Vue Packages
--- tutorials
+::: tip
+ This part of the page needs a bit of love. If you can, please contribute by adding the missing info.
+:::
+
+> MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. - MQTT.org
+
+You can use MQTT to transfer small pieces of data in realtime between devices. It is most commonly used to send sensor readings from low processor devices.
+
+**Useful Links**
+* [Vue-Mqtt](https://github.com/nik-zp/vue-mqtt)
+* [Vue-Mqtt-Example](https://github.com/nik-zp/Vue-Mqtt-Example)
+* [Connecting Nuxt.js to MQTT](https://imantabrizian.me/posts/2017/11/nuxt-mqtt)
+* [Real-time visualization of high-frequency streams](https://itnext.io/javascript-real-time-visualization-of-high-frequency-streams-d6533c774794)
