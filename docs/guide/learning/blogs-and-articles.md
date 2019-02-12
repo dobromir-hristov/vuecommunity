@@ -25,9 +25,6 @@ authored by the same tutors that do the courses so you can expect top notch qual
 
 They write about beginner as well as more advanced topics like Testing, Component design and more.
 
-## Markus Oberlehner
-[Blog](https://markus.oberlehner.net/blog/) - Markus Oberlehner writes in his personal blog about Vue.js, JavaScript, CSS, Test Driven Development and Front-End Architecture in general. It has very well written articles, some longer than others, most of which showing specific edge cases or usage examples, that are common, yet not talked about.
-
 ## CSS-Tricks
 [CSS-Tricks Articles](https://css-tricks.com/tag/vue/) - CSS-Tricks is well known for its awesome demos and well written explanations and tutorials. Their blog is no exception, with Vue tutorials and articles, some of which are written by popular Vue enthusiasts, like Sarah Drasner her self.
 
@@ -48,5 +45,17 @@ They release well written Vue articles, along with other good material.
 [Auth0 Blog](https://auth0.com/blog/)
 
 ## Pusher
-
 [Pusher Blog](https://pusher.com/tutorials?q=vuejs)
+
+## Personal Blogs
+This list consists of personal developer blogs, where people share their Vue related problems and solutions.
+
+## Markus Oberlehner
+[Markus Oberlehner](https://markus.oberlehner.net/blog/) - Markus Oberlehner writes in his personal blog about Vue.js, JavaScript, CSS, Test Driven Development and Front-End Architecture in general. It has very well written articles, some longer than others, most of which showing specific edge cases or usage examples, that are common, yet not talked about.
+Adri Fontcu
+Alex Hover
+Tiagu Alves
+Ben Hong
+Alexander Lichter
+Ivan Sieder 
+[Dobromir Hristov](https://medium.com/@dobromir_hristov/)
