@@ -14,7 +14,7 @@ They partner with Vue.js conferences to provide free workshops for attendees and
 
 Vue Vixens also engages the community in other ways, including crafting full-day events such as Vue Vixens Day Argentina and providing support to local chapters which are led by [chapter leaders](https://www.vuevixens.org/team) around the world. 
 
-Vue Vixens' mission is to mentor people who identify as women both on social media, personal interactions and conferences. Their goal is to boost the number of women-identifying people who attend and speak at the events or try their as content creators, to help mid-career and senior women stay engaged by learning new technologies, and to help new developers enter the workforce.
+Vue Vixens' mission is to mentor people who identify as women both on social media, personal interactions and conferences. Their goal is to boost the number of women-identifying people who attend and speak at the events or try their skills as content creators, to help mid-career and senior women stay engaged by learning new technologies, and to help new developers enter the workforce.
 
 #### Useful links
 
