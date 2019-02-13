@@ -28,7 +28,7 @@ module.exports = {
         sidebar: [
           '/',
           {
-            title: 'Welcome to Vue',
+            title: 'Community',
             collapsable: false,
             children: [
               '/guide/community/conferences.md',
@@ -56,7 +56,7 @@ module.exports = {
             ]
           },
           {
-            title: 'Framework Ecosystem',
+            title: 'Ecosystem',
             collapsable: false,
             children: [
               '/guide/ecosystem/nuxt.md',
