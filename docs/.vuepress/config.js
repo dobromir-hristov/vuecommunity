@@ -59,6 +59,7 @@ module.exports = {
             title: 'Ecosystem',
             collapsable: false,
             children: [
+              '/guide/ecosystem/accessibility.md',
               '/guide/ecosystem/nuxt.md',
               '/guide/ecosystem/boilerplates.md',
               '/guide/ecosystem/ui-libraries.md',
