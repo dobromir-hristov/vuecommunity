@@ -6,7 +6,7 @@ module.exports = {
       description: 'The community guide to Vue.js'
     }
   },
-  serviceWorker: true,
+  // serviceWorker: true,
   themeConfig: {
     docsDir: 'docs',
     repo: 'https://github.com/dobromir-hristov/vuecommunity',
