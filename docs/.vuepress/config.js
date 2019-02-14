@@ -3,7 +3,7 @@ module.exports = {
     '/': {
       lang: 'en-US',
       title: 'Vue Community',
-      description: 'The community guide to Vue.'
+      description: 'The community guide to Vue.js'
     }
   },
   serviceWorker: true,

@@ -1,12 +1,13 @@
 ---
 home: true
+heroImage: /hero.png
 actionText: Get Started →
 actionLink: /guide/
 features:
 - title: Community
-  details: Find information about the various Vue communities, conferences, the current job market and more.
+  details: Find information about the various Vue community projects, conferences or the current job market.
 - title: Learning
-  details: Dive deeper into the many possible ways to learn Vue.js, like official docs, popular blogs, books, courses or podcasts.
+  details: Dive deeper into the many possible ways to learn Vue.js, from official documentation to books and video courses.
 - title: Ecosystem
   details: Explore popular tools and libraries like Nuxt, Vuetify or Vuepress. Learn about their specific use cases and differences.
 footer: MIT Licensed
