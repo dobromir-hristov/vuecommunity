@@ -16,7 +16,7 @@ Vuepress is a prime example of a static file generator. Each page is a markdown 
 
 The new 1.x version will be a more generic static file generator, suitable for building blogs and more. Its new plugin based system allows for a much wider range of extensions, on top of the already available offline mode, Algolia search integration to name a few.
 
-**Useful Links**
+### Useful Links
 * Read more about Vuepress on the [Official Docs](https://vuepress.vuejs.org/guide/#how-it-works). 
 * Find how Vuepress compares to other documentation generators in our [Documentation Platforms](./documentation.md#vuepress) page.
 * [The VuePress Book](https://vuepressbook.com/) -  VuePress examples and demo code 
@@ -32,7 +32,8 @@ To learn more, go checkout the [Gridsome](./gridsome.md) page.
 ## Prerender SPA Plugin
 A webpack plugin that is used to generate static HTML files for each web page, defined in its configuration. Opposed to the previous two solutions, this one is framework agnostic, meaning it is not limited to just Vue powered websites. 
 
-**Useful links**
+### Useful links
+
 * [GitHub](https://github.com/chrisvfritz/prerender-spa-plugin)
 * [Vue CLI Plugin](https://github.com/SolarLiner/vue-cli-plugin-prerender-spa)
 * [How to Pre-render Vue.js Powered Websites with Webpack](https://markus.oberlehner.net/blog/how-to-pre-render-vue-powered-websites-with-webpack/)

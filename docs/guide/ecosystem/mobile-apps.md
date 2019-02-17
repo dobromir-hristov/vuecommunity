@@ -7,7 +7,7 @@ Building mobile applications with JavaScript is not a new thing and has been aro
 
 On this page, we will go through the different ways one can build a mobile app with Vue, and the pros and cons behind each.
 
-**Useful Links**
+### Useful Links
 * [Hybrid Apps vs. Native Apps: Which Should You Build?](https://themanifest.com/app-development/hybrid-apps-vs-native-apps-which-should-you-build)
 * [10 Best Vue.js based UI Frameworks for Building Mobile Apps](https://superdevresources.com/vuejs-mobile-frameworks/)
 
@@ -36,7 +36,7 @@ It has a CLI tool, official UI theme and a set of plugins.
 * It is developed and used mostly in China, so it may be a con for someone.
 * Not enough learning material in English, besides official docs.
 
-**Useful Links**
+#### Useful Links
 * [Native Mobile Apps with Weex and VueJS 2.0](https://hackernoon.com/how-to-create-a-weex-vue2-project-6b94981bee4e)
 * [Native Mobile Apps with Vue.js and Weex: Getting Started](https://alligator.io/vuejs/getting-started-vue-weex/)
 * [Native apps with Vue.js: Weex or NativeScript? — chapter I](https://hackernoon.com/native-apps-with-vue-js-weex-or-nativescript-8d8f0bac041d)
@@ -48,7 +48,7 @@ It has a CLI tool, official UI theme and a set of plugins.
 
 #### Compared to others
 
-**Useful Links**
+#### Useful Links
 * [Lessons Learned on Writing Apps with NativeScript VueJS](https://medium.com/learning-lab/lessons-learned-on-writing-apps-with-nativescript-vuejs-bd6a3066f0cb)
 * [Getting Started with building Mobile Apps with NativeScript and Vue.js](https://www.vuejsradar.com/getting-started-with-building-mobile-apps-with-nativescript-and-vuejs/)
 
@@ -56,7 +56,7 @@ It has a CLI tool, official UI theme and a set of plugins.
 
 Vue Native is a mobile framework made for building native mobile apps using Vue.js. It acts as a wrapper around **React Native** APIs, which allows you to use Vue.js and compose rich mobile User Interfaces. For APIs that React Native does not support, you have to write **"bridges"** in the platform's native code or install external plugins. 
 
-**Useful Links**
+#### Useful Links
 * [Vue-Native docs](https://vue-native.io/docs/)
 * [How to Setup, Build and Deploy Native Apps with Vue](https://scotch.io/tutorials/how-to-setup-build-and-deploy-native-apps-with-vue)
 
@@ -85,7 +85,7 @@ Hybrid apps are built by reusing already establishes knowledge about making webs
 * Access to lower level device APIs is dependent on wrapper (Cordova)
 * Platform inconsistencies
 
-**Useful Links**
+### Useful Links
 
 
 ## Mobile UI libraries
