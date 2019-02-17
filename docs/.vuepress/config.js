@@ -10,6 +10,7 @@ module.exports = {
   themeConfig: {
     docsDir: 'docs',
     repo: 'https://github.com/dobromir-hristov/vuecommunity',
+    editLinks: true,
     locales: {
       '/': {
         label: 'English',
