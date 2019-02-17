@@ -78,6 +78,7 @@ Implementing Firebase into your Vue app directly with their SDK can be a bit of 
 ### Useful Links
 
 * [Building a Vue app with Firebase authentication ](https://medium.com/@anas.mammeri/vue-2-firebase-how-to-build-a-vue-app-with-firebase-authentication-system-in-15-minutes-fdce6f289c3c)
+* [Building A Real-Time Chat Application With Vue.js and Firebase](https://codingthesmartway.com/building-a-real-time-chat-application-with-vue-js-and-firebase-part-1/)
 * [Full Stack Vue.js with Firestore](https://medium.com/vue-mastery/full-stack-vue-js-with-firestore-62e2fe2ec1f3)
 * [Vue.js Firebase Integration with VueFire](https://alligator.io/vuejs/vuefire-firebase/)
 

@@ -15,6 +15,7 @@ Developers can leverage features like ESLint, Babel, Unit and End-to-end Testing
 Vue CLI built on top of [Webpack](./build-tools.md#webpack), making it ideal for large and complex web applications. Building libraries with it is possible, but may lead to bigger bundles, compared to a tool like [Rollup](./build-tools.md#rollup).
 
 ### Features
+
 * Interactive project scaffolding
 * Full Graphic User Interface for managing Vue projects
 * Support for Typescript, Sass, Less, Stylus preprocessing.
@@ -26,7 +27,9 @@ Vue CLI built on top of [Webpack](./build-tools.md#webpack), making it ideal for
 ### Useful Links
 
 * [Vue CLI Docs](https://cli.vuejs.org/)
-* [Vue CLI Tutorial](https://flaviocopes.com/vue-cli/)
+* [The Vue.js CLI: learn how to use it](https://flaviocopes.com/vue-cli/)
+* [Vue CLI 3 - Creating our Project - Vue Mastery](https://www.vuemastery.com/courses/real-world-vue-js/vue-cli/)
+* [Getting Started With Vue CLI 3](https://codingthesmartway.com/getting-started-with-vue-cli-3/)
 
 ## Poi
 

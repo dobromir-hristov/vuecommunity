@@ -33,4 +33,5 @@
 * [Server Side Rendering](./ecosystem/server-side-rendering.md) - Available tools to Server Side Render
 * [Static Site Generators](./ecosystem/static-site-generators.md) - Technologies to create Static Sites
 * [Build Tools](./ecosystem/build-tools.md) - Vue Ecosystem build tools
+* [Projects worth mentioning](./ecosystem/projects-worth-mentioning.md) - List of awesome Vue projects, that dont fit in other categories.
 * [Legacy Packages](./ecosystem/legacy.md) - List of outdated and deprecated Vue packages
