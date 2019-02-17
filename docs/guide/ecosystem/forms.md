@@ -1,3 +1,7 @@
+---
+title: Handling Forms
+---
+
 # Forms
 
 Vue.js comes with a lot of features that make working with forms easier out of the box, like the reactivity and events with modifiers and the two-way binding system on top of it. But if the libraries can speed up the development process and provide a ready to use, well tested environment, it may be worth to just use them instead of baking own alternative.
