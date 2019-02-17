@@ -12,7 +12,9 @@ Developers looking for a Vue.js related job can also subscribe to a weekly newsl
 
 A significant percentage of the income is distributed to the authors of both Vue.js and key ecosystem projects.
 
-[website](https://vuejobs.com) [chat](https://discord.gg/kVqcTzj)
+### Useful Links
+* [website](https://vuejobs.com) 
+* [chat](https://discord.gg/kVqcTzj)
 
 ## Other platforms
 
@@ -32,7 +34,7 @@ The guidelines listed in this section come from actual Human Resources workers o
 
 They won't necessarily apply to each use case but they provide good insight into what you should expect on different stages of job hunting.
 
-### Dobromir Hristov
+### Dobromir Hristov - Vue Bulgaria speaker and organiser
 
 Below is a list of common skills that I think can make a developer standout from the crowd when applying for a job as a mid to senior Vue developer. 
 
