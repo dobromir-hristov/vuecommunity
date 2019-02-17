@@ -22,4 +22,6 @@ A typical meetup can vary from just a gathering at a bar/restaurant, to more lea
 
 You can popularize your event by announcing it on the Official Vue Chat, Tweeting with hashtag #VueJS and #VueJSMeetups or even directly write to [VueMeetups](https://twitter.com/vuemeetups) on Twitter.
 
-You can also ask on Discord to be promoted to a Community Leader, so you cna further promote and get recognised by people using the chat.
+You can also ask on Discord to be promoted to a Community Leader, so you can discuss and share experience with other meetup organizers around the world.
+
+If you want Vue stickers to giveaway at meetups, you can contact the people at [VueJobs](https://vuejobs.com/), they give them out for free for meetup organisers.
