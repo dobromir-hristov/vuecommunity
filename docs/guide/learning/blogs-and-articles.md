@@ -51,11 +51,10 @@ They release well written Vue articles, along with other good material.
 This list consists of personal developer blogs, where people share their Vue related problems and solutions.
 
 ## Markus Oberlehner
-[Markus Oberlehner](https://markus.oberlehner.net/blog/) - Markus Oberlehner writes in his personal blog about Vue.js, JavaScript, CSS, Test Driven Development and Front-End Architecture in general. It has very well written articles, some longer than others, most of which showing specific edge cases or usage examples, that are common, yet not talked about.
-Adri Fontcu
-Alex Hover
-Tiagu Alves
-Ben Hong
-Alexander Lichter
-Ivan Sieder 
+[Markus Oberlehner](https://markus.oberlehner.net/blog/) - Vue.js, JavaScript, CSS, Test Driven Development and Front-End Architecture. Unique articles and interesting problem resolutions.
+[Adri Fontcu](https://medium.com/@afontcu)
+[Tiago Alves](https://medium.com/@tiagoreisalves)
+[Ben Hong](https://medium.com/@bencodezen)
+[Alexander Lichter](https://medium.com/@AlexLichter)
+[Ivan Sieder](https://simedia.tech/blog/) 
 [Dobromir Hristov](https://medium.com/@dobromir_hristov/)
