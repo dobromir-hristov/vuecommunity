@@ -6,6 +6,7 @@ module.exports = {
       description: 'The community guide to Vue.js'
     }
   },
+  ga: 'UA-29425482-12',
   // serviceWorker: true,
   themeConfig: {
     docsDir: 'docs',
@@ -37,7 +38,7 @@ module.exports = {
               '/guide/community/social-media.md',
               '/guide/community/diversity.md',
               '/guide/community/job-market.md',
-              '/guide/community/adopt-vue-at-work.md',
+              '/guide/community/adopt-vue-at-work.md'
             ]
           },
           {
@@ -53,7 +54,7 @@ module.exports = {
               '/guide/learning/learning-platforms.md',
               '/guide/learning/podcasts.md',
               '/guide/learning/tips-from-mentors.md',
-              '/guide/learning/workshops.md',
+              '/guide/learning/workshops.md'
             ]
           },
           {
@@ -73,7 +74,7 @@ module.exports = {
               '/guide/ecosystem/static-site-generators.md',
               '/guide/ecosystem/build-tools.md',
               '/guide/ecosystem/projects-worth-mentioning.md',
-              '/guide/ecosystem/legacy.md',
+              '/guide/ecosystem/legacy.md'
             ]
           }
         ]
