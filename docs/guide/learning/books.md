@@ -1,13 +1,9 @@
 # Books
+Books about Vue development can focus on a single topic, like testing or larger scope, like building a whole application. 
+
+Checkout this article to see how some of these books compare - [Top 10 Vue JS Books You Should Read](https://dev.to/heshanfu/top-10-vue-js-books-you-should-read-240c)
 
 ## Testing
-
-### Testing Vue.js components with Jest 
-**Author:** Alex Jover Morales
-
-A concise guide to testing Vue.js components using Jest and the official library vue-test-utils. The book goes over how to mock dependencies with Jest, component snapshot testing, best practices for styling and structuring tests, and more.
-
-Link: [Testing Vue.js components with Jest](https://leanpub.com/testingvuejscomponentswithjest)
 
 ### Testing Vue.js Applications 
 **Author:** Edd Yerburgh 
@@ -19,6 +15,13 @@ Author Edd Yerburgh, creator of the official Vue testing utility, explains the b
 The book makes the assumption the reader is a novice Vue developer as it spends a good part of each section explaining in detail what will be done and how.
 
 Link: [Testing Vue.js Applications](https://www.manning.com/books/testing-vue-js-applications)
+
+### Testing Vue.js components with Jest 
+**Author:** Alex Jover Morales
+
+A concise guide to testing Vue.js components using Jest and the official library vue-test-utils. The book goes over how to mock dependencies with Jest, component snapshot testing, best practices for styling and structuring tests, and more.
+
+Link: [Testing Vue.js components with Jest](https://leanpub.com/testingvuejscomponentswithjest)
 
 ## Building Applications
 

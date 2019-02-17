@@ -79,8 +79,13 @@ https://github.com/viljamis/vue-design-system
 ## Other useful tools
 
 ### Storybook
-[Storybook](https://storybook.js.org/) is a development environment for UI components. It allows developers to setup interactive examples of how a UI component can be used. Simply put, you can setup a Vue component by passing different props to it, showcasing how it can be used.
+[Storybook](https://storybook.js.org/) is a development environment for UI components. It allows developers to setup interactive examples of how a UI component can be used. Simply put, you can setup a live demo of a Vue component by passing different props to it, creating a working sandbox.
 
-This is very powerful when working in big teams with lots of custom UI components. A real rendered component with usage example can be easier to understand than just a written example.
+This is very powerful when working in big teams with lots of custom UI components. A real rendered component with usage example can be easier to understand than just a text example.
 
 The project is very mature, used by Angular, React and many other big players.
+
+#### Useful Links
+* [Official Guide](https://storybook.js.org/basics/guide-vue/)
+* [Using Storybook with VueJS](https://auth0.com/blog/using-storybook-with-vuejs/)
+* [Visual testing for Storybook for Vue.js](https://docs.percy.io/docs/storybook-for-vue)

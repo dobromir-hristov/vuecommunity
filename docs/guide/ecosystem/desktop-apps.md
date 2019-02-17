@@ -37,15 +37,7 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 
 ## NW.js
 
-[NW.js](https://nwjs.io/) (previosly known as node-webkit) is a framework for building desktop applications with HTML, CSS, and JavaScript. Similar to [Electron](#electron), it is based on Chromium and Node.js. NW.js lets you call Node.js code and modules directly from browser, along with using Web technologies in your app. Further, you can easily package a web application to a native application.
-
-### Differences from Electron
-
-Electron and NW.js share many features: they are both built on top of Chromium and Node.js and use HTML, CSS and JS for building desktop apps. They also have some notable differences:
-
-- In NW.js the main entry point of an application is a web page or a JS script. You specify this entry via `package.json` `main` property. In Electron, the entry point is a JavaScript script. Instead of providing a URL directly, you manually create a browser window and load an HTML file using the API.
-- During the build process NW.js builds the whole Chromium; Electron uses [libchromiumcontent](https://github.com/electron/libchromiumcontent) to access Chromium's Content API
-- NW.js has [built-in support](http://docs.nwjs.io/en/latest/For%20Users/Advanced/Protect%20JavaScript%20Source%20Code/) for compiling your source code to protected binaries. Electron is packaging its applications with [asar](https://github.com/electron/asar), which contains the applications' unprotected source code.
+[NW.js](https://nwjs.io/) (previously known as node-webkit) is a framework for building desktop applications with HTML, CSS, and JavaScript. Similar to [Electron](#electron), it is based on Chromium and Node.js. NW.js lets you call Node.js code and modules directly from browser, along with using Web technologies in your app. Further, you can easily package a web application to a native application.
 
 **Pros**
 
@@ -65,6 +57,14 @@ Electron and NW.js share many features: they are both built on top of Chromium a
 - [vue-desktop-basic boilerplate](https://github.com/TheJaredWilcurt/vue-desktop-basic)
 - [Building a Desktop App with Vue: NW.js](https://dev.to/vuevixens/building-a-desktop-app-with-vue-nwjs-1f9e)
 - [Reducing app distribution size in NW.js](https://dev.to/thejaredwilcurt/reducing-app-distribution-size-in-nwjs-3d5f)
+
+## Electron VS NW.js
+
+Electron and NW.js share many features: they are both built on top of Chromium and Node.js and use HTML, CSS and JS for building desktop apps. They also have some notable differences:
+
+- In NW.js the main entry point of an application is a web page or a JS script. You specify this entry via `package.json` `main` property. In Electron, the entry point is a JavaScript script. Instead of providing a URL directly, you manually create a browser window and load an HTML file using the API.
+- During the build process NW.js builds the whole Chromium; Electron uses [libchromiumcontent](https://github.com/electron/libchromiumcontent) to access Chromium's Content API
+- NW.js has [built-in support](http://docs.nwjs.io/en/latest/For%20Users/Advanced/Protect%20JavaScript%20Source%20Code/) for compiling your source code to protected binaries. Electron is packaging its applications with [asar](https://github.com/electron/asar), which contains the applications' unprotected source code.
 
 ## Vuido
 
