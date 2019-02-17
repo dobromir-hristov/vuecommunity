@@ -16,7 +16,7 @@ Vuepress is a prime example of a static file generator. Each page is a markdown 
 
 The new 1.x version will be a more generic static file generator, suitable for building blogs and more. Its new plugin based system allows for a much wider range of extensions, on top of the already available offline mode, Algolia search integration to name a few.
 
-### Useful Links
+### Useful links
 * Read more about Vuepress on the [Official Docs](https://vuepress.vuejs.org/guide/#how-it-works). 
 * Find how Vuepress compares to other documentation generators in our [Documentation Platforms](./documentation.md#vuepress) page.
 * [The VuePress Book](https://vuepressbook.com/) -  VuePress examples and demo code 
@@ -41,7 +41,9 @@ A webpack plugin that is used to generate static HTML files for each web page, d
 ## Nuxt Static Generated mode
 Most people know Nuxt for its Server-side rendering capabilities, it however also supports pre-rendering. The `nuxt generate` command will save the output of each page in your Nuxt app to an HTML file. After visiting, the page will go into SPA mode, with Vue taking over routing and page rendering.
 
-Read more about this mode on the [Nuxt docs](https://nuxtjs.org/guide#static-generated-pre-rendering-).
+### Useful links
+* [Static Sites Powered By Nuxt and AWS](https://dev.to/smitjel/static-sites-powered-by-nuxt-and-aws-2hp7)
+* [Nuxt docs](https://nuxtjs.org/guide#static-generated-pre-rendering-).
 
 ## Poi + vue-static
 Using the vue-static plugin for Poi by EGOIST, you can leverage pre-rendering for each route of your SPA at build time. You need to give it a map of your dynamic routes and it will do the rest. Keep in mind it uses vue-server-renderer, so all limitations of SSR will apply here as well (no window object so on). 

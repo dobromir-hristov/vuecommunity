@@ -7,7 +7,7 @@ If you are a tutorial or course learner, go over the [Courses](./courses.md) and
 
 If you want to find out how other people learn, the [Tips from Mentors](./tips-from-mentors.md) page gives a good insight into how Vue experts have started developing with Vue.
 
-**Useful links**
+#### Useful links
 
 * [Vue Development In 2019: What You Need To Know](https://medium.com/@anthonygore/vue-development-in-2019-what-you-need-to-know-2170942f0e54)
 
@@ -43,7 +43,8 @@ This approach works for smaller websites or those that will not implement comple
 * Larger applications tend to become harder to maintain
 * Component templates live inside the HTML markup of pages, making them harder to work with.
 
-**Useful links**
+#### Useful links
+
 * [Using vue.js in existing websites, the easy way](https://medium.com/@disjfa/using-vue-js-in-existing-websites-the-easy-way-d46cd1f0c945).
 
 ### Vue enhanced websites using a bundler
@@ -68,7 +69,8 @@ This approach works for smaller websites or those that will not implement comple
  * Requires a pre-build step on each change of the source files
  * Requires knowledge of setting up build tools
  
- **Useful links**
+#### Useful links
+
  * [Why should you use Vue.js when using Laravel](https://blog.pusher.com/why-vuejs-laravel/)
  * [Persist Vuex State with vuex-persist](https://alligator.io/vuejs/vuex-persist-state/)
  * [Passing data from Laravel to Vue - Props](https://medium.com/@m_ramsden/passing-data-from-laravel-to-vue-98b9d2a4bd23)
@@ -136,6 +138,11 @@ This whole process can be quite intimidating to setup, luckily frameworks like N
 * Expensive hosting - Hosting is generally more expensive as it requires a constantly running node server.
 
 ## Coming from other technology
+
+::: tip
+This page is still in early development. If you feel you can contribute, please dont hesitate to open a PR.
+:::
+
 When coming from another technology, it is normal to compare common methods and patterns to those used in Vue.
 
 In this section, we will go over the most popular technologies and the struggles developers have when migrating from them to Vue.

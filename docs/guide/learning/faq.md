@@ -3,6 +3,10 @@ Below is a collection of the most commonly asked questions that new Vue develope
 
 Answers may contain links to other Vue community pages, external articles and blog posts, or even links to specialized docs, where said feature is explained in detail.
 
+::: tip
+This page is still in early development. If you feel you can contribute, please dont hesitate to open a PR.
+:::
+
 ## General Vue related
 These are general Vue related questions that span from basic component usage to more specific caveats and edge cases.
 
