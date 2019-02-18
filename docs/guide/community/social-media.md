@@ -29,7 +29,7 @@ Official Vue forum is a SEO friendly alternative to the chat. It's especially he
 
 ## Newsletters
 
-Vue.js News is an official Vue.js weekly newsletter, curated by Damian Dulisz, member of the Vue.js Core Team. There's also a video version of it, prepared by Adam Jahr and Gregg Pollack from VueMastery learning platform. 
+Vue.js News is an official Vue.js weekly newsletter, curated by Damian Dulisz, member of the Vue.js Core Team. There's also an audio podcast version of it, prepared by Adam Jahr and Gregg Pollack from VueMastery learning platform.
 
 If you want your new resource covered in the upcoming edition, submit it using the form on the website. While the newsletter typically shows up on Tuesday, the podcast has to be prepared sooner, so make sure to submit your content until Sunday. If some articles, libraries or tutorials are missed in the current edition, they may still show up next week.
 
