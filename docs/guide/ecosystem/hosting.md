@@ -67,7 +67,7 @@ CloudFront is a fast content delivery network by Amazon. They boast high speed, 
 These websites can be SPAs or normal websites that have only parts of them written in Vue. They usually require a script to be run on the server to render the page, be it Node.js, PHP or other server language. Examples of such are Laravel websites, Node.js apps written in Express, Koa, Adonis or other similar framework.
 
 
-* SSR (Universal) SPA - websites are rendered on the server upon visit, then the SPA part of the website takes over routing, rendering and other functionality. These typically require a Node.js server constantly running. Checkout the [What Are Server Side Rendered Apps](../learning/how-to-learn-vue.md#ssr-spa-websites) page for more info.
+* SSR (Universal) SPA - websites are rendered on the server upon visit, then the SPA part of the website takes over routing, rendering and other functionality. These typically require a Node.js server constantly running. Check out the [What Are Server Side Rendered Apps](../learning/how-to-learn-vue.md#ssr-spa-websites) page for more info.
 * Server Rendered No-SPA - server rendered websites, that rely on the server to render and handle routing, using Vue for additional in-browser functionality. Most commonly seen are Laravel, WordPress, Rails or Django based websites. Visit the [Vue Enhanced Websites](../learning/how-to-learn-vue.md#vue-enhanced-websites) page for more info.
 
 These websites can only be run on a more traditional server hosting, where a server script is always listening and handling incoming requests.

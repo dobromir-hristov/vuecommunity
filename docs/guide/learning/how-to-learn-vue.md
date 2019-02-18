@@ -1,7 +1,7 @@
 # How to learn Vue
 As with any technology, its best to start with the official documentation, in this case the [Vue.js Guide](https://vuejs.org/v2/guide/). The guide is a magnificent, constantly updated learning resource, which does a superb job at giving a good starting point, needed to build an application with Vue. From basic reactivity concepts and caveats, to more advanced use cases, it should be the first place to learn from.
 
-Checkout the [Official Documentation](./official-documentation.md) page on this website, to learn more about the official Vue learning resources. 
+Check out the [Official Documentation](./official-documentation.md) page on this website, to learn more about the official Vue learning resources. 
 
 If you are a tutorial or course learner, go over the [Courses](./courses.md) and [Learning Platforms](./learning-platforms.md) pages, where we go over the best premium and free resources to learn from. If you prefer books, then the [Books](./books.md) page might be a better match.
 
@@ -122,7 +122,7 @@ Server-side rendered single-page applications are taking best of both worlds and
 
 Websites leverage Vue's rendering and routing, as a standard SPA. However, there is a process on the server, that renders the pages on every request, returning a fully working page with all if its content ready. After the browser receives the page, Vue kicks in and goes into SPA mode, routing and rendering the pages on the clients browser.
 
-This whole process can be quite intimidating to setup, luckily frameworks like Nuxt make it much easier. Checkout the [Server-side rendering](../ecosystem/server-side-rendering.md) page to learn about the various tools available in the Vue Ecosystem.
+This whole process can be quite intimidating to setup, luckily frameworks like Nuxt make it much easier. Check out the [Server-side rendering](../ecosystem/server-side-rendering.md) page to learn about the various tools available in the Vue Ecosystem.
 
 **Required technologies**
 * SSR tool - Knowledge of how to setup server-side rendering tool or framework

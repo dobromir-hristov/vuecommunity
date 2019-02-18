@@ -44,7 +44,7 @@ Here are the answers from the above questions:
   - It supports plugins as well as custom Vue Components, making customisation quite possible.
   - Docute websites can be hosted on static file hosting services, same as Vuepress.
   
-Checkout Docute plugins and its other features on their [documentation website](https://docute.org/).
+Check out Docute plugins and its other features on their [documentation website](https://docute.org/).
 
 ## Other website doc platforms
 Below is a list of popular documentation generators, that are not connected to Vue. 

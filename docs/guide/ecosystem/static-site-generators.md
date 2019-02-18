@@ -27,7 +27,7 @@ The new 1.x version will be a more generic static file generator, suitable for b
 ## Gridsome
 Gridsome is a Vue.js-powered, static site generator for building fast websites. It works with any Headless CMS, API or Database by using a GraphQL Data Layer. Once visited, Vue.js hydrates the page, converting it into a full blown SPA.
 
-To learn more, go checkout the [Gridsome](./gridsome.md) page.
+To learn more, go check out the [Gridsome](./gridsome.md) page.
 
 ## Prerender SPA Plugin
 A webpack plugin that is used to generate static HTML files for each web page, defined in its configuration. Opposed to the previous two solutions, this one is framework agnostic, meaning it is not limited to just Vue powered websites. 

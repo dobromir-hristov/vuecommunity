@@ -1,7 +1,7 @@
 # Books
 Books about Vue development can focus on a single topic, like testing or larger scope, like building a whole application. 
 
-Checkout this article to see how some of these books compare - [Top 10 Vue JS Books You Should Read](https://dev.to/heshanfu/top-10-vue-js-books-you-should-read-240c)
+Check out this article to see how some of these books compare - [Top 10 Vue JS Books You Should Read](https://dev.to/heshanfu/top-10-vue-js-books-you-should-read-240c)
 
 ## Testing
 
