@@ -6,10 +6,12 @@ module.exports = {
       description: 'The community guide to Vue.js'
     }
   },
-  serviceWorker: true,
+  ga: 'UA-29425482-12',
+  // serviceWorker: true,
   themeConfig: {
     docsDir: 'docs',
     repo: 'https://github.com/dobromir-hristov/vuecommunity',
+    editLinks: true,
     locales: {
       '/': {
         label: 'English',
@@ -36,7 +38,7 @@ module.exports = {
               '/guide/community/social-media.md',
               '/guide/community/diversity.md',
               '/guide/community/job-market.md',
-              '/guide/community/adopt-vue-at-work.md',
+              '/guide/community/adopt-vue-at-work.md'
             ]
           },
           {
@@ -52,28 +54,28 @@ module.exports = {
               '/guide/learning/learning-platforms.md',
               '/guide/learning/podcasts.md',
               '/guide/learning/tips-from-mentors.md',
-              '/guide/learning/workshops.md',
+              '/guide/learning/workshops.md'
             ]
           },
           {
             title: 'Ecosystem',
             collapsable: false,
             children: [
-              '/guide/ecosystem/accessibility.md',
-              '/guide/ecosystem/nuxt.md',
-              '/guide/ecosystem/boilerplates.md',
               '/guide/ecosystem/ui-libraries.md',
-              '/guide/ecosystem/mobile-apps.md',
-              '/guide/ecosystem/build-tools.md',
-              '/guide/ecosystem/desktop-apps.md',
-              '/guide/ecosystem/documentation.md',
-              '/guide/ecosystem/gridsome.md',
-              '/guide/ecosystem/hosting.md',
               '/guide/ecosystem/forms.md',
+              '/guide/ecosystem/boilerplates.md',
+              '/guide/ecosystem/client-server-communication.md',
+              '/guide/ecosystem/documentation.md',
+              '/guide/ecosystem/accessibility.md',
+              '/guide/ecosystem/hosting.md',
+              '/guide/ecosystem/mobile-apps.md',
+              '/guide/ecosystem/desktop-apps.md',
+              '/guide/ecosystem/nuxt.md',
               '/guide/ecosystem/server-side-rendering.md',
               '/guide/ecosystem/static-site-generators.md',
-              '/guide/ecosystem/client-server-communication.md',
-              '/guide/ecosystem/legacy.md',
+              '/guide/ecosystem/build-tools.md',
+              '/guide/ecosystem/projects-worth-mentioning.md',
+              '/guide/ecosystem/legacy.md'
             ]
           }
         ]

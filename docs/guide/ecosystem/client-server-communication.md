@@ -12,7 +12,8 @@ Axios is a famous library for performing async requests. It has a very nice and 
 
 You can directly import Axios from npm and use it in your components, without the need to install a dedicated plugin.
 
-**Useful Links**
+### Useful Links
+
 * [Vue.js REST API Consumption with Axios](https://alligator.io/vuejs/rest-api-axios/)
 
 ### Fetch
@@ -23,7 +24,10 @@ Fetch is a newer Promise based API that is integrated into [modern Browsers](htt
 
 You can also import a library like `isomorphic-fetch` for using fetch in Node.js environment, where it is not available.
 
-**Useful Links**
+To use it with Vue, you dont need plugins, you can just import `fetch` and start working.
+
+### Useful Links
+
 * [Let's build Type Ahead Component with VueJS 2 and Fetch API](https://scotch.io/@bedakb/lets-build-type-ahead-component-with-vuejs-2-and-fetch-api)
 * [Understanding the Fetch API](https://flaviocopes.com/fetch-api/)
 
@@ -47,7 +51,8 @@ You can also import a library like `isomorphic-fetch` for using fetch in Node.js
 
 Unlike http requests, which are one way communication from client to server, Websockets allow for a realtime two way communication. This allows for implementing notifications, dashboards, chats, realtime interactions and more.
 
-**Useful Links**
+### Useful Links
+
 * [What are WebSockets?](https://pusher.com/websockets)
 * [An Introduction to WebSockets](https://blog.teamtreehouse.com/an-introduction-to-websockets)
 
@@ -55,9 +60,10 @@ Unlike http requests, which are one way communication from client to server, Web
 
 Pusher is service which offers an abstraction over Websockets, allowing users to use a simplified API to subscribe to realtime notifications. It implements the notion of channels and events, where a single channel can have multiple event types.
 
-Pusher can be used for chats, games, location sharing and more.
+Pusher can be used for chats, games, location sharing and is most commonly used with frameworks like Laravel, when realtime communication with client is needed.
 
-**Useful Links**
+### Useful Links
+
 * [Create a realtime prototype feedback app using VueJS and Pusher](https://dev.to/neo/create-a-realtime-prototype-feedback-app-using-vuejs-and-pusher--5g92)
 * [Pusher + Vue + Laravel](https://medium.com/@danielalvidrez/laravel-pusher-lets-do-it-96bd23e76a7e)
 
@@ -69,8 +75,10 @@ Along with database, they offer authentication, static hosting, data storage and
 
 Implementing Firebase into your Vue app directly with their SDK can be a bit of a hassle as you need to keep track of allot of things, bind documents, etc. Luckily there is the official [Vuefire](https://github.com/vuejs/vuefire) package that makes it allot easier.
 
-**Useful Links**
+### Useful Links
+
 * [Building a Vue app with Firebase authentication ](https://medium.com/@anas.mammeri/vue-2-firebase-how-to-build-a-vue-app-with-firebase-authentication-system-in-15-minutes-fdce6f289c3c)
+* [Building A Real-Time Chat Application With Vue.js and Firebase](https://codingthesmartway.com/building-a-real-time-chat-application-with-vue-js-and-firebase-part-1/)
 * [Full Stack Vue.js with Firestore](https://medium.com/vue-mastery/full-stack-vue-js-with-firestore-62e2fe2ec1f3)
 * [Vue.js Firebase Integration with VueFire](https://alligator.io/vuejs/vuefire-firebase/)
 
@@ -128,7 +136,8 @@ https://github.com/tserkov/vue-sse#readme
 
 You can use MQTT to transfer small pieces of data in realtime between devices. It is most commonly used to send sensor readings from low processor devices.
 
-**Useful Links**
+### Useful Links
+
 * [Vue-Mqtt](https://github.com/nik-zp/vue-mqtt)
 * [Vue-Mqtt-Example](https://github.com/nik-zp/Vue-Mqtt-Example)
 * [Connecting Nuxt.js to MQTT](https://imantabrizian.me/posts/2017/11/nuxt-mqtt)

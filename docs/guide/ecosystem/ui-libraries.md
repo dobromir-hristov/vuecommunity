@@ -1,8 +1,8 @@
 # UI libraries
 
-"Which UI library is the best" stands among the most common questions from newcomers to Vue.js ecosystem. The answer isn't easy though, since there is no such a thing as "the best" components library for Vue, due to many factors that should be considered. What you can look for instead is a solution optimal for your specific use case.
+"Which UI library is the best" stands among the most common questions from newcomers to Vue.js ecosystem. The answer isn't easy though, since there is no such thing as "the best" components library for Vue, due to many factors that should be considered. What you can look for instead is a solution optimal for your specific use case.
 
-Most of the libraries covered in this chapter are based on either Material Design or Ant Design or provide Vue integrations for some framework agnostic UI libraries, such as Bootstrap, Bulma or Uikit.
+Most of the libraries covered in this chapter are based on either Material Design or Ant Design, or provide Vue integrations for some framework agnostic UI libraries, such as Bootstrap, Bulma or Uikit.
 
 #### Useful links
 
@@ -62,7 +62,7 @@ The difference in popularity is big, but if you're looking for a library that fo
 
 Ant Design is kind of the opposite of previously mentioned Material Design. The libraries following this specification are meant to be used primarily on desktop, so their responsive design support is scarce. 
 
-The reason? Just like Material Design was created by Google, AntD is brought by designers from Alibaba - the largest e-commerce company in China. It's specifically targetted at Chinese web market, where traditional websites aren't usually used on the phones. Such libraries often provide separate solutions for mobile applications, based on a separate And Design Mobile specification.
+The reason? Just like Material Design was created by Google, AntD is brought by designers from Alibaba - the largest e-commerce company in China. It's specifically targeted towards the Chinese web market, where traditional websites aren't usually accessed on mobile devices. Such libraries often provide separate solutions for mobile applications, based on a separate And Design Mobile specification.
 
 This also means that they are maintained mainly by Chinese developers and it may be more difficult to get help in English.
 
@@ -71,6 +71,7 @@ Other than standard websites, Ant Design is a good choice for developers writing
 #### Useful Links
 
 * [Ant Design documentation](https://ant.design/)
+* [Ant Design Vue](https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce/)
 
 ### Element UI
 
@@ -147,9 +148,16 @@ Despite its popularity, [Semantic UI](https://semantic-ui.com/) never really hit
 
 ## Other solutions
 
-### Tailwind
+### Tailwind CSS
+> A utility-first CSS framework for rapidly building custom user interfaces. 
 
-This section needs some love. We all love Tailwind, don't we?
+Tailwind is very well accepted in the Vue community as it integrates very nicely with the concept of components. Integration is as simple as installing Tailwind and creating a config and importing it in your app.
+
+#### Useful links
+
+* [Tailwind Docs](https://tailwindcss.com/docs/what-is-tailwind/)
+* [Using Tailwind with Vue.js](https://flaviocopes.com/vue-tailwind/)
+* [How to use Tailwind CSS in Vue together with CSS Modules](https://stefanzweifel.io/posts/how-to-use-tailwind-css-in-vue-together-with-css-modules)
 
 ### VueSax
 

@@ -32,6 +32,7 @@ The list of influential people is ever expanding, and Dobromir Hristov's post [L
 As the Vue community continues to grow, more and more specialized groups appear on various social platforms. Below is a collection of the most active ones that we know of.
 
 ### Discord
+A list of the most popular and active chats in the Vue ecosystem
 
   - [Nuxt](https://discord.nuxtjs.org/)
   - [Vuetify](https://community.vuetifyjs.com/)

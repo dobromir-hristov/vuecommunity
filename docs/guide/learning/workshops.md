@@ -17,4 +17,4 @@ One of the common places to find workshops is the days before and after larger t
 
 These workshops are generally paid, with good discounts if you plan to attend the main event as well. Free workshops around events are also not uncommon, as they are organised by larger organisations, to help out specific groups or search for talent.
 
-Other great way to learn about future workshops is either your local Vue.js group or on the various Vue community social websites. Checkout [Meetups](../community/meetups.md) to find a Vue community near you as well as [Social Media](../community/social-media.md) to start following and interacting your preferred community.
+Other great way to learn about future workshops is either your local Vue.js group or on the various Vue community social websites. Checkout [Meetups](../community/meetups.md) to find a Vue community near you as well as [Social Media](../community/social-media.md) to start following and interacting with your preferred community.
