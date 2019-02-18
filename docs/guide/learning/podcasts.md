@@ -9,7 +9,7 @@
 Episodes can vary, from deep dive into Vue and its ecosystem, to more broader web development topics like testing, code automation, contributing to open source and others. Episodes are mostly free form style, around an hour long.
 
 ## Fullstack radio
-[Full Stack Radio](http://www.fullstackradio.com/) is an all-around general web development podcast. Episodes are hosted by Adam Wathan along with a guest, where they tak about everything from design and user experience to testing and system administration.
+[Full Stack Radio](http://www.fullstackradio.com/) is an all-around general web development podcast. Episodes are hosted by Adam Wathan along with a guest, where they talk about everything from design and user experience to testing and system administration.
 
 ## Single episodes talking about Vue
 Below are listed some episodes from various other podcasts that talk about Vue, but have focus on other sectors of web development.
