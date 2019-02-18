@@ -19,7 +19,7 @@ Occasionally the chat's team organizes Q&A sessions with important members of Vu
 
 Official Vue forum is a SEO friendly alternative to the chat. It's especially helpful if you expect to take longer to get the answer and can afford to wait for it. The forum's team is managed by Thorsten Lünborg, but you can also find help from other Core Team members there from time to time.
 
-### Useful links
+#### Useful links
 
 * [Vue.js forum on Discourse](https://forum.vuejs.org)
 
