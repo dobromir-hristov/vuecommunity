@@ -12,15 +12,14 @@ A typical meetup can vary from just a gathering at a bar/restaurant, to more lea
 
 ### Features
 
-* It has an up-to date list of upcoming events - Conferences, Workshops, Local Meetups
-* List of local groups - the list is constantly updated with "Meetups" groups, Facebook groups, local group chats, etc.
-* Handbook for Organisers - how to run an event along with many helpful tips on the many smaller things one has to take into consideration.
-* Handbook for Speakers - how to become a speaker, tips, list of potential topics and more.
+* [Up-to date list](https://events.vuejs.org/events/) of upcoming events - Conferences, Workshops, Local Meetups
+* [List of local groups](https://events.vuejs.org/meetups/) - the list is constantly updated with "Meetups" groups, Facebook groups, local group chats, etc.
+* [Handbook for Organisers](https://events.vuejs.org/resources/#organizers-handbook) - how to run an event along with many helpful tips on the many smaller things one has to take into consideration.
+* [Handbook for Speakers](https://events.vuejs.org/resources/#speakers-handbook) - how to become a speaker, tips, list of potential topics and more.
 
 ## Spread the Word
-> Ben, maybe add this to the website directly, as it doesnt really make sense to be here?
 
-You can popularize your event by announcing it on the Official Vue Chat, Tweeting with hashtag #VueJS and #VueJSMeetups or even directly write to [VueMeetups](https://twitter.com/vuemeetups) on Twitter.
+You can popularize your event by announcing it on the Official Vue Chat, Tweeting with hashtag `#VueJS` and `#VueJSMeetups` or even directly writing to [VueMeetups](https://twitter.com/vuemeetups) on Twitter.
 
 You can also ask on Discord to be promoted to a Community Leader, so you can discuss and share experience with other meetup organizers around the world.
 
