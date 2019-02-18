@@ -2,7 +2,7 @@
 
 ## Official Chat
 
-Official Vue.js chat on Discord gathers thousands of developers from around the world. The most popular channels are #need-help where you can share your issues with code and #general if you have some questions about Vue.js itself. Other channels are dedicated to particular topics, such as #best-practices, #vuex, #jobs or #mobile-apps. 
+Official Vue.js chat on Discord gathers thousands of developers from around the world. Among the many channels, the most popular ones are #need-help where you can share your develompent related issues and #general if you have some questions about Vue.js itself. Other channels are dedicated to particular topics, such as #best-practices, #vuex, #jobs or #mobile-apps. 
 
 The chat's main language is English, but there are also rooms for conversations in other languages. Many bigger Vue.js libraries have their own Discord servers or chats on other platforms, so they don't have their own channel on VueLand. To learn about them, take a look at the [Other Platforms](./social-media.md#other-platforms) section.
 
