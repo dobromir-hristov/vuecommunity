@@ -8,7 +8,7 @@ The chat's main language is English, but there are also rooms for conversations 
 
 Remember that people you discuss with are not obligated to provide help and that they're not there all the time, so it can take a while to receive an answer. It may also vanish under other messages. If your problem is more complex and can take longer to solve, it may be wiser to share it on the forum and then link it on the chat.
 
-Occasionally the chat's team organizes Q&A sessions with important members of Vue.js community. Each such Q&A has its specific topic and two or more special guests answering the questions.
+Occasionally the chat's team organizes Q&A sessions with two or more important members of the Vue.js community. Each Q&A has a specific topic where the special guests answer questions, asked by other users. 
 
 #### Useful links
 
