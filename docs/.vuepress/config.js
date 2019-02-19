@@ -23,6 +23,12 @@ module.exports = {
             link: '/guide/'
           },
           {
+            text: 'Multilingual Resources',
+            items: [
+              { text: 'Spanish', link: '/multilingual/spanish.md' }
+            ]
+          },
+          {
             text: 'Contributing',
             link: '/contributing/'
           }
