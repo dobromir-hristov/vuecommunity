@@ -48,4 +48,8 @@ If that is not enough for you, there's also a semi-official [Vue-Enterprise-Boil
 
 ## Roadmap
 
-Other than the guides, there's also a repository with official [roadmap](https://github.com/vuejs/roadmap), presenting the plans for the upcoming releases of core libraries. Like all plans, it's bound to change sometimes, so don't treat it as obligatory.
+Other than the guides, there's also a repository with official [roadmap](https://github.com/vuejs/vue/projects/6), presenting the plans for the upcoming releases of core libraries. Like all plans, it's bound to change sometimes, so don't treat it as obligatory.
+
+## RFCs
+
+Vue core team has recently adopted RFCs (request for comments) as the main way of managing substantial changes to the core libraries of Vue ecosystem. Each RFC Pull Request is a great place for the author to properly explain their motivations, and gather feedback from users and core team. It is, then, a fantastic tool to be aware of possible new features and breaking changes, and also to understand the reasoning behind some decisions.
