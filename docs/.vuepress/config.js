@@ -46,12 +46,12 @@ module.exports = {
             collapsable: false,
             children: [
               '/guide/learning/official-documentation.md',
-              '/guide/learning/blogs-and-articles.md',
-              '/guide/learning/books.md',
-              '/guide/learning/courses.md',
-              '/guide/learning/faq.md',
               '/guide/learning/how-to-learn-vue.md',
               '/guide/learning/learning-platforms.md',
+              '/guide/learning/courses.md',
+              '/guide/learning/books.md',
+              '/guide/learning/blogs-and-articles.md',
+              '/guide/learning/faq.md',
               '/guide/learning/podcasts.md',
               '/guide/learning/tips-from-mentors.md',
               '/guide/learning/workshops.md'

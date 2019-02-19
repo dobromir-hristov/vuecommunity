@@ -10,12 +10,12 @@
 
 ## Learning
 * [Official Documentation](./learning/official-documentation.md) - All the official Vue docs, listed on one place
-* [Blogs and Articles](./learning/blogs-and-articles.md) - Lists popular Vue related blogs, articles and smaller authors.
-* [Books](./learning/books.md) - A curated list of books about Vue development.
-* [Video Courses](./learning/courses.md) - Popular Vue video courses
-* [FAQ](./learning/faq.md) - Frequently Asked Questions
 * [How to learn Vue](./learning/how-to-learn-vue.md) - Tips on how to learn Vue if coming from other technologies
 * [Learning platforms](./learning/learning-platforms.md) - Learning platforms that also offer Vue.js video courses
+* [Video Courses](./learning/courses.md) - Popular Vue video courses
+* [Books](./learning/books.md) - A curated list of books about Vue development.
+* [Blogs and Articles](./learning/blogs-and-articles.md) - Lists popular Vue related blogs, articles and smaller authors.
+* [FAQ](./learning/faq.md) - Frequently Asked Questions
 * [Podcasts](./learning/podcasts.md) - Vue podcasts or single episodes talking about Vue
 * [Tips from Mentors](./learning/tips-from-mentors.md) - How Vue experts began with Vue, tips on how to learn
 * [Workshops](./learning/workshops.md) - What are Vue workshops and where to find them
