@@ -62,10 +62,89 @@ Automatic documentation generators scan your files and output a structured forma
 Such tools can scan your files for JSDoc blocks and output either a json file or full blown websites, ready to deploy.
 
 ### Vue Styledguidist
-https://github.com/vue-styleguidist/vue-styleguidist
+
+[Vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) is a port of [react-styleguidist](https://github.com/styleguidist/react-styleguidist) for vue components.
+If you are building a Design System and want to showcase the powers of your components, this would probably be your first choice.
+
+Example: http://rafaelescala.com/vue-styleguide/ or https://vueds.com/example/
+
+It supports all the following vue features:
+
+- Single file components
+- Class style components
+- Functional component templates
+- Template and script commenting (Events, Methods, Props, Slots)
+- JSX & TSX
+- TypeScript & Flow
+- Vuex & Vue-i18n
+
+#### Documentation style
+
+styleguidist uses JSDoc:
+
+```javascript
+props: {
+    /**
+     * The color for the button example
+     */
+    colorExtends: {
+      type: String,
+      default: '#333'
+    }
+  }
+```
+
+#### Pros
+
+- Displays a live editor that will allow users to try your components
+- Meant for design system creation (engine of vue-design-system)
+
+#### Cons
+
+- Little configurability on possible output always HTML for now
+- JSDoc can be verbose if you do not like to scroll
 
 ### Vuese
 https://github.com/vuese/vuese
+
+Vuese is a more documentation oriented tool than vue-styleguidist.
+It sacrifices a bit of user experience for a lot of integrability.
+If you have to generate a doc to integrate into a bigger doc, this is brobably the tool that you want.
+
+Example: https://buptsteve.github.io/markdown-it-vuese/example/demo.html#props
+
+It supports all the following vue features:
+
+- Single file components
+- Class style components
+- Template and script commenting (Events, Methods, Props, Slots)
+- JSX & TSX
+- TypeScript & Flow
+- Vuex & Vue-i18n
+
+#### Documentation style
+
+vuese uses its own documentaion format more compact than JSDoc
+
+```javascript
+props: {
+  // The name of the form
+  name: {
+    type: String
+  }
+}
+```
+
+#### Pros
+
+- Compact documentation (less useless scrolling)
+- vuepress default output
+- configurable docute or markdown outputs
+
+#### Cons
+
+- Static code samples
+
 
 ### Vuedoc
 https://gitlab.com/vuedoc/md
@@ -75,6 +154,10 @@ https://github.com/Kocal/jsdoc-vuejs
 
 ### Vue Design System
 https://github.com/viljamis/vue-design-system
+
+Vue designs system is a combination of vue-styleguidist and [salesforce-ux/theo](https://github.com/salesforce-ux/theo) that helps teams build a starter kit for their design system. It is highly opinionated. Choose it if you are starting a new project or if you don't want to think about your own naming.
+
+Documentation is a great read, even if you are not going to use it.
 
 ## Other useful tools
 
