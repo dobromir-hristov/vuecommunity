@@ -167,57 +167,123 @@ Long answer - using `.vue` components helps with keeping everything related to t
 
 Short answer, you dont. Functional components are just plain functions, without an instance and re-render every time the parent renders.
 
-You have two types of functional components, the general kind using `functional:true` in its definition, and the template ones with `<template functional>` tag.
-
-The difference between the two is: 
-* the first kind uses render functions or JSX, thus you could import or define simple functions in the `render` method, leveraging them as data transformers, similar to computed properties. Even though not exactly computed properties, it can help you reduce template logic quite allot.
-* template based functional components use Vue's templates, thus cannot leverage imported functions as they dont have access to the component definition, except props and the context. You could pass methods and transformers via props, but that is very tedious and requires lots of boilerplate. A trick is to use `$options` to access the component's definition, thus allowing you to access any property in your component.
+Functional components generally use render functions or JSX, thus one could import or define simple functions on top of the `render` method, using them inside as data transformers, similar to computed properties. Even though not exactly computed properties, it can help you reduce template logic quite allot.
 
 #### Useful Resources
 
-* [Using methods in functional components](https://github.com/vuejs/vue-loader/issues/1291#issuecomment-393823929)
 * [What’s the deal with functional components in Vue.js?](https://itnext.io/whats-the-deal-with-functional-components-in-vue-js-513a31eb72b0)
 * [Functional Components in Vue.js](https://alligator.io/vuejs/functional-components/)
 
 ### How to define methods or computed properties inside functional template components?
 
+Template based functional components use Vue's template syntax, which means they only have access to the components props and the parent. You cannot define functions as there is no way to reach them from within the template. A trick, or a hack, is to use `$options` property to access the component's definition. It allows you to access any property in the component, essentially allowing for method definition. Check the GitHub issue below for more info.
+
+#### Useful Resources
+
+* [Using methods in functional template components](https://github.com/vuejs/vue-loader/issues/1291#issuecomment-393823929)
+
 ## Vuex
 
 ### When and why should I use global state management
 
+Vuex can be used to share reactive data across distant components. This is very useful when you need to share the logged in user across multiple components, open modals from everywhere. You could also centralize all your data fetching logic into Vuex modules, keeping everything in one place, yet have it accessible everywhere.
+
+#### Useful Resources
+
+* [Should I Store This Data in Vuex?](https://markus.oberlehner.net/blog/should-i-store-this-data-in-vuex/)
+
 ### Do I even need Vuex?
+
+This is very well related to the above question. If your data does not need to be accessed by multiple components, or if they are not spread out across multiple depth levels, you might not need Vuex. 
 
 ### Vuex vs global event bus
 
+You can look at the event bus as a way to trigger actions on components, with the benefit of passing data. This can be useful to trigger a specific method on a distant component, without the need to store any kind of data. 
+
+Vuex on the other hand isn't really great for triggering local actions on components, where it shines is actually keeping the track of state and allowing multiple endpoints to manage it. 
+
+To trigger a method on a component, you would have to save a unique value in the store, which you then watch for changes in the component, which overcomplicates things allot.
+
+With the bus, you have to be careful to unregister it before the component is destroyed. It is harder to track, as the devtools does not show fired events, it does for Vuex commits. Vue doesnt warn if you are listening to an event that doenst exist, where as with Vuex, it will warn if you try to access something that doesnt exist.
+
 ### When I use vuex should I still use events
+
+Of course you should. When you need to pass data from closely related components, its much easier to use the old fashioned events and props communication. It makes for a more readable and distinguishable component communication, plus the boilerplate in most cases is less.
 
 ### Alternative solutions for Vuex
 
+You could use the `$root` object for very small applications. You could also try the provide/inject api for tightly coupled components, which does have some caveats though. One could also try using Redux.
+
+#### Useful Resources
+
+* [Should I Store This Data in Vuex?](https://markus.oberlehner.net/blog/should-i-store-this-data-in-vuex/)
+* [Simple state management, simpler than Vuex](http://vuetips.com/simple-state-management-vue-stash)
+
 ### How to use state management libraries from other frameworks (Redux, RxJS)
+
+* [How We Use Redux & Redux-Observable with Vue (v3.0 Journal)](https://snipcart.com/blog/redux-vue)
+* [Emulate render props in Vuejs](https://medium.com/@titouan.creach_44544/emulate-render-props-in-vuejs-c14086dc8dfa)
+* [I did not like Vuex. So I wrote my own state management library](https://codeburst.io/i-did-not-like-vuex-so-i-write-my-own-state-management-library-d4bae49d7f4c)
+* [Integrating RxJS with Vue.js](https://alligator.io/vuejs/using-rxjs/)
+* [Build Async Vue.js Apps with RxJS](https://egghead.io/courses/build-async-vue-js-apps-with-rxjs)
 
 ### How can I pass parameters to getters?
 
+To pass a parameter to a getter, return a function from within the getter. The function can accept any number of parameters. Keep in mind data is not cached, so the function will run every time you call it.
+
+#### Useful Resources
+
+* [Vuex Docs - Method-Style Access](https://vuex.vuejs.org/guide/getters.html#method-style-access)
+
 ### Should I do client-server communication in components or vuex actions?
+
+There is not right answer here. If your data lives primarily in Vuex and could be fetched/triggered from many places, then you should query the server from within the actions.
+
+If the data needs some special treatment, by a specific component, then it may also be fetched and transformed from within the component itself.
 
 ### Should I move all my business logic to Vuex?
 
+You are not required to, as this will substantially increase the amount of boilerplate you need to write. This could however make components lighter and easier to refactor, with most of the heavy lifting moved to Vuex, plus more components can perform these actions. 
+
+This makes however Vuex modules bulky and harder to navigate. Namespaced modules are a must on such cases to reduce name collisions.
+
 ### How do I access the Vuex store outside of Vue components or in hooks without access to instance?
 
-### What is the point of mapGetter, mapSetter and other helpers?
+If you use the Vue CLI and ES modules, which you should, you can just import the exported Vuex instance (usually inside `src/store/index.js`) and access the whole store from there.
+
+### What is the point of mapGetter, mapState and other helpers?
+
+They are used to map getters, state to computed properties, and actions and mutations to methods. If you use namespaced Vuex modules, you can supply the namespace, reducing repetitiveness when defining or accessing store properties..
 
 ### Can adding very big objects in Vuex slow my website down?
 
+Yes it can. Very big, complexly nested objects can force Vuex to perform slower especially if there are frequent changes to the object.
+
 ### Should all my modules be namespaced or can I mix with global ones?
 
-### How can a namespaced module access properties on a global one and vice versa?
+It is a good practice to namespace all modules, once you begin using them, keeping store access and mutations consistent across modules.
+ 
+ You can however mix them, thus namespaced modules can access getters and trigger actions on modules outside of the current one's scope.
+
+### How can a namespaced module access properties on a global one and vice versa?'
+
+You can use the `rootState` and `rootGetters` parameters in getters to access global, none-namespaced data. Actions have a rooGetters also these two helpers inside its `context` parameter.
+
+[Accessing Global Assets in Namespaced Modules](https://vuex.vuejs.org/guide/modules.html#accessing-global-assets-in-namespaced-modules)
+
 
 ## UI Libraries
 
 ### What is a UI library
 
+A UI library is a collection of Vue components and utilities. Such libraries can be fully styled and ready to go, offering maximum prototyping and development speed. They can also be relatively unstlyed, allowing the developers to use them as a foundation, applying their own styling.
+
+Continue reading on the [UI Libraries](../ecosystem/ui-libraries.md) page.
+
 ### When should I use a UI Library
 
 ### Which UI library should I use
+We have a whole section titled "How to chose an optimal UI library" on this in our [UI Libraries](../ecosystem/ui-libraries.md#how-to-chose-an-optimal-ui-library) page.
 
 ### What makes a good UI library for Vue
 
@@ -227,6 +293,7 @@ The difference between the two is:
 ### Differences between the most popular UI libraries
 
 ### Mobile vs PWA vs Native
+
 
 ## Server Side Rendering
 
@@ -245,9 +312,18 @@ The difference between the two is:
 ### When and why should I use vue-cli
 
 ### Are there alternatives to Vue CLI
-Yes! You are not tied to Vue CLI, you can roll with your own build setup or you read about one of the alternates covered on our [Build Tools](../ecosystem/build-tools.md) page
+
+Yes! You are not tied to Vue CLI, you can roll with your own build setup or read about one of the alternates covered on our [Build Tools](../ecosystem/build-tools.md) page.
 
 ### Can I bundle Vue plugins with VueCLI
+
+You can! VueCLI can be put into library build mode, excluding specific modules from the build and doing optimisations.
+
+#### Useful Resources
+
+* [Vue CLI - Library taret mode](https://cli.vuejs.org/guide/build-targets.html#library)
+* [How to create, publish and use your own VueJS Component library on NPM using @vue/cli 3.0](https://medium.com/justfrontendthings/how-to-create-and-publish-your-own-vuejs-component-library-on-npm-using-vue-cli-28e60943eed3)
+* [Create & Publish Web Components With Vue CLI 3](https://medium.com/js-dojo/create-publish-web-components-with-vue-cli-3-26f9cfb6583b)
 
 ## CSS
 
