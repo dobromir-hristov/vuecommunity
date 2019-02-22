@@ -282,18 +282,28 @@ Continue reading on the [UI Libraries](../ecosystem/ui-libraries.md) page.
 
 ### When should I use a UI Library
 
+UI libraries are perfect for smaller projects or those that are in a hurry, where time does not allow for building a set of custom UI components. Such libraries offer a wide range of pre-built components and utilities, that can dramatically increase the development speed of an application.
+
+UI libraries tend to come pre-styled though, so keep this in mind when choosing. Would you need to restyle and if so, how much effort would it take? Is the library's css flexible enough to allow for the required changes? How well is the said library supported, does it have an english community?
+
 ### Which UI library should I use
 We have a whole section titled "How to chose an optimal UI library" on this in our [UI Libraries](../ecosystem/ui-libraries.md#how-to-chose-an-optimal-ui-library) page.
 
 ### What makes a good UI library for Vue
 
-### How to use UI libraries that manipulate DOM (wrappers)
-> Not sure about this one
+A good UI library must follow Vue's best practices:
+
+* define props and slots where necessary, emit the right events at the proper times. 
+* it should allow for registering only some components, rather than all of them. 
+* it should offer a well maintained, easy to search and read documentation.
+* a11y is a good to have.
 
 ### Differences between the most popular UI libraries
+Read more on the [UI Libraries](../ecosystem/ui-libraries.md) page.
 
 ### Mobile vs PWA vs Native
 
+Even though you can build mobile apps with all 3 of these technologies, each has its weaknesses and advantages. Please visit the [Mobile Apps](../ecosystem/mobile-apps.md) page, for a allot more information.
 
 ## Server Side Rendering
 
@@ -309,15 +319,19 @@ We have a whole section titled "How to chose an optimal UI library" on this in o
 
 ## Toolchain
 
-### When and why should I use vue-cli
+### When and why should I use Vue CLI
+
+Vue CLI can save you hours of configuration, before you even start a project. It comes with Webpack pre-configured for bundling Vue apps. This means developers can focus on building the app it self, rather then configuring build processes.
+
+You can use Vue CLI from the beginning, when you are just starting out with Vue, as it will not interfere with the learning process.
 
 ### Are there alternatives to Vue CLI
 
 Yes! You are not tied to Vue CLI, you can roll with your own build setup or read about one of the alternates covered on our [Build Tools](../ecosystem/build-tools.md) page.
 
-### Can I bundle Vue plugins with VueCLI
+### Can I bundle Vue plugins with Vue CLI
 
-You can! VueCLI can be put into library build mode, excluding specific modules from the build and doing optimisations.
+You can! Vue CLI can be put into library build mode, excluding specific modules from the build and doing optimisations.
 
 #### Useful Resources
 
