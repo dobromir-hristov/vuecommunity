@@ -115,7 +115,7 @@ A clever way is to create a computed property that uses all "watched" properties
 
 ### How can I call a method when a vuex getter or state updates?
 
-Using a watcher, you can watch the `$store` or use the `mapGetter` helper to watch a getter mapped to te component.
+Using a watcher, you can watch the `$store` or use the `mapGetter` helper to watch a getter mapped to the component.
 
 ### Is it a bad practice to make methods, lifecycle hooks or watchers async?
 
@@ -163,11 +163,17 @@ Long answer - using `.vue` components helps with keeping everything related to t
 
 ### What are functional components used for?
 
+Functional components do not have state, methods or instance, they are essnetialy just plain functions and re-render every time the parent renders. They are perfect for components, that consist of mostly static markup. These components are very fast to render, as they do not have a Vue instance.
+
+They are most often used to create components, that would be rendered hundreds of times on a page, or when the component does not need reactive data.
+
 ### How do I use computed properties inside functional component?
 
-Short answer, you dont. Functional components are just plain functions, without an instance and re-render every time the parent renders.
+Short answer, you dont. 
 
-Functional components generally use render functions or JSX, thus one could import or define simple functions on top of the `render` method, using them inside as data transformers, similar to computed properties. Even though not exactly computed properties, it can help you reduce template logic quite allot.
+Functional components generally use render functions or JSX, thus one could import or define simple functions on top of the `render` method, using them inside as data transformers, similar to computed properties. Even though not exactly computed properties, it can help you reduce template logic quite allot. 
+
+Check the links below for more info and examples.
 
 #### Useful Resources
 
@@ -221,6 +227,10 @@ You could use the `$root` object for very small applications. You could also try
 
 ### How to use state management libraries from other frameworks (Redux, RxJS)
 
+Vue is very flexible and can be used with any state management library. Check a few examples in the list below.
+
+#### Useful Resources
+
 * [How We Use Redux & Redux-Observable with Vue (v3.0 Journal)](https://snipcart.com/blog/redux-vue)
 * [Emulate render props in Vuejs](https://medium.com/@titouan.creach_44544/emulate-render-props-in-vuejs-c14086dc8dfa)
 * [I did not like Vuex. So I wrote my own state management library](https://codeburst.io/i-did-not-like-vuex-so-i-write-my-own-state-management-library-d4bae49d7f4c)
@@ -234,6 +244,7 @@ To pass a parameter to a getter, return a function from within the getter. The f
 #### Useful Resources
 
 * [Vuex Docs - Method-Style Access](https://vuex.vuejs.org/guide/getters.html#method-style-access)
+* [Vuex getters are great, but don’t overuse them](https://codeburst.io/vuex-getters-are-great-but-dont-overuse-them-9c946689b414)
 
 ### Should I do client-server communication in components or vuex actions?
 
@@ -250,6 +261,10 @@ This makes however Vuex modules bulky and harder to navigate. Namespaced modules
 ### How do I access the Vuex store outside of Vue components or in hooks without access to instance?
 
 If you use the Vue CLI and ES modules, which you should, you can just import the exported Vuex instance (usually inside `src/store/index.js`) and access the whole store from there.
+
+#### Useful Resources
+
+* [Accessing Vuex state when defining Vue-Router routes](https://stackoverflow.com/questions/42603909/accessing-vuex-state-when-defining-vue-router-routes)
 
 ### What is the point of mapGetter, mapState and other helpers?
 
@@ -270,7 +285,6 @@ It is a good practice to namespace all modules, once you begin using them, keepi
 You can use the `rootState` and `rootGetters` parameters in getters to access global, none-namespaced data. Actions have a rooGetters also these two helpers inside its `context` parameter.
 
 [Accessing Global Assets in Namespaced Modules](https://vuex.vuejs.org/guide/modules.html#accessing-global-assets-in-namespaced-modules)
-
 
 ## UI Libraries
 
@@ -309,13 +323,35 @@ Even though you can build mobile apps with all 3 of these technologies, each has
 
 ### Do I need server side rendering?
 
+If you are building a blog, an ecommerce website or a presentational product portfolio, SSR can used as it will help with SEO, social network preview when sharing and decreased load times.
+
+Learn more on our [Server Side Rendering](../ecosystem/server-side-rendering.md#when-and-why-to-use-ssr) page.
+
 ### What do I need for SSR to work?
+
+For SSR to work, you will need a Node.js server, serving your application. Upon request, a special tool will receive the page the user is trying to visit, render it's content, and return it to the browser.
+
+Learn more about these tools on [Server Side Rendering - Available tools](../ecosystem/server-side-rendering.md#available-options-for-vue) page.
 
 ### What are the benefits of a SSR app.
 
+Server side rendering can help tremendously with SEO and website speed. 
+
+Upon visit, pages are rendered on the server, which usually has higher processing power and faster internet connection, giving an impression of a faster page load.
+
+This will also boost SEO as the HTML will be fully rendered upon visit, helping crawlers to scan the website easier.
+
+Learn more on our [Server Side Rendering - Benefits of SSR](../ecosystem/server-side-rendering.md#benefits-of-ssr) page.
+
 ### What SSR solution should I pick?
 
+If you want something that just works with little to no configuration, go with [Nuxt](../ecosystem/server-side-rendering.md#nuxt). To have more freedom and to configure most of the things yourself, [Ream](../ecosystem/server-side-rendering.md#ream) is a good pick. If you need to have full control and setup everything yourself, then [Vue Server Renderer](../ecosystem/server-side-rendering.md#vue-server-renderer) is the one for you.
+
+You might also take a look at [Static site generators](../ecosystem/static-site-generators.md) as those might be a better pick for simpler, more static websites, like personal blogs, portfolios, product pages and so on. 
+
 ### Will SSR boost my website to top google spot
+
+SSR can definitely help with SEO, as crawlers will be able to scan the website more easily. This does not however reserve a top stop in google search results. Read about [Benefits of SSR](../ecosystem/server-side-rendering.md#benefits-of-ssr) to see what you can expect.
 
 ## Toolchain
 
@@ -341,8 +377,52 @@ You can! Vue CLI can be put into library build mode, excluding specific modules 
 
 ## CSS
 
-### How does scope styles work
 ### How to work with preprocessors
-### How to import files in `<style>` tag
-### How to implement theming in Vue
+
+Simply specify the preprocessor you need by adding a `lang="scss"` tag, with its value being the preprocessor you need. 
+
+Note: this only works in `.vue` SFC components, and we recommend using with Vue CLI.
+
+#### Useful Resources
+
+* [Using Pre-Processors](https://vue-loader.vuejs.org/guide/pre-processors.html)
+
+### How to import files in style tag
+
+If you are using a preprocessor, you can use it's import method, which for example in scss would be `@import "path/to/css/file.scss"`. If you are not using a preprocessor, you can still import files, using a PostCSS plugin.
+
+You can leverage Webpack's file resolution and aliases inside the import statement, which means you can use `~` to access `node_modules` packages `@import "~animate-css"`, or `@` alias to access the `src` folder - `@import "@/components/something"`.
+
+### How do scope styles work
+
+When the `scoped` attribute is applied to the `style` tag, CSS rules defined within it will only apply to the current component. This is done by adding randomly named data attributes to each element, that styled by the rules of that `style` tag. This is done by Vue CLI via PostCSS, behind the scenes while building the application, and does not require any further configuration from the developer.
+
+#### Useful Resources
+
+* [Scoped CSS](https://vue-loader.vuejs.org/guide/scoped-css.html)
+
+### Can I mix both scoped and global styles in one file
+
+Yes, you can mix them, just define a second style tag.
+ 
+#### Useful Resources
+
+ * [Mixing Local and Global Styles](https://vue-loader.vuejs.org/guide/scoped-css.html#mixing-local-and-global-styles)
+
+### What is the difference between scope styles and css modules
+
+Scoped styles automatically change the css rules to match the auto generated data-attributes on each element that is being styled. This is done without any extra effort from the developer.
+
+CSS Modules allow for, again, uniquely generated classes, that are accessible from within the Vue Template, via a special `$style` property. One major benefit of Modules is that you can export css variables to JavaScript.
+
+#### Useful Resources
+
+* [Vue.js - Scoped Styles vs CSS Modules](https://www.netguru.com/codestories/vue.js-scoped-styles-vs-css-modules)
+
+### How can I target children with scoped styles
+
+Using the `deep` selector. For more info, check this article - [How to Target Child Components with Scoped CSS in Vue](https://bambielli.com/til/2018-08-19-how-to-target-child-components-with-scoped-css-in-vue/#)
+
 ### How to do CSS in JS with Vue
+
+The most popular library for Vue is [vue-styled-components](https://github.com/styled-components/vue-styled-components), which is a port of the original `styled-components` library.
