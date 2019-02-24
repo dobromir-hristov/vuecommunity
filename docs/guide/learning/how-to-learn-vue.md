@@ -141,7 +141,7 @@ This whole process can be quite intimidating to setup, luckily frameworks like N
 * The renderer knows what endpoints are available, so proper status codes are returned.
 
 **Cons**
-* SSR caveats - There are certain caveats and issues with SSR that need to be addressed. [Server-side rendering page](../ecosystem/server-side-rendering.md) cover some of them.
+* SSR caveats - There are certain caveats and issues with SSR that need to be addressed. [Server-side rendering page](../ecosystem/server-side-rendering.md) covers some of them.
 * Expensive hosting - Hosting is generally more expensive as it requires a constantly running node server.
 
 ## Coming from other technology
