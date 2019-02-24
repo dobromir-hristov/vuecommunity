@@ -44,22 +44,31 @@ You can use props and pass strings, numbers or json directly into the component'
 
 * [Passing data from Laravel to Vue](https://medium.com/@m_ramsden/passing-data-from-laravel-to-vue-98b9d2a4bd23)
 
+### How do I pass data to a component?
+
+Data is most often passed down to child components via Props, and emitted up to the parents via Events.
+
+* [Components Basics - Vue Docs](https://vuejs.org/v2/guide/components.html)
+* [Vue.js Component Communication Patterns](https://alligator.io/vuejs/component-communication/)
+
+
 ### How do I pass data to distant component
 
-You have a few options. 
-* The `$root` as a global store - mostly for very simple applications. Not scalable.
+You have a few options: 
+
+* Vuex as a global store - Most robust and scalable solution. **Recommended solution.**
 * [Provide/Inject](https://vuejs.org/v2/api/#provide-inject) - advanced api, mostly used for coupled components or on plugin development.
-* Vuex as a global store - Most robust and scalable solution. **Usually recommended solution.**
+* The `$root` as a global store - mostly for very simple applications. Not scalable.
 
 #### Useful Resources
 
 * [State Management](https://vuejs.org/v2/guide/state-management.html)
-* [Provide/Inject in Vue 2.2](https://medium.com/@znck/provide-inject-in-vue-2-2-b6473a7f7816)
 * [Vuex Docs](https://vuex.vuejs.org/guide/)
+* [Provide/Inject in Vue 2.2](https://medium.com/@znck/provide-inject-in-vue-2-2-b6473a7f7816)
 
 ### How do I pass data to sibling
 
-You could leverage the parent as a relay, so emit data to it, and it binds that data down to other component, but that can be cumbersome.
+You could leverage the parent as a relay, so emit data to it. The parent binds that data down to other components, but that can be a bit cumbersome.
 
 You can also use the same techniques as described in [How do I pass data to distant component](#how-do-i-pass-data-to-distant-component).
 
@@ -84,20 +93,25 @@ In Vue 3.x, this is mostly taken care of and should not happen.
 
 ### How do I update a prop?
 
-Props are considered immutable to the component that owns them. The only way is for the parent component passing the prop, to augment it. 
+Props are considered immutable to the component that defines them. The only way to change a prop, is to notify the parent component passing the prop, to augment it. 
 
 To do that you can:
  
- * trigger an event via `$emit` and catching it on the parent. **Recommended way.**
- * Call a method passed as a prop - You could also trigger changes on the parent by calling a method passed as a prop.
+ * trigger an event from the child via `$emit` and handling it on the parent. **Recommended way.**
+ * call a method passed as a prop, that augments the bound prop value. - Typical for React, but still works.
  * dispatch a Vuex action that changes some shared state - You would most probably use the Vuex state directly, instead of passing as a prop.
- * emit an event via an event bus or similar approach - Works best for distant components. For direct parent/child use first approach.
 
 ### How can I pass parameters to a computed property
 
-In two words you cant. If you feel the need to do so, its time to extract a new, smaller component that has the said parameter as a prop or data property. 
+In two words you shouldn't need to. If you feel the need to do so, you can:
+ 
+* use a method - no caching
+* return a function from the computed property that accepts a parameter - almost same as method
+* extract a new, smaller component. That component will have the said parameter as a prop or data property on it. **Recommended**
 
-The other way is to just use a method, but that will not be cached when used in templates.
+#### Useful Resources
+
+* [Pass arguments to computed properties - Laracasts Forum](https://laracasts.com/discuss/channels/vue/pass-arguments-to-computed-properties)
 
 ### Where and how can I fetch data in component from API
 
@@ -204,11 +218,15 @@ This is very well related to the above question. If your data does not need to b
 
 ### Vuex vs global event bus
 
+:::warning
+The event Bus is considered a bad practice. It is harder to debug, harder to track where events come from, and can cause memory leaks if not handled properly.
+:::
+
 You can look at the event bus as a way to trigger actions on components, with the benefit of passing data. This can be useful to trigger a specific method on a distant component, without the need to store any kind of data. 
 
-Vuex on the other hand isn't really great for triggering local actions on components, where it shines is actually keeping the track of state and allowing multiple endpoints to manage it. 
+Vuex on the other hand isn't really great for triggering local actions on components, where it shines is actually keeping the track of state and allowing multiple endpoints to manage it and react upon it's changes. 
 
-To trigger a method on a component, you would have to save a unique value in the store, which you then watch for changes in the component, which overcomplicates things allot.
+To trigger a method on a component with Vuex, you would have to save an unique value in the store, then inside the component you then define a watcher to track for changes on that property, which overcomplicates things allot.
 
 With the bus, you have to be careful to unregister it before the component is destroyed. It is harder to track, as the devtools does not show fired events, it does for Vuex commits. Vue doesnt warn if you are listening to an event that doenst exist, where as with Vuex, it will warn if you try to access something that doesnt exist.
 
