@@ -1,6 +1,6 @@
 # Server Side Rendering
 
-Server side rendering is the process of moving the rendering process on initial visit of a SPA application from the client's browser to the server. This process is similar to what we used to do a few years ago, where we had server side languages like PHP, Java, Python render the page and return an HTML response.
+Server side rendering can be explained as moving the process of rendering pages of an SPA from the client's browser to the server. This process is similar to what we used to do a few years ago, where we had server side languages like PHP, Java, Python render the page and return an HTML response.
 
 The difference is, that once the page gets loaded by the client's browser, the JavaScript framework, Vue in our case, takes over the application's routing and rendering processes, giving the impression of a faster navigation and smoother experience.
 
