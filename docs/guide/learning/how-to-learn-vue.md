@@ -1,4 +1,5 @@
 # How to learn Vue
+
 As with any technology, its best to start with the official documentation, in this case the [Vue.js Guide](https://vuejs.org/v2/guide/). The guide is a magnificent, constantly updated learning resource, which does a superb job at giving a good starting point, needed to build an application with Vue. From basic reactivity concepts and caveats, to more advanced use cases, it should be the first place to learn from.
 
 Check out the [Official Documentation](./official-documentation.md) page on this website, to learn more about the official Vue learning resources. 
@@ -10,8 +11,10 @@ If you want to find out how other people learn, the [Tips from Mentors](./tips-f
 #### Useful links
 
 * [Vue Development In 2019: What You Need To Know](https://medium.com/@anthonygore/vue-development-in-2019-what-you-need-to-know-2170942f0e54)
+* [Useful Vue patterns, techniques, tips and tricks and curated helpful links.](https://translation-gang.github.io/vue-patterns/)
 
 ## Categorizing applications by technology
+
 When beginning to develop with Vue.js, it helps to know what kind of application you will be building. This will help you outline the kind of technologies you will need to master in order to start developing with Vue.
 
 In this section, we will go over the categories under which most websites fall under and the tech a developer needs to know to develop them with Vue. 
@@ -48,6 +51,7 @@ This approach works for smaller websites or those that will not implement comple
 * [Using vue.js in existing websites, the easy way](https://medium.com/@disjfa/using-vue-js-in-existing-websites-the-easy-way-d46cd1f0c945).
 
 ### Vue enhanced websites using a bundler
+
  As the approach above, routing and page rendering is handled on the server, while Vue components are built using `.vue` single file components (SFC), keeping the codebase in an easier to manage state. This approach also allows for splitting up different parts of the application into small reusable modules.
  
  In this case, a bundler like Webpack or Parcel is required, to process and transpile the code, extract assets and reusable chunks. If possible, using Vue CLI is heavily encouraged, as it takes care of configuring the whole bundling process. 
@@ -77,6 +81,7 @@ This approach works for smaller websites or those that will not implement comple
  * [Passing variable from Laravel to VueJS 2 component](https://www.spicydog.org/blog/passing-variable-laravel-vuejs-2-component/)
  
 ## SPA Websites
+
 Single Page Applications (SPA) handle routing and page rendering with Vue.js on the client's browser. This approach allows for page navigation without refresh, resulting in smoother and generally faster feeling websites.
 
 Because the complexity of these applications, its common to use а build process, for packaging the application, keeping components, pages and other logic in separate files, ensuring an easier to manage codebase.
@@ -98,6 +103,7 @@ If the project allows, it is strongly recommended to use the Vue CLI to build th
 * No real 404 status code - all requests are redirected with a status **200** to a single `index.html` endpoint, as the server generally does not know what endpoints exist on the app.
 
 ## Statically generated websites
+
 Statically generated websites have an automatically generated static HTML file for each web page. Such applications are usually pre-built before being uploaded to the server, using dedicated site builders like [Vuepress](http://vuepress.vuejs.org/), [Gridsome](../ecosystem/gridsome.md), [Nuxt](../ecosystem/nuxt.md) or a tool like [Prerender SPA Plugin](../ecosystem/static-site-generators.md#prerender-spa-plugin).
  
 Such websites are more suitable for cases, where the page content changes less frequently. In comparison, Server-side rendered websites are rendered on the server on each request, making them more suitable for highly dynamic websites.
@@ -118,6 +124,7 @@ You can read more on this topic in our [Static site generators](../ecosystem/sta
 * Not suitable for highly dynamic websites
 
 ## SSR SPA websites
+
 Server-side rendered single-page applications are taking best of both worlds and applying them for a both SEO optimized and super fast loading websites. 
 
 Websites leverage Vue's rendering and routing, as a standard SPA. However, there is a process on the server, that renders the pages on every request, returning a fully working page with all if its content ready. After the browser receives the page, Vue kicks in and goes into SPA mode, routing and rendering the pages on the clients browser.
