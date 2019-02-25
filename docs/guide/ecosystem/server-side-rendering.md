@@ -13,7 +13,7 @@ The difference is, that once the page gets loaded by the client's browser, the J
 
 ## Benefits of SSR
 
-Server side rendering solves a few of the most annoying problems of Single-page applications:
+Server side rendering solves a few of the most annoying problems of single-page applications:
 
 ### SEO friendly 
 
