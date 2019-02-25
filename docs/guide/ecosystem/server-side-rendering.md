@@ -23,7 +23,7 @@ With SSR, pages are returned as fully rendered HTML by the server, allowing for 
 
 ### Fast load on slower devices
 
-Applications with allot of initial rendering, may cause slower devices to struggle. This is a real problem, as the general population is not carrying cutting edge mobile devices. 
+Heavy applications that require lots of resources for the initial rendering, may cause slower or older devices to struggle. This is a real problem, as the average user doesn't have the latest cutting edge mobile device. 
 
 With SSR, the page is fully rendered on the server, eliminating that initial burden for lower end devices. When paired with some other optimisation techniques, like code splitting, pages can load marginally faster.
 
