@@ -97,10 +97,14 @@ If you need more freedom to configure your application, with little to no interf
 
 ## Vue server renderer
 
-Vue server renderer is a lower level tool that is used by most of the above mentioned frameworks to render vue apps on the server.
+Vue server renderer is a lower level tool that is used by most of the above mentioned frameworks to render Vue apps on the server.
 
-You can use it in tandem with an Express server or similar, to render pages on each visit. Just keep in mind, you will have to write allot more boilerplate by yourself
+You can use it in tandem with an Express server or similar solution, to render pages on each user visit to the app. Just keep in mind, you will have to write allot more boilerplate and configuration by yourself, compared to the already pre-made solutions.
+
+If you dont need some really custom solution, we would advise you to pick one of the pre-made tools mentioned above.
 
 #### Useful Resources
 
-* [Vue.js Server-Side Rendering Guide](https://ssr.vuejs.org/)
+* [Official Vue.js Server Side Rendering Docs](https://ssr.vuejs.org/)
+* [Basic Server Side Rendering with Vue.js and Express](https://alligator.io/vuejs/basic-ssr/)
+* [VueJs: Server Side Render with Vue-router](https://medium.com/frontend-fun/vuejs-server-side-render-with-vue-router-e73d51699873)
