@@ -95,7 +95,7 @@ Learn more about it on the [Nuxt](./nuxt.md) page.
 
 If you need more freedom to configure your application, with little to no interference from the SSR framework, Ream may be your choice.
 
-## Vue server renderer
+## Vue Server Renderer
 
 Vue server renderer is a lower level tool that is used by most of the above mentioned frameworks to render Vue apps on the server.
 
