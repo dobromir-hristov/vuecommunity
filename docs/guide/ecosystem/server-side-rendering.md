@@ -49,7 +49,7 @@ Even though SSR sounds awesome, there are some things that need to be taken in c
 
 Even though they can see the website, it does'nt meant it is working. For very dynamic websites, with allot of JavaScript logic driving the UI, this can lead to weird situations where the page is rendered, looks ready, but the app bundle is still downloading, so no JavaScript logic can be executed yet.
 
-### Time to first bite (TTFB) is slower
+### Time to first byte (TTFB) is slower
 
 Because the server has to actually do the rendering, fetch async data and so on, the time it takes for the response to hit the browser is bigger.
 
