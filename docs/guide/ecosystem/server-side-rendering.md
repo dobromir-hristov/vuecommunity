@@ -1,8 +1,8 @@
 # Server Side Rendering
 
-Server side rendering can be explained as moving the process of rendering pages of an SPA from the client's browser to the server. This process is similar to what we used to do a few years ago, where we had server side languages like PHP, Java, Python render the page and return an HTML response.
+Server side rendering can be explained as moving the process of rendering pages of an SPA from the client's browser to the server on **initial page request**. This process is similar to what we used to do a few years ago, where we had server side languages like PHP, Java, Python render the page and return an HTML response.
 
-The difference is, that once the page gets loaded by the client's browser, the JavaScript framework, Vue in our case, takes over the application's routing and rendering processes, giving the impression of a faster navigation and smoother experience.
+The difference is, that the server renders the page only on first page visit, once the page gets loaded by the client's browser, the JavaScript framework, Vue in our case, takes over the application's routing and rendering processes, giving the impression of a faster navigation and smoother experience.
 
 #### Useful Resources
 
@@ -11,7 +11,7 @@ The difference is, that once the page gets loaded by the client's browser, the J
 * [When to use Server-Side Rendering (SSR) in Vue.js projects](https://codeburst.io/when-to-use-server-side-rendering-ssr-in-vue-js-projects-697bd925d57b)
 * [What is React Server Side Rendering and should I use it?](https://dev.to/mladenstojanovic/what-is-react-server-side-rendering-and-should-i-use-it-5b7i) - For React, by the concepts are the same.
 
-## Benefits of SSR
+## Benefits of Server Side Rendering (SSR)
 
 Server side rendering solves a few of the most annoying problems of Single-page applications:
 
@@ -19,13 +19,15 @@ Server side rendering solves a few of the most annoying problems of Single-page 
 
 Most crawlers cannot scan websites that are rendered with JavaScript, resulting search engines registering empty pages without content. This directly leads to bad search engine ranking. 
 
+**Note:** Google can actually parse and crawl JavaScript rendered websites, but this still does not guarantee good ranking. They also use an older version of Chrome to render the pages, which can lead to errors if code is not transpiled to support older browsers. 
+
 With SSR, pages are returned as fully rendered HTML by the server, allowing for crawlers to scan at will.
 
 ### Fast load on slower devices
 
 Applications with allot of initial rendering, may cause slower devices to struggle. This is a real problem, as the general population is not carrying cutting edge mobile devices. 
 
-With SSR, the page is fully rendered on the server, eliminating that initial burden for lower end devices. When paired with some other optimisation techniques, like code splitting, pages can load marginally faster.
+With SSR, the page is fully rendered on the server, eliminating that initial burden for lower end devices. When paired with some other optimisation techniques, like code splitting, pages can load much faster.
 
 ### Social Presence
 
@@ -33,23 +35,19 @@ When sharing your website on various social media, they will show a small previe
 
 With SSR, pages are displayed with nice previews, as both the page content it self and meta tag data is present, allowing for social media crawlers to extract what they need.
 
-### Faster initial interaction
+### Time To First Paint (TTFP)
 
-Even though the browser still needs to download and run the whole JavaScript bundle, because the page is already rendered, the user can actually start browsing at that point. This can directly result in a lower drop-off ratio, as users hate waiting.
-
-### Removes white page flicker
-
-This is not as big of a deal, but because the page does not need to be rendered on the client, there will not be a white flicker while the page is being being rendered. This can however be easily mitigated with a loading screen or something similar. 
+Pages will be rendered faster when using SSR, as the browser does not need to download the whole JavaScript bundle to start rendering. This does not however mean a fully functioning website. Read [Problems with SSR - Time to interaction](#time-to-interaction) for more info.
 
 ## Problems with SSR
 
-Even though SSR sounds awesome, there are some things that need to be taken in consideration.
+SSR sounds awesome, there are however some things that need to be taken in consideration.
 
 ### Time to interaction
 
-Even though they can see the website, it does'nt meant it is working. For very dynamic websites, with allot of JavaScript logic driving the UI, this can lead to weird situations where the page is rendered, looks ready, but the app bundle is still downloading, so no JavaScript logic can be executed yet.
+Even though users can see the website, it doesn't meant it is fully working. For very dynamic websites, with allot of JavaScript logic driving the UI, this can lead to weird situations where the page is rendered, looks ready, but the app bundle is still downloading, so no JavaScript logic can be executed yet.
 
-### Time to first bite (TTFB) is slower
+### Time to first byte (TTFB) is slower
 
 Because the server has to actually do the rendering, fetch async data and so on, the time it takes for the response to hit the browser is bigger.
 
@@ -61,17 +59,27 @@ Check the [Hosting page](./hosting.md#server-rendered-websites) for more info.
 
 ### Server Load
 
-This is directly related to the above. Server load is higher while pages are being rendered, sometimes blocking other operations until the process is done.
+This is directly related to the above. Server load is higher on initial request, while pages are being rendered, sometimes blocking other operations until the process is done.
 
-### Window not available
+### Platform specific APIs are not available
 
-Because the app is rendered in server environment, there is no `window` object. This means libraries like sliders and carousels may not work, and will throw errors during render. 
+Because the app is rendered in server environment, there are specific APIs that are not available, like the `window` object. This means libraries like sliders and carousels may not work, and will throw errors during render. 
 
-To overcome this, try not to touch the `window` object, in places, that are called during serve rendering. With sliders and carousels, you could delay their rendering to after the client receives the page, so it gets rendered on the browser.
+To overcome this, developers should not interact with those APIs, in places, that are being called during server rendering. Their usage should be moved to lifecycle hooks like `mounted`, where the browser environment is present.
+ 
+ With sliders and carousels, you could delay their rendering to after the client receives the page, so it gets rendered on the browser.
+ 
+ #### Useful Resources
+ 
+* [The guide to write universal, SSR-ready Vue components](https://blog.lichter.io/posts/the-guide-to-write-universal-ssr-ready-vue-compon/#window%2C-document%2C-and-friends---platform-specific-apis)
 
 ### Complex to transform deployed SPA to SSR
 
-Because of the above, already deployed websites are harder to transform to SSR, as there might be allot of plugins or UI components, that rely on the `window` object.
+Because of the above, already deployed websites are harder to transform to SSR, as there might be allot of plugins or UI components, that rely on the Platform Specific APIs, explained above.
+
+This is an issue mostly related with library and plugin authors not providing SSR compliant versions of their software.
+
+There are ways around this, like using the `no-ssr` component helpers, which delay rendering of components to the browser. This means that the component tag will be returned in the initial html response and not its rendered template. This might be problematic for components with SEO heavy content.
 
 ## Available options for Vue
 
