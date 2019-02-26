@@ -83,7 +83,7 @@ Thankfully, there are a few options already for Vue when it comes to server-side
 
 ## Nuxt
 
-[Nuxt](https://nuxtjs.org/) is a framework on top of Vue for creating universal applications. It offers a fully setup SSR environment, with an extendable API.
+[Nuxt](https://nuxtjs.org/) is a framework on top of Vue for creating universal applications. It offers a full SSR environment, with an extendable API, out of the box.
 
 If you are searching for a well tested solution, with a large community and nice development experience, Nuxt is most probably what you should pick.
 
