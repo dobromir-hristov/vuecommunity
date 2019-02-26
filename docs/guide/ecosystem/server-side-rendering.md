@@ -13,7 +13,7 @@ The difference is, that the server renders the page only on first page visit, on
 
 ## Benefits of Server Side Rendering (SSR)
 
-Server side rendering solves a few of the most annoying problems of Single-page applications:
+Server side rendering solves a few of the most annoying problems of single-page applications:
 
 ### SEO friendly 
 
@@ -25,7 +25,7 @@ With SSR, pages are returned as fully rendered HTML by the server, allowing for 
 
 ### Fast load on slower devices
 
-Applications with allot of initial rendering, may cause slower devices to struggle. This is a real problem, as the general population is not carrying cutting edge mobile devices. 
+Heavy applications that require lots of resources for the initial rendering, may cause slower or older devices to struggle. This is a real problem, as the average user doesn't have the latest cutting edge mobile device. 
 
 With SSR, the page is fully rendered on the server, eliminating that initial burden for lower end devices. When paired with some other optimisation techniques, like code splitting, pages can load much faster.
 
@@ -91,7 +91,7 @@ Thankfully, there are a few options already for Vue when it comes to server-side
 
 ## Nuxt
 
-[Nuxt](https://nuxtjs.org/) is a framework on top of Vue for creating universal applications. It offers a fully setup SSR environment, with an extendable API.
+[Nuxt](https://nuxtjs.org/) is a framework on top of Vue for creating universal applications. It offers a full SSR environment, with an extendable API, out of the box.
 
 If you are searching for a well tested solution, with a large community and nice development experience, Nuxt is most probably what you should pick.
 
@@ -103,7 +103,7 @@ Learn more about it on the [Nuxt](./nuxt.md) page.
 
 If you need more freedom to configure your application, with little to no interference from the SSR framework, Ream may be your choice.
 
-## Vue server renderer
+## Vue Server Renderer
 
 Vue server renderer is a lower level tool that is used by most of the above mentioned frameworks to render Vue apps on the server.
 
