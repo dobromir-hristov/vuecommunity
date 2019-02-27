@@ -29,6 +29,12 @@ Gridsome is a Vue.js-powered, static site generator for building fast websites. 
 
 To learn more, go check out the [Gridsome](./gridsome.md) page.
 
+### Useful links
+* [Gridsome documentation](https://gridsome.org/)
+* [Gridsome repository](https://github.com/gridsome/gridsome)
+* [Gridsome chat on Discord](https://discord.gg/daeay6n)
+* [Tutorial: Getting Started with Gridsome](https://scotch.io/tutorials/getting-started-with-gridsome)
+
 ## Prerender SPA Plugin
 A webpack plugin that is used to generate static HTML files for each web page, defined in its configuration. Opposed to the previous two solutions, this one is framework agnostic, meaning it is not limited to just Vue powered websites. 
 
