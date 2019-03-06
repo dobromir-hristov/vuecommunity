@@ -135,11 +135,13 @@ props: {
 
 - Displays a live editor to try components
 - Meant for design system creation (powers vue-design-system)
+- A strong React community
 
 #### Cons
 
 - Little configurability on output (HTML only)
 - JSDoc can be verbose
+- Scaffolding built in React
 
 ### Vuese
 
