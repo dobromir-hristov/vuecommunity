@@ -1,6 +1,6 @@
 # Documentation platforms
 
-Documentation is a very important part of any software, especially if it is going to be used by more than one developer. 
+Documentation is a very important part of any software, especially if it is going to be used by more than one developer.
 
 There are a few ways to document software, one is directly inside the code via comments and type declarations, while the other is using external documentation sources, from files (usually .md) inside project to full blown websites.
 
@@ -8,11 +8,11 @@ There are a few ways to document software, one is directly inside the code via c
 
 ## Documentation websites
 
-When choosing a platform to write your docs on, think about your priorities and preferences. 
+When choosing a platform to write your docs on, think about your priorities and preferences.
 
-- Do you want to write in markdown files or do you prefer to write html webpages? 
+- Do you want to write in markdown files or do you prefer to write html webpages?
 - Do you want a custom designed website or a generic one will do just fine?
-- Is SEO important to you? 
+- Is SEO important to you?
 - Do you mind a pre-build step or do you want everything to run as is?
 - Do you need custom features, specific for your documentation purposes?
 - Where do you plan to host your documentation? Can you use static site hosting or do you need a server?
@@ -55,28 +55,40 @@ Check out Docute plugins and its other features on their [documentation website]
 
 ## Other website doc platforms
 
-Below is a list of popular documentation generators, that are not connected to Vue. 
+Below is a list of popular documentation generators, that are not connected to Vue.
 
 - [Docsify](https://docsify.js.org/#/) - native javascript alternative to Docute, with a bit more features, plugins and themes.
 - [Jekyll](https://jekyllrb.com/)
 - [Hexo](https://hexo.io/)
-- [GitBook](https://www.gitbook.com/)  
+- [GitBook](https://www.gitbook.com/)
 - [Docusaurus](https://github.com/facebook/docusaurus)
 - [Docz](https://www.docz.site/)
 
 ## Component workbenches
 
-Automatic documentation generators scan your files and output a structured format, that is easy to either use directly or be passed to another tool.
-
-Such tools can scan your files for JSDoc blocks and output either a json file or full blown websites, ready to deploy.
-
-### Storybook
-
-[Storybook](https://storybook.js.org/) is a development environment for UI components. It allows developers to setup interactive examples of how a UI component can be used. Simply put, you can setup a live demo of a Vue component by passing different props to it, creating a working sandbox.
+A workbench is a development environment for UI components. It allows developers to setup interactive examples of how a UI component can be used. Simply put, you can setup a live demo of a Vue component by passing different props to it, creating a working sandbox.
 
 This is very powerful when working in big teams with lots of custom UI components. A real rendered component with usage example can be easier to understand than just a text example.
 
-The project is very mature, used by Angular, React and many other big players.
+### Storybook
+
+The most used and mature is [storybook](https://storybook.js.org/).
+
+The demos and documentation are writen in JavaScript directly and the plugin ecosystem is very powerful.
+
+Used by Angular, React and many other big players.
+
+#### Pros
+
+- Big and welcoming community
+- Supports every feature no exception
+- Tons of plugins from visual testing, to integration with sketch symbols
+
+#### Cons
+
+- Bare bones without plugins (no prop detection, no code samples, no styling)
+- Input and output format not meant for long descriptions
+- Hard to make website beautiful
 
 #### Useful Links
 
@@ -89,7 +101,7 @@ The project is very mature, used by Angular, React and many other big players.
 [Vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) is a port of [react-styleguidist](https://github.com/styleguidist/react-styleguidist) for vue components.
 If you are building a Design System and want to showcase the powers of your components, this would probably be your first choice.
 
-Example: http://rafaelescala.com/vue-styleguide/ or https://vueds.com/example/
+Example: [vue-styleguide](http://rafaelescala.com/vue-styleguide/) or [vue-design-system](https://vueds.com/example/)
 
 It supports all the following vue features:
 
@@ -164,20 +176,13 @@ props: {
 #### Pros
 
 - Compact documentation
-- vuepress default output
-- configurable docute or markdown outputs
+- Vuepress default output
+- Configurable docute or markdown outputs
+- Entirely made with VueJs
 
 #### Cons
 
 - Static code samples
-
-### Vuedoc
-
-https://gitlab.com/vuedoc/md
-
-### JSDoc Vuejs
-
-https://github.com/Kocal/jsdoc-vuejs
 
 ### Vue Design System
 
@@ -186,3 +191,17 @@ https://github.com/viljamis/vue-design-system
 Vue designs system is a combination of vue-styleguidist and [salesforce-ux/theo](https://github.com/salesforce-ux/theo) that helps teams build a starter kit for their design system. It is highly opinionated. Choose it if you are starting a new project or if you don't want to think about your own naming.
 
 vueds documentation is a great read, even if you are not going to use it.
+
+## Documentation Generators
+
+Automatic documentation generators scan your files and output a structured format, that is easy to either use directly or be passed to another tool.
+
+Such tools can scan your files for JSDoc blocks and output either a json file or full blown websites, ready to deploy.
+
+### Vuedoc
+
+https://gitlab.com/vuedoc/md
+
+### JSDoc Vuejs
+
+https://github.com/Kocal/jsdoc-vuejs
