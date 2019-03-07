@@ -30,7 +30,6 @@ The videos explain in detail real world examples, reusable patterns, no generic 
 The instructor and author of the platform, Jeffrey Way, is a pro when it comes to teaching. He has years of experience behind his back, and the quality of the videos is very good.
 
 ### Scotch.io
-<<<<<<< HEAD
 [Skotch.io](http://scotch.io/) is an online learning platform specifically for web development that covers both videos and writing format.
 
 Their articles as well as the two video courses they have for Vue goes in depth
@@ -76,28 +75,3 @@ The videos are top quality and are taught progrressib=vely so you don't have to 
 
 The instructors are leading experts that have years of experience behind them and work for the biggest tech companies.
 
-=======
-[Skotch.io](http://scotch.io/) 
-
-    A few words about the platform.
-    
-    A sentence or two about their Vue articles and who the platform is good for. 
-    
-    Finishing sentence about instructors, quality of videos, so on.
-
-
-### Frontend Masters
-[Frontend Masters](https://frontendmasters.com/)
-
-### Egghead.io
-[Egghead.io](https://egghead.io/)
-
-### Codecourse
-[Codecourse](https://codecourse.com)
-
-### Tutsplus
-[Tutsplus](https://code.tutsplus.com/)
-
-### Pluralsight
-[Pluralsight](https://www.pluralsight.com/paths/vue)
->>>>>>> f2e15d4caaa17557a1755ed84e22a10afc70bb5a
