@@ -112,6 +112,7 @@ Since designers usually don't like to wreck JavaScript, storybook is the best ch
 - [@storybook/addon-knobs](https://github.com/storybooks/storybook) add controls to change usage of your component
 - [@storybook/addon-storysource](https://github.com/storybooks/storybook) shows the source code of the template used for the story
 - [storybook-addon-vue-info](https://github.com/pocka/storybook-addon-vue-info) detects props info
+- [storybook-vue-router](https://github.com/gvaldambrini/storybook-router) add routes to your stories
 
 ### Vue Styleguidist
 
