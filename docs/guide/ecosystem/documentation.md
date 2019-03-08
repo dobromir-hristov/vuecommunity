@@ -72,23 +72,33 @@ This is very powerful when working in big teams with lots of custom UI component
 
 ### Storybook
 
-The most used and mature is [storybook](https://storybook.js.org/).
+The most popular workbench is [storybook](https://storybook.js.org/).
 
-The demos and documentation are writen in JavaScript directly and the plugin ecosystem is very powerful.
+In storybook, demo components (stories) are written in JavaScript or TypeScript. It makes for easy adoption by front-end developers.
 
-Used by Angular, React and many other big players.
+Each component you write story for will have its own page on the final built website. You can then publish this website as a documentation for your components, internally or publicly.
+
+Using HMR, development of new components in isolation is a breeze.
+
+There are lots of plugins available ranging from accessibility to site layout.
+
+Used by Angular, React and many other big players, it is the safest option.
+
+Since designers usually don't like to wreck JavaScript, storybook is the best choice for developers to have authority on how components are showcased, without intervention from designers.
 
 #### Pros
 
 - Big and welcoming community
 - Supports every feature no exception
 - Tons of plugins from visual testing, to integration with sketch symbols
+- Easy adoption by developers (Examples written in JavaScript)
 
 #### Cons
 
 - Bare bones without plugins (no prop detection, no code samples, no styling)
 - Input and output format not meant for long descriptions
-- Hard to make website beautiful
+- Templates are plain text so no syntax highlighting
+- Hard learning curve for designers
 
 #### Useful Links
 
