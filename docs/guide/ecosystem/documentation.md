@@ -106,6 +106,13 @@ Since designers usually don't like to wreck JavaScript, storybook is the best ch
 - [Using Storybook with VueJS](https://auth0.com/blog/using-storybook-with-vuejs/)
 - [Visual testing for Storybook for Vue.js](https://docs.percy.io/docs/storybook-for-vue)
 
+#### Essential Plugins
+
+- [@storybook/addon-a11y](https://github.com/storybooks/storybook/tree/next/addons/a11y) checks accessibility properties
+- [@storybook/addon-knobs](https://github.com/storybooks/storybook) add controls to change usage of your component
+- [@storybook/addon-storysource](https://github.com/storybooks/storybook) shows the source code of the template used for the story
+- [storybook-addon-vue-info](https://github.com/pocka/storybook-addon-vue-info) detects props info
+
 ### Vue Styleguidist
 
 [Vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) is a port of [react-styleguidist](https://github.com/styleguidist/react-styleguidist) for vue components.
