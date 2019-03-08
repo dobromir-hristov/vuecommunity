@@ -90,7 +90,7 @@ Since designers usually don't like to wreck JavaScript, storybook is the best ch
 
 - Big and welcoming community
 - Supports every feature no exception
-- Tons of plugins from visual testing, to integration with sketch symbols
+- Lots of [plugins](#essential-plugins) from visual testing, to integration with sketch symbols
 - Easy adoption by developers (Examples written in JavaScript)
 
 #### Cons
