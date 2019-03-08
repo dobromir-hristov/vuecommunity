@@ -82,7 +82,7 @@ Using HMR, development of new components in isolation is a breeze.
 
 There are lots of plugins available ranging from accessibility to site layout.
 
-Used by Angular, React and many other big players, it is the safest option.
+Used by Angular, React and many other big players, it is probably the safest option.
 
 Since designers usually don't like to wreck JavaScript, storybook is the best choice for developers to have authority on how components are showcased, without intervention from designers.
 
