@@ -71,3 +71,11 @@ Out of the box, the offered admin panel is a Vue SPA, and the front-end is a sta
 SSR application starter boilerplate based on Vue.js, Koa 2.x, Element-UI and Nuxt.js. Comes with front-end testing preconfigured using Ava, preconfigured Nuxt rendering with Koa, configured Vuex store and more.
 
 [Github Link](https://github.com/clarkdo/hare)
+
+## vue-hackernews-2.0
+
+> HackerNews clone built with Vue 2.0 + vue-router + vuex, with server-side rendering.
+
+Not a boilerplate, but a very well structured application, showing how to approach things like SSR, PWA, SFC, Animations and more in larger Vue based applications.
+
+[Github Link](https://github.com/vuejs/vue-hackernews-2.0)
