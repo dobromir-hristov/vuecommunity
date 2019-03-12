@@ -32,46 +32,40 @@ The instructor and author of the platform, Jeffrey Way, is a pro when it comes t
 ### Scotch.io
 [Skotch.io](http://scotch.io/) is an online learning platform specifically for web development that covers both videos and writing format.
 
-Their articles as well as the two video courses they have for Vue goes in depth
+They have both articles and two video courses for Vue that are more in depth. In the videos, you will learn how to [build an online shop](https://scotch.io/courses/build-an-online-shop-with-vue) and a [Twitter clone](https://scotch.io/courses/build-a-twitter-clone-with-adonis-and-vue)
 
 The instructors are knowledgeable and have years of experience behind them.
 
 ### Frontend Masters
-[Frontend Masters](https://frontendmasters.com/) is an online video  learning platform about JavaScript and front-end development skills such as React, Node.js, Vue, Functional JavaScript, CSS Grid, Flexbox and more!
+[Frontend Masters](https://frontendmasters.com/) is an online video learning platform for JavaScript and front-end development, covering topics such as React, Node.js, Vue, Functional JavaScript, CSS Grid, Flexbox and more!
 
-Their videos are top notched and goes in-depth in the subject topic.
+The videos have top notch quality and go in-depth for the specific topic. If you are just starting out, there is a great [Introduction to Vue.js](https://frontendmasters.com/courses/vue/) that will bring you up to speed in no time.
 
-Their instructors are industry leaders and even the creator of Vue has a course also. Definitely worth checking out!
+Their instructors are industry leaders, with the creator of Vue himself, Evan You, leading a [course](https://frontendmasters.com/courses/advanced-vue/) there. Definitely worth checking out!
 
 ### Egghead.io
-[Egghead.io](https://egghead.io/) is a group of working web development professionals and open source contributors that provide you with concise, information dense video courses on the best tools in the industry.
+[Egghead.io](https://egghead.io/) offers high quality content by a group of working web development professionals and open source contributors. They provide concise and dense video courses on some of the best tools in the industry.
 
-Their videos are straight to the point and deliver knowledge that you can use today. You won't find boring 8 hour courses on egghead, instead you'll find a wealth of bite-sized courses that pack more information in a fraction of the time.
+Their videos are straight to the point and deliver knowledge that you can use today. If you don't have time for long hours of tutorials, Egghead offers a wealth of bite-sized courses that pack more information in a fraction of the time.
 
-Egghead instructors are industry veterans with years of practical,
-from-the-trenches experience building real software at all scales.
+Egghead instructors are industry veterans with years of practical, from-the-trenches experience building real software at all scales.
 
 ### Codecourse
 [Codecourse](https://codecourse.com) is a learning platform whose mission is to help you to learn to code with relaxed, easy to follow tutorials.
 
-Their videos are great and focuses on practical projects to get you ahead. Rather than just teach theory, they are focused on real code to inspire your next project. For Laravel Developers that want to learn Vue, this is a great place to start!
-
-The instructor is great and definitely understands the topics really well.
-
-
-
+Their videos are great and focus on practical projects to get you ahead. Rather than just teach theory, they are focused on real code to inspire your next project. For Laravel Developers that want to learn Vue, this is a great place to start! 
 
 ### Tutsplus
-[Tutsplus](https://code.tutsplus.com/) helps you learn creative skills and shape the life you want. Their mission is helping people learn and earn online. 
+[Tutsplus](https://code.tutsplus.com/) platform is a Self-Directed Learning approach which offers tutorials both in video and written format. 
 
-Their platform is a Self-Directed Learning approach. Learn at your own pace, whenever or wherever you like. Focus deeply on one topic, or go broad across a wide range of areas.
+They have a [Getting Started With Vue](https://code.tutsplus.com/courses/get-started-with-vue?_ga=2.249695878.1001344378.1552350393-1424732692.1551971444) course if you are new as well as a collection of great articles if you are looking for somthing specific.
 
 The instructors are experienced and well-versed in the topics they teach.
 
 ### Pluralsight
 [Pluralsight](https://www.pluralsight.com/paths/vue) is a technology learning platform whose mission is to publish high quality, relevant, and timely online training courses for serious developers, IT and creative pros. 
 
-The videos are top quality and are taught progrressib=vely so you don't have to bother if you are learning the wrong way.
+The videos are top quality and are taught progressively from beginner to advanced level, so you don't have to bother if you are learning the wrong way.
 
-The instructors are leading experts that have years of experience behind them and work for the biggest tech companies.
+The instructors are leading experts that have years of experience behind them and work for some of the biggest tech companies.
 
