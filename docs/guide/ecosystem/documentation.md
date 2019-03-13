@@ -68,37 +68,51 @@ Below is a list of popular documentation generators, that are not connected to V
 
 A workbench is a development environment for UI components. It allows developers to setup interactive examples of how a UI component can be used. Simply put, you can setup a live demo of a Vue component by passing different props to it, creating a working sandbox.
 
-This is very powerful when working in big teams with lots of custom UI components. A real rendered component with usage example can be easier to understand than just a text example.
+This is very powerful when working in big teams with lots of custom UI components. They allow other developers to discover how components work by tweaking them. Even better, these showcase can be bundled in a static website to deploy internally of for others to see.
 
-### Storybook
+### Storybook 🌟
 
-The most popular workbench is [storybook](https://storybook.js.org/).
+The most popular workbench is [storybook](https://storybook.js.org/docs/guides/guide-vue/).
 
-In storybook, demo components (stories) are written in JavaScript or TypeScript. It makes for easy adoption by front-end developers.
+In storybook, demo components (stories) are written in JavaScript or TypeScript. There can be mutiple stories for each component but each story will have its own page.
 
-Each component you write story for will have its own page on the final built website. You can then publish this website as a documentation for your components, internally or publicly.
+VueJs is storybooks second language, even before Angular. It has no problem handling Vue. Stories are simply `JavaScript` managed through a `Webpack Dev Server`. Any webpack loader or webpack plugin you are used to works.
 
-Using HMR, development of new components in isolation is a breeze.
+#### Documentation Style
 
-There are lots of plugins available ranging from accessibility to site layout.
+Storybook uses separate javascript files
 
-Used by Angular, React and many other big players, it is probably the safest option.
+```javascript
+// my-button.story.js
+import Vue from 'vue';
+import { storiesOf } from '@storybook/vue';
+import MyButton from './Button.vue';
 
-Since designers usually don't like to wreck JavaScript, storybook is the best choice for developers to have authority on how components are showcased, without intervention from designers.
+storiesOf('Button', module)
+  .add('with text', () => '<my-button>with text</my-button>')
+  .add('with emoji', () => '<my-button>😀 😎 👍 💯</my-button>')
+  .add('as a component', () => ({
+    components: { MyButton },
+    template: '<my-button :rounded="true">rounded</my-button>'
+  }));
+```
 
 #### Pros
 
-- Big and welcoming community
-- Supports every feature no exception
-- Lots of [plugins](#essential-plugins) from visual testing, to integration with sketch symbols
-- Easy adoption by developers (Examples written in JavaScript)
+- The community is 
+- Lots of [plugins](#essential-plugins)
+  - Visual testing
+  - Sketch symbol exports
+  - Accessibility checks
+- Easy adoption by developers (Examples written in JavaScript/TypeScript)
 
 #### Cons
 
-- Bare bones without plugins (no prop detection, no code samples, no styling)
+- Bare bones, without plugins out of the box (no prop detection, no code samples, no styling)
 - Input and output format not meant for long descriptions
-- Templates are plain text so no syntax highlighting
-- Hard learning curve for designers
+- Stories are written in string litterals, so there is no syntax highlighting.
+- Only one component can be displayed per page
+- Need to write a separate `webpack.config.js`
 
 #### Useful Links
 
@@ -113,6 +127,10 @@ Since designers usually don't like to wreck JavaScript, storybook is the best ch
 - [@storybook/addon-storysource](https://github.com/storybooks/storybook) shows the source code of the template used for the story
 - [storybook-addon-vue-info](https://github.com/pocka/storybook-addon-vue-info) detects props info
 - [storybook-vue-router](https://github.com/gvaldambrini/storybook-router) add routes to your stories
+
+---
+
+- Honorable mention [vue-storybook](https://github.com/mattrothenberg/vue-storybook). Working with single file components, write stories in custom `<story>` blocks!
 
 ### Vue Styleguidist
 
@@ -161,6 +179,11 @@ props: {
 - JSDoc can be verbose
 - Scaffolding built in React
 
+#### Useful Links
+
+- [Documentation](https://vue-styleguidist.github.io/)
+- [Discord Channel](https://discordapp.com/channels/325477692906536972/538786416092512278)
+
 ### Vuese
 
 https://github.com/vuese/vuese
@@ -202,7 +225,7 @@ props: {
 
 #### Cons
 
-- Static code samples
+- Static code samples 
 
 ### Vue Design System
 
