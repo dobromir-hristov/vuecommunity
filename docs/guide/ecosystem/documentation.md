@@ -139,7 +139,16 @@ You are building a Design System. You want a site to showcase your components, t
 
 Styleguidist uses standard JSDoc comments to extract useful meta data from components.
 
-```javascript
+```html
+<template>
+  <form :name="name">
+    {{name}}
+    <input type="text">
+    <button @click="clear">clear</button>
+  </form>
+</template>
+
+<script>
 /**
   * This is a description of the component
   */
@@ -169,35 +178,17 @@ export default {
     }
   }
 }
-```
-
-Documentation can then be enriched using markdown
-
-```vue
-<template>
-  <form :name="name">
-    {{name}}
-    <input type="text">
-    <button @click="clear">clear</button>
-  </form>
-</template>
-<script>
-export default {
-  name: 'Form',
-  props: {
-    name: String
-  }
-}
 </script>
+
 <docs>
 Here you can use markdown to show uses of the above component.
 
 ## The form component can be set with a nane
 
-Here could be a good place to give reason for using this or that prop and illustrate with code samples. The code samples are going to be rendered automatically with the current comment.
+Here give a reason for using the component. The code samples are going to be rendered automatically with the current comment.
 
 '''vue
-<Form name='My nice form'>
+<MyComponent name='My nice form'>
 '''
 </docs>
 ```
@@ -206,7 +197,7 @@ Here could be a good place to give reason for using this or that prop and illust
 
 - Detects all props, events, methods and slots without human intervention
 - Documentation is done inside the components using standard JSDoc
-- Markdown documentation can live inside a custom docs block of SFC
+- Markdown documentation can live inside custom <docs> block of a Single File Component
 - Displays a live editor to try components even on the static website
 - Meant for design system creation and showcase (powers vue-design-system)
 - Highly customizable HTML output template
