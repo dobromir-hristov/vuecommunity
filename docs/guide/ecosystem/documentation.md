@@ -195,7 +195,7 @@ Here give a reason for using the component. The code samples are going to be ren
 
 #### Pros
 
-- Detects all props, events, methods and slots without human intervention
+- Detects props, events, methods and slots automatically
 - Documentation is done inside the components using standard JSDoc
 - Markdown documentation can live inside custom `<docs>` block of a Single File Component
 - Displays a live editor to try components even on the static website
