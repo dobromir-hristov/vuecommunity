@@ -66,21 +66,21 @@ Below is a list of popular documentation generators, that are not connected to V
 
 ## Component workbenches
 
-A workbench is a development environment for UI components. It allows developers to setup interactive examples of how a UI component can be used. Simply put, you can setup a live demo of a Vue component by passing different props to it, creating a working sandbox.
+A workbench is a development environment for UI components. It allows developers to setup interactive examples of how a UI component can be  used. One can setup a live demo of a Vue component by passing different props to it. Perfect to show your designer or for you to test the result of your work
 
-This is very powerful when working in big teams with lots of custom UI components. They allow other developers to discover how components work by tweaking them. Even better, these showcase can be bundled in a static website to deploy internally of for others to see.
+Workbenches are very powerful when working in big teams with lots of components. They allow other developers to discover how components work by tweaking them. Even better, these showcases can turn into static websites.
 
 ### Storybook 🌟
 
 The most popular workbench is [storybook](https://storybook.js.org/docs/guides/guide-vue/).
 
-In storybook, demo components (stories) are written in JavaScript or TypeScript. There can be mutiple stories for each component but each story will have its own page.
+In storybook, you write demo components (stories) in JavaScript or  TypeScript. There can be mutiple stories for each component but each  story will have its own page.
 
-VueJs is storybooks second language, even before Angular. It has no problem handling Vue. Stories are simply `JavaScript` managed through a `Webpack Dev Server`. Any webpack loader or webpack plugin you are used to works.
+VueJs is storybooks second language, even before Angular. It has no problem handling Vue. Stories are JavaScript managed through a Webpack Dev Server. Any webpack loader or plugin you already use still works in storybook.
 
 #### Documentation Style
 
-Storybook uses separate javascript files
+Storybook uses a separate JavaScript file to host documentation for a component.
 
 ```javascript
 // my-button.story.js
@@ -99,20 +99,20 @@ storiesOf('Button', module)
 
 #### Pros
 
-- The community is 
-- Lots of [plugins](#essential-plugins)
+- The community is big and active
+- Lots of mature [plugins](#essential-plugins)
   - Visual testing
   - Sketch symbol exports
   - Accessibility checks
-- Easy adoption by developers (Examples written in JavaScript/TypeScript)
+- Easily adopted by front-end developers (Examples are written in JavaScript/TypeScript)
 
 #### Cons
 
 - Bare bones, without plugins out of the box (no prop detection, no code samples, no styling)
-- Input and output format not meant for long descriptions
+- Input and output formats not practical for long descriptions
 - Stories are written in string litterals, so there is no syntax highlighting.
-- Only one component can be displayed per page
-- Need to write a separate `webpack.config.js`
+- Only one story can be displayed in a page
+- Need to create a separate `webpack.config.js` file
 
 #### Useful Links
 
@@ -130,14 +130,12 @@ storiesOf('Button', module)
 
 ---
 
-- Honorable mention [vue-storybook](https://github.com/mattrothenberg/vue-storybook). Working with single file components, write stories in custom `<story>` blocks!
+- Honorable mention to [vue-storybook](https://github.com/mattrothenberg/vue-storybook). In single file components, write stories in a custom `<story>` block!
 
 ### Vue Styleguidist
 
 [Vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) is a port of [react-styleguidist](https://github.com/styleguidist/react-styleguidist) for vue components.
 If you are building a Design System and want to showcase the powers of your components, this would probably be your first choice.
-
-Example: [vue-styleguide](http://rafaelescala.com/vue-styleguide/) or [vue-design-system](https://vueds.com/example/)
 
 It supports all the following vue features:
 
@@ -181,17 +179,19 @@ props: {
 
 #### Useful Links
 
+- [Github](https://github.com/vue-styleguidist/vue-styleguidist)
+- [Example](http://rafaelescala.com/vue-styleguide/)
 - [Documentation](https://vue-styleguidist.github.io/)
 - [Discord Channel](https://discordapp.com/channels/325477692906536972/538786416092512278)
 
 ### Vuese
 
-[Vuese](https://github.com/vuese/vuese) is very much documentation oriented. It sacrifices interactivity for integrability.
-If you have to generate your doc with the objective to integrate a bigger one, this is probably the tool that you want.
+[Vuese](https://github.com/vuese/vuese) is documentation oriented. It sacrifices interactivity to be more integrable.
+If you have to generate your doc to integrate it in a bigger one, this is probably the workbench that you want. Without sacrificing the Hot Module Reload, it generates a good looking static doc.
 
 #### Documentation style
 
-Vuese uses its own documentation format. It is more compact than JSDoc.
+Vuese uses its own documentation format, more compact than JSDoc.
 
 ```javascript
 props: {
@@ -212,7 +212,7 @@ props: {
 #### Cons
 
 - Static code samples
-- Missing detection of features of VueJs
+- Unsupported features of VueJs
 
 #### Useful Links
 
@@ -221,9 +221,9 @@ props: {
 
 ### Vue Design System
 
-Vue design system, [vueds] for short, is a combination of [vue-styleguidist](#vue-styleguidist) and [salesforce-ux/theo](https://github.com/salesforce-ux/theo). It is a starter kit/ boilerplate for  design systems. It is highly opinionated. If you are starting a new project or if you don't want to think about your own naming.
+Vue design system, [vueds] for short, is a combination of [vue-styleguidist](#vue-styleguidist) and [salesforce-ux/theo](https://github.com/salesforce-ux/theo). It gives you a boilerplate for making your own design systems. It is highly opinionated. If you are starting a new project or if you don't want to think about your naming conventions clone the project.
 
-[vueds documentation](https://github.com/viljamis/vue-design-system/wiki) is a great read. Even if you are not going to use it directly, you will learn about design systems and how to use them.
+[vueds documentation](https://github.com/viljamis/vue-design-system/wiki) is a great read. Even if you are not going to use it directly, you will like to learn about design systems and how to use them.
 
 #### Useful Links
 
@@ -233,7 +233,7 @@ Vue design system, [vueds] for short, is a combination of [vue-styleguidist](#vu
 
 ## Documentation Generators
 
-Automatic documentation generators scan your files and output a structured format, that is easy to either use directly or be passed to another tool. Some create markdown, some create json objects.
+Automatic documentation generators scan your files and output a structured format. This is easy to either render or pass on to another tool. Some create markdown, some create html pages.
 
 ### Vuedoc
 
@@ -242,8 +242,8 @@ Since it is using JSDoc it can easily be combined with styleguidist.
 
 #### Useful Links
 
-- Gitlab: https://gitlab.com/vuedoc/md
-- jsdoc3 plugin: https://github.com/ccqgithub/jsdoc-vuedoc
+- [Gitlab](https://gitlab.com/vuedoc/md)
+- [JSDoc3 plugin](https://github.com/ccqgithub/jsdoc-vuedoc) a plugin allowing you to generate JSDoc3 powered documentations using vuedoc.
 
 ### JSDoc Vuejs
 
@@ -254,6 +254,6 @@ This outputs a neat web document after extracting the doc from your component. I
 - [Minami](https://github.com/nijikokun/minami)
 - [Tui](https://nhnent.github.io/tui.jsdoc-template/latest/)
 
-#### Useful links
+#### Useful Links
 
 - [Github](https://github.com/Kocal/jsdoc-vuejs)
