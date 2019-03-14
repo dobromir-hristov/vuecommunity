@@ -114,12 +114,6 @@ storiesOf('Button', module)
 - Only one "story" per page
 - Need to create a separate `webpack.config.js` file
 
-#### Useful Links
-
-- [Official Guide](https://storybook.js.org/basics/guide-vue/)
-- [Using Storybook with VueJS](https://auth0.com/blog/using-storybook-with-vuejs/)
-- [Visual testing for Storybook for Vue.js](https://docs.percy.io/docs/storybook-for-vue)
-
 #### Essential Plugins
 
 - [@storybook/addon-a11y](https://github.com/storybooks/storybook/tree/next/addons/a11y) checks accessibility properties
@@ -128,9 +122,13 @@ storiesOf('Button', module)
 - [storybook-addon-vue-info](https://github.com/pocka/storybook-addon-vue-info) detects props info
 - [storybook-vue-router](https://github.com/gvaldambrini/storybook-router) add routes to your stories
 
----
+#### Useful Links
 
-- Honorable mention to [vue-storybook](https://github.com/mattrothenberg/vue-storybook). In single file components, write stories in a custom `<story>` block!
+- [Official Guide](https://storybook.js.org/basics/guide-vue/)
+- [Using Storybook with VueJS](https://auth0.com/blog/using-storybook-with-vuejs/)
+- [Visual testing for Storybook for Vue.js](https://docs.percy.io/docs/storybook-for-vue)
+- [vue-storybook](https://github.com/mattrothenberg/vue-storybook). In single file components, write stories in a custom `<story>` block!
+
 
 ### Vue Styleguidist
 
