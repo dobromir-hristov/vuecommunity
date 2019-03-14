@@ -70,7 +70,7 @@ A workbench is a development environment for UI components. It allows developers
 
 Workbenches are very powerful when working in big teams with lots of components. They allow other developers to discover how components work by tweaking them. Even better, these showcases can turn into static websites.
 
-### Storybook 🌟
+### Storybook
 
 The most popular workbench is [storybook](https://storybook.js.org/docs/guides/guide-vue/).
 
@@ -140,26 +140,48 @@ You are building a Design System. You want a site to showcase your components, t
 Styleguidist uses standard JSDoc comments to extract useful meta data from components.
 
 ```javascript
-props: {
+/**
+  * This is a description of the component
+  */
+export default {
+  name: 'MyComponent',
+  props: {
     /**
-     * The color for the button example
+     * The name of the form, up to 8 characters
      */
-    colorExtends: {
-      type: String,
-      default: '#333'
+    name: {
+      type: [String, Number],
+      required: true,
+      validator () {}
+    }
+  },
+  methods: {
+    /**
+     * Used to manually clear the form
+     * @public
+     */
+    clear () {
+      /**
+       * Fire when the form is cleared
+       * @property The argument is a boolean value representing xxx
+       */
+      this.$emit('onclear', true)
     }
   }
+}
 ```
 
 #### Pros
 
+- Detects all props, events, methods and slots without human intervention
+- Documentation is done inside the components using standard JSDoc
 - Displays a live editor to try components even on the static website
 - Meant for design system creation and showcase (powers vue-design-system)
 - Multiple components examples can be shown in the same markdown page
 
 #### Cons
 
-- Generated output is currently limited to just HTML, using a cussopredefined template.
+- Generated output is currently limited to just HTML.
 - JSDoc can be verbose
 - Scaffolding built in React
 
@@ -180,17 +202,33 @@ If you have to generate your doc to integrate it in a bigger one, this is the wo
 Vuese uses its own documentation format, more compact than JSDoc.
 
 ```javascript
-props: {
-  // The name of the form
-  name: {
-    type: String
+// This is a description of the component
+export default {
+  name: 'MyComponent',
+  props: {
+    // The name of the form, up to 8 characters
+    name: {
+      type: [String, Number],
+      required: true,
+      validator () {}
+    }
+  },
+  methods: {
+    // @vuese
+    // Used to manually clear the form
+    clear () {
+      // Fire when the form is cleared
+      // @arg The argument is a boolean value representing xxx
+      this.$emit('onclear', true)
+    }
   }
 }
 ```
 
 #### Pros
 
-- Compact documentation
+- Detects all props, events, methods and slots without human intervention
+- Compact documentation in components
 - Vuepress default output
 - Configurable docute or markdown outputs
 - Entirely made with VueJs
@@ -198,7 +236,10 @@ props: {
 #### Cons
 
 - Static code samples
-- Unsupported features of VueJs
+- Not fully compliant with all Vue.js specs. Does not support (yet):
+  - Functional component template props
+  - Slots added to a render function
+  - Decorator component names like `@Component({name:'MyComponent'})`
 
 #### Useful Links
 
@@ -223,8 +264,7 @@ Automatic documentation generators scan your files and output a structured forma
 
 ### Vuedoc
 
-Vuedoc is using JSDoc to build your documentation in a markdown file.
-Since it is using JSDoc it can easily be combined with styleguidist.
+Vuedoc is extracting JSDoc to write documentation in a markdown file.
 
 #### Useful Links
 
@@ -233,7 +273,7 @@ Since it is using JSDoc it can easily be combined with styleguidist.
 
 ### JSDoc Vuejs
 
-This outputs a neat web document after extracting the doc from your component. Internally, it runs on JSDoc3. It supports 4 different output formats:
+This writes an html page by extracting the JSDoc from your component. Internally, it runs on JSDoc3. It supports 4 different output formats:
 
 - Default: made by Kocal author of jsdoc-vuejs
 - [Docstrap](https://github.com/docstrap/docstrap)
