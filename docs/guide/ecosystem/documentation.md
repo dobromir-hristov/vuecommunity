@@ -110,8 +110,8 @@ storiesOf('Button', module)
 
 - Bare bones, without plugins out of the box (no prop detection, no code samples, no styling)
 - Input and output formats not practical for long descriptions
-- Stories are written in string litterals, so there is no syntax highlighting.
-- Only one story can be displayed in a page
+- Stories are string litterals, so there is no syntax highlighting.
+- Only one "story" per page
 - Need to create a separate `webpack.config.js` file
 
 #### Useful Links
@@ -135,19 +135,7 @@ storiesOf('Button', module)
 ### Vue Styleguidist
 
 [Vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) is a port of [react-styleguidist](https://github.com/styleguidist/react-styleguidist) for vue components.
-If you are building a Design System and want to showcase the powers of your components, this would probably be your first choice.
-
-It supports all the following vue features:
-
-- Single file components
-- Class style components
-- Functional component templates
-- Template and script commenting (Events, Methods, Props, Slots)
-- JSX & TSX
-- TypeScript & Flow
-- Vuex & Vue-i18n
-- externalized sources for script and template
-- styled components
+You are building a Design System. You want a site to showcase your components, this should be your first choice.
 
 #### Documentation style
 
@@ -167,13 +155,13 @@ props: {
 
 #### Pros
 
-- Displays a live editor to try components
-- Meant for design system creation (powers vue-design-system)
-- Multiple components examples in a markdown page
+- Displays a live editor to try components even on the static website
+- Meant for design system creation and showcase (powers vue-design-system)
+- Multiple components examples can be shown in the same markdown page
 
 #### Cons
 
-- Generated output is currently limited to just HTML, using predefined template.
+- Generated output is currently limited to just HTML, using a cussopredefined template.
 - JSDoc can be verbose
 - Scaffolding built in React
 
@@ -187,7 +175,7 @@ props: {
 ### Vuese
 
 [Vuese](https://github.com/vuese/vuese) is documentation oriented. It sacrifices interactivity to be more integrable.
-If you have to generate your doc to integrate it in a bigger one, this is probably the workbench that you want. Without sacrificing the Hot Module Reload, it generates a good looking static doc.
+If you have to generate your doc to integrate it in a bigger one, this is the workbench that you want. Without sacrificing the Hot Module Reload, it generates a good looking static doc.
 
 #### Documentation style
 
@@ -221,9 +209,9 @@ props: {
 
 ### Vue Design System
 
-Vue design system, [vueds] for short, is a combination of [vue-styleguidist](#vue-styleguidist) and [salesforce-ux/theo](https://github.com/salesforce-ux/theo). It gives you a boilerplate for making your own design systems. It is highly opinionated. If you are starting a new project or if you don't want to think about your naming conventions clone the project.
+Vue design system is a combination of [vue-styleguidist](#vue-styleguidist) and [salesforce-ux/theo](https://github.com/salesforce-ux/theo). It goes by *vueds* for short. Vueds is a boilerplate for making your own design systems. It is highly opinionated. If you are starting a new project or if you don't want to think about your naming conventions simply clone the project.
 
-[vueds documentation](https://github.com/viljamis/vue-design-system/wiki) is a great read. Even if you are not going to use it directly, you will like to learn about design systems and how to use them.
+[vueds documentation](https://github.com/viljamis/vue-design-system/wiki) is a great read. Even if you are not going to use it directly, you will love to learn about design systems and how to use them.
 
 #### Useful Links
 
@@ -233,7 +221,7 @@ Vue design system, [vueds] for short, is a combination of [vue-styleguidist](#vu
 
 ## Documentation Generators
 
-Automatic documentation generators scan your files and output a structured format. This is easy to either render or pass on to another tool. Some create markdown, some create html pages.
+Automatic documentation generators scan your files and output a structured format. Some create markdown, some create html pages.
 
 ### Vuedoc
 
