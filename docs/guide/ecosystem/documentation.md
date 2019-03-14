@@ -153,7 +153,7 @@ It supports all the following vue features:
 
 #### Documentation style
 
-styleguidist uses JSDoc:
+Styleguidist uses standard JSDoc comments to extractuseful meta data
 
 ```javascript
 props: {
@@ -171,11 +171,11 @@ props: {
 
 - Displays a live editor to try components
 - Meant for design system creation (powers vue-design-system)
-- A strong React community
+- Multiple components examples in a markdown page
 
 #### Cons
 
-- Little configurability on output (HTML only)
+- Generated output is currently limited to just HTML, using predefined template.
 - JSDoc can be verbose
 - Scaffolding built in React
 
@@ -186,20 +186,8 @@ props: {
 
 ### Vuese
 
-https://github.com/vuese/vuese
-
-Vuese is a documentation oriented.
-It sacrifices a bit of user experience for a lot of integrability.
-If you have to generate your doc to integrate it, this is probably the tool that you want.
-
-It supports all the following vue features:
-
-- Single file components
-- Class style components
-- Template and script commenting (Events, Methods, Props, Slots)
-- JSX & TSX
-- TypeScript & Flow
-- Vuex & Vue-i18n
+[Vuese](https://github.com/vuese/vuese) is very much documentation oriented. It sacrifices interactivity for integrability.
+If you have to generate your doc with the objective to integrate a bigger one, this is probably the tool that you want.
 
 #### Documentation style
 
@@ -224,20 +212,24 @@ props: {
 #### Cons
 
 - Static code samples
+- Missing detection of features of VueJs
 
 #### Useful Links
 
+- [Github](https://github.com/vuese/vuese)
 - [Example of markdown-it with vuese](https://buptsteve.github.io/markdown-it-vuese/example/demo.html#props)
 
 ### Vue Design System
 
-Vue design system, `vueds` is the codename, is a combination of vue-styleguidist and [salesforce-ux/theo](https://github.com/salesforce-ux/theo) that helps teams build a starter kit for their design system. It is highly opinionated. Choose it if you are starting a new project or if you don't want to think about your own naming.
+Vue design system, [vueds] for short, is a combination of [vue-styleguidist](#vue-styleguidist) and [salesforce-ux/theo](https://github.com/salesforce-ux/theo). It is a starter kit/ boilerplate for  design systems. It is highly opinionated. If you are starting a new project or if you don't want to think about your own naming.
 
-vueds documentation is a great read, even if you are not going to use it.
+[vueds documentation](https://github.com/viljamis/vue-design-system/wiki) is a great read. Even if you are not going to use it directly, you will learn about design systems and how to use them.
 
 #### Useful Links
 
-https://github.com/viljamis/vue-design-system
+- [Example](https://vueds.com/example/)
+- [Official website](https://vueds.com/)
+- [Github](https://github.com/viljamis/vue-design-system)
 
 ## Documentation Generators
 
