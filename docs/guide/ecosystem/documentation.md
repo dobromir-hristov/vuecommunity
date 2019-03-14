@@ -74,7 +74,7 @@ Workbenches are very powerful when working in big teams with lots of components.
 
 The most popular workbench is [storybook](https://storybook.js.org/docs/guides/guide-vue/).
 
-In storybook, you write demo components (stories) in JavaScript or  TypeScript. There can be mutiple stories for each component but each  story will have its own page.
+In storybook, you write demo components (stories) in JavaScript or TypeScript. There can be mutiple stories for each component, but each story will have its own page.
 
 Vue.js is a first class citizen in storybook, which means it has great integration and support. Stories are written in JavaScript and developed through a Webpack Dev Server. Existing Webpack configurations for your project will continue to work with storybook. 
 
