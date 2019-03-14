@@ -171,19 +171,53 @@ export default {
 }
 ```
 
+Documentation can then be enriched using markdown
+
+```vue
+<template>
+  <form :name="name">
+    {{name}}
+    <input type="text">
+    <button @click="clear">clear</button>
+  </form>
+</template>
+<script>
+export default {
+  name: 'Form',
+  props: {
+    name: String
+  }
+}
+</script>
+<docs>
+Here you can use markdown to show uses of the above component.
+
+## The form component can be set with a nane
+
+Here could be a good place to give reason for using this or that prop and illustrate with code samples. The code samples are going to be rendered automatically with the current comment.
+
+'''vue
+<Form name='My nice form'>
+'''
+</docs>
+```
+
 #### Pros
 
 - Detects all props, events, methods and slots without human intervention
 - Documentation is done inside the components using standard JSDoc
+- Markdown documentation can live inside a custom docs block of SFC
 - Displays a live editor to try components even on the static website
 - Meant for design system creation and showcase (powers vue-design-system)
-- Multiple components examples can be shown in the same markdown page
+- Highly customizable HTML output template
+  - Multiple component examples can be shown in the same markdown page
+  - Components can be grouped by sections
 
 #### Cons
 
-- Generated output is currently limited to just HTML.
+- Generated output is currently limited to HTML
 - JSDoc can be verbose
-- Scaffolding built in React
+- The tool is built in React. To customize the template, you will need to use React.
 
 #### Useful Links
 
