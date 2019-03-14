@@ -139,7 +139,7 @@ You are building a Design System. You want a site to showcase your components, t
 
 #### Documentation style
 
-Styleguidist uses standard JSDoc comments to extractuseful meta data
+Styleguidist uses standard JSDoc comments to extract useful meta data from components.
 
 ```javascript
 props: {
