@@ -76,7 +76,7 @@ The most popular workbench is [storybook](https://storybook.js.org/docs/guides/g
 
 In storybook, you write demo components (stories) in JavaScript or  TypeScript. There can be mutiple stories for each component but each  story will have its own page.
 
-VueJs is storybooks second language, even before Angular. It has no problem handling Vue. Stories are JavaScript managed through a Webpack Dev Server. Any webpack loader or plugin you already use still works in storybook.
+Vue.js is a first class citizen in storybook, which means it has great integration and support. Stories are written in JavaScript and developed through a Webpack Dev Server. Existing Webpack configurations for your project will continue to work with storybook. 
 
 #### Documentation Style
 
