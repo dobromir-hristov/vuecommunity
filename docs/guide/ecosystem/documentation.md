@@ -192,8 +192,6 @@ Vuese is a documentation oriented.
 It sacrifices a bit of user experience for a lot of integrability.
 If you have to generate your doc to integrate it, this is probably the tool that you want.
 
-Example: https://buptsteve.github.io/markdown-it-vuese/example/demo.html#props
-
 It supports all the following vue features:
 
 - Single file components
@@ -205,7 +203,7 @@ It supports all the following vue features:
 
 #### Documentation style
 
-vuese uses its own documentaion format more compact than JSDoc
+Vuese uses its own documentation format. It is more compact than JSDoc.
 
 ```javascript
 props: {
@@ -225,26 +223,45 @@ props: {
 
 #### Cons
 
-- Static code samples 
+- Static code samples
+
+#### Useful Links
+
+- [Example of markdown-it with vuese](https://buptsteve.github.io/markdown-it-vuese/example/demo.html#props)
 
 ### Vue Design System
 
-https://github.com/viljamis/vue-design-system
-
-Vue designs system is a combination of vue-styleguidist and [salesforce-ux/theo](https://github.com/salesforce-ux/theo) that helps teams build a starter kit for their design system. It is highly opinionated. Choose it if you are starting a new project or if you don't want to think about your own naming.
+Vue design system, `vueds` is the codename, is a combination of vue-styleguidist and [salesforce-ux/theo](https://github.com/salesforce-ux/theo) that helps teams build a starter kit for their design system. It is highly opinionated. Choose it if you are starting a new project or if you don't want to think about your own naming.
 
 vueds documentation is a great read, even if you are not going to use it.
 
+#### Useful Links
+
+https://github.com/viljamis/vue-design-system
+
 ## Documentation Generators
 
-Automatic documentation generators scan your files and output a structured format, that is easy to either use directly or be passed to another tool.
-
-Such tools can scan your files for JSDoc blocks and output either a json file or full blown websites, ready to deploy.
+Automatic documentation generators scan your files and output a structured format, that is easy to either use directly or be passed to another tool. Some create markdown, some create json objects.
 
 ### Vuedoc
 
-https://gitlab.com/vuedoc/md
+Vuedoc is using JSDoc to build your documentation in a markdown file.
+Since it is using JSDoc it can easily be combined with styleguidist.
+
+#### Useful Links
+
+- Gitlab: https://gitlab.com/vuedoc/md
+- jsdoc3 plugin: https://github.com/ccqgithub/jsdoc-vuedoc
 
 ### JSDoc Vuejs
 
-https://github.com/Kocal/jsdoc-vuejs
+This outputs a neat web document after extracting the doc from your component. Internally, it runs on JSDoc3. It supports 4 different output formats:
+
+- Default: made by Kocal author of jsdoc-vuejs
+- [Docstrap](https://github.com/docstrap/docstrap)
+- [Minami](https://github.com/nijikokun/minami)
+- [Tui](https://nhnent.github.io/tui.jsdoc-template/latest/)
+
+#### Useful links
+
+- [Github](https://github.com/Kocal/jsdoc-vuejs)
