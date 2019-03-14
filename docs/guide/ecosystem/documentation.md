@@ -252,7 +252,7 @@ export default {
 
 #### Pros
 
-- Detects all props, events, methods and slots without human intervention
+- Detects props, events, methods and slots automatically
 - Compact documentation in components
 - Vuepress default output
 - Configurable docute or markdown outputs
