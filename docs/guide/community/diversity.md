@@ -16,12 +16,16 @@ Vue Vixens also engages the community in other ways, including crafting full-day
 
 Vue Vixens' mission is to mentor people who identify as women both on social media, personal interactions and conferences. Their goal is to boost the number of women-identifying people who attend and speak at the events or try their skills as content creators, to help mid-career and senior women stay engaged by learning new technologies, and to help new developers enter the workforce.
 
-#### Useful links
+<useful-links>
+<useful-links-section title="Social">
 
 * [Vue Vixens website](https://vuevixens.org)
 * [Vue Vixens chat on Slack](https://slackin-fxsumkvfno.now.sh/)
 * [Vue Vixens on Twitter](https://twitter.com/VueVixens)
 * [Vue Vixens blog](https://dev.to/vuevixens)
+
+</useful-links-section>
+</useful-links>
 
 ## Concatenate Conference
 
