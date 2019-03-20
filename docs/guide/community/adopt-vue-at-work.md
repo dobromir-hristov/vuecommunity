@@ -61,13 +61,15 @@ Currently one of the most referenced Vue enterprise resources is Chris Fritz's [
 
 You can a look at our [Boilerplates](../ecosystem/boilerplates.md) page, where we dive deeper into the official Vue boilerplates.
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Tutorials">
 
-Here are a few cool articles on how to structure larger Vue apps:
+  - [Vue.js Application Structure and CSS Architecture](https://markus.oberlehner.net/blog/vue-application-structure-and-css-architecture/) - Markus Oberlehner
+  - [Making a large scale app with vue.js](https://medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502) - Stephane Souron
+  - [How to Structure a Vue.js Project](https://itnext.io/how-to-structure-a-vue-js-project-29e4ddc1aeeb) - Sandoche ADITTANE
 
-  - [Vue.js Application Structure and CSS Architecture - Markus Oberlehner](https://markus.oberlehner.net/blog/vue-application-structure-and-css-architecture/)
-  - [Making a large scale app with vue.js - Stephane Souron](https://medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502)
-  - [How to Structure a Vue.js Project - Sandoche ADITTANE](https://itnext.io/how-to-structure-a-vue-js-project-29e4ddc1aeeb)
+</useful-links-section>
+</useful-links>
 
 ### There's no native mobile solution as good as React Native
 
