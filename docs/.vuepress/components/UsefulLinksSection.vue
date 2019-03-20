@@ -33,6 +33,12 @@ export default {
   margin-bottom: $spacing;
   align-items: flex-start;
 
+  & + & {
+    margin-top: $spacing;
+    padding-top: $spacing;
+    border-top: 1px solid $color-white-bis;
+  }
+
   &:last-of-type {
     margin-bottom: 0;
   }
