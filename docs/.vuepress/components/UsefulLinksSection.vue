@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../theme/utils";
+@import "../theme-styling/utils";
 
 .UsefulLinksSection {
   display: flex;
@@ -39,8 +39,8 @@ export default {
 
   &__title {
     font-weight: bold;
-    border-left: 4px solid #3eaf7c;
-    padding-left: 0.65rem;
+    border-left: 4px solid $color-primary;
+    padding-left: $spacing-tiny;
     margin-bottom: $spacing;
   }
 
@@ -54,7 +54,7 @@ export default {
       & + p {
         margin-top: $spacing-small;
         padding-top: $spacing-small;
-        border-top: 1px solid #e3e3e3;
+        border-top: 1px solid $color-white-bis;
       }
     }
 
@@ -71,7 +71,7 @@ export default {
       li {
         margin-bottom: $spacing-small;
         padding-bottom: $spacing-small;
-        border-bottom: 1px solid #e3e3e3;
+        border-bottom: 1px solid $color-white-bis;
 
         &:last-of-type {
           border-bottom: none;
