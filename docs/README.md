@@ -13,6 +13,6 @@ footer: MIT Licensed
 ---
 Welcome to a beginner's guide to Vue.js community and ecosystem, written and maintained by the community itself.
 
-Opposed to the official documentation like the [guide](https://vuejs.org/v2/guide/) or [cookbook](https://vuejs.org/v2/cookbook/), which is meant to teach how to use Vue.js, this website helps newcomers to find their way around the evergrowing ecosystem, by providing meaningful summaries or comparisons of popular projects and available resources.
+Alongside the official documentation like the [guide](https://vuejs.org/v2/guide/) or [cookbook](https://vuejs.org/v2/cookbook/) both of which are meant to teach you how to use Vue.js, this website focuses more on helping newcomers to find their way around the evergrowing ecosystem, by providing meaningful summaries or comparisons of popular projects and available resources.
 
-The goal is to gather the answers to most common questions asked by new Vue.js developers, grouped by categories and written in an easy to digest way, with links to further materials on the topic.
+The goal is to gather the answers to the most common questions asked by new Vue.js developers, grouped by categories and written in an easy to digest way, with links to further materials on the topic.

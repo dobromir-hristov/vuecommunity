@@ -43,21 +43,21 @@ To use it with Vue, you dont need plugins, you can just import `fetch` and start
 ::: tip
  This part of the page needs a bit of love. If you can, please contribute by adding the missing info.
 :::
-- what is GraphQL
+- What is GraphQL
 - When does it make sense to use it
-- links to tutorials
+- Links to tutorials
 
 ### Vue Apollo
 
 - What is Apollo
-- common use cases
-- why use with vue
-- links to tutorials
+- Common use cases
+- Why use with Vue
+- Links to tutorials
 - Vue packages
 
-## Websockets
+## WebSockets
 
-Unlike http requests, which are one way communication from client to server, Websockets allow for a realtime two way communication. This allows for implementing notifications, dashboards, chats, realtime interactions and more.
+Unlike HTTP requests, which are one way communication from client to server, WebSockets allow for a realtime two way communication. This allows for implementing notifications, dashboards, chats, realtime interactions and more.
 
 
 <useful-links>
@@ -111,7 +111,7 @@ Implementing Firebase into your Vue app directly with their SDK can be a bit of 
 - Common usages
 - Why use with Vue
 - Popular Vue Packages
-- tutorials
+- Tutorials
 
 ### Meteor
 
@@ -119,7 +119,7 @@ Implementing Firebase into your Vue app directly with their SDK can be a bit of 
 - Common usages
 - Why use with Vue
 - Popular Vue Packages
-- tutorials
+- Tutorials
 
 ### SocketIO
 
@@ -131,7 +131,7 @@ Implementing Firebase into your Vue app directly with their SDK can be a bit of 
 - Common usages
 - Why use with Vue
 - Popular Vue Packages
-- tutorials
+- Tutorials
 
 [Integrating Vue.js and Socket.io](https://alligator.io/vuejs/vue-socketio/)
 
