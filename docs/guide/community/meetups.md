@@ -10,12 +10,17 @@ A typical meetup can vary from just a gathering at a bar/restaurant, to more lea
 
 [events.vuejs.org](https://events.vuejs.org) is the official guide to finding meetups, conferences, workshops and more in the Vue ecosystem. It is maintained and curated by Vue Core members, but contributions from the community are more than welcome.
 
-### Features
 
-* [Up-to date list](https://events.vuejs.org/events/) of upcoming events - Conferences, Workshops, Local Meetups
-* [List of local groups](https://events.vuejs.org/meetups/) - the list is constantly updated with "Meetups" groups, Facebook groups, local group chats, etc.
-* [Handbook for Organisers](https://events.vuejs.org/resources/#organizers-handbook) - how to run an event along with many helpful tips on the many smaller things one has to take into consideration.
-* [Handbook for Speakers](https://events.vuejs.org/resources/#speakers-handbook) - how to become a speaker, tips, list of potential topics and more.
+<useful-links>
+<useful-links-section title="Features">
+
+* [List of upcoming events](https://events.vuejs.org/events/) - Conferences, Workshops, Local Meetups
+* [List of local groups](https://events.vuejs.org/meetups/) - "Meetups" groups, Facebook groups, local group chats, etc.
+* [Handbook for Organisers](https://events.vuejs.org/resources/#organizers-handbook) - helpful tips on how ot run a meetup.
+* [Handbook for Speakers](https://events.vuejs.org/resources/#speakers-handbook) - Tips, list of potential topics for new speakers.
+
+</useful-links-section>
+</useful-links>
 
 ## Spread the Word
 

@@ -8,7 +8,13 @@ Created by Adam Wathan, popular Laravel figure and author of Tailwind CSS, this 
 
 As an advanced course, it covers topics like building custom controlled components, implementing external libraries, modals, component composition, render functions, renderless components, data providers and more. It uses ES6+ features, Single File Components, slots and others, so be prepared as users are expected to know how to work with them.
 
-Link: [adamwathan.me](https://adamwathan.me/advanced-vue-component-design/)
+<useful-links>
+<useful-links-section title="Official">
+
+[adamwathan.me](https://adamwathan.me/advanced-vue-component-design/)
+
+</useful-links-section>
+</useful-links>
 
 ## Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex) 
 **Author:** Maximilian Schwarzmüller
@@ -17,7 +23,14 @@ The course covers all the important topics, from the Vue basics, binding props, 
 
 Maximilian does a great job at explaining things in a simple and easy to follow manner, plus extra free videos are available on YouTube.
 
-Link: [Udemy](https://www.udemy.com/vuejs-2-the-complete-guide/)
+<useful-links>
+<useful-links-section title="Official">
+
+[Udemy](https://www.udemy.com/vuejs-2-the-complete-guide/)
+
+</useful-links-section>
+</useful-links>
+
 
 ## Enterprise Vue
 **Author:** Anthony Gore
@@ -26,7 +39,13 @@ The course will teach you how to build a full-stack Vue.js CRUD application with
 
 Throughout the course you will use Vue CLI 3, Vuetify framework, MongoDB, Jest, Vue-test-utils, Nightwatch, deployment to Heroku and more.
 
-Link: [Vuejsdevelopers.com](https://vuejsdevelopers.com/courses/enterprise-vue/)
+<useful-links>
+<useful-links-section title="Official">
+
+[Vuejsdevelopers.com](https://vuejsdevelopers.com/courses/enterprise-vue/)
+
+</useful-links-section>
+</useful-links>
 
 ## Vue.js Essentials - 3 Course Bundle 
 **Author:** Anthony Gore
@@ -35,7 +54,13 @@ Vuejsdevelopers.com hosts not only Vue articles, but also a few beginner video c
 
 It goes through basics of building a Vue app, multi page websites using Vue Router and finally how to implement Vuex and Server-Side rendering for a high performance, SEO optimised website.
 
-Link: [Vuejsdevelopers.com](https://courses.vuejsdevelopers.com/)
+<useful-links>
+<useful-links-section title="Official">
+
+[Vuejsdevelopers.com](https://courses.vuejsdevelopers.com/p/vue-js-essentials)
+
+</useful-links-section>
+</useful-links>
 
 ## The Ultimate Vue JS 2 Developers Course
 **Author:** Anthony Gore
@@ -44,12 +69,24 @@ In this course users are lead through the process of building three real world, 
 
 Through the course, users first create a basic e-commerce UI, then go through multi page apps using Vue Router and finally do a Google Calendar clone using Vuex and Server Side Rendering.
 
-Link: [Udemy](https://www.udemy.com/vuejs-2-essentials/)
+<useful-links>
+<useful-links-section title="Official">
+
+[Udemy](https://www.udemy.com/vuejs-2-essentials/)
+
+</useful-links-section>
+</useful-links>
 
 ## Scrimba - Learn Vue for free
 **Author:** Zaydek
 
-Link: [Scrimba.com](https://scrimba.com/g/glearnvue)
+<useful-links>
+<useful-links-section title="Official">
+
+[Scrimba.com](https://scrimba.com/g/glearnvue)
+
+</useful-links-section>
+</useful-links>
 
 ## Learn Vue 2 in 65 Minutes
 **Author:** Gary Simon
@@ -58,7 +95,13 @@ The course is for absolute beginners who want to get up and running quickly, wit
  
 In this free course you will go from Installing Vue (Three different methods), creating Vue Components, styling approaches, handling forms , animations and multi page routing.
 
-Link: [YouTube](https://www.youtube.com/watch?v=78tNYZUS-ps)
+<useful-links>
+<useful-links-section title="Official">
+
+[YouTube](https://www.youtube.com/watch?v=78tNYZUS-ps)
+
+</useful-links-section>
+</useful-links>
 
 ## Nuxt.js - Vue.js on Steroids
 **Author:** Maximilian Schwarzmüller
@@ -69,4 +112,10 @@ It goes through what Nuxt.js is exactly and how it connects to Vue, how to confi
 
 By the end of the course, users would have made a complete Vue app, built with Nuxt.js, which can be rendered on the server (or as a static website!) and which is highly optimized.
 
-Link [Udemy](https://www.udemy.com/nuxtjs-vuejs-on-steroids/)
+<useful-links>
+<useful-links-section title="Official">
+
+[Udemy](https://www.udemy.com/nuxtjs-vuejs-on-steroids/)
+
+</useful-links-section>
+</useful-links>

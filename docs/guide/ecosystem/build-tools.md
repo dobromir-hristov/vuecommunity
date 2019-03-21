@@ -7,7 +7,8 @@ Configuring all these tools, making them work across operating systems, and more
 
 Below are some of the more popular ones, used by the Vue community to build both web applications and libraries.
 
-## Vue CLI
+## Vue CLI <badge>Popular</badge>
+
 Vue CLI is a sophisticated mix of tools for building modern Vue.js applications. Its the official Vue.js build tool, who's purpose is to free developers from having to configure complex build processes and instead focus on writing application code. It offers a quick and interactive project scaffolding with custom presets, with painless upgrade to the build process with future updates.
 
 Developers can leverage features like ESLint, Babel, Unit and End-to-end Testing, PWA support, Instant Prototyping, HMR and more. It comes with a rich and extensive API, with an ever growing list of plugins, further extending its functionality. 
@@ -24,12 +25,20 @@ Vue CLI built on top of [Webpack](./build-tools.md#webpack), making it ideal for
 * Rich api, offering great extendability
 * Rich collection of both official and third party plugins, integrating first class tools.
 
-### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
 * [Vue CLI Docs](https://cli.vuejs.org/)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [The Vue.js CLI: learn how to use it](https://flaviocopes.com/vue-cli/)
 * [Vue CLI 3 - Creating our Project - Vue Mastery](https://www.vuemastery.com/courses/real-world-vue-js/vue-cli/)
 * [Getting Started With Vue CLI 3](https://codingthesmartway.com/getting-started-with-vue-cli-3/)
+
+</useful-links-section>
+</useful-links>
 
 ## Poi
 
@@ -48,10 +57,21 @@ As with Vue CLI, Poi leans more towards building applications than libraries.
 * Great development experience.
 * Plugin support for maximum extendability.
 
-### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
 * [Poi Docs](https://poi.js.org/)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [Scaffold a Vue.js app with Poi](https://alligator.io/vuejs/vue-scaffold-poi/)
+* [Experience in using Poi.js and Bili from Egoist](https://medium.com/vuejs-id/experience-in-using-poi-js-and-bili-from-egoist-efd78aa8323a)
+* [Make Webpack Easy with Poi](https://egghead.io/courses/make-webpack-easy-with-poi) <badge>Paid</badge>
+
+</useful-links-section>
+</useful-links>
+
 
 ## Bili
 Bili is a build tool on top of Rollup, that is meant to make bundling JavaScript libraries easier, without getting in the way.
@@ -70,12 +90,22 @@ The tool offers both a command line and Node.js API, so developers are free to c
 * Friendly error logging experience.
 * Written in TypeScript, automatically generated API docs.
 
-### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
 * [Bili Docs](https://bili.egoist.sh/)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [Bundle Vue library with Bili](https://medium.com/@sox/bundle-vue-library-with-bili-65de446365a8)
+* [Experience in using Poi.js and Bili from Egoist](https://medium.com/vuejs-id/experience-in-using-poi-js-and-bili-from-egoist-efd78aa8323a)
+
+</useful-links-section>
+</useful-links>
 
 # Bundlers
+
 Bundlers are complex tools that take both small and large applications, often made out of multiple packages and sub modules, transform them into a format, that is ready to work in the Browser, Node.js or both.
  
 Depending on the intended use case, each bundler has its strengths and weaknesses, which we will outline in the list below.
@@ -85,13 +115,22 @@ Webpack is the most popular tool for bundling complex web applications. It boast
 
 Webpack can import JavaScript files along side assets like images and styles, building a dependency graph which maps modules between each other, generating one or more application bundles.  
 
-### Useful Links
+<useful-links>
+<useful-links-section title="Official">
+
+* [Official Webpack Docs](https://webpack.js.org/)
+* [Webpack Academy](https://webpack.academy/) <badge>Freemium</badge>
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
 
 * [Setting up Webpack manually for Vue](https://vue-loader.vuejs.org/guide/)
 * [Vue.js and Webpack 4 From Scratch, Part 1](https://itnext.io/vuejs-and-webpack-4-from-scratch-part-1-94c9c28a534a)
-* [Official Webpack Docs](https://webpack.js.org/)
 * [Webpack for Everyone](https://laracasts.com/series/webpack-for-everyone)
-* [Webpack Academy](https://webpack.academy/)
+
+</useful-links-section>
+</useful-links>
+
 
 ## Rollup
 Rollup is a module bundler, that is more catered towards building libraries, rather than applications. Its purpose is to compile small pieces of code, preferably ES Modules, into larger and more complex applications and libraries. It works best with the ES6 version of JavaScript modules, as it offers a superior API, transforming older formats like CommonJS and AMD to it via plugins. 
@@ -100,26 +139,50 @@ The bundler is used to package some of the most popular JavaScript tools and fra
 
 Rollup has both a command line and Node.js based API, Babel and Buble support, Tree-Shaking (removes unused code), a big list of configuration options, most of which have defaults that are suitable for the majority of libraries.
 
-### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
 * [Rollup Docs](https://rollupjs.org/guide/en)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [How to write and build JS libraries in 2018](https://medium.com/@kelin2025/so-you-wanna-use-es6-modules-714f48b3a953)
+
+</useful-links-section>
+</useful-links>
+
 
 ## Parcel
 Parcel is a fast, zero configuration web application bundler that aims to bundle most complex applications without any configuration from the developers side. It handles JavaScript, HTML, Assets, Typescript and ESModules seamlessly, transforming and transpiling to format supported by the Browser, all out of the box. 
 
 This is a tool, similar to Webpack as it can handle all kinds of file types, building a dependency graph between all of them, returning one or more application bundles. Where it shines is its zero config approach and sheer speed, which were very noticeable in Webpack 3 and below. Webpack 4 offers a similar simplified configuration and major speed improvements.
 
-### Useful Links
+<useful-links>
+<useful-links-section title="Official">
+
+* [Parcel with Vue](https://parceljs.org/vue.html)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
 
 * [Building Vue.js Apps with Parcel](https://alligator.io/vuejs/vue-parceljs/)
 * [Using Parcel In A Vue.js App](https://scotch.io/tutorials/using-parcel-in-a-vuejs-app)
+
+</useful-links-section>
+</useful-links>
 
 ## Brunch
 Is a minimalistic asset build tool, which boasts a near zero-config build process. It offers good build speeds, plugin support, live reloading and project scaffolding via official and community written skeletons.
 
 Brunch was made to replace task runners like Gulp or Grunt, before Webpack and Rollup had gained so much traction.
 
-[Vue.js + Brunch: The Webpack Alternative You've Been Hungry For](https://vuejsdevelopers.com/2017/08/20/vue-js-brunch/)
-[Getting Started with Brunch](https://scotch.io/tutorials/getting-started-with-brunch-the-ultra-fast-simple-config-build-tool)
-[What is Brunch](https://github.com/brunch/brunch-guide/blob/master/content/en/chapter01-whats-brunch.md)
+<useful-links>
+<useful-links-section title="Tutorials">
+
+* [Vue.js + Brunch: The Webpack Alternative You've Been Hungry For](https://vuejsdevelopers.com/2017/08/20/vue-js-brunch/)
+* [Getting Started with Brunch](https://scotch.io/tutorials/getting-started-with-brunch-the-ultra-fast-simple-config-build-tool)
+* [What is Brunch](https://github.com/brunch/brunch-guide/blob/master/content/en/chapter01-whats-brunch.md)
+
+</useful-links-section>
+</useful-links>

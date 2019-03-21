@@ -30,10 +30,15 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 - high memory usage
 - unprotected source code in package
 
-### Useful resources
+
+<useful-links>
+<useful-links-section title="Tutorials">
 
 - [Vue.js & Electron: The easy way](https://medium.com/@mikeal/vue-js-electron-the-easy-way-adc3ca09234a)
 - [Building a Desktop App with Vue: Electron](https://dev.to/vuevixens/building-a-desktop-app-with-vue-electron-3pl)
+
+</useful-links-section>
+</useful-links>
 
 ## NW.js
 
@@ -52,11 +57,20 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 - high memory usage
 - significantly less used than Electron
 
-### Useful resources
 
-- [vue-desktop-basic boilerplate](https://github.com/TheJaredWilcurt/vue-desktop-basic)
+<useful-links>
+<useful-links-section title="Boilerplate">
+
+- [vue-desktop-basic](https://github.com/TheJaredWilcurt/vue-desktop-basic)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 - [Building a Desktop App with Vue: NW.js](https://dev.to/vuevixens/building-a-desktop-app-with-vue-nwjs-1f9e)
 - [Reducing app distribution size in NW.js](https://dev.to/thejaredwilcurt/reducing-app-distribution-size-in-nwjs-3d5f)
+
+</useful-links-section>
+</useful-links>
 
 ## Electron VS NW.js
 
@@ -85,9 +99,13 @@ The core difference between Vuido and Electron or NW.js is that you're not going
 - appearance is limited to OS native GUI components
 - doesn't have a Vue CLI plugin, only Vue CLI 2 boilerplate
 
-### Useful resources
+
+<useful-links>
+<useful-links-section title="Tutorials">
 
 - [Vue CLI 2 Vuido boilerplate](https://github.com/mimecorg/vuido-webpack-template)
 - [Native desktop applications using Vue.js](https://codeburst.io/native-desktop-applications-using-vue-js-964e841e3c1d)
 - [Building a Desktop App with Vue: Vuido](https://dev.to/vuevixens/building-a-desktop-app-with-vue-vuido-490n)
 
+</useful-links-section>
+</useful-links>

@@ -7,9 +7,14 @@ Building mobile applications with JavaScript is not a new thing and has been aro
 
 On this page, we will go through the different ways one can build a mobile app with Vue, and the pros and cons behind each.
 
-### Useful Links
+<useful-links>
+<useful-links-section title="Tutorials">
+
 * [Hybrid Apps vs. Native Apps: Which Should You Build?](https://themanifest.com/app-development/hybrid-apps-vs-native-apps-which-should-you-build)
 * [10 Best Vue.js based UI Frameworks for Building Mobile Apps](https://superdevresources.com/vuejs-mobile-frameworks/)
+
+</useful-links-section>
+</useful-links>
 
 ## Compile to Native
 These are applications that are written in JavaScript by using a predefined set of custom UI components. During build time, the code then gets transformed to native for each required platform.
@@ -36,11 +41,16 @@ It has a CLI tool, official UI theme and a set of plugins.
 * It is developed and used mostly in China, so it may be a con for someone.
 * Not enough learning material in English, besides official docs.
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Tutorials">
+
 * [Native Mobile Apps with Weex and VueJS 2.0](https://hackernoon.com/how-to-create-a-weex-vue2-project-6b94981bee4e)
 * [Native Mobile Apps with Vue.js and Weex: Getting Started](https://alligator.io/vuejs/getting-started-vue-weex/)
 * [Native apps with Vue.js: Weex or NativeScript? — chapter I](https://hackernoon.com/native-apps-with-vue-js-weex-or-nativescript-8d8f0bac041d)
 * [Native apps with Vue.js: Weex or NativeScript? — chapter II](https://hackernoon.com/native-apps-with-vue-js-weex-or-nativescript-chapter-ii-6d1776da090d)
+
+</useful-links-section>
+</useful-links>
 
 ### Vue-NativeScript
 
@@ -48,17 +58,31 @@ It has a CLI tool, official UI theme and a set of plugins.
 
 #### Compared to others
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Tutorials">
+
 * [Lessons Learned on Writing Apps with NativeScript VueJS](https://medium.com/learning-lab/lessons-learned-on-writing-apps-with-nativescript-vuejs-bd6a3066f0cb)
 * [Getting Started with building Mobile Apps with NativeScript and Vue.js](https://www.vuejsradar.com/getting-started-with-building-mobile-apps-with-nativescript-and-vuejs/)
+
+</useful-links-section>
+</useful-links>
 
 ### Vue-Native
 
 Vue Native is a mobile framework made for building native mobile apps using Vue.js. It acts as a wrapper around **React Native** APIs, which allows you to use Vue.js and compose rich mobile User Interfaces. For APIs that React Native does not support, you have to write **"bridges"** in the platform's native code or install external plugins. 
 
-#### Useful Links
-* [Vue-Native docs](https://vue-native.io/docs/)
+<useful-links>
+<useful-links-section title="Official">
+
+* [Vue-Native Documentation](https://vue-native.io/docs/)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [How to Setup, Build and Deploy Native Apps with Vue](https://scotch.io/tutorials/how-to-setup-build-and-deploy-native-apps-with-vue)
+
+</useful-links-section>
+</useful-links>
 
 ## Progressive Web Applications
 
