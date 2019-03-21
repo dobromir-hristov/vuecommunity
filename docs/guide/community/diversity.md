@@ -17,7 +17,7 @@ Vue Vixens also engages the community in other ways, including crafting full-day
 Vue Vixens' mission is to mentor people who identify as women both on social media, personal interactions and conferences. Their goal is to boost the number of women-identifying people who attend and speak at the events or try their skills as content creators, to help mid-career and senior women stay engaged by learning new technologies, and to help new developers enter the workforce.
 
 <useful-links>
-<useful-links-section title="Social">
+<useful-links-section title="Official">
 
 * [Official Website](https://vuevixens.org)
 * [Chat on Slack](https://slackin-fxsumkvfno.now.sh/)
@@ -36,7 +36,7 @@ Concatenate is a free conference created by [Christian Nwamba](https://twitter.c
 Having people from Vue.js community take part in organizing such an undertaking both makes us proud and gives a lot of much needed hope.
 
 <useful-links>
-<useful-links-section title="Social">
+<useful-links-section title="Official">
 
 * [Official Website](https://concatenate.io)
 * [Review](https://technext.ng/2018/08/13/heres-all-went-down-concatenate-developers-conference)

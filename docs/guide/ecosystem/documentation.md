@@ -4,8 +4,6 @@ Documentation is a very important part of any software, especially if it is goin
 
 There are a few ways to document software, one is directly inside the code via comments and type declarations, while the other is using external documentation sources, from files (usually .md) inside project to full blown websites.
 
-## Tips on managing docs
-
 ## Documentation websites
 
 When choosing a platform to write your docs on, think about your priorities and preferences.
@@ -32,7 +30,18 @@ So to answer the questions above:
 - As Vupress offers the full power of Vue.js, you can do pretty much any custom component you need.
 - Vupress websites, when rendered, are just static html files, so any static file hosting will do, which are cheap, some of them even free. Check our [Hosting](./hosting.md#static-hosting) page for more information on hosting providers.
 
-Learn all about Vuepress on their [documentation website](https://vuepress.vuejs.org/guide/#features) (also built with Vuepress).
+<useful-links>
+<useful-links-section title="Official">
+
+[Official Website](https://vuepress.vuejs.org/guide/#features)
+
+</useful-links-section>
+<useful-links-section title="Internal Pages">
+
+[Hosting](./hosting.md#static-hosting)
+
+</useful-links-section>
+</useful-links>
 
 ### Docute
 
@@ -51,18 +60,31 @@ Here are the answers from the above questions:
 - It supports plugins as well as custom Vue Components, making customisation quite possible.
 - Docute websites can be hosted on static file hosting services, same as Vuepress.
 
-Check out Docute plugins and its other features on their [documentation website](https://docute.org/).
+<useful-links>
+<useful-links-section title="Official">
+
+* [Official Website](https://docute.org/).
+
+</useful-links-section>
+</useful-links>
 
 ## Other website doc platforms
 
 Below is a list of popular documentation generators, that are not connected to Vue.
 
-- [Docsify](https://docsify.js.org/#/) - native javascript alternative to Docute, with a bit more features, plugins and themes.
+
+<useful-links>
+<useful-links-section title="Similar">
+
+- [Docsify](https://docsify.js.org/#/) - native javascript alternative to Docute
 - [Jekyll](https://jekyllrb.com/)
 - [Hexo](https://hexo.io/)
 - [GitBook](https://www.gitbook.com/)
 - [Docusaurus](https://github.com/facebook/docusaurus)
 - [Docz](https://www.docz.site/)
+
+</useful-links-section>
+</useful-links>
 
 ## Component workbenches
 
@@ -114,7 +136,9 @@ storiesOf('Button', module)
 - Only one "story" per page
 - Need to create a separate `webpack.config.js` file
 
-#### Essential Plugins
+
+<useful-links>
+<useful-links-section title="Essential Plugins">
 
 - [@storybook/addon-a11y](https://github.com/storybooks/storybook/tree/next/addons/a11y) checks accessibility properties
 - [@storybook/addon-knobs](https://github.com/storybooks/storybook) add controls to change usage of your component
@@ -122,13 +146,8 @@ storiesOf('Button', module)
 - [storybook-addon-vue-info](https://github.com/pocka/storybook-addon-vue-info) detects props info
 - [storybook-vue-router](https://github.com/gvaldambrini/storybook-router) add routes to your stories
 
-#### Useful Links
-
-- [Official Guide](https://storybook.js.org/basics/guide-vue/)
-- [Using Storybook with VueJS](https://auth0.com/blog/using-storybook-with-vuejs/)
-- [Visual testing for Storybook for Vue.js](https://docs.percy.io/docs/storybook-for-vue)
-- [vue-storybook](https://github.com/mattrothenberg/vue-storybook). In single file components, write stories in a custom `<story>` block!
-
+</useful-links-section>
+</useful-links>
 
 ### Vue Styleguidist
 
@@ -210,12 +229,17 @@ Here give a reason for using the component. The code samples are going to be ren
 - JSDoc can be verbose
 - The tool is built in React. To customize the template, you will need to use React.
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
-- [Github](https://github.com/vue-styleguidist/vue-styleguidist)
-- [Example](http://rafaelescala.com/vue-styleguide/)
 - [Documentation](https://vue-styleguidist.github.io/)
+- [Github](https://github.com/vue-styleguidist/vue-styleguidist)
 - [Discord Channel](https://discordapp.com/channels/325477692906536972/538786416092512278)
+- [Live Example](http://rafaelescala.com/vue-styleguide/)
+
+</useful-links-section>
+</useful-links>
+
 
 ### Vuese
 
@@ -266,10 +290,19 @@ export default {
   - Slots added to a render function
   - Decorator component names like `@Component({name:'MyComponent'})`
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
 - [Github](https://github.com/vuese/vuese)
-- [Example of markdown-it with vuese](https://buptsteve.github.io/markdown-it-vuese/example/demo.html#props)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
+- [Live Example](https://buptsteve.github.io/markdown-it-vuese/example/demo.html#props)
+
+</useful-links-section>
+</useful-links>
+
 
 ### Vue Design System
 
@@ -277,11 +310,15 @@ Vue design system is a combination of [vue-styleguidist](#vue-styleguidist) and 
 
 [vueds documentation](https://github.com/viljamis/vue-design-system/wiki) is a great read. Even if you are not going to use it directly, you will love to learn about design systems and how to use them.
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
-- [Example](https://vueds.com/example/)
 - [Official website](https://vueds.com/)
 - [Github](https://github.com/viljamis/vue-design-system)
+- [Live Example](https://vueds.com/example/)
+
+</useful-links-section>
+</useful-links>
 
 ## Documentation Generators
 
@@ -291,20 +328,32 @@ Automatic documentation generators scan your files and output a structured forma
 
 Vuedoc is extracting JSDoc to write documentation in a markdown file.
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Links">
 
 - [Gitlab](https://gitlab.com/vuedoc/md)
-- [JSDoc3 plugin](https://github.com/ccqgithub/jsdoc-vuedoc) a plugin allowing you to generate JSDoc3 powered documentations using vuedoc.
+- [JSDoc3 plugin](https://github.com/ccqgithub/jsdoc-vuedoc) Generate JSDoc3 powered documentations using vuedoc.
+
+</useful-links-section>
+</useful-links>
+
 
 ### JSDoc Vuejs
 
 This writes an html page by extracting the JSDoc from your component. Internally, it runs on JSDoc3. It supports 4 different output formats:
+
+<useful-links>
+<useful-links-section title="Official">
+
+- [Github](https://github.com/Kocal/jsdoc-vuejs)
+
+</useful-links-section>
+<useful-links-section title="Formats">
 
 - Default: made by Kocal author of jsdoc-vuejs
 - [Docstrap](https://github.com/docstrap/docstrap)
 - [Minami](https://github.com/nijikokun/minami)
 - [Tui](https://nhnent.github.io/tui.jsdoc-template/latest/)
 
-#### Useful Links
-
-- [Github](https://github.com/Kocal/jsdoc-vuejs)
+</useful-links-section>
+</useful-links>

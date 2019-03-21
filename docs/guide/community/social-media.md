@@ -11,7 +11,7 @@ Remember that people you discuss with are not obligated to provide help and that
 Occasionally the chat's team organizes Q&A sessions with two or more important members of the Vue.js community. Each Q&A has a specific topic where the special guests answer questions, asked by other users. 
 
 <useful-links>
-<useful-links-section title="Social">
+<useful-links-section title="Official">
 
 * [Vue.js chat on Discord](https://chat.vuejs.org)
 * [Vue.js chat's website](https://vue-land.js.org)
@@ -24,7 +24,7 @@ Occasionally the chat's team organizes Q&A sessions with two or more important m
 Official Vue forum is a SEO friendly alternative to the chat. It's especially helpful if you expect to take longer to get the answer and can afford to wait for it. The forum's team is managed by Thorsten Lünborg, but you can also find help from other Core Team members there from time to time.
 
 <useful-links>
-<useful-links-section title="Social">
+<useful-links-section title="Official">
 
 [Vue.js forum on Discourse](https://forum.vuejs.org)
 
@@ -34,7 +34,15 @@ Official Vue forum is a SEO friendly alternative to the chat. It's especially he
 
 ## Stack Overflow
 
-[Stackoverflow's Vue.js](https://stackoverflow.com/tags/vue.js/info) section is a common place for people to ask questions related to programming with Vue.
+Stackoverflow's Vue.js section is a common place for people to ask questions related to programming with Vue.
+
+<useful-links>
+<useful-links-section title="Official">
+
+[Vue.js Section](https://stackoverflow.com/tags/vue.js/info)
+
+</useful-links-section>
+</useful-links>
 
 ## Newsletters
 
@@ -58,10 +66,6 @@ If you want your new resource covered in the upcoming edition, submit it using t
 </useful-links-section>
 </useful-links>
 
-
-#### Other newsletters
-
-
 ## Vue People
 
 [VuePeople.org](https://vuepeople.org) is an interactive map of Vue.js developers and enthusiasts around the world, with a possibility to filter them with tags. The plan for the future is to make it network that connects the Vue.JS community not only with each other, but also with events and work opportunities. You can register via your Github account.
@@ -70,7 +74,14 @@ If you want your new resource covered in the upcoming edition, submit it using t
 
 Twitter is the first place where developers share updates on their packages, discuss ideas, point out findings, do polls or just ask for advice. 
  
-The list of influential people is ever expanding, and Dobromir Hristov's post [List of influential Twitter profiles in Vue.js](https://medium.com/hypefactors/list-of-influential-twitter-profiles-in-the-vue-js-community-state-of-2018-cca15ec1144a) is doing a good job at collecting some of the most socially active developers on Twitter in the Vue community and in the JavaScript world in general.
+<useful-links>
+<useful-links-section title="Tutorials">
+
+* [List of influential Twitter profiles in Vue.js](https://medium.com/hypefactors/list-of-influential-twitter-profiles-in-the-vue-js-community-state-of-2018-cca15ec1144a)
+* [People to Watch If You’re a Vue.js Developer](https://www.monterail.com/blog/people-to-watch-if-youre-a-vue.js-developer)
+
+</useful-links-section>
+</useful-links>
 
 ## Other platforms
 

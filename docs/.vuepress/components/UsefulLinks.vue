@@ -24,5 +24,6 @@ export default {
   background: linear-gradient($color-white 40%, $color-white-bis);
   color: $color-gray;
   box-shadow: $box-shadow;
+  margin: $spacing-xlarge 0;
 }
 </style>

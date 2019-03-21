@@ -4,12 +4,16 @@ Server side rendering can be explained as moving the process of rendering pages 
 
 The difference is, that the server renders the page only on first page visit, once the page gets loaded by the client's browser, the JavaScript framework, Vue in our case, takes over the application's routing and rendering processes, giving the impression of a faster navigation and smoother experience.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
 
-* [The Benefits of Server Side Rendering Over Client Side Rendering](https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8) - a very well written explanation of the benefits of SSR, from the Wallmart developer team.
+* [The Benefits of Server Side Rendering Over Client Side Rendering](https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8) <badge>Good read</badge>
 * [What’s Server Side Rendering and do I need it?](https://medium.com/@baphemot/whats-server-side-rendering-and-do-i-need-it-cb42dc059b38)
 * [When to use Server-Side Rendering (SSR) in Vue.js projects](https://codeburst.io/when-to-use-server-side-rendering-ssr-in-vue-js-projects-697bd925d57b)
 * [What is React Server Side Rendering and should I use it?](https://dev.to/mladenstojanovic/what-is-react-server-side-rendering-and-should-i-use-it-5b7i) - For React, by the concepts are the same.
+
+</useful-links-section>
+</useful-links>
 
 ## Benefits of Server Side Rendering (SSR)
 
@@ -37,7 +41,15 @@ With SSR, pages are displayed with nice previews, as both the page content it se
 
 ### Time To First Paint (TTFP)
 
-Pages will be rendered faster when using SSR, as the browser does not need to download the whole JavaScript bundle to start rendering. This does not however mean a fully functioning website. Read [Problems with SSR - Time to interaction](#time-to-interaction) for more info.
+Pages will be rendered faster when using SSR, as the browser does not need to download the whole JavaScript bundle to start rendering. This does not however mean a fully functioning website. 
+
+<useful-links>
+<useful-links-section title="Internal Pages">
+
+[Problems with SSR - Time to interaction](#time-to-interaction) - for more info.
+
+</useful-links-section>
+</useful-links>
 
 ## Problems with SSR
 
@@ -55,7 +67,13 @@ Because the server has to actually do the rendering, fetch async data and so on,
 
 Because there is usually a live Node.js instance always on, waiting to render a request, server costs are higher than static file hosting.
 
-Check the [Hosting page](./hosting.md#server-rendered-websites) for more info.
+<useful-links>
+<useful-links-section title="Internal Pages">
+
+[Hosting page](./hosting.md#server-rendered-websites) - for more info.
+
+</useful-links-section>
+</useful-links>
 
 ### Server Load
 
@@ -69,9 +87,13 @@ To overcome this, developers should not interact with those APIs, in places, tha
  
  With sliders and carousels, you could delay their rendering to after the client receives the page, so it gets rendered on the browser.
  
- #### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
  
 * [The guide to write universal, SSR-ready Vue components](https://blog.lichter.io/posts/the-guide-to-write-universal-ssr-ready-vue-compon/#window%2C-document%2C-and-friends---platform-specific-apis)
+
+</useful-links-section>
+</useful-links>
 
 ### Complex to transform deployed SPA to SSR
 
@@ -89,13 +111,13 @@ This part of the page is still in development and could use some help.
 
 Thankfully, there are a few options already for Vue when it comes to server-side rendering.
 
-## Nuxt
+## Nuxt <badge>Popular</badge>
 
 [Nuxt](https://nuxtjs.org/) is a framework on top of Vue for creating universal applications. It offers a full SSR environment, with an extendable API, out of the box.
 
 If you are searching for a well tested solution, with a large community and nice development experience, Nuxt is most probably what you should pick.
 
-Learn more about it on the [Nuxt](./nuxt.md) page.
+Learn more about it on the dedicated [Nuxt](./nuxt.md) page.
 
 ## Ream
 
@@ -111,8 +133,16 @@ You can use it in tandem with an Express server or similar solution, to render p
 
 If you dont need some really custom solution, we would advise you to pick one of the pre-made tools mentioned above.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Official">
 
-* [Official Vue.js Server Side Rendering Docs](https://ssr.vuejs.org/)
+* [SSR Docs](https://ssr.vuejs.org/)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [Basic Server Side Rendering with Vue.js and Express](https://alligator.io/vuejs/basic-ssr/)
 * [VueJs: Server Side Render with Vue-router](https://medium.com/frontend-fun/vuejs-server-side-render-with-vue-router-e73d51699873)
+
+</useful-links-section>
+</useful-links>

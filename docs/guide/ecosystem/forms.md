@@ -14,20 +14,37 @@ You can write a simple form validation yourself, but if you want a well tested s
 
 [Vee-Validate](https://github.com/baianat/vee-validate) is a an all-inclusive library with string-based validators. One of its biggest advantages is that it's fully compatible with form validation of Laravel framework, which made it very popular among PHP developers. The validation is applied to form fields using custom directives, allowing the users to keep the validators directly in the template if such is their preference.
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Official">
+
 * [GitHub Repo](https://github.com/baianat/vee-validate) 
 * [Docs](https://baianat.github.io/vee-validate) 
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [Template-Based Form Validation with Vue.js and vee-validate](https://alligator.io/vuejs/template-form-validation-vee-validate/)
+
+</useful-links-section>
+</useful-links>
 
 ### Vuelidate
 
 With [Vuelidate](https://github.com/monterail/vuelidate) you don't validate your form fields directly, but rather by validating the data of your component, which state is compared to provided validation schema. Unlike string-based Vee-Validate, all validators in Vuelidate are functions. Vuelidate has many useful features but you will have to write some additional code too or use 3rd party plugins, like for the missing error messages handling.
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
 * [GitHub Repo](https://github.com/monterail/vuelidate) 
 * [Docs](https://monterail.github.io/vuelidate) 
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [Simple Vue.js Form Validation with Vuelidate](https://vuejsdevelopers.com/2018/08/27/vue-js-form-handling-vuelidate/)
+
+</useful-links-section>
+</useful-links>
 
 ## Form Generators
 
@@ -39,10 +56,14 @@ Form generators are libraries that allow users to generate a set of form element
 
 Having good documentation, high test coverage and being well-maintained for a long time, Vue-Form-Generator can be considered fully production ready.
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
 * [GitHub Repo](https://github.com/icebob/vue-form-generator) 
 * [Docs](https://icebob.gitbooks.io/vueformgenerator/content)
+
+</useful-links-section>
+</useful-links>
 
 ### Vue-Formly
 
@@ -50,11 +71,14 @@ Having good documentation, high test coverage and being well-maintained for a lo
 
 It allows you to write your custom set of templates or use the standard components for Bootstrap, which are available as a separate library. Just like Vue-Form-Generator, it uses its own validation system.
 
-
-#### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
 * [GitHub Repo](https://github.com/formly-js/vue-formly) 
 * [Docs](https://matt-sanders.gitbooks.io/vue-formly)
+
+</useful-links-section>
+</useful-links>
 
 ## Form State Management
 
@@ -64,18 +88,27 @@ Form state management libraries usually have smaller scope than form generators 
 
 [Vue-Final-Form](https://github.com/egoist/vue-final-form) is a scoped slots based integration of Final Form, a framework-agnostic library that became pretty famous thanks to its subscription based state management system. Among its advantages are nice API and the focus on performance. Being written by [Egoist](https://twitter.com/_egoistlily), one of Vue.js Core Team members, will also be a plus for many.
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
 * [GitHub Repo](https://github.com/egoist/vue-final-form) 
 * [Docs](https://egoist.github.io/vue-final-form)
+
+</useful-links-section>
+</useful-links>
+
 
 ### Vue-SimpleForm
 
 [Vue-SimpleForm](https://github.com/blocka/vue-simpleform) is heavily influenced by [Formik](https://github.com/jaredpalmer/formik), a popular forms solution in React ecosystem. In order to use it, you just pass the form with its fields as a scoped slot to a wrapper component and it manages the state for you. If you're familiar with Formik because of your React experience and like how it works, by all means give it a go.
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
 * [GitHub Repo](https://github.com/blocka/vue-simpleform)
+
+</useful-links-section>
+</useful-links>
 
 ## Other Libraries
 
@@ -88,23 +121,43 @@ There are many kinds of form related libraries that serve different purposes. Le
 You can use it with UI and validation libraries of your choice, it also provides support for Vue-Router. Its author, [Cristi Jora](https://twitter.com/jora_cristi), took the effort to provide comprehensive documentation and many code examples for different use cases.
 
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
 * [GitHub Repo](https://github.com/cristijora/vue-form-wizard) 
 * [Docs](https://cristijora.github.io/vue-form-wizard)
+
+</useful-links-section>
+</useful-links>
+
 
 ### Vue-Multiselect
 
 Out of all kinds of form fields, multiselect is usually the most tricky to implement. Luckily [Damian Dulisz](https://twitter.com/damiandulisz) from the Core Team took care of that and wrote [Vue-Multiselect](https://github.com/shentao/vue-multiselect). Thanks to smart architecture, it's highly configurable and you can make it look the way it fully fits your design.
 
-#### Useful Links
+<useful-links>
+<useful-links-section title="Official">
 
 * [GitHub Repo](https://github.com/shentao/vue-multiselect) 
-* [Docs](https://vue-multiselect.js.org) 
+* [Docs](https://vue-multiselect.js.org)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [How to create a custom selected list using Multiselect](https://medium.com/@hugodesigns/how-to-use-the-most-complete-selecting-solution-for-vue-js-f991b2605364)
+
+</useful-links-section>
+</useful-links>
+
 
 ## Form tutorials
 
 Here's a list of selected general tutorials on how to write forms in Vue.js that don't require using any specific library.
 
+<useful-links>
+<useful-links-section title="Tutorials">
+
 * [An imperative guide to forms in Vue.js 2](https://logrocket.com/blog/an-imperative-guide-to-forms-in-vue-js-2/)
+
+</useful-links-section>
+</useful-links>

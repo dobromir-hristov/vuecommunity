@@ -1,8 +1,13 @@
 # Books
 This page lists popular books about Vue development that focus on a single topic, like testing or larger scope, like building a whole application. 
 
-#### Useful Resources
-* [Top 10 Vue JS Books You Should Read](https://dev.to/heshanfu/top-10-vue-js-books-you-should-read-240c)
+<useful-links>
+<useful-links-section title="Useful Links">
+
+[Top 10 Vue JS Books You Should Read](https://dev.to/heshanfu/top-10-vue-js-books-you-should-read-240c)
+
+</useful-links-section>
+</useful-links>
 
 ## Testing
 These books are mostly focused on the concept of testing components and full blown applications. Even though include steps on building an application, that is not their main goal.

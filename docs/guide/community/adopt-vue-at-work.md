@@ -64,9 +64,9 @@ You can a look at our [Boilerplates](../ecosystem/boilerplates.md) page, where w
 <useful-links>
 <useful-links-section title="Tutorials">
 
-  - [Vue.js Application Structure and CSS Architecture](https://markus.oberlehner.net/blog/vue-application-structure-and-css-architecture/) - Markus Oberlehner
-  - [Making a large scale app with vue.js](https://medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502) - Stephane Souron
-  - [How to Structure a Vue.js Project](https://itnext.io/how-to-structure-a-vue-js-project-29e4ddc1aeeb) - Sandoche ADITTANE
+* [Vue.js Application Structure and CSS Architecture](https://markus.oberlehner.net/blog/vue-application-structure-and-css-architecture/)
+* [Making a large scale app with vue.js](https://medium.com/@stephane.souron/making-a-large-scale-app-with-vue-js-part-1-modularize-your-store-bf9066436502)
+* [How to Structure a Vue.js Project](https://itnext.io/how-to-structure-a-vue-js-project-29e4ddc1aeeb)
 
 </useful-links-section>
 </useful-links>

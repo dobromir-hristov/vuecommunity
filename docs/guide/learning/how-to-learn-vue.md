@@ -16,6 +16,15 @@ If you want to find out how other people learn, the [Tips from Mentors](./tips-f
 * [Useful Vue patterns, techniques, tips and tricks and curated helpful links.](https://translation-gang.github.io/vue-patterns/)
 
 </useful-links-section>
+<useful-links-section title="Internal Pages">
+
+* [Official Documentation](./official-documentation.md)
+* [Courses](./courses.md)
+* [Learning Platforms](./learning-platforms.md)
+* [Books](./books.md)
+* [Tips from Mentors](./tips-from-mentors.md)
+
+</useful-links-section>
 </useful-links>
 
 ## Categorizing applications by technology
