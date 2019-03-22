@@ -1,4 +1,4 @@
-# Blogs and articles
+# Blogs
 
 Finding the right place where you can read quality Vue articles, or even submit your own is not as easy as one might think.
 
@@ -41,20 +41,26 @@ There are new Vue articles on a weekly basis, which are worth checking out.
 
 They release well written Vue articles, along with other good material.
 
-## Auth0
-[Auth0 Blog](https://auth0.com/blog/)
-
 ## Pusher
-[Pusher Blog](https://pusher.com/tutorials?q=vuejs)
+[Pusher Blog](https://pusher.com/tutorials?q=vuejs) is a platform that offer APIs to build real-time apps and you can find plenty of Vue related articles that shows how you can use Vue with their APIs
 
 ## Personal Blogs
 This list consists of personal developer blogs, where people share their Vue related problems and solutions.
 
-## Markus Oberlehner
-[Markus Oberlehner](https://markus.oberlehner.net/blog/) - Vue.js, JavaScript, CSS, Test Driven Development and Front-End Architecture. Unique articles and interesting problem resolutions.
-[Adri Fontcu](https://medium.com/@afontcu)
-[Tiago Alves](https://medium.com/@tiagoreisalves)
-[Ben Hong](https://medium.com/@bencodezen)
-[Alexander Lichter](https://medium.com/@AlexLichter)
-[Ivan Sieder](https://simedia.tech/blog/) 
-[Dobromir Hristov](https://medium.com/@dobromir_hristov/)
+- [Markus Oberlehner](https://markus.oberlehner.net/blog/) - Vue.js, JavaScript, CSS, Test Driven Development and Front-End Architecture. Unique articles and interesting problem resolutions.
+
+- [Adri Fontcu](https://medium.com/@afontcu) - Frontend development, CSS, UX, design, lean, agile and everything in between.
+
+- [Tiago Alves](https://medium.com/@tiagoreisalves) - Vue.js, NativeScript, Weex, Mobile App Development
+
+- [Ben Hong](https://medium.com/@bencodezen) - Vue.js, Frontend development, CSS, 
+
+- [Ivan Sieder](https://simedia.tech/blog/) - Vue.js,  Frontend development
+
+- [Dobromir Hristov](https://medium.com/@dobromir_hristov/) - Vue.js, Frontend development
+
+- [Michael Thiessen](http://michaelnthiessen.com/) - Vue.js,  Frontend development
+
+- [Bo Andersen](https://codingexplained.com/tag/vue) - Vue.js,  Frontend development. Unique articles and interesting problem resolutions.
+
+#### If you write articles on Vue, feel free to make a PR and include your blog!

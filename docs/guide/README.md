@@ -14,7 +14,7 @@
 * [Learning platforms](./learning/learning-platforms.md) - Learning platforms that also offer Vue.js video courses
 * [Video Courses](./learning/courses.md) - Popular Vue video courses
 * [Books](./learning/books.md) - Books about Vue development
-* [Blogs and Articles](./learning/blogs-and-articles.md) - Popular Vue related blogs, articles and smaller authors.
+* [Blogs](./learning/blogs.md) - Popular Vue related blogs.
 * [FAQ](./learning/faq.md) - Answers to most common questions asked by Vue developers through chats, forum and other media
 * [Podcasts](./learning/podcasts.md) - Vue podcasts or single episodes talking about Vue
 * [Tips from Mentors](./learning/tips-from-mentors.md) - How Vue experts began with Vue, tips on how to learn
