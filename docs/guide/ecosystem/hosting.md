@@ -15,48 +15,82 @@ These websites can be hosted on [Traditional Hosting](#traditional-server-hostin
 
 Static file hosting is generally used to serve rarely changing assets, that are processed and generated upfront, to the client's browser in the most optimized and fast way. Such hosting solutions are perfect for SPAs or pre-rendered websites, as they are mostly a collection of static files and require no runtime processing. These hosting services cannot run files containing dynamic code like `.php` or `.js` node scripts.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
 
 [Article explaining static content](https://www.maxcdn.com/one/visual-glossary/static-content/)
 
-### Netlify
+</useful-links-section>
+</useful-links>
+
+### Netlify <badge>Popular</badge>
 
 Netlify is a popular choice for a static file hosting service. It offers a simple to use interface, global CDN, free and easy to setup SSL, URL rewrites, custom header setup, cloud functions and more.
 
 They offer integration with GitHub, GitLab and Bitbucket. Netlify offers a free hosting tier, which should suit most people's needs.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Official">
 
-* [Netlify Docs](https://netlify.com)
+* [Netlify Documentation](https://netlify.com)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [How to deploy your Vue app with Netlify in less than 2 min!](https://medium.com/vuejoy/how-to-deploy-your-vue-app-with-netlify-in-less-than-2-min-d6ab26c6557d)
 * [Deploy Nuxt.js Static App to Netlify](https://vueschool.io/lessons/deploy-nuxtjs-app-to-netlify)
 * [CSS-Tricks article on Netlify](https://css-tricks.com/static-file-hosting-doesnt-have-to-be-so-static/)
+
+</useful-links-section>
+</useful-links>
 
 ### GitHub/GitLab/Bitbucket Pages
 
 The top 3 git services offer free static website hosting. You can deploy your websites to them by just committing your code to a repo, which will get automatically deployed for you. You can connect a custom domain or use their subdomains, GitLab even offers a CI pipeline to build your website on the fly.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
 
 * [Deploy Vue to GitHub pages-the easy way!](https://medium.com/@codetheorist/vue-up-your-github-pages-the-right-way-955486220418)
 * [Deploy CLI 3 app to GitLab Pages](https://cli.vuejs.org/guide/deployment.html#gitlab-pages)
 * [Bitbucket Pages](https://pages.bitbucket.io/) 
 
+</useful-links-section>
+</useful-links>
+
 ### Firebase Hosting
 
 Firebase hosting is a free static content hosting by Google, which offers a quick and easy way to deploy websites to a global CDN. Their [Cloud Functions](https://firebase.google.com/docs/functions/) can be used to build serverless microservices with Node.js. They also offer lightweight hosting configuration options like URL rewrites and custom header setup.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Official">
 
 * [Firebase Hosting docs](https://firebase.google.com/docs/hosting/)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [Deploy a Vue.js App with Firebase Hosting](https://medium.com/@ShayneOSullivan/deploy-a-vue-js-app-with-firebase-hosting-3fc420cf3998)
+
+</useful-links-section>
+</useful-links>
 
 ### CloudFront
 
 CloudFront is a fast content delivery network by Amazon. They boast high speed, low downtime and flexible configuring options, at a pay-as-you-go pricing model. CloudFront is integrated with AWS and works seamlessly with other Amazon services like DDoS mitigation, Amazon S3, load balancing and more.
 
+<useful-links>
+<useful-links-section title="Official">
+
 * [CloudFront](https://aws.amazon.com/cloudfront/)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [Deploy Vue App to AWS S3](https://itnext.io/deploy-vue-app-to-aws-s3-1256ce03a7a2)
+
+</useful-links-section>
+</useful-links>
 
 ### Surge.sh
 
@@ -82,8 +116,13 @@ One would use such a hosting service typically for hosting a PHP, Python or Node
 
 ### Heroku
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
 
 * [Quick-n-clean way to deploy Vue + Webpack apps on Heroku](https://codeburst.io/quick-n-clean-way-to-deploy-vue-webpack-apps-on-heroku-b522d3904bc8)
+
+</useful-links-section>
+</useful-links>
+
 
 ### Digital Ocean

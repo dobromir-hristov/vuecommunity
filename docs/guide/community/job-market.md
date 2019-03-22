@@ -12,9 +12,20 @@ Developers looking for a Vue.js related job can also subscribe to a weekly newsl
 
 A significant percentage of the income is distributed to the authors of both Vue.js and key ecosystem projects.
 
-### Useful Links
-* [website](https://vuejobs.com) 
-* [chat](https://discord.gg/kVqcTzj)
+<useful-links>
+<useful-links-section title="Official">
+
+* [Official website](https://vuejobs.com) 
+* [Chat on Discord](https://discord.gg/kVqcTzj)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
+* [List of 300 VueJS Interview Questions And Answers](https://github.com/sudheerj/vuejs-interview-questions)
+* [Vue js Interview questions and answers](https://www.onlineinterviewquestions.com/vue-js-interview-questions/)
+
+</useful-links-section>
+</useful-links>
 
 ## Other platforms
 

@@ -40,31 +40,53 @@ It is recommended that you know and use ES201x, as it certainly can diminish som
 
 You can use props and pass strings, numbers or json directly into the component's element tag. If you are passing numbers or json, dont forget to use `v-bind` or `:` shorthand syntax.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
 
-* [Passing data from Laravel to Vue](https://medium.com/@m_ramsden/passing-data-from-laravel-to-vue-98b9d2a4bd23)
+[Passing data from Laravel to Vue](https://medium.com/@m_ramsden/passing-data-from-laravel-to-vue-98b9d2a4bd23)
+
+</useful-links-section>
+</useful-links>
 
 ### How do I pass data to a component?
 
 Data is most often passed down to child components via Props, and emitted up to the parents via Events.
 
-* [Components Basics - Vue Docs](https://vuejs.org/v2/guide/components.html)
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Components Basics](https://vuejs.org/v2/guide/components.html)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [Vue.js Component Communication Patterns](https://alligator.io/vuejs/component-communication/)
 
+</useful-links-section>
+</useful-links>
 
 ### How do I pass data to distant component
 
 You have a few options: 
 
-* Vuex as a global store - Most robust and scalable solution. **Recommended solution.**
+* Vuex as a global store - Most robust and scalable solution. <badge>Popular</badge>
 * [Provide/Inject](https://vuejs.org/v2/api/#provide-inject) - advanced api, mostly used for coupled components or on plugin development.
 * The `$root` as a global store - mostly for very simple applications. Not scalable.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Official">
 
-* [State Management](https://vuejs.org/v2/guide/state-management.html)
 * [Vuex Docs](https://vuex.vuejs.org/guide/)
+* [Vue State Management](https://vuejs.org/v2/guide/state-management.html)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [Provide/Inject in Vue 2.2](https://medium.com/@znck/provide-inject-in-vue-2-2-b6473a7f7816)
+
+</useful-links-section>
+</useful-links>
 
 ### How do I pass data to sibling
 
@@ -76,9 +98,13 @@ You can also use the same techniques as described in [How do I pass data to dist
 
 If you are using fat arrow functions to define your methods, that means the `this` scope of those functions is locked to the parent context, not the Vue instance.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Useful Links">
 
 * [Explanation by Vue Core member Chris Fritz](https://github.com/vuejs-templates/browserify-simple/issues/6#issuecomment-214003282)
+
+</useful-links-section>
+</useful-links>
 
 ### Why isn't my property reactive
 
@@ -86,10 +112,18 @@ In Vue 2.x and below, for a property to be reactive, it needs to be predefined i
 
 In Vue 3.x, this is mostly taken care of and should not happen.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Official">
 
 * [Change Detection Caveats](https://vuejs.org/v2/guide/reactivity.html#Change-Detection-Caveats)
+
+</useful-links-section>
+<useful-links-section title="Useful Links">
+
 * [Reactivity In Vue.js (And Its Pitfalls)](https://vuejsdevelopers.com/2017/03/05/vue-js-reactivity/)
+
+</useful-links-section>
+</useful-links>
 
 ### How do I update a prop?
 
@@ -105,13 +139,17 @@ To do that you can:
 
 In two words you shouldn't need to. If you feel the need to do so, you can:
  
-* use a method - no caching
-* return a function from the computed property that accepts a parameter - almost same as method
-* extract a new, smaller component. That component will have the said parameter as a prop or data property on it. **Recommended**
+* **use a method** - no caching
+* **return a function** - it can accept a parameter - almost same as method. no caching.
+* **extract a new, smaller component**  <badge>Recommended</badge> - That component will have the said parameter as a prop or data property on it.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Useful Links">
 
 * [Pass arguments to computed properties - Laracasts Forum](https://laracasts.com/discuss/channels/vue/pass-arguments-to-computed-properties)
+
+</useful-links-section>
+</useful-links>
 
 ### Where and how can I fetch data in component from API
 
@@ -123,9 +161,13 @@ If you are using [Nuxt](../ecosystem/nuxt.md) you can use the `asyncData` method
 
 A clever way is to create a computed property that uses all "watched" properties. Then you can define a `watch` property on that computed property and react on each change.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Useful Links">
 
-*[Vue GH issue explaining the issue](https://github.com/vuejs/vue/issues/844)
+[Github issue](https://github.com/vuejs/vue/issues/844)
+
+</useful-links-section>
+</useful-links>
 
 ### How can I call a method when a vuex getter or state updates?
 
@@ -139,9 +181,13 @@ It does not hurt, but it is a good practice to extract complex logic to methods 
 
 You cannot attach event listeners to slots. You need to pass the methods you want to handle certain events, using Scoped Slots.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
 
-* [Advanced Vue Component Design](https://adamwathan.me/advanced-vue-component-design/) - has many similar examples.
+* [Advanced Vue Component Design](https://adamwathan.me/advanced-vue-component-design/)
+
+</useful-links-section>
+</useful-links>
 
 ### Why are Set and Map not reactive when I have predefined them in my data.
 
@@ -157,9 +203,13 @@ There is no golden rule, however there are some rough guidelines:
 * when you need a computed property with a parameter - this is a common giveaway. If you extract a component, the param might be a prop now.
 * when a component is too big and complex - if you have a whole page rendered, it is advisable to split out the semantic components (navigation, list, sidebar).
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
 
 * [How the BEM CSS Naming Scheme Can Improve Vue.js Component Architecture](https://markus.oberlehner.net/blog/how-the-bem-css-naming-scheme-can-improve-vue-component-architecture/)
+
+</useful-links-section>
+</useful-links>
 
 ### Global vs Local registered components
 
@@ -189,18 +239,26 @@ Functional components generally use render functions or JSX, thus one could impo
 
 Check the links below for more info and examples.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
 
 * [What’s the deal with functional components in Vue.js?](https://itnext.io/whats-the-deal-with-functional-components-in-vue-js-513a31eb72b0)
 * [Functional Components in Vue.js](https://alligator.io/vuejs/functional-components/)
+
+</useful-links-section>
+</useful-links>
 
 ### How to define methods or computed properties inside functional template components?
 
 Template based functional components use Vue's template syntax, which means they only have access to the components props and the parent. You cannot define functions as there is no way to reach them from within the template. A trick, or a hack, is to use `$options` property to access the component's definition. It allows you to access any property in the component, essentially allowing for method definition. Check the GitHub issue below for more info.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Useful Links">
 
 * [Using methods in functional template components](https://github.com/vuejs/vue-loader/issues/1291#issuecomment-393823929)
+
+</useful-links-section>
+</useful-links>
 
 ## Vuex
 
@@ -208,9 +266,13 @@ Template based functional components use Vue's template syntax, which means they
 
 Vuex can be used to share reactive data across distant components. This is very useful when you need to share the logged in user across multiple components, open modals from everywhere. You could also centralize all your data fetching logic into Vuex modules, keeping everything in one place, yet have it accessible everywhere.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
 
 * [Should I Store This Data in Vuex?](https://markus.oberlehner.net/blog/should-i-store-this-data-in-vuex/)
+
+</useful-links-section>
+</useful-links>
 
 ### Do I even need Vuex?
 
@@ -238,16 +300,21 @@ Of course you should. When you need to pass data from closely related components
 
 You could use the `$root` object for very small applications. You could also try the provide/inject api for tightly coupled components, which does have some caveats though. One could also try using Redux.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
 
 * [Should I Store This Data in Vuex?](https://markus.oberlehner.net/blog/should-i-store-this-data-in-vuex/)
 * [Simple state management, simpler than Vuex](http://vuetips.com/simple-state-management-vue-stash)
+
+</useful-links-section>
+</useful-links>
 
 ### How to use state management libraries from other frameworks (Redux, RxJS)
 
 Vue is very flexible and can be used with any state management library. Check a few examples in the list below.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
 
 * [How We Use Redux & Redux-Observable with Vue (v3.0 Journal)](https://snipcart.com/blog/redux-vue)
 * [Emulate render props in Vuejs](https://medium.com/@titouan.creach_44544/emulate-render-props-in-vuejs-c14086dc8dfa)
@@ -255,14 +322,25 @@ Vue is very flexible and can be used with any state management library. Check a 
 * [Integrating RxJS with Vue.js](https://alligator.io/vuejs/using-rxjs/)
 * [Build Async Vue.js Apps with RxJS](https://egghead.io/courses/build-async-vue-js-apps-with-rxjs)
 
+</useful-links-section>
+</useful-links>
+
 ### How can I pass parameters to getters?
 
 To pass a parameter to a getter, return a function from within the getter. The function can accept any number of parameters. Keep in mind data is not cached, so the function will run every time you call it.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Official">
 
-* [Vuex Docs - Method-Style Access](https://vuex.vuejs.org/guide/getters.html#method-style-access)
+* [Method-Style Access](https://vuex.vuejs.org/guide/getters.html#method-style-access)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [Vuex getters are great, but don’t overuse them](https://codeburst.io/vuex-getters-are-great-but-dont-overuse-them-9c946689b414)
+
+</useful-links-section>
+</useful-links>
 
 ### Should I do client-server communication in components or vuex actions?
 
@@ -280,9 +358,13 @@ This makes however Vuex modules bulky and harder to navigate. Namespaced modules
 
 If you use the Vue CLI and ES modules, which you should, you can just import the exported Vuex instance (usually inside `src/store/index.js`) and access the whole store from there.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Useful Links">
 
 * [Accessing Vuex state when defining Vue-Router routes](https://stackoverflow.com/questions/42603909/accessing-vuex-state-when-defining-vue-router-routes)
+
+</useful-links-section>
+</useful-links>
 
 ### What is the point of mapGetter, mapState and other helpers?
 
@@ -387,11 +469,19 @@ Yes! You are not tied to Vue CLI, you can roll with your own build setup or read
 
 You can! Vue CLI can be put into library build mode, excluding specific modules from the build and doing optimisations.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Official">
 
-* [Vue CLI - Library taret mode](https://cli.vuejs.org/guide/build-targets.html#library)
+* [Vue CLI - Library target mode](https://cli.vuejs.org/guide/build-targets.html#library)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
 * [How to create, publish and use your own VueJS Component library on NPM using @vue/cli 3.0](https://medium.com/justfrontendthings/how-to-create-and-publish-your-own-vuejs-component-library-on-npm-using-vue-cli-28e60943eed3)
 * [Create & Publish Web Components With Vue CLI 3](https://medium.com/js-dojo/create-publish-web-components-with-vue-cli-3-26f9cfb6583b)
+
+</useful-links-section>
+</useful-links>
 
 ## CSS
 
@@ -401,9 +491,13 @@ Simply specify the preprocessor you need by adding a `lang="scss"` tag, with its
 
 Note: this only works in `.vue` SFC components, and we recommend using with Vue CLI.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Official">
 
 * [Using Pre-Processors](https://vue-loader.vuejs.org/guide/pre-processors.html)
+
+</useful-links-section>
+</useful-links>
 
 ### How to import files in style tag
 
@@ -415,17 +509,25 @@ You can leverage Webpack's file resolution and aliases inside the import stateme
 
 When the `scoped` attribute is applied to the `style` tag, CSS rules defined within it will only apply to the current component. This is done by adding randomly named data attributes to each element, that styled by the rules of that `style` tag. This is done by Vue CLI via PostCSS, behind the scenes while building the application, and does not require any further configuration from the developer.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Official">
 
 * [Scoped CSS](https://vue-loader.vuejs.org/guide/scoped-css.html)
+
+</useful-links-section>
+</useful-links>
 
 ### Can I mix both scoped and global styles in one file
 
 Yes, you can mix them, just define a second style tag.
  
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Official">
 
  * [Mixing Local and Global Styles](https://vue-loader.vuejs.org/guide/scoped-css.html#mixing-local-and-global-styles)
+
+</useful-links-section>
+</useful-links>
 
 ### What is the difference between scope styles and css modules
 
@@ -433,9 +535,13 @@ Scoped styles automatically change the css rules to match the auto generated dat
 
 CSS Modules allow for, again, uniquely generated classes, that are accessible from within the Vue Template, via a special `$style` property. One major benefit of Modules is that you can export css variables to JavaScript.
 
-#### Useful Resources
+<useful-links>
+<useful-links-section title="Tutorials">
 
 * [Vue.js - Scoped Styles vs CSS Modules](https://www.netguru.com/codestories/vue.js-scoped-styles-vs-css-modules)
+
+</useful-links-section>
+</useful-links>
 
 ### How can I target children with scoped styles
 

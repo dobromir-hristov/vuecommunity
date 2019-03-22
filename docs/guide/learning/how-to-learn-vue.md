@@ -8,10 +8,24 @@ If you are a tutorial or course learner, go over the [Courses](./courses.md) and
 
 If you want to find out how other people learn, the [Tips from Mentors](./tips-from-mentors.md) page gives a good insight into how Vue experts have started developing with Vue.
 
-#### Useful links
+
+<useful-links>
+<useful-links-section title="Tutorials">
 
 * [Vue Development In 2019: What You Need To Know](https://medium.com/@anthonygore/vue-development-in-2019-what-you-need-to-know-2170942f0e54)
 * [Useful Vue patterns, techniques, tips and tricks and curated helpful links.](https://translation-gang.github.io/vue-patterns/)
+
+</useful-links-section>
+<useful-links-section title="Internal Pages">
+
+* [Official Documentation](./official-documentation.md)
+* [Courses](./courses.md)
+* [Learning Platforms](./learning-platforms.md)
+* [Books](./books.md)
+* [Tips from Mentors](./tips-from-mentors.md)
+
+</useful-links-section>
+</useful-links>
 
 ## Categorizing applications by technology
 
@@ -46,9 +60,13 @@ This approach works for smaller websites or those that will not implement comple
 * Larger applications tend to become harder to maintain
 * Component templates live inside the HTML markup of pages, making them harder to work with.
 
-#### Useful links
+<useful-links>
+<useful-links-section title="Tutorials">
 
 * [Using vue.js in existing websites, the easy way](https://medium.com/@disjfa/using-vue-js-in-existing-websites-the-easy-way-d46cd1f0c945).
+
+</useful-links-section>
+</useful-links>
 
 ### Vue enhanced websites using a bundler
 
@@ -73,12 +91,16 @@ This approach works for smaller websites or those that will not implement comple
  * Requires a pre-build step on each change of the source files
  * Requires knowledge of setting up build tools
  
-#### Useful links
+<useful-links>
+<useful-links-section title="Tutorials">
 
  * [Why should you use Vue.js when using Laravel](https://blog.pusher.com/why-vuejs-laravel/)
  * [Persist Vuex State with vuex-persist](https://alligator.io/vuejs/vuex-persist-state/)
  * [Passing data from Laravel to Vue - Props](https://medium.com/@m_ramsden/passing-data-from-laravel-to-vue-98b9d2a4bd23)
  * [Passing variable from Laravel to VueJS 2 component](https://www.spicydog.org/blog/passing-variable-laravel-vuejs-2-component/)
+ 
+</useful-links-section>
+</useful-links>
  
 ## SPA Websites
 
@@ -141,7 +163,7 @@ This whole process can be quite intimidating to setup, luckily frameworks like N
 * The renderer knows what endpoints are available, so proper status codes are returned.
 
 **Cons**
-* SSR caveats - There are certain caveats and issues with SSR that need to be addressed. [Server-side rendering page](../ecosystem/server-side-rendering.md) cover some of them.
+* SSR caveats - There are certain caveats and issues with SSR that need to be addressed. [Server-side rendering page](../ecosystem/server-side-rendering.md) covers some of them.
 * Expensive hosting - Hosting is generally more expensive as it requires a constantly running node server.
 
 ## Coming from other technology
