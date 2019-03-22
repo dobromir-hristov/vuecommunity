@@ -10,12 +10,16 @@ Ajax requests to REST API's are the most common way of fetching data asynchronou
 
 Axios is a famous library for performing async requests. It has a very nice and easy to use API, supports Promises, more advanced features like interceptors, generating Axios instances, adding external plugins and more.
 
-You can directly import Axios from npm and use it in your components, without the need to install a dedicated plugin.
+You can directly import Axios from NPM and use it in your components, without the need to install a dedicated plugin.
+
+However another pattern you are more likely to implement is to write a "client" where you create an Axios instance. Not only does this increase testability of your application, but it also allows you to centralise HTTP settings (Base URL and port for instance).
+Furthermore, it decouples your components from the internals of HTTP operations and REST APIs.
 
 <useful-links>
 <useful-links-section title="Tutorials">
 
 * [Vue.js REST API Consumption with Axios](https://alligator.io/vuejs/rest-api-axios/)
+* [Single Page Apps with Vue.js and Flask: AJAX Integration](https://stackabuse.com/single-page-apps-with-vue-js-and-flask-ajax-integration/)
 
 </useful-links-section>
 </useful-links>
