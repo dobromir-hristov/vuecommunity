@@ -10,12 +10,17 @@ Ajax requests to REST API's are the most common way of fetching data asynchronou
 
 Axios is a famous library for performing async requests. It has a very nice and easy to use API, supports Promises, more advanced features like interceptors, generating Axios instances, adding external plugins and more.
 
-You can directly import Axios from npm and use it in your components, without the need to install a dedicated plugin.
+You can directly import Axios from NPM and use it in your components, without the need to install a dedicated plugin.
+
+However another pattern you are more likely to implement is to write a "client" or a "service" where you create an Axios instance and use that instead of just importing axios everywhere. 
+Not only does this make your application easier to test, through the use of mocking/stubbing, but it also allows you to centralise HTTP settings (Base URL and port for instance).
+Furthermore, it decouples your components from the internals of HTTP operations and REST APIs.
 
 <useful-links>
 <useful-links-section title="Tutorials">
 
 * [Vue.js REST API Consumption with Axios](https://alligator.io/vuejs/rest-api-axios/)
+* [Single Page Apps with Vue.js and Flask: AJAX Integration](https://stackabuse.com/single-page-apps-with-vue-js-and-flask-ajax-integration/)
 
 </useful-links-section>
 </useful-links>
@@ -43,21 +48,21 @@ To use it with Vue, you dont need plugins, you can just import `fetch` and start
 ::: tip
  This part of the page needs a bit of love. If you can, please contribute by adding the missing info.
 :::
-- what is GraphQL
+- What is GraphQL
 - When does it make sense to use it
-- links to tutorials
+- Links to tutorials
 
 ### Vue Apollo
 
 - What is Apollo
-- common use cases
-- why use with vue
-- links to tutorials
+- Common use cases
+- Why use with Vue
+- Links to tutorials
 - Vue packages
 
-## Websockets
+## WebSockets
 
-Unlike http requests, which are one way communication from client to server, Websockets allow for a realtime two way communication. This allows for implementing notifications, dashboards, chats, realtime interactions and more.
+Unlike HTTP requests, which are one way communication from client to server, WebSockets allow for a realtime two way communication. This allows for implementing notifications, dashboards, chats, realtime interactions and more.
 
 
 <useful-links>
@@ -111,7 +116,7 @@ Implementing Firebase into your Vue app directly with their SDK can be a bit of 
 - Common usages
 - Why use with Vue
 - Popular Vue Packages
-- tutorials
+- Tutorials
 
 ### Meteor
 
@@ -119,7 +124,7 @@ Implementing Firebase into your Vue app directly with their SDK can be a bit of 
 - Common usages
 - Why use with Vue
 - Popular Vue Packages
-- tutorials
+- Tutorials
 
 ### SocketIO
 
@@ -131,7 +136,7 @@ Implementing Firebase into your Vue app directly with their SDK can be a bit of 
 - Common usages
 - Why use with Vue
 - Popular Vue Packages
-- tutorials
+- Tutorials
 
 [Integrating Vue.js and Socket.io](https://alligator.io/vuejs/vue-socketio/)
 
