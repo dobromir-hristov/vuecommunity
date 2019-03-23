@@ -12,7 +12,7 @@ Axios is a famous library for performing async requests. It has a very nice and 
 
 You can directly import Axios from NPM and use it in your components, without the need to install a dedicated plugin.
 
-However another pattern you are more likely to implement is to write a "client" where you create an Axios instance. Not only does this increase testability of your application, but it also allows you to centralise HTTP settings (Base URL and port for instance).
+However another pattern you are more likely to implement is to write a "client" where you create an Axios instance. Not only does this increase testability of your application through the use of mocking/stubbing, but it also allows you to centralise HTTP settings (Base URL and port for instance).
 Furthermore, it decouples your components from the internals of HTTP operations and REST APIs.
 
 <useful-links>
