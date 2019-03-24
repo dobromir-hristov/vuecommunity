@@ -87,7 +87,8 @@ Twitter is the first place where developers share updates on their packages, dis
 
 As the Vue community continues to grow, there are more and more specialized groups appearing on various social platforms. We list some of them below, together with Vue-related groups in other services.
 
-### Discord
+<useful-links>
+<useful-links-section title="Discord">
 
   - [Nuxt](https://discord.nuxtjs.org/)
   - [Vuetify](https://community.vuetifyjs.com/)
@@ -100,30 +101,53 @@ As the Vue community continues to grow, there are more and more specialized grou
   - [Bootstrap Vue](https://discordapp.com/invite/j2Mtcny)
   - [EGOIST OSS](https://discord.gg/2t5mdCz) - dedicated to libraries written by Egoist, one of Vue.js community partners known for writing many useful plugins.
 
-### Slack
+</useful-links-section>
+</useful-links>
+
+<useful-links>
+<useful-links-section title="Slack">
 
   - [VueVixens](https://slackin-fxsumkvfno.now.sh/)
   - [NativeScript-Vue](https://developer.telerik.com/wp-login.php?action=slack-invitation)
 
-### Gitter
+</useful-links-section>
+</useful-links>
+
+<useful-links>
+<useful-links-section title="Gitter">
 
   - [WeexEn](https://gitter.im/weex-en/)
   - [Element-UI](https://gitter.im/element-en/)
   - [iView](https://gitter.im/iview/iview)
   - [Semantic-ui-vue](https://gitter.im/Semantic-UI-Vue/)
 
-### Facebook
+</useful-links-section>
+</useful-links>
+
+<useful-links>
+<useful-links-section title="Facebook">
 
   - [Vue.js Developers](https://www.facebook.com/groups/vuejsdevelopers/)
   - [Laravel + Vue.js Developers](https://www.facebook.com/groups/1796516540421476)
 
-### Reddit
+</useful-links-section>
+</useful-links>
+
+<useful-links>
+<useful-links-section title="Reddit">
 
 [r/vuejs](https://www.reddit.com/r/vuejs/)
 
-### Spectrum
+</useful-links-section>
+</useful-links>
+
+<useful-links>
+<useful-links-section title="Spectrum">
 
 [Vue.js](https://spectrum.chat/vue-js)
+
+</useful-links-section>
+</useful-links>
 
 ## Other language media
 

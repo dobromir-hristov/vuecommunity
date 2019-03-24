@@ -4,7 +4,7 @@ Below is a collection of the most commonly asked questions that new Vue develope
 
 Answers may contain links to other Vue community pages, external articles and blog posts, or even links to specialized docs, where said feature is explained in detail.
 
-::: tip
+::: warning
 This page is still in early development. If you feel you can contribute, please dont hesitate to open a PR.
 :::
 
@@ -18,7 +18,13 @@ Vue can be used to build any website, from small portfolio pages, to large enter
 
 As with any JavaScript framework, there are some gotcha's like managing complex global state, SEO for SPA's, to name a few, but these are common for all frameworks and have already well established solutions. 
 
+<useful-links>
+<useful-links-section title="More Info">
+
 Check the [How to learn Vue](./how-to-learn-vue.md) page for more info.
+
+</useful-links-section>
+</useful-links>
   
 ### What kinds of websites can take advantage of being a SPA
 
@@ -30,7 +36,13 @@ That isnt to say, that you cant build blogs, presentational websites or landing 
 
 HTML, CSS and most importantly some basic JavaScript knowledge. Everything beyond that will only help you build better websites. 
 
+<useful-links>
+<useful-links-section title="Link">
+
 Check the [How to learn Vue](./how-to-learn-vue.md) page for more info.
+
+</useful-links-section>
+</useful-links>
 
 ### Must I know ES201x or can I use normal JavaScript
 
@@ -70,7 +82,7 @@ Data is most often passed down to child components via Props, and emitted up to 
 
 You have a few options: 
 
-* Vuex as a global store - Most robust and scalable solution. <badge>Popular</badge>
+* Vuex as a global store <badge vertical="middle">Popular</badge> - Most robust and scalable solution. 
 * [Provide/Inject](https://vuejs.org/v2/api/#provide-inject) - advanced api, mostly used for coupled components or on plugin development.
 * The `$root` as a global store - mostly for very simple applications. Not scalable.
 
@@ -131,7 +143,7 @@ Props are considered immutable to the component that defines them. The only way 
 
 To do that you can:
  
- * trigger an event from the child via `$emit` and handling it on the parent. **Recommended way.**
+ * trigger an event from the child via `$emit` and handling it on the parent. <badge vertical="middle">Recommended</badge>
  * call a method passed as a prop, that augments the bound prop value. - Typical for React, but still works.
  * dispatch a Vuex action that changes some shared state - You would most probably use the Vuex state directly, instead of passing as a prop.
 
@@ -141,7 +153,7 @@ In two words you shouldn't need to. If you feel the need to do so, you can:
  
 * **use a method** - no caching
 * **return a function** - it can accept a parameter - almost same as method. no caching.
-* **extract a new, smaller component**  <badge>Recommended</badge> - That component will have the said parameter as a prop or data property on it.
+* **extract a new, smaller component** -  <badge vertical="middle">Recommended</badge> That component will have the said parameter as a prop or data property on it.
 
 <useful-links>
 <useful-links-section title="Useful Links">
@@ -153,7 +165,7 @@ In two words you shouldn't need to. If you feel the need to do so, you can:
 
 ### Where and how can I fetch data in component from API
 
-Most people use the `created` or `mounted` hooks to fetch data. If you are using VueRouter you can use the `beforeRouterEnter` hook, to even control page rendering and redirects.
+Most people use the `created` or `mounted` hooks to fetch data. If you are using VueRouter, you can use the `beforeRouterEnter` hook, to even control page rendering and redirects.
 
 If you are using [Nuxt](../ecosystem/nuxt.md) you can use the `asyncData` method to fetch async data and merge it with the components existing data object.
 
@@ -483,6 +495,27 @@ You can! Vue CLI can be put into library build mode, excluding specific modules 
 </useful-links-section>
 </useful-links>
 
+### What should I use for unit testing? Jest? Or Vue Test Utils?
+
+Jest is a testing framework, where as Vue Test Utils is a utility library (set of helpers). You use Vue Test Utils in tandem with some testing library, like Jest or Mocha.
+It's purpose is to make testing Vue components easier, by abstracting away complex and repeatable test preparation code.
+
+<useful-links>
+<useful-links-section title="Books">
+
+* [Testing Vue Applications](https://www.manning.com/books/testing-vue-js-applications)
+* [Testing Vue.js components with Jest](https://leanpub.com/testingvuejscomponentswithjest)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
+* [Testing real world VueJs apps](https://itnext.io/testing-real-world-vuejs-apps-d3e44118f8ce)
+* [Testing Vue with Jest](https://alligator.io/vuejs/testing-vue-with-jest/)
+
+</useful-links-section>
+</useful-links>
+
+
 ## CSS
 
 ### How to work with preprocessors
@@ -545,7 +578,16 @@ CSS Modules allow for, again, uniquely generated classes, that are accessible fr
 
 ### How can I target children with scoped styles
 
-Using the `deep` selector. For more info, check this article - [How to Target Child Components with Scoped CSS in Vue](https://bambielli.com/til/2018-08-19-how-to-target-child-components-with-scoped-css-in-vue/#)
+Using the `deep` selector in your sass files.
+
+<useful-links>
+<useful-links-section title="Tutorial">
+
+[How to Target Child Components with Scoped CSS in Vue](https://bambielli.com/til/2018-08-19-how-to-target-child-components-with-scoped-css-in-vue/#)
+
+</useful-links-section>
+</useful-links>
+
 
 ### How to do CSS in JS with Vue
 

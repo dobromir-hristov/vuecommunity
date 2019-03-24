@@ -1,7 +1,7 @@
 # Video courses
 Showcase individual Vue related video courses. Platforms go into the [learning platforms](./learning-platforms.md) page.
 
-## Advanced Vue Component Design
+## Advanced Vue Component Design <badge>Popular</badge>
 **Author:** Adam Wathan
 
 Created by Adam Wathan, popular Laravel figure and author of Tailwind CSS, this course is aimed towards developers with previous Vue.js experience, wanting to go one step further. 
@@ -16,7 +16,7 @@ As an advanced course, it covers topics like building custom controlled componen
 </useful-links-section>
 </useful-links>
 
-## Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex) 
+## Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex) <badge>Popular</badge>
 **Author:** Maximilian Schwarzmüller
 
 The course covers all the important topics, from the Vue basics, binding props, form handling, Vuex and Vue Router. Material is being updated, as new features are added to the framework and its ecosystem, like Vue CLI 3 for example.
@@ -32,7 +32,7 @@ Maximilian does a great job at explaining things in a simple and easy to follow 
 </useful-links>
 
 
-## Enterprise Vue
+## Enterprise Vue <badge type="warning">Presale</badge>
 **Author:** Anthony Gore
 
 The course will teach you how to build a full-stack Vue.js CRUD application with an authenticated Node.js API, along with unit testing, modern JavaScript and best practices.
@@ -47,7 +47,7 @@ Throughout the course you will use Vue CLI 3, Vuetify framework, MongoDB, Jest, 
 </useful-links-section>
 </useful-links>
 
-## Vue.js Essentials - 3 Course Bundle 
+## Vue.js Essentials - 3 Course Bundle  <badge>popular</badge>
 **Author:** Anthony Gore
 
 Vuejsdevelopers.com hosts not only Vue articles, but also a few beginner video courses. The "Vue.js essentials" is sold as a 3 course bundle or separate.
@@ -58,21 +58,6 @@ It goes through basics of building a Vue app, multi page websites using Vue Rout
 <useful-links-section title="Official">
 
 [Vuejsdevelopers.com](https://courses.vuejsdevelopers.com/p/vue-js-essentials)
-
-</useful-links-section>
-</useful-links>
-
-## The Ultimate Vue JS 2 Developers Course
-**Author:** Anthony Gore
-
-In this course users are lead through the process of building three real world, professional Vue.js applications that, together, demonstrate all the features and capabilities of Vue from the basics to the more advanced features. 
-
-Through the course, users first create a basic e-commerce UI, then go through multi page apps using Vue Router and finally do a Google Calendar clone using Vuex and Server Side Rendering.
-
-<useful-links>
-<useful-links-section title="Official">
-
-[Udemy](https://www.udemy.com/vuejs-2-essentials/)
 
 </useful-links-section>
 </useful-links>

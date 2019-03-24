@@ -51,14 +51,16 @@ This approach works for smaller websites or those that will not implement comple
 * JavaScript - ES5 or above, depending on the supported browsers.
 * HTML - For the inline templates and website markup
 
-**Pros**
+::: tip Pros
 * Dead simple to start with
 * Can be added to any legacy application
 * No extra knowledge except Vue itself
+:::
 
-**Cons** 
+::: danger Cons
 * Larger applications tend to become harder to maintain
 * Component templates live inside the HTML markup of pages, making them harder to work with.
+:::
 
 <useful-links>
 <useful-links-section title="Tutorials">
@@ -83,13 +85,15 @@ This approach works for smaller websites or those that will not implement comple
  * Transpiler Setup - optional if using any ES2015+ features, that are not supported by older browsers. Vue CLI takes care of this as well.
  * HTML - used inside `.vue` files and the website markup.
  
- **Pros**
+::: tip Pros
  * Allows for larger and more complex applications compared to none bundler approach
  * Code splitting and other optimisations are possible with the help of tooling
+ :::
  
- **Cons**
+::: danger Cons
  * Requires a pre-build step on each change of the source files
  * Requires knowledge of setting up build tools
+ :::
  
 <useful-links>
 <useful-links-section title="Tutorials">
@@ -116,13 +120,15 @@ If the project allows, it is strongly recommended to use the Vue CLI to build th
 * Async requests - Required for fetching data from remote resources asynchronously.
 * ES2015+ - While not required, it is encouraged to use newer ECMAScript versions.
 
-**Pros**
+::: tip Pros
 * Faster page navigation - routing and pages rendering are done on the client, so navigation can feel much faster.
 * Advanced optimisations - code splitting, pre-loading and other techniques allow for serving the minimal code needed to the user.
+:::
 
-**Cons**
+::: danger Cons
 * Worse SEO - pages are rendered with JavaScript on the client, so some search engines cannot read them.
 * No real 404 status code - all requests are redirected with a status **200** to a single `index.html` endpoint, as the server generally does not know what endpoints exist on the app.
+:::
 
 ## Statically generated websites
 
@@ -136,14 +142,16 @@ You can read more on this topic in our [Static site generators](../ecosystem/sta
 * Everything from SPA websites
 * Static website generators - need to know how to work with a static website generator.
 
-**Pros**
+::: tip Pros
 * Improved SEO - Pages are pre-rendered as static HTML, so search engines can crawl them.
 * Lower server costs - Hosting for static sites is usually much cheaper, even free compared to hosting with a dynamic server language support.
 * Page load times can be near instant
+:::
 
-**Cons**
+::: danger Cons
 * Configuration - Some tooling requires complex configuration and mapping of the website's pages.
 * Not suitable for highly dynamic websites
+:::
 
 ## SSR SPA websites
 
@@ -157,18 +165,20 @@ This whole process can be quite intimidating to setup, luckily frameworks like N
 * SSR tool - Knowledge of how to setup server-side rendering tool or framework
 * Node.js - Setting up a running Node.js server for the rendering process
 
-**Pros**
+::: tip Pros
 * Suitable for websites with dynamic and constantly updating data
 * Improved SEO as pages are rendered on the server, so crawlers can parse the provided HTML.
 * The renderer knows what endpoints are available, so proper status codes are returned.
+:::
 
-**Cons**
+::: danger Cons
 * SSR caveats - There are certain caveats and issues with SSR that need to be addressed. [Server-side rendering page](../ecosystem/server-side-rendering.md) covers some of them.
 * Expensive hosting - Hosting is generally more expensive as it requires a constantly running node server.
+:::
 
 ## Coming from other technology
 
-::: tip
+::: warning
 This page is still in early development. If you feel you can contribute, please dont hesitate to open a PR.
 :::
 

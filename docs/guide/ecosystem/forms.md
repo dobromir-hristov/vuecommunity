@@ -6,6 +6,33 @@ title: Handling Forms
 
 Vue.js comes with a lot of features that make working with forms easier out of the box, like the reactivity and events with modifiers and the two-way binding system on top of it. But if the libraries can speed up the development process and provide a ready to use, well tested environment, it may be worth to just use them instead of baking own alternative.
 
+## Summary (TLDR)
+
+Here are the top pics from each category
+
+<useful-links>
+<useful-links-section title="Easy Validation">
+
+[Vee-Validate](#vee-validate) - little boilerplate, very intuitive, vastly popular
+
+</useful-links-section>
+<useful-links-section title="Customizable Validation">
+
+[Vuelidate](#vuelidate) - very customisable
+
+</useful-links-section>
+<useful-links-section title="Forms generator">
+
+[Vue Form Generator](#vue-form-generator)
+
+</useful-links-section>
+<useful-links-section title="Managing State">
+
+[Vue-Final-Form](#vue-final-form)
+
+</useful-links-section>
+</useful-links>
+
 ## Form Validation
 
 You can write a simple form validation yourself, but if you want a well tested solution that's easy to get help with from other Vue developers, give a try to one of the libraries described below.

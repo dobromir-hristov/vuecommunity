@@ -2,7 +2,7 @@
 
 Short info about the current Vue.js job market and its growth in the past years.
 
-## VueJobs
+## VueJobs <badge>Popular</badge>
 
 [VueJobs](https://vuejobs.com) is a job market advertisement platform with the status of an official Vue.js community partner. It allows both job adverts from companies as well as creating developer profiles by individual Vue.js professionals.
 
