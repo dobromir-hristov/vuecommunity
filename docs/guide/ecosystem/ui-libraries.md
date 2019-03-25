@@ -17,14 +17,14 @@ Most of the libraries covered in this chapter are based on either Material Desig
 If you dont have time to read all of this and just need a quick answer:
 
 <useful-links>
-<useful-links-section title="Most polished">
+<useful-links-section title="Users choice">
 
-[Vuetify](#vuetify) - mobile and desktop ready
+[Vuetify](#vuetify) - mobile and desktop ready, material design.
 
 </useful-links-section>
 <useful-links-section title="Desktop mainly">
 
- - [Element UI](#element-ui) - most popular worldwide
+ - [Element UI](#element-ui) - extensive, desktop oriented, widely popular in asia
  - [iView](#iview)
 
 </useful-links-section>
