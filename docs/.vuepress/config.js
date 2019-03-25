@@ -56,7 +56,7 @@ module.exports = {
               '/guide/learning/learning-platforms.md',
               '/guide/learning/courses.md',
               '/guide/learning/books.md',
-              '/guide/learning/blogs-and-articles.md',
+              '/guide/learning/blogs.md',
               '/guide/learning/faq.md',
               '/guide/learning/podcasts.md',
               '/guide/learning/tips-from-mentors.md',
