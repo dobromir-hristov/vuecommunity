@@ -7,7 +7,7 @@ Configuring all these tools, making them work across operating systems, and more
 
 Below are some of the more popular ones, used by the Vue community to build both web applications and libraries.
 
-## Vue CLI <badge>Popular</badge>
+## Vue CLI <badge text="popular"/>
 
 Vue CLI is a sophisticated mix of tools for building modern Vue.js applications. Its the official Vue.js build tool, who's purpose is to free developers from having to configure complex build processes and instead focus on writing application code. It offers a quick and interactive project scaffolding with custom presets, with painless upgrade to the build process with future updates.
 

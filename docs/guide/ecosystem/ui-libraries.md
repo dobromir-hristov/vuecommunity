@@ -67,7 +67,7 @@ The components in libraries such as [Vuetify](#vuetify) or [Vue-Material](#vue-m
 </useful-links-section>
 </useful-links>
 
-### Vuetify <badge>Popular</badge>
+### Vuetify <badge text="Popular"/>
 
 > Vuetify is a semantic component framework for Vue. It aims to provide clean, semantic and reusable components that make building your application a breeze. Build amazing applications with the power of Vue, Material Design and a massive library of beautifully crafted components and features.
 
@@ -125,7 +125,7 @@ Other than standard websites, Ant Design is a good choice for developers writing
 </useful-links-section>
 </useful-links>
 
-### Element UI <badge>Popular for Desktop</badge>
+### Element UI <badge text="Popular for Desktop"/>
 
 In the worldwide context, Element UI is the most popular UI library for Vue.js and one of the oldest in the ecosystem. It also comes with a mobile sibling - Mint UI that can be used to write a hybrid application. It's got proper English documentation and a secondary international chat, but most of the Github issues are in Chinese.
 
@@ -164,7 +164,7 @@ Third group of UI libraries includes those that provide sets of components for t
 
 Remember that you will still have to reach out to original framework's documentation and community for help, especially with styling.
 
-### Bootstrap-Vue <badge>Backender's Choice</badge>
+### Bootstrap-Vue <badge text="Backender's Choice"/>
 
 > Bootstrap-Vue provides one of the most comprehensive implementations of Bootstrap V4 components and grid system available for Vue.js 2.4+, complete with extensive and automated WAI-ARIA accessibility markup. 
 
@@ -227,7 +227,7 @@ Despite its popularity, [Semantic UI](https://semantic-ui.com/) never really hit
 
 ## Other solutions
 
-### Tailwind CSS
+### Tailwind CSS <badge text="Most Flexible"/>
 
 > A utility-first CSS framework for rapidly building custom user interfaces. 
 
@@ -247,7 +247,7 @@ Tailwind is very well accepted in the Vue community as it integrates very nicely
 </useful-links-section>
 </useful-links>
 
-### VueSax <badge type="warning">In Development</badge>
+### VueSax <badge type="warning" text="In Development"/>
 
 From all the rest of available libraries, VueSax seems to be the most promising one in terms of both features and maintainment. The goal is to create an UI library that is fully independent in terms of colors, shapes and design choices, focusing on core JS functionality. 
 

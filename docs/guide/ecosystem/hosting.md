@@ -23,7 +23,7 @@ Static file hosting is generally used to serve rarely changing assets, that are 
 </useful-links-section>
 </useful-links>
 
-### Netlify <badge>Popular</badge>
+### Netlify <badge text="Popular"/>
 
 Netlify is a popular choice for a static file hosting service. It offers a simple to use interface, global CDN, free and easy to setup SSL, URL rewrites, custom header setup, cloud functions and more.
 

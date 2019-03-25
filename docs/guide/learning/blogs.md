@@ -4,16 +4,17 @@ Finding the right place where you can read quality Vue articles, or even submit 
 
 The list below includes some of the best resources for general web development articles as well as specialized Vue blogs.
 
-## The Vue Point <badge>Official</badge>
+## The Vue Point <badge text="Official"/>
+
 [The Vue Point](https://medium.com/the-vue-point) is the official Vue.js blog on Medium. Expect articles directly from the Vue Core team or Evan You himself about new features, upcoming updates and more.
 
-## Vue.js Developers <badge>Popular</badge>
+## Vue.js Developers <badge text="popular"/>
 
 [Vue.js Developers](http://vuejsdevelopers.com/) is a blog originally started by Anthony Gore and is one of best resources for both beginner and seasoned Vue developers. Nowadays it's maintained by Anthony along with a community of writers, pushing articles on a weekly basis. Users are also able to submit articles, that get published after a reviewing process. 
 
 It's got its own active Slack community and well maintained profiles across popular social media platforms. 
 
-## Alligator.io <badge>Popular</badge>
+## Alligator.io <badge text="popular"/>
 
 [Alligator.io](https://alligator.io/) is a blog related to general Web development, with categories spanning across CSS, general JavaScript, and frameworks like Vue, React amd Angular. 
 

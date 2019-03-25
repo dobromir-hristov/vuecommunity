@@ -111,7 +111,7 @@ This part of the page is still in development and could use some help.
 
 Thankfully, there are a few options already for Vue when it comes to server-side rendering.
 
-## Nuxt <badge>Popular</badge>
+## Nuxt <badge text="popular"/>
 
 [Nuxt](https://nuxtjs.org/) is a framework on top of Vue for creating universal applications. It offers a full SSR environment, with an extendable API, out of the box.
 

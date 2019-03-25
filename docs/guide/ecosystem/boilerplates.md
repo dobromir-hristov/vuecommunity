@@ -3,7 +3,7 @@ Boilerplates are pre-configured projects, that are meant to give a good head sta
 
 Bad part about boilerplates is that once you start developing on top of one, it is hard to keep track of its future updates, as you have to apply them manually.
 
-## Vue Enterprise Boilerplate <badge>Popular</badge>
+## Vue Enterprise Boilerplate <badge text="Popular"/>
 
 A very detailed and well made boilerplate by Vue Core team member Chris Fritz. It incorporates an opinionated structure, first class testing practices, generators to speed up common development tasks, globally auto registered components, scoped Vuex modules and more.
 
