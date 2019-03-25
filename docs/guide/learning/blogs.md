@@ -42,7 +42,7 @@ There are new Vue articles on a weekly basis, which are worth checking out.
 They release well written Vue articles, along with other good material.
 
 ## Pusher
-[Pusher Blog](https://pusher.com/tutorials?q=vuejs) is a platform that offer APIs to build real-time apps and you can find plenty of Vue related articles that shows how you can use Vue with their APIs
+[Pusher Blog](https://pusher.com/tutorials?q=vuejs) is a platform that offers APIs to build real-time apps. You can find plenty of Vue related articles that show how you can use Vue with their APIs to build complex applications.
 
 ## Personal Blogs
 This list consists of personal developer blogs, where people share their Vue related problems and solutions.
