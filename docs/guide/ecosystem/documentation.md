@@ -15,7 +15,31 @@ When choosing a platform to write your docs on, think about your priorities and 
 - Do you need custom features, specific for your documentation purposes?
 - Where do you plan to host your documentation? Can you use static site hosting or do you need a server?
 
-### Vuepress
+## Summary (TLDR)
+<useful-links>
+<useful-links-section title="Statically Generated">
+
+* [Vuepress](#vuepress)
+
+</useful-links-section>
+<useful-links-section title="No build step">
+
+* [Docute](#docute)
+
+</useful-links-section>
+<useful-links-section title="Live component examples">
+
+* [Storybook](#storybook)
+
+</useful-links-section>
+<useful-links-section title="Automated workbech">
+
+* [Vue Styleguidist](#vue-styleguidist)
+
+</useful-links-section>
+</useful-links>
+
+### Vuepress <badge text="popular"/>
 
 [Vuepress](http://vuepress.vuejs.org/) is a Vue-powered static site generator, that by default is optimized for technical documentation.
 
@@ -92,7 +116,7 @@ A workbench is a development environment for UI components. It allows developers
 
 Workbenches are very powerful when working in big teams with lots of components. They allow other developers to discover how components work by tweaking them. Even better, these showcases can turn into static websites.
 
-### Storybook
+### Storybook <badge text="popular"/>
 
 The most popular workbench is [storybook](https://storybook.js.org/docs/guides/guide-vue/).
 
@@ -149,7 +173,7 @@ storiesOf('Button', module)
 </useful-links-section>
 </useful-links>
 
-### Vue Styleguidist
+### Vue Styleguidist <badge text="rising star"/>
 
 [Vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) is a port of [react-styleguidist](https://github.com/styleguidist/react-styleguidist) for vue components.
 You are building a Design System. You want a site to showcase your components, this should be your first choice.
