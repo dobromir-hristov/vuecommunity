@@ -1,9 +1,8 @@
 # UI libraries
 
-"Which UI library is the best" stands among the most common questions from newcomers to Vue.js ecosystem. The answer isn't easy though, since there is no such thing as "the best" components library for Vue, due to many factors that should be considered. What you can look for instead is a solution optimal for your specific use case.
+_"Which UI library is the best"_ stands among the most common questions from newcomers to Vue.js ecosystem. The answer isn't easy though, since there is no such thing as "the best" components library for Vue, due to many factors that should be considered. What you can look for instead is a solution optimal for your specific use case.
 
 Most of the libraries covered in this chapter are based on either Material Design or Ant Design, or provide Vue integrations for some framework agnostic UI libraries, such as Bootstrap, Bulma or Uikit.
-
 
 <useful-links>
 <useful-links-section title="Tutorials">
@@ -13,6 +12,34 @@ Most of the libraries covered in this chapter are based on either Material Desig
 </useful-links-section>
 </useful-links>
 
+## Summary (TLDR)
+
+If you dont have time to read all of this and just need a quick answer:
+
+<useful-links>
+<useful-links-section title="Most polished">
+
+[Vuetify](#vuetify) - mobile and desktop ready
+
+</useful-links-section>
+<useful-links-section title="Desktop mainly">
+
+ - [Element UI](#element-ui) - most popular worldwide
+ - [iView](#iview)
+
+</useful-links-section>
+<useful-links-section title="Easy get into">
+
+* [Bootstrap-Vue](#bootstrap-vue) - Bootstrap based
+* [Bueify](#buefy) - Bulma based
+
+</useful-links-section>
+<useful-links-section title="Most flexible">
+
+* [Tailwind](#tailwind-css)
+
+</useful-links-section>
+</useful-links>
 
 ## How to chose an optimal UI library
 
@@ -30,8 +57,7 @@ Here are some topics that should be covered:
 
 Material Design is a very popular design concept not only in Vue.js world. Combining flat visual style with shadows and other lightning effects, it was primarily created with Android mobile applications in mind, but is widely used on traditional websites too. 
 
-The components in libraries such as Vuetify or Vue-Material look good by deafult, but since they were written with a certain design style in mind, they're not fully customizable. However, the new Material Design 2 specification brought more focus on flexible theming and we can expect the libraries to follow this move in 2019.
-
+The components in libraries such as [Vuetify](#vuetify) or [Vue-Material](#vue-material) look good by default, but since they were written with a certain design style in mind, they're not fully customizable. However, the new Material Design 2 specification brought more focus on flexible theming and we can expect the libraries to follow this move in 2019.
 
 <useful-links>
 <useful-links-section title="Official">
@@ -41,8 +67,7 @@ The components in libraries such as Vuetify or Vue-Material look good by deafult
 </useful-links-section>
 </useful-links>
 
-
-### Vuetify
+### Vuetify <badge>Popular</badge>
 
 > Vuetify is a semantic component framework for Vue. It aims to provide clean, semantic and reusable components that make building your application a breeze. Build amazing applications with the power of Vue, Material Design and a massive library of beautifully crafted components and features.
 
@@ -100,7 +125,7 @@ Other than standard websites, Ant Design is a good choice for developers writing
 </useful-links-section>
 </useful-links>
 
-### Element UI
+### Element UI <badge>Popular for Desktop</badge>
 
 In the worldwide context, Element UI is the most popular UI library for Vue.js and one of the oldest in the ecosystem. It also comes with a mobile sibling - Mint UI that can be used to write a hybrid application. It's got proper English documentation and a secondary international chat, but most of the Github issues are in Chinese.
 
@@ -124,10 +149,14 @@ The library's success resulted in porting Element UI to Angular and React ecosys
 
 While not as well-known as Element UI, Iview is a valid, well maintained alternative. It provides a large set of components which we can import on demand and useful tools to make working with them easier, together with Typescript support and the official admin panel template. It's a good choice especially if you prefer to work with LESS over SASS.
 
-#### Useful links
+<useful-links>
+<useful-links-section title="Official">
 
 * [Iview repository](https://github.com/iview/iview)
 * [Iview documentation](https://iviewui.com)
+
+</useful-links-section>
+</useful-links>
 
 ## Component sets for CSS Frameworks
 
@@ -135,7 +164,7 @@ Third group of UI libraries includes those that provide sets of components for t
 
 Remember that you will still have to reach out to original framework's documentation and community for help, especially with styling.
 
-### Bootstrap-Vue
+### Bootstrap-Vue <badge>Backender's Choice</badge>
 
 > Bootstrap-Vue provides one of the most comprehensive implementations of Bootstrap V4 components and grid system available for Vue.js 2.4+, complete with extensive and automated WAI-ARIA accessibility markup. 
 
@@ -218,7 +247,7 @@ Tailwind is very well accepted in the Vue community as it integrates very nicely
 </useful-links-section>
 </useful-links>
 
-### VueSax
+### VueSax <badge type="warning">In Development</badge>
 
 From all the rest of available libraries, VueSax seems to be the most promising one in terms of both features and maintainment. The goal is to create an UI library that is fully independent in terms of colors, shapes and design choices, focusing on core JS functionality. 
 

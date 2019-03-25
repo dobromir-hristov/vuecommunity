@@ -24,7 +24,13 @@ Author Edd Yerburgh, creator of the official Vue testing utility, explains the b
  
 The book makes the assumption the reader is a novice Vue developer as it spends a good part of each section explaining in detail what will be done and how.
 
-Link: [Testing Vue.js Applications](https://www.manning.com/books/testing-vue-js-applications)
+<useful-links>
+<useful-links-section title="Link">
+
+[Testing Vue.js Applications](https://www.manning.com/books/testing-vue-js-applications)
+
+</useful-links-section>
+</useful-links>
 
 ### Testing Vue.js components with Jest 
 **Author:** Alex Jover Morales
@@ -33,7 +39,13 @@ Link: [Testing Vue.js Applications](https://www.manning.com/books/testing-vue-js
 
 The book is a very nice resource for learning testing VUe components using Jest and the official library vue-test-utils. It goes over how to mock dependencies with Jest, component snapshot testing, best practices for styling and structuring tests, and more.
 
-Link: [Testing Vue.js components with Jest](https://leanpub.com/testingvuejscomponentswithjest)
+<useful-links>
+<useful-links-section title="Link">
+
+[Testing Vue.js components with Jest](https://leanpub.com/testingvuejscomponentswithjest)
+
+</useful-links-section>
+</useful-links>
 
 ## Building Applications
 These books are more focused on the app building aspect, thus go deeper into the topic with tips and more detailed examples.
@@ -44,10 +56,15 @@ These books are more focused on the app building aspect, thus go deeper into the
 > This book will guide you through the path of the rapidly spreading Javascript Framework Vue.js!    
 By the end of this book, you will be able to create fast front end applications and increase the performance of your existing projects with Vue.js 2 integration.
 
-
 This book is addressed to anyone interested in learning Vue.js, from new developers, to those who already use Vue.js and want to expand their knowledge. The book does not assume ES2015 knowledge and does not make use of Vue CLI or vue components throughout the entire book.
 
-Link: [The Majesty of Vue.js 2](https://leanpub.com/vuejs2)
+<useful-links>
+<useful-links-section title="Link">
+
+[The Majesty of Vue.js 2](https://leanpub.com/vuejs2)
+
+</useful-links-section>
+</useful-links>
 
 ### Fullstack Vue
 **Authors:** Hassan Djirdeh, Nate Murray, Ari Lerner
@@ -58,7 +75,13 @@ Each chapter of the book comes with its own specific coding challenge, a complet
 
 Included with the book is a 2h Screencast on how to setup and deploy a Vue application.
 
-Link: [Fullstack Vue](https://www.fullstack.io/vue/)
+<useful-links>
+<useful-links-section title="Link">
+
+[Fullstack Vue](https://www.fullstack.io/vue/)
+
+</useful-links-section>
+</useful-links>
 
 ### Vue.js 2 Web Development Projects
 **Author:** Guillaume Chau
@@ -69,7 +92,13 @@ Link: [Fullstack Vue](https://www.fullstack.io/vue/)
 
 Book goes through basics like directives, adding animations to applications, multi page routing, building an online store and finally a real-time dashboard with Vue and Meteor.
 
-Link: [Vue.js 2 Web Development Projects](https://www.packtpub.com/web-development/vuejs-2-web-development-projects)
+<useful-links>
+<useful-links-section title="Link">
+
+[Vue.js 2 Web Development Projects](https://www.packtpub.com/web-development/vuejs-2-web-development-projects)
+
+</useful-links-section>
+</useful-links>
 
 ### Vue.js in Action
 **Authors:** Erik Hanchett, Benjamin Listwon
@@ -78,7 +107,13 @@ Link: [Vue.js 2 Web Development Projects](https://www.packtpub.com/web-developme
 
 The book starts off by exploring the reactive UI model. Then, it goes deeper by showing how to build a shopping cart with an admin interface and the ability to manage stock! By the end, the reader expands their app, adding transitions, tests, and other key features until it’s production ready. 
 
-Link: [Vue.js in Action](https://www.manning.com/books/vue-js-in-action)
+<useful-links>
+<useful-links-section title="Link">
+
+[Vue.js in Action](https://www.manning.com/books/vue-js-in-action)
+
+</useful-links-section>
+</useful-links>
 
 ### Vue.js: Up and Running
 **Author:** Callum Macrae
@@ -87,7 +122,13 @@ Link: [Vue.js in Action](https://www.manning.com/books/vue-js-in-action)
 
 The book is a practical guide that goes from basics of Vue development, to custom components, advanced features like using JSX in Vue components. The author shows how to use vue-router for routing, vuex for state management, and vue-test-utils for testing.
 
-Link: [Vue.js: Up and Running](http://shop.oreilly.com/prod uct/0636920103455)
+<useful-links>
+<useful-links-section title="Link">
+
+[Vue.js: Up and Running](https://shop.oreilly.com/product/0636920103455)
+
+</useful-links-section>
+</useful-links>
 
 ### Vue.js 2 Book
 **Author:** Nathan Wu
@@ -98,7 +139,13 @@ Throughout four chapters, instructor Nathan Wu will show you how to build practi
 
 By the end of this book, you'll gain a solid understanding of Vue and how it interacts with a Laravel backend.
 
-Link: [Vue.js 2 Book](https://vuejsbook.com/)
+<useful-links>
+<useful-links-section title="Link">
+
+[Vue.js 2 Book](https://vuejsbook.com/)
+
+</useful-links-section>
+</useful-links>
 
 ### Full-Stack Vue.js 2 and Laravel 5
 **Author:** Anthony Gore
@@ -109,9 +156,22 @@ Written by Vuejsdevelopers.com creator - Anthony Gore, this book begins with a t
 
 Readers will then use Laravel to set up a web service and integrate the front end into a full-stack app. It goes over best-practice development workflow using tools like Webpack, Laravel Mix, Laravel Passport and deploying to Heroku.
 
-Link: [Full-Stack Vue.js 2 and Laravel 5](https://www.packtpub.com/application-development/full-stack-vuejs-2-and-laravel-5)
+<useful-links>
+<useful-links-section title="Link">
+
+[Full-Stack Vue.js 2 and Laravel 5](https://www.packtpub.com/application-development/full-stack-vuejs-2-and-laravel-5)
+
+</useful-links-section>
+</useful-links>
 
 ### The Vue Handbook
 **Author:**  Flavio Copes
 
-Link: [The Vue Handbook](https://vuehandbook.com/)
+<useful-links>
+<useful-links-section title="Link">
+
+[The Vue Handbook](https://vuehandbook.com/)
+
+</useful-links-section>
+</useful-links>
+

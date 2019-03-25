@@ -77,4 +77,10 @@ You can a look at our [Boilerplates](../ecosystem/boilerplates.md) page, where w
 
 Even though Vue does not have an official solution, like React Native for React, its versatility has allowed for a few very good solutions to come up like Nativescript-Vue, Quasar and Vue Native.
 
-Read about them in our [Mobile Apps](../ecosystem/mobile-apps.md) page.
+<useful-links>
+<useful-links-section title="Learn More">
+
+[Mobile Apps Page](../ecosystem/mobile-apps.md)
+
+</useful-links-section>
+</useful-links>
