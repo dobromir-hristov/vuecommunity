@@ -12,6 +12,7 @@ module.exports = {
     docsDir: 'docs',
     repo: 'https://github.com/dobromir-hristov/vuecommunity',
     editLinks: true,
+    sidebarDepth: 3,
     locales: {
       '/': {
         label: 'English',
