@@ -14,22 +14,22 @@ Pre-rendering is not a silver bullet and has some caveats:
 <useful-links>
 <useful-links-section title="Markdown Based">
 
-[Vuepress](#vuepress)
+[Vuepress](#vuepress) - uses markdown and Vue components to build docs, blogs and more
 
 </useful-links-section>
 <useful-links-section title="Customizable">
 
-[Nuxt](#nuxt-static-generated-mode)
+[Nuxt](#nuxt-static-generated-mode) - statically pre-render any SSR compliant SPA, very flexible
 
 </useful-links-section>
 <useful-links-section title="GraphQL based">
 
-[Gridsome](#gridsome)
+[Gridsome](#gridsome) - static websites with flexible GraphQL data layer for any backend
 
 </useful-links-section>
 <useful-links-section title="Manual">
 
-[Prerender SPA Plugin](#prerender-spa-plugin)
+[Prerender SPA Plugin](#prerender-spa-plugin) - low lever prerendering plugin
 
 </useful-links-section>
 </useful-links>
