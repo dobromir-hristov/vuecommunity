@@ -94,7 +94,30 @@ CloudFront is a fast content delivery network by Amazon. They boast high speed, 
 
 ### Surge.sh
 
+Well established, easy and fast command line driven, static file hosting. They have lots of guides for the most popular build tools, services and, custom domain mapping and offer a free tier.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Deploying a Vue CLI app to Surge](https://cli.vuejs.org/guide/deployment.html#surge)
+* [Deploying a Netlify app to Surge](https://nuxtjs.org/faq/surge-deployment/)
+* [Surge Documentation](https://surge.sh/)
+
+</useful-links-section>
+</useful-links>
+
 ### Now.sh
+
+Free static file hosting with support for lambda functions. "Now" is a pretty good choice as it offers a global CDN, its very fast to build and optimized for maximum app loading speed. Server auto-scaled up and down instances based on usage.
+
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Now documentation](https://zeit.co/now)
+
+</useful-links-section>
+</useful-links>
 
 ## Server Rendered Websites
 
