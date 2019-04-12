@@ -37,8 +37,8 @@ The project is very well documented, with detailed explanations for each section
 </useful-links-section>
 </useful-links>
 
-## Vue-Starter
-Vue-Starter is an actively maintained boilerplate for enterprise level, production-ready PWAs. It focuses on performance, development speed, and best practices.
+## Vuesion
+Vuesion is an actively maintained boilerplate for enterprise level, production-ready PWAs. It focuses on performance, development speed, and best practices.
 
 The boilerplate is build on top of the idea of micro-services or a service-oriented-architecture.
 
@@ -47,7 +47,7 @@ It shows best practices for fetching async data, setting up i18n, persisting Vue
 <useful-links>
 <useful-links-section title="Links">
 
-[Vue-Starter - Github](https://github.com/devCrossNet/vue-starter)
+[Vuesion - Github](https://github.com/devCrossNet/vue-starter)
 
 </useful-links-section>
 </useful-links>

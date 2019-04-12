@@ -143,7 +143,7 @@ storiesOf('Button', module)
   }));
 ```
 
-#### Pros
+::: tip Pros
 
 - The community is big and active
 - Lots of mature [plugins](#essential-plugins)
@@ -151,15 +151,16 @@ storiesOf('Button', module)
   - Sketch symbol exports
   - Accessibility checks
 - Easily adopted by front-end developers (Examples are written in JavaScript/TypeScript)
+::: 
 
-#### Cons
+::: danger Cons
 
 - Bare bones, without plugins out of the box (no prop detection, no code samples, no styling)
 - Input and output formats not practical for long descriptions
 - Stories are string litterals, so there is no syntax highlighting.
 - Only one "story" per page
 - Need to create a separate `webpack.config.js` file
-
+:::
 
 <useful-links>
 <useful-links-section title="Essential Plugins">
@@ -236,7 +237,7 @@ Here give a reason for using the component. The code samples are going to be ren
 </docs>
 ```
 
-#### Pros
+::: tip Pros
 
 - Detects props, events, methods and slots automatically
 - Documentation is done inside the components using standard JSDoc
@@ -246,12 +247,14 @@ Here give a reason for using the component. The code samples are going to be ren
 - Highly customizable HTML output template
   - Multiple component examples can be shown in the same markdown page
   - Components can be grouped by sections
+:::
 
-#### Cons
+::: danger Cons
 
 - Generated output is currently limited to HTML
 - JSDoc can be verbose
 - The tool is built in React. To customize the template, you will need to use React.
+:::
 
 <useful-links>
 <useful-links-section title="Official">
@@ -298,15 +301,16 @@ export default {
 }
 ```
 
-#### Pros
+::: tip Pros
 
 - Detects props, events, methods and slots automatically
 - Compact documentation in components
 - Vuepress default output
 - Configurable docute or markdown outputs
 - Entirely made with VueJs
+:::
 
-#### Cons
+::: danger Cons
 
 - Static code samples
 - Not fully compliant with all Vue.js specs. Does not support (yet):
@@ -314,6 +318,7 @@ export default {
   - Slots added to a render function
   - Decorator component names like `@Component({name:'MyComponent'})`
 
+:::
 <useful-links>
 <useful-links-section title="Official">
 

@@ -21,16 +21,18 @@ These are applications that are written in JavaScript by using a predefined set 
 
 The benefit of using such applications is that you can use your existing JavaScript knowledge to build truly native apps that can look and feel native. Components made in Native code can also be integrated with such apps.
 
-**Pros:** 
+::: tip Pros
 * Builds to Native platform code
 * Performant
 * Direct access to native APIs
 * Allows for using already existing platform UI components
 * Apps can look and feel truly native
+::: 
 
-**Cons:**
+::: danger Cons
 * Cannot use HTML, only provided XML-like components
 * Need to use different components for each platform
+:::
 
 ### Weex
 [Weex](https://weex.apache.org) was the first native solution for Vue.js. The framework was written by developers of top Chinese companies and fully supports Vue components. It promises a build once ship everywhere methodology, opposed to other similar solutions. 
@@ -97,17 +99,19 @@ List popular ways to generate PWA with Vue - Gridsome and Vuepress give PWA supp
 
 Hybrid apps are built by reusing already establishes knowledge about making websites using HTML, CSS and JavaScript with a minimal extra learning curve. SPA's can be converted to mobile apps with a tool called Cordova. It acts as a wrapper around your web app by providing access to device hardware and functions via a unified JavaScript API. It allows developers to write one code that can run on all platforms.
 
-**Pros:**
+::: tip Pros
 * Uses plain HTML, CSS and JavaScript
 * Build once, run everywhere
 * Can be fully custom styled with CSS
 * Wide range of Established UI libraries
 * Cheaper to create than Native
+:::
 
-**Cons:**
+::: danger Cons
 * Generally slower than Native apps
 * Access to lower level device APIs is dependent on wrapper (Cordova)
 * Platform inconsistencies
+:::
 
 ### Useful Links
 
