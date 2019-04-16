@@ -197,26 +197,31 @@ In this section, we will go over the most popular technologies and the struggles
 
 **Similarities**
 
-- Templates are pure HTML
+- Both use a templating system based on HTML
 - Directives
 - Filters
 - Component approach (AngularJS from 1.5.x)
 
 **Differences**
 
-The main difference between VueJs and AngularJs is how reactivity is implemented, Angular has dirty checking phases where a check is done in regards of what model is out of sync with the DOM and updates are performed. Possible issues in converting an AngularJS codebase to a VueJS one is to properly adhere to best practices. (IE: AngularJs encourage an extensive use of filters while in VueJs is preferrable to use computed properites)
+- Reactivity is implemented differently, Angular has dirty checking phases where a check is done in regards of what model is out of sync with the DOM and updates are performed. 
+- Possible issues in converting an AngularJS codebase to a VueJS one is to properly adhere to best practices. (IE: AngularJs encourage an extensive use of filters while in VueJs is preferrable to use computed properites)
 
 **VueJs Benefits**
 
  - Dirty checking of AngularJs can cause loops and be extremely slow
- - Unit testing  AngularJs components can be tricky
+ - Unit test VueJs component is easier than AngularJs
  - VueJs has a much smaller footprint
  - VueJs is less verbose
- - AngularJs community packages are often abandoned ( or only maintained for Angular 2x, 3x ... )
+ - VueJs community is active and evolving, while AngularJs one moved the attention to Angular (2x, 3x, 4x)
 
-**Links**
-
-[VueJs Docs](https://vuejs.org/v2/guide/comparison.html#AngularJS-Angular-1)
+<useful-links>
+<useful-links-section title="Links">
+ 
+ [VueJs Docs](https://vuejs.org/v2/guide/comparison.html#AngularJS-Angular-1)
+ 
+</useful-links-section>
+</useful-links>
 
 ### React
 
