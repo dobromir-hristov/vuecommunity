@@ -212,7 +212,7 @@ In this section, we will go over the most popular technologies and the struggles
  - Dirty checking of AngularJs can cause loops and be extremely slow
  - Unit test VueJs component is easier than AngularJs
  - Vue has a much smaller footprint
- - VueJs is less verbose
+ - Vue is less verbose - easier learning curve, lower entry point
  - VueJs community is active and evolving, while AngularJs one moved the attention to Angular (2x, 3x, 4x)
 
 <useful-links>
