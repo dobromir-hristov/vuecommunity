@@ -216,7 +216,7 @@ In this section, we will go over the most popular technologies and the struggles
  - VueJs community is active and evolving, while AngularJs one moved the attention to Angular (2x, 3x, 4x)
 
 <useful-links>
-<useful-links-section title="Links">
+<useful-links-section title="Useful links"> 
  
  [VueJs Docs](https://vuejs.org/v2/guide/comparison.html#AngularJS-Angular-1)
  
