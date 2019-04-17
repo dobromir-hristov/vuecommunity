@@ -205,7 +205,7 @@ In this section, we will go over the most popular technologies and the struggles
 **Differences**
 
 - Reactivity implementation - Angular has dirty checking phases, where a check is done in regards of what model is out of sync with the DOM and updates are performed.
-- Possible issues in converting an AngularJS codebase to a VueJS one is to properly adhere to best practices. (IE: AngularJs encourage an extensive use of filters while in VueJs is preferrable to use computed properites)
+- Possible issues when converting an AngularJS codebase to Vue - Best practices differ, AngularJs encourages extensive use of filters while in Vue computed properties are preferred).
 
 **VueJs Benefits**
 
