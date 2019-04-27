@@ -119,6 +119,15 @@ If you are searching for a well tested solution, with a large community and nice
 
 Learn more about it on the dedicated [Nuxt](./nuxt.md) page.
 
+## Servue
+[Servue]https://futureaus.github.io/servue/ shares a similar scope to Nuxtjs, but with more freedom and targetted more towards Multi-page-applications using existing server/routing systems such as koa/koa-router and express.js
+
+It’s this easy to render .vue files:
+
+```js
+await servue.render('home') // renders "home.vue" into html string
+```
+
 ## Ream
 
 [Ream](https://ream.js.org/) is a lighter framework for building server-rendered applications using Vue. Opposed to Nuxt, Ream is more lower level oriented, meaning it does not rely so much on conventions, but rather lets the user choose how to configure their app.
