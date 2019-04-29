@@ -18,7 +18,7 @@ Static file hosting is generally used to serve rarely changing assets, that are 
 <useful-links>
 <useful-links-section title="Tutorials">
 
-[Article explaining static content](https://www.maxcdn.com/one/visual-glossary/static-content/)
+[What is Static Content?](https://www.maxcdn.com/one/visual-glossary/static-content/)
 
 </useful-links-section>
 </useful-links>
@@ -70,6 +70,7 @@ Firebase hosting is a free static content hosting by Google, which offers a quic
 </useful-links-section>
 <useful-links-section title="Tutorials">
 
+* [How to Deploy Vue.js Applications with Firebase Hosting](https://medium.com/@rachidsakara/how-to-deploy-vue-js-applications-with-firebase-hosting-40cfa7f724e4)
 * [Deploy a Vue.js App with Firebase Hosting](https://medium.com/@ShayneOSullivan/deploy-a-vue-js-app-with-firebase-hosting-3fc420cf3998)
 
 </useful-links-section>
@@ -97,10 +98,10 @@ CloudFront is a fast content delivery network by Amazon. They boast high speed, 
 Well established, easy and fast command line driven, static file hosting. They have lots of guides for the most popular build tools, services and, custom domain mapping and offer a free tier.
 
 <useful-links>
-<useful-links-section title="Official">
+<useful-links-section title="Official Tutorials">
 
 * [Deploying a Vue CLI app to Surge](https://cli.vuejs.org/guide/deployment.html#surge)
-* [Deploying a Netlify app to Surge](https://nuxtjs.org/faq/surge-deployment/)
+* [Deploying a Nuxt app to Surge](https://nuxtjs.org/faq/surge-deployment/)
 * [Surge Documentation](https://surge.sh/)
 
 </useful-links-section>
