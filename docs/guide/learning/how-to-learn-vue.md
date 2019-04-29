@@ -195,6 +195,34 @@ In this section, we will go over the most popular technologies and the struggles
 
 ### AngularJS (Angular 1.x)
 
+**Similarities**
+
+- Both use a templating system based on HTML
+- Directives
+- Filters
+- Component approach (AngularJS from 1.5.x)
+
+**Differences**
+
+- Reactivity implementation - Angular has dirty checking phases, where a check is done in regards of what model is out of sync with the DOM and updates are performed.
+- Possible issues when converting an AngularJS codebase to Vue - Best practices differ, AngularJs encourages extensive use of filters while in Vue computed properties are preferred).
+
+ **Why Switch?** 
+
+ - Dirty checking of AngularJs can cause loops and be extremely slow
+ - Unit testing Vue components is easier
+ - Vue has a much smaller footprint
+ - Vue is less verbose - easier learning curve, lower entry point
+ - The Vue community is active and evolving, while the AngularJs one shifted attention to Angular (2x, 3x, 4x) 
+
+<useful-links>
+<useful-links-section title="Useful links"> 
+ 
+ [VueJs Docs](https://vuejs.org/v2/guide/comparison.html#AngularJS-Angular-1)
+ 
+</useful-links-section>
+</useful-links>
+
 ### React
 
 ### Polymer
