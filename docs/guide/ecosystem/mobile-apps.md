@@ -155,7 +155,7 @@ Most UI frameworks allow you to use the same component and swap out it's styling
 
 Some frameworks focus more towards one platform, so careful consideration must be taken, if true native look is required for each platform.
 
-### Quasar <badge text="popular"/>
+### Quasar <badge text="Popular"/>
 
 Quasar is one of the first Vue UI frameworks, targeting desktop and mobile in particular. It offers a very rich and ever extending set of pre-built components, that mimic mobile elements, plus a bunch of other useful ones. Quasar also has a CLI for managing and bundling your mobile app for each platform, using PhoneGap.
 
@@ -180,4 +180,22 @@ Quasar is one of the first Vue UI frameworks, targeting desktop and mobile in pa
 
 ### Mint UI
 
-### Ionic Vue
+### Ionic Vue <badge text="Beta" type="error"/>
+
+One of the most popular mobile UI frameworks in the world, Ionic was originally built for Angular, but with their latest release they support Vue, thanks to their move to web components. 
+
+Keep in mind this is still a **Beta** release and is yet to be ironed out. Ionic has a vast community, but as most tutorials are for the previous versions, using Angular, Vue users might have to adopt the examples, as concept is the same.
+
+::: warning Keep in mind
+* Still in Beta and developed
+* Very young and little to no community around t
+* Almost no docs or learning material
+:::
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [A Vue from Ionic](https://blog.ionicframework.com/a-vue-from-ionic/)
+
+</useful-links-section>
+</useful-links>
