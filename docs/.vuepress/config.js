@@ -6,7 +6,14 @@ module.exports = {
       description: 'The community guide to Vue.js'
     }
   },
-  ga: 'UA-29425482-12',
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-29425482-12'
+      }
+    ]
+  ],
   // serviceWorker: true,
   themeConfig: {
     docsDir: 'docs',
