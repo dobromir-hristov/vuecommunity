@@ -24,24 +24,28 @@ The benefit of using such applications is that you can use your existing JavaScr
 ::: tip Pros
 * Builds to Native platform code
 * Performant
-* Direct access to native APIs
-* Allows for using already existing platform UI components
+* Direct access to all native APIs
+* Allows usage of already existing platform UI components
 * Apps can look and feel truly native
 ::: 
 
 ::: danger Cons
-* Cannot use HTML, only provided XML-like components
+* Cannot use HTML, only provided XML-like components by framework
+* Cannot use CSS to style components
 * Need to use different components for each platform
 :::
 
 ### Weex
-[Weex](https://weex.apache.org) was the first native solution for Vue.js. The framework was written by developers of top Chinese companies and fully supports Vue components. It promises a build once ship everywhere methodology, opposed to other similar solutions. 
+[Weex](https://weex.apache.org) was the first native solution for Vue.js. The framework was written by developers of top Chinese companies and fully supports Vue components. It promises a "build once, ship everywhere" methodology, opposed to other similar solutions. 
 
 It has a CLI tool, official UI theme and a set of plugins.
 
-#### Compared to others
+Weex has a deep integration with Vue, thus the support parity between the two is very good.
+
+:::warning Keep in mind
 * It is developed and used mostly in China, so it may be a con for someone.
 * Not enough learning material in English, besides official docs.
+:::
 
 <useful-links>
 <useful-links-section title="Tutorials">
@@ -54,24 +58,53 @@ It has a CLI tool, official UI theme and a set of plugins.
 </useful-links-section>
 </useful-links>
 
-### Vue-NativeScript
+### Vue-NativeScript <badge text="Popular"/>
 
-[Vue-NativeScript](https://www.nativescript.org/vue) 
+> NativeScript-Vue is a NativeScript plugin which allows you to use Vue.js to craft your mobile application. 
 
-#### Compared to others
+[Vue-NativeScript](https://www.nativescript.org/vue) is one of the most popular solutions for native mobile apps with Vue.
+
+It offers excellent developer experience for building truly native mobile apps. Similar to ReactNative, as with other similar frameworks, you develop using a set of pre-built Vue components, using the existing Vue and JS knowledge. Knowledge of Native API's is required
+
+With a vast growing popularity and community, the wide adoption of NativeScript across companies, first class support for Vue by official NativeScript team, it is a very good choice.
+
+::: tip Pros
+* Active, growing English speaking community
+* First-class support by NativeScript
+* Very actively developed
+* Vue-Devtools support
+* Cross-platform without maintaining two code bases.
+:::
+
+::: warning Keep in mind
+* Routing is done manually, no Vue-Router support
+* Styling is done via a constrained set of CSS rules
+* Lots of examples for Angular, might need to adapt
+:::
 
 <useful-links>
+<useful-links-section title="Official">
+
+* [Documentation](https://nativescript-vue.org/en/docs/introduction/)
+* [Playground Tutorial](https://nativescript-vue.org/en/docs/getting-started/playground-tutorial/)
+* [Learn NativeScript-Vue the Easy Way](https://www.nativescript.org/blog/learn-nativescript-vue-the-easy-way)
+
+</useful-links-section>
 <useful-links-section title="Tutorials">
 
 * [Lessons Learned on Writing Apps with NativeScript VueJS](https://medium.com/learning-lab/lessons-learned-on-writing-apps-with-nativescript-vuejs-bd6a3066f0cb)
 * [Getting Started with building Mobile Apps with NativeScript and Vue.js](https://www.vuejsradar.com/getting-started-with-building-mobile-apps-with-nativescript-and-vuejs/)
+* [Getting Started with NativeScript-Vue 1.0](https://vuejsdevelopers.com/2018/03/05/getting-started-vue-nativescript/)
+* [Native Mobile Apps with Vue.js and NativeScript](https://alligator.io/vuejs/getting-started-vue-nativescript/)
 
 </useful-links-section>
 </useful-links>
 
 ### Vue-Native
 
-Vue Native is a mobile framework made for building native mobile apps using Vue.js. It acts as a wrapper around **React Native** APIs, which allows you to use Vue.js and compose rich mobile User Interfaces. For APIs that React Native does not support, you have to write **"bridges"** in the platform's native code or install external plugins. 
+Vue Native is a mobile framework made for building native mobile apps using Vue.js. It acts as a wrapper around **React Native** APIs, which allows you to use Vue.js to compose rich mobile User Interfaces. For APIs that React Native does not support, you have to write **"bridges"** in the platform's native code or install external plugins. 
+
+Being younger than Vue-NativeScript, it has a smaller community and adoption, but is nonetheless growing as well.
 
 <useful-links>
 <useful-links-section title="Official">
@@ -82,6 +115,7 @@ Vue Native is a mobile framework made for building native mobile apps using Vue.
 <useful-links-section title="Tutorials">
 
 * [How to Setup, Build and Deploy Native Apps with Vue](https://scotch.io/tutorials/how-to-setup-build-and-deploy-native-apps-with-vue)
+* [Vue Native Basics](https://www.youtube.com/watch?v=8e0XHPylhj0)
 
 </useful-links-section>
 </useful-links>
@@ -113,21 +147,32 @@ Hybrid apps are built by reusing already establishes knowledge about making webs
 * Platform inconsistencies
 :::
 
-### Useful Links
-
-
 ## Mobile UI libraries
 
-Description. When to use
-Pros
-Cons
-Links
+These are UI frameworks that offer native mobile looking components, build for the web with Vue and CSS. These components try to mimic the look and functionality of their native counterparts as close as possible.
 
-### Quasar
+Most UI frameworks allow you to use the same component and swap out it's styling during the bundling phase, giving it a native look for the current mobile platform.
 
-Intro.
-Why use.
-Pros Cons
+Some frameworks focus more towards one platform, so careful consideration must be taken, if true native look is required for each platform.
+
+### Quasar <badge text="popular"/>
+
+Quasar is one of the first Vue UI frameworks, targeting desktop and mobile in particular. It offers a very rich and ever extending set of pre-built components, that mimic mobile elements, plus a bunch of other useful ones. Quasar also has a CLI for managing and bundling your mobile app for each platform, using PhoneGap.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Documentation](https://quasar-framework.org/guide/)
+* [Discord Chart server](https://discordapp.com/invite/5TDhbDg)
+* [Forum](https://forum.quasar-framework.org/)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
+* [Make your Vue.js project fast, cheap and good!](https://medium.com/quasar-framework/the-quasar-method-e19daf9abb5f)
+
+</useful-links-section>
+</useful-links>
 
 ### Framework 7
 
