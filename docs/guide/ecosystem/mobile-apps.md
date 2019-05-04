@@ -157,7 +157,9 @@ Some frameworks focus more towards one platform, so careful consideration must b
 
 ### Quasar <badge text="Popular"/>
 
-Quasar is one of the first Vue UI frameworks, targeting desktop and mobile in particular. It offers a very rich and ever extending set of pre-built components, that mimic mobile elements, plus a bunch of other useful ones. Quasar also has a CLI for managing and bundling your mobile app for each platform, using PhoneGap.
+Quasar is a very active and fast growing Vue UI framework, one of the first targeting desktop and mobile in particular. It offers a large and ever extending set of pre-built components, some mimic mobile elements, and a bunch of other useful general use case ones. 
+
+Quasar comes with a CLI for managing and bundling your mobile app for each platform, using PhoneGap. CLI allows easy application bootstrapping, with support for PWA, i18n, Vuex, VueRouter, Async Code splitting and more.
 
 <useful-links>
 <useful-links-section title="Official">
@@ -172,9 +174,41 @@ Quasar is one of the first Vue UI frameworks, targeting desktop and mobile in pa
 * [Make your Vue.js project fast, cheap and good!](https://medium.com/quasar-framework/the-quasar-method-e19daf9abb5f)
 
 </useful-links-section>
+<useful-links-section title="Videos">
+
+* [Create a Vue js app & deploy to web, mobile app & desktop app in 30 minutes!](https://www.youtube.com/watch?v=iml3hDVboHk)
+* [Quasar Framework for Vue.js](https://www.youtube.com/watch?v=Ud8jS3VlVHw)
+
+</useful-links-section>
 </useful-links>
 
 ### Framework 7
+
+Framework 7 is an already established, mobile focused UI framework, offering native like looking themes for both IOS and Android. It was originally built with IOS in mind, with Material Design added later.
+
+They officially support Vue on top of their components. Along with mobile apps, you can easily develop Web Apps (SPA) with PWA support via their CLI.
+
+They have a nice documentation, though the Vue part is lacking a bit on explanations, so jumping between it and standard component docs may be necessary.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Documentation](https://framework7.io/vue/)
+* [Tutorials](https://framework7.io/tutorials/)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
+* [Build a chat app using Framework7](https://pusher.com/tutorials/chat-app-framework7)
+
+</useful-links-section>
+<useful-links-section title="Videos">
+
+* [Build an app with Framework7 1.x and VueJS tutorial](https://www.youtube.com/watch?v=mG12D07YXwk&t=7s)
+* [Building Mobile Apps with Vue and Framework7](https://www.youtube.com/watch?v=iq1lJdVzpik)
+
+</useful-links-section>
+</useful-links>
 
 ### Onsen UI
 
@@ -182,13 +216,15 @@ Quasar is one of the first Vue UI frameworks, targeting desktop and mobile in pa
 
 ### Ionic Vue <badge text="Beta" type="error"/>
 
-One of the most popular mobile UI frameworks in the world, Ionic was originally built for Angular, but with their latest release they support Vue, thanks to their move to web components. 
+One of the most popular mobile UI frameworks in the world, Ionic was originally built for Angular, but with their latest release they support Vue, thanks to their [move to web components](https://blog.ionicframework.com/introducing-ionic-4-ionic-for-everyone/). 
 
-Keep in mind this is still a **Beta** release and is yet to be ironed out. Ionic has a vast community, but as most tutorials are for the previous versions, using Angular, Vue users might have to adopt the examples, as concept is the same.
+Keep in mind their Vue implementation is still in **Beta** and is yet to be ironed out. Ionic has a vast community, but as most tutorials are for the previous versions, using Angular, Vue users might have to adopt the examples, but the concept is the same.
+
+As with other frameworks, it provides a set of components that change look depending on the OS they are built for.
 
 ::: warning Keep in mind
 * Still in Beta and developed
-* Very young and little to no community around t
+* Very young and little to no community around it
 * Almost no docs or learning material
 :::
 
