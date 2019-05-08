@@ -122,12 +122,29 @@ Being younger than Vue-NativeScript, it has a smaller community and adoption, bu
 
 ## Progressive Web Applications
 
-Description
-Pros
-Cons
-Examples of popular apps that use PWA
-Links to tutorials
-List popular ways to generate PWA with Vue - Gridsome and Vuepress give PWA support.
+Progressive Web Apps are basically mobile friendly SPA's, that can be installed as native apps on your mobile device, from within the browser. They give you the freedom to choose how you build the app, using the already known web technologies, without the need to wrap it with PhoneGap or similar. 
+
+Such apps still run inside a hidden browser window, so they are limited to what the browser's APIs offer. Nonetheless, these apps are receiving a wide adoption and are a very good choice for cases where the website and mobile application should function the same.
+
+Below is a list of popular tools to generate a PWA quickly:
+
+<useful-links>
+<useful-links-section title="Articles">
+
+* [Native application VS Progressive Web App: which one should you choose?](https://medium.com/inside-smartapps/native-application-vs-progressive-web-app-which-one-should-you-choose-5eeaaf6ee92d)
+* [PWA vs Native App and How to Choose Between Them](https://blog.magestore.com/pwa-vs-native-app/)
+
+</useful-links-section>
+<useful-links-section title="PWA Generators">
+
+* [Vue CLI](https://naturaily.com/blog/pwa-vue-cli-3)
+* [Nuxt PWA](https://pwa.nuxtjs.org/)
+* [Vuepress](https://v1.vuepress.vuejs.org/plugin/official/plugin-pwa.html)
+* [Quasar](https://quasar-framework.org/guide/pwa-configuring-pwa.html)
+* [Gridsome](https://gridsome.org/)
+
+</useful-links-section>
+</useful-links>
 
 ## Hybrid Apps
 
