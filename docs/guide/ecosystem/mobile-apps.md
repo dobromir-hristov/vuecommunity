@@ -1,7 +1,4 @@
 # Mobile Apps
-::: tip
-This page is still in early development. If you feel you can contribute, please dont hesitate to open a PR.
-:::
 
 Building mobile applications with JavaScript is not a new thing and has been around for quite some time now. The advantages over native solutions, built with Swift or Android is that you could apply what you know about building web apps, and leverage some of the thousands of packages on npm.
 
@@ -229,7 +226,11 @@ They have a nice documentation, though the Vue part is lacking a bit on explanat
 
 ### Onsen UI
 
+To be added...
+
 ### Mint UI
+
+To be added...
 
 ### Ionic Vue <badge text="Beta" type="error"/>
 
