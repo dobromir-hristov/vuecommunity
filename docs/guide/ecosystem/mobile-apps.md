@@ -13,6 +13,27 @@ On this page, we will go through the different ways one can build a mobile app w
 </useful-links-section>
 </useful-links>
 
+## Summary (TLDR)
+
+<useful-links>
+<useful-links-section title="Native Apps">
+
+[NativeScript-Vue](#nativescript-vue-badge-textpopular)
+
+</useful-links-section>
+<useful-links-section title="Hybrid Apps">
+
+[Quasar](#quasar-badge-textpopular)
+
+</useful-links-section>
+<useful-links-section title="PWA">
+
+* [Nuxt PWA](https://pwa.nuxtjs.org/)
+* [Quasar](https://quasar-framework.org/guide/pwa-configuring-pwa.html)
+
+</useful-links-section>
+</useful-links>
+
 ## Compile to Native
 These are applications that are written in JavaScript by using a predefined set of custom UI components. During build time, the code then gets transformed to native for each required platform.
 
@@ -55,11 +76,11 @@ Weex has a deep integration with Vue, thus the support parity between the two is
 </useful-links-section>
 </useful-links>
 
-### Vue-NativeScript <badge text="Popular"/>
+### NativeScript-Vue <badge text="Popular"/>
 
 > NativeScript-Vue is a NativeScript plugin which allows you to use Vue.js to craft your mobile application. 
 
-[Vue-NativeScript](https://www.nativescript.org/vue) is one of the most popular solutions for native mobile apps with Vue.
+[NativeScript-Vue](https://www.nativescript.org/vue) is one of the most popular solutions for native mobile apps with Vue.
 
 It offers excellent developer experience for building truly native mobile apps. Similar to ReactNative, as with other similar frameworks, you develop using a set of pre-built Vue components, using the existing Vue and JS knowledge. Knowledge of Native API's is required
 
@@ -101,7 +122,7 @@ With a vast growing popularity and community, the wide adoption of NativeScript 
 
 Vue Native is a mobile framework made for building native mobile apps using Vue.js. It acts as a wrapper around **React Native** APIs, which allows you to use Vue.js to compose rich mobile User Interfaces. For APIs that React Native does not support, you have to write **"bridges"** in the platform's native code or install external plugins. 
 
-Being younger than Vue-NativeScript, it has a smaller community and adoption, but is nonetheless growing as well.
+Being younger than NativeScript-Vue, it has a smaller community and adoption, but is nonetheless growing as well.
 
 <useful-links>
 <useful-links-section title="Official">
@@ -134,11 +155,11 @@ Below is a list of popular tools to generate a PWA quickly:
 </useful-links-section>
 <useful-links-section title="PWA Generators">
 
-* [Vue CLI](https://naturaily.com/blog/pwa-vue-cli-3)
-* [Nuxt PWA](https://pwa.nuxtjs.org/)
-* [Vuepress](https://v1.vuepress.vuejs.org/plugin/official/plugin-pwa.html)
-* [Quasar](https://quasar-framework.org/guide/pwa-configuring-pwa.html)
-* [Gridsome](https://gridsome.org/)
+* [Vue CLI](https://naturaily.com/blog/pwa-vue-cli-3) - official CLI plugin to transform SPA's to PWA
+* [Nuxt PWA](https://pwa.nuxtjs.org/) - Nuxt module that adds PWA support to Nuxt apps
+* [Vuepress](https://v1.vuepress.vuejs.org/plugin/official/plugin-pwa.html) - Plugin to enable offline support
+* [Quasar](https://quasar-framework.org/guide/pwa-configuring-pwa.html) - Out of the box PWA generator via CLI
+* [Gridsome](https://gridsome.org/) - Generates out of the box PWA ready app
 
 </useful-links-section>
 </useful-links>
