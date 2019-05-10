@@ -3,8 +3,11 @@ $color-white: hsl(0, 0%, 100%);
 $color-white-ter: hsl(0, 0%, 93%);
 $color-white-bis: hsl(0, 0%, 95%);
 $color-gray: hsl(0, 0%, 42%);
+$color-gray-light: hsl(215, 14%, 84%);
 
-$box-shadow: 0 4px 11px 0 hsla(233, 45%, 26%, 0.15), 0 1px 3px 0 hsla(232, 23%, 47%, 0.2);
+$border-default-color: $color-gray-light;
+
+$box-shadow: 8px 10px 0px 0 hsla(233, 45%, 26%, 0.15), 0 1px 3px 0 hsla(232, 23%, 47%, 0.2);
 
 $spacing-tiny: .5rem;
 $spacing-small: .75rem;
