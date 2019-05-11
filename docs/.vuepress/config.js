@@ -81,6 +81,7 @@ module.exports = {
               '/guide/ecosystem/client-server-communication.md',
               '/guide/ecosystem/documentation.md',
               '/guide/ecosystem/hosting.md',
+              '/guide/ecosystem/i18n.md',
               '/guide/ecosystem/mobile-apps.md',
               '/guide/ecosystem/desktop-apps.md',
               '/guide/ecosystem/nuxt.md',
