@@ -120,7 +120,7 @@ If you are searching for a well tested solution, with a large community and nice
 Learn more about it on the dedicated [Nuxt](./nuxt.md) page.
 
 ## Servue
-[Servue](https://futureaus.github.io/servue/) shares a similar scope to Nuxtjs, It allows you to render `.vue` files into rendered html. It includes features for head management, layouts and more. Compared to nuxt, it is more suitable for Multi-page-applications using existing server/routing systems such as koa/koa-router and express.js
+[Servue](https://futureaus.github.io/servue/) shares a similar scope to Nuxtjs, it allows you to render `.vue` files into rendered html. It includes features for head meta tag management, layouts and more. Servue is more suitable for Multi-page-applications using existing server-side routing systems such as koa/koa-router or express.js
 
 ## Ream
 
