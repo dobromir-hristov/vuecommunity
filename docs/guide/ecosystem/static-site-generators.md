@@ -129,16 +129,14 @@ This approach is useful for simpler applications, which when bundled with Poi, c
 </useful-links>
 
 ## Saber
-_Warning, the project is still in development and should not be used in production._
+Saber.js is a framework for building Modern Static Websites, also built by EGOIST. You can think of it as Gridsome or Gatsby but without the GraphQL part. It is very easy to get started with, like Nuxt.js it uses file-system as the routing API and it supports `.md` and `.vue` pages out of the box, however you can also add pages programmatically. Saber has first-class support for blogging, theming, i18n and page transition, it's also highly extensible thanks to the plugin system.
 
-Saber.js is a framework for building Modern Static Websites, also built by EGOIST. You can think of it as a simpler alternative to Gridsome or Gatsby. It uses the file-system as the router API. Files with `.js` `.md` or `.vue` extension inside the `./pages` folder will automatically become web pages. Saber also supports themes, which are used to manage layouts.
-
-For now Saber only works with Vue websites, but React support is planned for the future.
+For now Saber only works with Vue.js, but React support is planned for the future.
 
 <useful-links>
 <useful-links-section title="Official">
 
-[Saber Docs](https://saberjs.org/)
+[Saber Docs](https://saber.land)
 
 </useful-links-section>
 </useful-links>
