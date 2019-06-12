@@ -64,4 +64,9 @@ This list consists of personal developer blogs, where people share their Vue rel
 
 - [Bo Andersen](https://codingexplained.com/tag/vue) - Vue.js,  Frontend development. Unique articles and interesting problem resolutions.
 
+- [Raymond Camden](https://www.raymondcamden.com/tags/vuejs) - Vue.js, JavaScript, Frontend development and serverless.
+
+- [Taha Shashtari](https://tahazsh.com/) -  Vue.js, JavaScript, CSS, Frontend development.
+
+
 #### If you write articles on Vue, feel free to make a PR and include your blog!
