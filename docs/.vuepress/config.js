@@ -6,12 +6,21 @@ module.exports = {
       description: 'The community guide to Vue.js'
     }
   },
-  ga: 'UA-29425482-12',
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-29425482-12'
+      }
+    ]
+  ],
   // serviceWorker: true,
   themeConfig: {
+    logo: '/logo_pin.png',
     docsDir: 'docs',
     repo: 'https://github.com/dobromir-hristov/vuecommunity',
     editLinks: true,
+    sidebarDepth: 3,
     locales: {
       '/': {
         label: 'English',
@@ -73,6 +82,7 @@ module.exports = {
               '/guide/ecosystem/client-server-communication.md',
               '/guide/ecosystem/documentation.md',
               '/guide/ecosystem/hosting.md',
+              '/guide/ecosystem/i18n.md',
               '/guide/ecosystem/mobile-apps.md',
               '/guide/ecosystem/desktop-apps.md',
               '/guide/ecosystem/nuxt.md',
@@ -86,5 +96,17 @@ module.exports = {
         ]
       }
     }
-  }
+  },
+  head: [
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicons/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', type: 'image/,png', sizes: '32x32', href: '/favicons/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/,png', sizes: '16x16', href: '/favicons/favicon-16x16.png' }],
+    ['link', { rel: 'manifest', href: '/favicons/site.webmanifest' }],
+    ['link', { rel: 'mask-icon', href: '/favicons/safari-pinned-tab.svg', color: '#5bbad5' }],
+    ['link', { rel: 'shortcut icon', href: '/favicons/favicon.ico' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
+    ['meta', { name: 'msapplication-config', content: '/favicons/browserconfig.xml' }],
+    ['meta', { name: 'theme-color', content: '#ffffff' }]
+
+  ]
 }

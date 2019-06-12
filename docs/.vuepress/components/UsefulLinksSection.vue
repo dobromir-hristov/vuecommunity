@@ -36,7 +36,7 @@ export default {
   & + & {
     margin-top: $spacing;
     padding-top: $spacing;
-    border-top: 1px solid $color-white-bis;
+    border-top: 1px solid $border-default-color;
   }
 
   &:last-of-type {
@@ -60,7 +60,7 @@ export default {
       & + p {
         margin-top: $spacing-small;
         padding-top: $spacing-small;
-        border-top: 1px solid $color-white-bis;
+        border-top: 1px solid $border-default-color;
       }
     }
 
@@ -77,7 +77,7 @@ export default {
       li {
         margin-bottom: $spacing-small;
         padding-bottom: $spacing-small;
-        border-bottom: 1px solid $color-white-bis;
+        border-bottom: 1px solid $border-default-color;
 
         &:last-of-type {
           border-bottom: none;

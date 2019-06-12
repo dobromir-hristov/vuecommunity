@@ -3,7 +3,27 @@ Boilerplates are pre-configured projects, that are meant to give a good head sta
 
 Bad part about boilerplates is that once you start developing on top of one, it is hard to keep track of its future updates, as you have to apply them manually.
 
-## Vue Enterprise Boilerplate <badge>Popular</badge>
+## Summary (TLDR)
+
+<useful-links>
+<useful-links-section title="Large teams">
+
+[Vue Enterprise Boilerplate](#vue-enterprise-boilerplate) - very popular, suitable for enterprise apps.
+
+</useful-links-section>
+<useful-links-section title="Desktop Apps">
+
+[Electron-Vue](#electron-vue)
+
+</useful-links-section>
+<useful-links-section title="Node rendered apps">
+
+[Vue-Express](#vue-express)
+
+</useful-links-section>
+</useful-links>
+
+## Vue Enterprise Boilerplate <badge text="Popular"/>
 
 A very detailed and well made boilerplate by Vue Core team member Chris Fritz. It incorporates an opinionated structure, first class testing practices, generators to speed up common development tasks, globally auto registered components, scoped Vuex modules and more.
 
@@ -17,8 +37,8 @@ The project is very well documented, with detailed explanations for each section
 </useful-links-section>
 </useful-links>
 
-## Vue-Starter
-Vue-Starter is an actively maintained boilerplate for enterprise level, production-ready PWAs. It focuses on performance, development speed, and best practices.
+## Vuesion
+Vuesion is an actively maintained boilerplate for enterprise level, production-ready PWAs. It focuses on performance, development speed, and best practices.
 
 The boilerplate is build on top of the idea of micro-services or a service-oriented-architecture.
 
@@ -27,7 +47,7 @@ It shows best practices for fetching async data, setting up i18n, persisting Vue
 <useful-links>
 <useful-links-section title="Links">
 
-[Vue-Starter - Github](https://github.com/devCrossNet/vue-starter)
+[Vuesion - Github](https://github.com/devCrossNet/vue-starter)
 
 </useful-links-section>
 </useful-links>

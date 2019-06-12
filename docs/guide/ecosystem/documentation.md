@@ -15,7 +15,31 @@ When choosing a platform to write your docs on, think about your priorities and 
 - Do you need custom features, specific for your documentation purposes?
 - Where do you plan to host your documentation? Can you use static site hosting or do you need a server?
 
-### Vuepress
+## Summary (TLDR)
+<useful-links>
+<useful-links-section title="Statically Generated">
+
+* [Vuepress](#vuepress)
+
+</useful-links-section>
+<useful-links-section title="No build step">
+
+* [Docute](#docute)
+
+</useful-links-section>
+<useful-links-section title="Live component examples">
+
+* [Storybook](#storybook)
+
+</useful-links-section>
+<useful-links-section title="Automated workbech">
+
+* [Vue Styleguidist](#vue-styleguidist)
+
+</useful-links-section>
+</useful-links>
+
+### Vuepress <badge text="popular"/>
 
 [Vuepress](http://vuepress.vuejs.org/) is a Vue-powered static site generator, that by default is optimized for technical documentation.
 
@@ -92,7 +116,7 @@ A workbench is a development environment for UI components. It allows developers
 
 Workbenches are very powerful when working in big teams with lots of components. They allow other developers to discover how components work by tweaking them. Even better, these showcases can turn into static websites.
 
-### Storybook
+### Storybook <badge text="popular"/>
 
 The most popular workbench is [storybook](https://storybook.js.org/docs/guides/guide-vue/).
 
@@ -119,7 +143,7 @@ storiesOf('Button', module)
   }));
 ```
 
-#### Pros
+::: tip Pros
 
 - The community is big and active
 - Lots of mature [plugins](#essential-plugins)
@@ -127,15 +151,16 @@ storiesOf('Button', module)
   - Sketch symbol exports
   - Accessibility checks
 - Easily adopted by front-end developers (Examples are written in JavaScript/TypeScript)
+::: 
 
-#### Cons
+::: danger Cons
 
 - Bare bones, without plugins out of the box (no prop detection, no code samples, no styling)
 - Input and output formats not practical for long descriptions
 - Stories are string litterals, so there is no syntax highlighting.
 - Only one "story" per page
 - Need to create a separate `webpack.config.js` file
-
+:::
 
 <useful-links>
 <useful-links-section title="Essential Plugins">
@@ -149,7 +174,7 @@ storiesOf('Button', module)
 </useful-links-section>
 </useful-links>
 
-### Vue Styleguidist
+### Vue Styleguidist <badge text="rising star"/>
 
 [Vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) is a port of [react-styleguidist](https://github.com/styleguidist/react-styleguidist) for vue components.
 You are building a Design System. You want a site to showcase your components, this should be your first choice.
@@ -212,7 +237,7 @@ Here give a reason for using the component. The code samples are going to be ren
 </docs>
 ```
 
-#### Pros
+::: tip Pros
 
 - Detects props, events, methods and slots automatically
 - Documentation is done inside the components using standard JSDoc
@@ -222,12 +247,14 @@ Here give a reason for using the component. The code samples are going to be ren
 - Highly customizable HTML output template
   - Multiple component examples can be shown in the same markdown page
   - Components can be grouped by sections
+:::
 
-#### Cons
+::: danger Cons
 
 - Generated output is currently limited to HTML
 - JSDoc can be verbose
 - The tool is built in React. To customize the template, you will need to use React.
+:::
 
 <useful-links>
 <useful-links-section title="Official">
@@ -274,15 +301,16 @@ export default {
 }
 ```
 
-#### Pros
+::: tip Pros
 
 - Detects props, events, methods and slots automatically
 - Compact documentation in components
 - Vuepress default output
 - Configurable docute or markdown outputs
 - Entirely made with VueJs
+:::
 
-#### Cons
+::: danger Cons
 
 - Static code samples
 - Not fully compliant with all Vue.js specs. Does not support (yet):
@@ -290,6 +318,7 @@ export default {
   - Slots added to a render function
   - Decorator component names like `@Component({name:'MyComponent'})`
 
+:::
 <useful-links>
 <useful-links-section title="Official">
 

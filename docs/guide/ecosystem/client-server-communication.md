@@ -6,7 +6,32 @@ When working with SPA's it is very common to fetch data from remote services. Th
 
 Ajax requests to REST API's are the most common way of fetching data asynchronously from remote services. Requests are sent to a server, where data is processed. In the meantime, depending on the implementation, we can either have a callback based approach or the newer Promise based one, where we can wait until the process either succeeds or errors out.
 
-### Axios
+## Summary (TLDR)
+
+<useful-links>
+<useful-links-section title="Ajax">
+
+[Axios](#axios)
+
+</useful-links-section>
+<useful-links-section title="Complex Queries">
+
+[Vue Apollo](#vue-apollo)
+
+</useful-links-section>
+<useful-links-section title="Realtime Communication">
+
+[Pusher](#pusher)
+
+</useful-links-section>
+<useful-links-section title="Realtime Serveless DB">
+
+[Firebase](#firebase)
+
+</useful-links-section>
+</useful-links>
+
+### Axios <badge text="popular"/>
 
 Axios is a famous library for performing async requests. It has a very nice and easy to use API, supports Promises, more advanced features like interceptors, generating Axios instances, adding external plugins and more.
 
@@ -52,7 +77,7 @@ To use it with Vue, you dont need plugins, you can just import `fetch` and start
 - When does it make sense to use it
 - Links to tutorials
 
-### Vue Apollo
+### Vue Apollo <badge text="rising star"/>
 
 - What is Apollo
 - Common use cases
@@ -74,7 +99,7 @@ Unlike HTTP requests, which are one way communication from client to server, Web
 </useful-links-section>
 </useful-links>
 
-### Pusher
+### Pusher <badge text="popular"/>
 
 Pusher is service which offers an abstraction over Websockets, allowing users to use a simplified API to subscribe to realtime notifications. It implements the notion of channels and events, where a single channel can have multiple event types.
 

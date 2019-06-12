@@ -2,6 +2,9 @@
 home: true
 actionText: Get Started →
 actionLink: /guide/
+heroImage: /logo_full.png
+heroAlt: Vue Community Guide
+heroText: 
 features:
 - title: Community
   details: Find information about the various Vue community projects, conferences or the current job market.

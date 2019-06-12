@@ -1,7 +1,7 @@
 # Video courses
 Showcase individual Vue related video courses. Platforms go into the [learning platforms](./learning-platforms.md) page.
 
-## Advanced Vue Component Design <badge>Popular</badge>
+## Advanced Vue Component Design <badge text="popular"/>
 **Author:** Adam Wathan
 
 Created by Adam Wathan, popular Laravel figure and author of Tailwind CSS, this course is aimed towards developers with previous Vue.js experience, wanting to go one step further. 
@@ -16,7 +16,7 @@ As an advanced course, it covers topics like building custom controlled componen
 </useful-links-section>
 </useful-links>
 
-## Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex) <badge>Popular</badge>
+## Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex) <badge text="popular"/>
 **Author:** Maximilian Schwarzmüller
 
 The course covers all the important topics, from the Vue basics, binding props, form handling, Vuex and Vue Router. Material is being updated, as new features are added to the framework and its ecosystem, like Vue CLI 3 for example.
@@ -47,7 +47,7 @@ Throughout the course you will use Vue CLI 3, Vuetify framework, MongoDB, Jest, 
 </useful-links-section>
 </useful-links>
 
-## Vue.js Essentials - 3 Course Bundle  <badge>popular</badge>
+## Vue.js Essentials - 3 Course Bundle  <badge text="popular"/>
 **Author:** Anthony Gore
 
 Vuejsdevelopers.com hosts not only Vue articles, but also a few beginner video courses. The "Vue.js essentials" is sold as a 3 course bundle or separate.

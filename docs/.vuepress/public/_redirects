@@ -1,1 +1,4 @@
 https://vuecommunity.netlify.com/* https://vue-community.org/:splat 301!
+
+# Redirect domain aliases to primary domain
+https://vuecommunity.org/* https://vue-community.org/:splat 301!

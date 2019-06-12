@@ -16,7 +16,7 @@ There are mainly two ways to build a desktop application with Vue: HTML+CSS-base
 
 Electron is by far the most popular library for writing JavaScript desktop applications today. Some of the more well-known apps are [Slack](https://slack.com/) and [Discord](https://discordapp.com/) messengers, [Atom](https://atom.io/) code editor and [Visual Studio Code](https://code.visualstudio.com/) IDE.
 
-**Pros**
+::: tip Pros
 
 - easy to start with
 - good development documentation
@@ -24,12 +24,15 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 - has [Vue CLI plugin](https://github.com/nklayman/vue-cli-plugin-electron-builder)
 - mature developer community
 
-**Cons**
+:::
+
+::: danger Cons
 
 - big package size
 - high memory usage
 - unprotected source code in package
 
+:::
 
 <useful-links>
 <useful-links-section title="Tutorials">
@@ -44,19 +47,20 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 
 [NW.js](https://nwjs.io/) (previously known as node-webkit) is a framework for building desktop applications with HTML, CSS, and JavaScript. Similar to [Electron](#electron), it is based on Chromium and Node.js. NW.js lets you call Node.js code and modules directly from browser, along with using Web technologies in your app. Further, you can easily package a web application to a native application.
 
-**Pros**
+::: tip Pros
 
 - easy to start with
 - no need to change an existing source code
 - compiling to protected binaries
 - has [Vue CLI plugin](https://github.com/NataliaTepluhina/vue-cli-plugin-nwjs)
+:::
 
-**Cons**
+::: danger Cons
 
 - big package size
 - high memory usage
 - significantly less used than Electron
-
+:::
 
 <useful-links>
 <useful-links-section title="Boilerplate">
@@ -88,17 +92,19 @@ Under the hood, Vuido uses the [libui](https://github.com/andlabs/libui) library
 
 The core difference between Vuido and Electron or NW.js is that you're not going to use HTML tags or CSS styles with Vuido, you are limited to a predefined set of UI components, that the OS platforms provide.
 
-**Pros**
+::: tip Pros
 
 - easy to build
 - provides small package size compared to Electron or NW.js apps
 - well-documented
+:::
 
-**Cons**
+::: danger Cons
 
 - appearance is limited to OS native GUI components
 - doesn't have a Vue CLI plugin, only Vue CLI 2 boilerplate
 
+:::
 
 <useful-links>
 <useful-links-section title="Tutorials">

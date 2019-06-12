@@ -8,12 +8,37 @@ Pre-rendering is not a silver bullet and has some caveats:
  
 * Many routes - Pre-rendering is not suitable for websites with thousands of routes. Each page would have to be rendered, which can take quite some time.
 * Dynamic Content - Routes that display user specific content or other dynamically fetched data, should show placeholders until the content is loaded.
+
+## Summary (TLDR)
+
+<useful-links>
+<useful-links-section title="Markdown Based">
+
+[Vuepress](#vuepress) - uses markdown and Vue components to build docs, blogs and more
+
+</useful-links-section>
+<useful-links-section title="Customizable">
+
+[Nuxt](#nuxt-static-generated-mode) - statically pre-render any SSR compliant SPA, very flexible
+
+</useful-links-section>
+<useful-links-section title="GraphQL based">
+
+[Gridsome](#gridsome) - static websites with flexible GraphQL data layer for any backend
+
+</useful-links-section>
+<useful-links-section title="Manual">
+
+[Prerender SPA Plugin](#prerender-spa-plugin) - low lever prerendering plugin
+
+</useful-links-section>
+</useful-links>
  
-## Popular Solutions
+## Existing Solutions
 
 Even though you can create such a tool with Puppeteer and a simple script, there are already battle tested solutions that can work for the majority of use cases.
 
-## Vuepress
+## Vuepress <badge text="popular"/>
 
 Vuepress is a prime example of a static file generator. Each page is a markdown file that is then rendered to an HTML page, and runs as an SPA once a page is loaded. Vuepress 0.x websites are meant mainly for documentations, as the default theme is optimized for such. 
 
@@ -36,7 +61,7 @@ The new 1.x version will be a more generic static file generator, suitable for b
 </useful-links-section>
 </useful-links>
 
-## Gridsome
+## Gridsome <badge text="rising star"/>
 
 Gridsome is a Vue.js-powered, static site generator for building fast websites. It works with any Headless CMS, API or Database by using a GraphQL Data Layer. Once visited, Vue.js hydrates the page, converting it into a full blown SPA.
 
@@ -52,6 +77,7 @@ To learn more, go check out the [Gridsome](./gridsome.md) page.
 </useful-links-section>
 <useful-links-section title="Tutorials">
 
+* [How does Gridsome compare to Nuxt?](https://github.com/gridsome/gridsome/issues/193)
 * [Getting Started with Gridsome](https://scotch.io/tutorials/getting-started-with-gridsome)
 * [Leveraging Vue.js & GraphQL with Gridsome](https://snipcart.com/blog/vuejs-graphql-airtable-example)
 * [Building a blog with Gridsome: Creating the Blog](https://alligator.io/vuejs/gridsome-blog/)
@@ -77,7 +103,7 @@ A webpack plugin that is used to generate static HTML files for each web page, d
 </useful-links-section>
 </useful-links>
 
-## Nuxt Static Generated mode
+## Nuxt Static Generated mode <badge text="popular"/>
 Most people know Nuxt for its Server-side rendering capabilities, it however also supports pre-rendering. The `nuxt generate` command will save the output of each page in your Nuxt app to an HTML file. After visiting, the page will go into SPA mode, with Vue taking over routing and page rendering.
 
 <useful-links>
@@ -103,16 +129,14 @@ This approach is useful for simpler applications, which when bundled with Poi, c
 </useful-links>
 
 ## Saber
-_Warning, the project is still in development and should not be used in production._
+Saber.js is a framework for building Modern Static Websites, also built by EGOIST. You can think of it as Gridsome or Gatsby but without the GraphQL part. It is very easy to get started with, like Nuxt.js it uses file-system as the routing API and it supports `.md` and `.vue` pages out of the box, however you can also add pages programmatically. Saber has first-class support for blogging, theming, i18n and page transition, it's also highly extensible thanks to the plugin system.
 
-Saber.js is a framework for building Modern Static Websites, also built by EGOIST. You can think of it as a simpler alternative to Gridsome or Gatsby. It uses the file-system as the router API. Files with `.js` `.md` or `.vue` extension inside the `./pages` folder will automatically become web pages. Saber also supports themes, which are used to manage layouts.
-
-For now Saber only works with Vue websites, but React support is planned for the future.
+For now Saber only works with Vue.js, but React support is planned for the future.
 
 <useful-links>
 <useful-links-section title="Official">
 
-[Saber Docs](https://saberjs.org/)
+[Saber Docs](https://saber.land)
 
 </useful-links-section>
 </useful-links>

@@ -205,6 +205,10 @@ You cannot attach event listeners to slots. You need to pass the methods you wan
 
 In Vue 2.x they are yet to be reactive. With Vue 3.x this will not be an issue and Maps and Sets will be natively supported.
 
+### What can you advise to use for unit testing? Jest? Or Vue Test Utils?
+
+[Jest](https://jestjs.io/) is a testing framework, where as [Vue Test Utils](https://vue-test-utils.vuejs.org/) is a utility library for writing unit tests. It's supposed to be used with Jest, Mocha or other testing library.
+
 ## Vue Components
 
 ### When should I extract components into subcomponents?

@@ -111,13 +111,16 @@ This part of the page is still in development and could use some help.
 
 Thankfully, there are a few options already for Vue when it comes to server-side rendering.
 
-## Nuxt <badge>Popular</badge>
+## Nuxt <badge text="popular"/>
 
 [Nuxt](https://nuxtjs.org/) is a framework on top of Vue for creating universal applications. It offers a full SSR environment, with an extendable API, out of the box.
 
 If you are searching for a well tested solution, with a large community and nice development experience, Nuxt is most probably what you should pick.
 
 Learn more about it on the dedicated [Nuxt](./nuxt.md) page.
+
+## Servue
+[Servue](https://futureaus.github.io/servue/) shares a similar scope to Nuxtjs, it allows you to render `.vue` files into rendered html. It includes features for head meta tag management, layouts and more. Servue is more suitable for Multi-page-applications using existing server-side routing systems such as koa/koa-router or express.js
 
 ## Ream
 

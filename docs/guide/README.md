@@ -27,6 +27,7 @@
 * [Client-Server Communication](./ecosystem/client-server-communication.md) - How to use Vue with REST, GraphQL or websockets
 * [Documentation](./ecosystem/documentation.md) - Generating and maintaining documentation for Vue projects
 * [Hosting](./ecosystem/hosting.md) - Where to host your Vue apps
+* [i18n](./ecosystem/i18n.md) - Internationalization (i18n) for Vue
 * [Mobile Apps](./ecosystem/mobile-apps.md) - PWA, native and hybrid mobile applications
 * [Desktop Apps](./ecosystem/desktop-apps.md) - Building Desktop Apps with Vue
 * [Nuxt](./ecosystem/nuxt.md) - Overview of Nuxt.js and its ecosystem
