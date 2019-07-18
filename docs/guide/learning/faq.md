@@ -187,7 +187,7 @@ Using a watcher, you can watch the `$store` or use the `mapGetter` helper to wat
 
 ### Is it a bad practice to make methods, lifecycle hooks or watchers async?
 
-It does not hurt, but it is a good practice to extract complex logic to methods instead and then call them from inside a lifecylce hook.
+It does not hurt, but it is a good practice to extract complex logic to methods instead and then call them from inside a lifecycle hook.
 
 ### How do I attach event listeners to a slot?
 
@@ -251,7 +251,7 @@ They are most often used to create components, that would be rendered hundreds o
 
 Short answer, you dont. 
 
-Functional components generally use render functions or JSX, thus one could import or define simple functions on top of the `render` method, using them inside as data transformers, similar to computed properties. Even though not exactly computed properties, it can help you reduce template logic quite allot. 
+Functional components generally use render functions or JSX, thus one could import or define simple functions on top of the `render` method, using them inside as data transformers, similar to computed properties. Even though not exactly computed properties, it can help you reduce template logic quite a lot. 
 
 Check the links below for more info and examples.
 
@@ -304,7 +304,7 @@ You can look at the event bus as a way to trigger actions on components, with th
 
 Vuex on the other hand isn't really great for triggering local actions on components, where it shines is actually keeping the track of state and allowing multiple endpoints to manage it and react upon it's changes. 
 
-To trigger a method on a component with Vuex, you would have to save an unique value in the store, then inside the component you then define a watcher to track for changes on that property, which overcomplicates things allot.
+To trigger a method on a component with Vuex, you would have to save an unique value in the store, then inside the component you then define a watcher to track for changes on that property, which overcomplicates things a lot.
 
 With the bus, you have to be careful to unregister it before the component is destroyed. It is harder to track, as the devtools does not show fired events, it does for Vuex commits. Vue doesnt warn if you are listening to an event that doenst exist, where as with Vuex, it will warn if you try to access something that doesnt exist.
 
@@ -433,7 +433,7 @@ Read more on the [UI Libraries](../ecosystem/ui-libraries.md) page.
 
 ### Mobile vs PWA vs Native
 
-Even though you can build mobile apps with all 3 of these technologies, each has its weaknesses and advantages. Please visit the [Mobile Apps](../ecosystem/mobile-apps.md) page, for a allot more information.
+Even though you can build mobile apps with all 3 of these technologies, each has its weaknesses and advantages. Please visit the [Mobile Apps](../ecosystem/mobile-apps.md) page, for a a lot more information.
 
 ## Server Side Rendering
 
