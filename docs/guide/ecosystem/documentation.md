@@ -73,7 +73,7 @@ So to answer the questions above:
 
 In a nutshell, Docute fetches Markdown files and renders them on the fly in the browser, serving a fully working SPA. Because there is no build process, users can preview and deploy changes immediately, without any pre-build steps.
 
-Because it is built with Vue, components can be defined and used inside the markdown files, which as Vuepress, gives allot of flexibility and customisation.
+Because it is built with Vue, components can be defined and used inside the markdown files, which as Vuepress, gives a lot of flexibility and customisation.
 
 Here are the answers from the above questions:
 
@@ -112,7 +112,7 @@ Below is a list of popular documentation generators, that are not connected to V
 
 ## Component workbenches
 
-A workbench is a development environment for UI components. It allows developers to setup interactive examples of how a UI component can be  used. One can setup a live demo of a Vue component by passing different props to it. Perfect to show your designer or for you to test the result of your work
+A workbench is a development environment for UI components. It allows developers to setup interactive examples of how a UI component can be used. One can setup a live demo of a Vue component by passing different props to it. Perfect to show your designer or for you to test the result of your work
 
 Workbenches are very powerful when working in big teams with lots of components. They allow other developers to discover how components work by tweaking them. Even better, these showcases can turn into static websites.
 

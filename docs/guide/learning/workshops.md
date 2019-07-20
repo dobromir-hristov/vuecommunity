@@ -12,7 +12,7 @@ Most follow the "Explain feature first, practice after" where the main topic is 
 
 Others follow the "work along with the mentor" approach, where attendees follow alongside the instructor, as he explains what the topic is about while showing how to apply it in real life.
 
-Workshops mostly range from half a day to the more in depth ones spanning across two or three days. Longer workshops, allow for instructor to dive deeper into a topic, showing allot more than just the basic requirements to get things working. Attendees have a bigger opportunity to interact with the mentors, ask questions on issues that come up as development goes.
+Workshops mostly range from half a day to the more in depth ones spanning across two or three days. Longer workshops, allow for instructor to dive deeper into a topic, showing a lot more than just the basic requirements to get things working. Attendees have a bigger opportunity to interact with the mentors, ask questions on issues that come up as development goes.
 
 ## Where to find workshops
 

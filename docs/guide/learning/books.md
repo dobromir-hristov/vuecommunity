@@ -53,7 +53,7 @@ These books are more focused on the app building aspect, thus go deeper into the
 ### The Majesty of Vue.js 2
 **Authors:** Alex Kyriakidis, Kostas Maniatis
 
-> This book will guide you through the path of the rapidly spreading Javascript Framework Vue.js!    
+> This book will guide you through the path of the rapidly spreading Javascript Framework Vue.js!  
 By the end of this book, you will be able to create fast front end applications and increase the performance of your existing projects with Vue.js 2 integration.
 
 This book is addressed to anyone interested in learning Vue.js, from new developers, to those who already use Vue.js and want to expand their knowledge. The book does not assume ES2015 knowledge and does not make use of Vue CLI or vue components throughout the entire book.
@@ -165,7 +165,7 @@ Readers will then use Laravel to set up a web service and integrate the front en
 </useful-links>
 
 ### The Vue Handbook
-**Author:**  Flavio Copes
+**Author:** Flavio Copes
 
 <useful-links>
 <useful-links-section title="Link">
