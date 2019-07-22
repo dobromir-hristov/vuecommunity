@@ -166,7 +166,7 @@ Remember that you will still have to reach out to original framework's documenta
 
 ### Bootstrap-Vue <badge text="Backender's Choice"/>
 
-> Bootstrap-Vue provides one of the most comprehensive implementations of Bootstrap V4 components and grid system available for Vue.js 2.4+, complete with extensive and automated WAI-ARIA accessibility markup. 
+> Bootstrap-Vue provides one of the most comprehensive implementations of Bootstrap V4.3 components and grid system available for Vue.js 2.6+, complete with extensive and automated WAI-ARIA accessibility markup. 
 
 If you want to use Bootstrap 4 for your project, Bootstrap-Vue is the community's most often recommendation. It's a set of components natively written with Vue.js, so you don't have to worry about mixing Vue with JQuery. It's easy to use it with both Vue CLI and Nuxt.
 
