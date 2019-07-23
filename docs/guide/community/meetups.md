@@ -6,7 +6,7 @@ A typical meetup can vary from just a gathering at a bar/restaurant, to more lea
  
 
 ## Events.vuejs.org
- Finding or organising a local meetup in your area can be quite hard, as it involves allot of searching, preparations, etc. 
+ Finding or organising a local meetup in your area can be quite hard, as it involves a lot of searching, preparations, etc. 
 
 [events.vuejs.org](https://events.vuejs.org) is the official guide to finding meetups, conferences, workshops and more in the Vue ecosystem. It is maintained and curated by Vue Core members, but contributions from the community are more than welcome.
 

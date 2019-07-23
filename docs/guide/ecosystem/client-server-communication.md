@@ -121,7 +121,7 @@ Pusher can be used for chats, games, location sharing and is most commonly used 
 
 Along with database, they offer authentication, static hosting, data storage and more. Thanks to their server-side libraries and REST api's you can connect Firebase to your existing backend. You can build realtime chats, dashboards, cross device notifications and much more.
 
-Implementing Firebase into your Vue app directly with their SDK can be a bit of a hassle as you need to keep track of allot of things, bind documents, etc. Luckily there is the official [Vuefire](https://github.com/vuejs/vuefire) package that makes it allot easier.
+Implementing Firebase into your Vue app directly with their SDK can be a bit of a hassle as you need to keep track of a lot of things, bind documents, etc. Luckily there is the official [Vuefire](https://github.com/vuejs/vuefire) package that makes it a lot easier.
 
 
 <useful-links>

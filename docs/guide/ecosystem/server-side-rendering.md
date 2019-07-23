@@ -57,7 +57,7 @@ SSR sounds awesome, there are however some things that need to be taken in consi
 
 ### Time to interaction
 
-Even though users can see the website, it doesn't meant it is fully working. For very dynamic websites, with allot of JavaScript logic driving the UI, this can lead to weird situations where the page is rendered, looks ready, but the app bundle is still downloading, so no JavaScript logic can be executed yet.
+Even though users can see the website, it doesn't meant it is fully working. For very dynamic websites, with a lot of JavaScript logic driving the UI, this can lead to weird situations where the page is rendered, looks ready, but the app bundle is still downloading, so no JavaScript logic can be executed yet.
 
 ### Time to first byte (TTFB) is slower
 
@@ -97,7 +97,7 @@ To overcome this, developers should not interact with those APIs, in places, tha
 
 ### Complex to transform deployed SPA to SSR
 
-Because of the above, already deployed websites are harder to transform to SSR, as there might be allot of plugins or UI components, that rely on the Platform Specific APIs, explained above.
+Because of the above, already deployed websites are harder to transform to SSR, as there might be a lot of plugins or UI components, that rely on the Platform Specific APIs, explained above.
 
 This is an issue mostly related with library and plugin authors not providing SSR compliant versions of their software.
 
@@ -132,7 +132,7 @@ If you need more freedom to configure your application, with little to no interf
 
 Vue server renderer is a lower level tool that is used by most of the above mentioned frameworks to render Vue apps on the server.
 
-You can use it in tandem with an Express server or similar solution, to render pages on each user visit to the app. Just keep in mind, you will have to write allot more boilerplate and configuration by yourself, compared to the already pre-made solutions.
+You can use it in tandem with an Express server or similar solution, to render pages on each user visit to the app. Just keep in mind, you will have to write a lot more boilerplate and configuration by yourself, compared to the already pre-made solutions.
 
 If you dont need some really custom solution, we would advise you to pick one of the pre-made tools mentioned above.
 

@@ -54,7 +54,7 @@ The new 1.x version will be a more generic static file generator, suitable for b
 </useful-links-section>
 <useful-links-section title="Tutorials">
 
-* [The VuePress Book](https://vuepressbook.com/) -  examples and demo code 
+* [The VuePress Book](https://vuepressbook.com/) - examples and demo code 
 * [Vue-Powered Docs & Blog](https://snipcart.com/blog/vuepress-tutorial-vuejs-documentation)
 * [Build A Documentation System with Vue and VuePress](https://scotch.io/tutorials/zero-to-deploy-build-a-documentation-system-with-vue-and-vuepress)
 
