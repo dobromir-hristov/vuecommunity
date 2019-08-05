@@ -65,7 +65,7 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 <useful-links>
 <useful-links-section title="Boilerplate">
 
-- [vue-desktop-basic](https://github.com/TheJaredWilcurt/vue-desktop-basic)
+- [NW.js + Vue-CLI](https://github.com/nwutils/nw-vue-cli-example)
 
 </useful-links-section>
 <useful-links-section title="Tutorials">
