@@ -76,6 +76,7 @@ module.exports = {
             title: 'Ecosystem',
             collapsable: false,
             children: [
+              '/guide/ecosystem/editors-and-tools.md',
               '/guide/ecosystem/ui-libraries.md',
               '/guide/ecosystem/forms.md',
               '/guide/ecosystem/boilerplates.md',

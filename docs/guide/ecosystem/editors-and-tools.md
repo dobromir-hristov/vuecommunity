@@ -13,9 +13,9 @@ The list below shows the top most popular choices with more details later on why
 <useful-links>
 <useful-links-section title="Editors">
 
-- [VSCode](#vscode) - fast, versatile, plugin rich, very popular, free. 
-- [WebStorm](#webstormphpstorm-jetbrains-ides) - fully featured IDE, heavy, premium.
-- [CodeSandbox](#codesandbox) - in-browser, cloud based, free. 
+- [VSCode](#vscode) - fast, versatile, plugin rich, very popular, **free**. 
+- [WebStorm](#webstorm-phpstorm-jetbrains-ides) - fully featured IDE, heavy, **premium**.
+- [CodeSandbox](#codesandbox) - in-browser, cloud based, **free**. 
 
 </useful-links-section>
 </useful-links>
@@ -24,7 +24,7 @@ The list below shows the top most popular choices with more details later on why
 
 There is no doubt that VSCode has gained an enormous adoption in the development scene and for good reasons. It is not only highly customisable, with a large selection of plugins, bit it also has support for a wide range of languages, and it is also **free**.
 
-Out of the box, VSCode comes pretty bare bones with all the basic JS, TS and HTML editing tools, so to enable proper Vue support, you will need to install a plugin called `Vetur`. It gives you smart code completion and suggestions, syntax highlighting, type hinting, linting, code snippets and much more. It supports TS, JS, Stylus pretty well, with others to follow soon. You may also install a set of snippets to reduce typing the same boilerplate.
+Out of the box, VSCode comes pretty bare bones with all the basic JS, TS and HTML editing tools, so to enable proper Vue support, you will need to install a plugin called [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur). It gives you smart code completion and suggestions, syntax highlighting, type hinting, linting, code snippets and much more. It supports TS, JS, Stylus pretty well, with others to follow soon. You may also install a set of snippets to reduce typing the same boilerplate.
 
 Vetur is being developed closely with VSCode and Vue core teams, to ensure maximum parity.
 
@@ -48,9 +48,9 @@ As a fully featured IDE, WebStorm provides greater refactoring capabilities, imp
 
 ### CodeSandbox <badge text="Rising Star"/>
 
-CodeSandbox is the only online, cloud based code editor, that supports Vue's SFC format, among many other frameworks and popular client apps and server setups. Vue projects are built with Vue CLI, giving you a well known folder structure to extend upon. 
+CodeSandbox is the only online, cloud based code editor, that supports Vue's SFC format, among many other frameworks, popular client apps and server setups. Vue projects are built with Vue CLI, giving you a well known folder structure to extend upon. 
 
-Based on VSCode, CodeSandbox has a similar look and feel. When you create a Vue project, you will benefit from code completion, hinting, syntax highlighting and more. It even allows you to connect a sandbox to a Github repo and commit to it on each change. Apart from Vue CLI, they have templates for [Vuepress](../ecosystem/documentation.md#vuepress) and [Nuxt](../ecosystem/nuxt.md), just to name a few.                      
+Based on VSCode, CodeSandbox has a similar look and feel. When you create a Vue project, you will benefit from code completion, hinting, syntax highlighting and more. It even allows you to connect a sandbox to a Github repo and commit to it on each change. Apart from Vue CLI, they have templates for [Vuepress](../ecosystem/documentation.md#vuepress) and [Nuxt](../ecosystem/nuxt.md), just to name a few.
 
 CodeSandbox has a very generous freemium policy with 50 active sandboxes (projects) absolutely free.
 
@@ -87,6 +87,78 @@ No setup is complete without a good linter or formatter. Some editors offer thei
 
 ### ESLint
 
+ESLint is a JavaScript linting utility, designed to find problematic patterns or code that does not adhere to certain style guidelines, by utilizing static analysis patterns. Its popularity has spread like wildfire and is the de facto linting tool for many of the popular frameworks like Vue and React.
 
+[Vue.cli](../ecosystem/build-tools.md#vue-cli) offers a fully setup ESLint configuration, thanks to the incredible work by the people behind the [Vue ESLint](https://eslint.vuejs.org/) project. It is constantly being improved and worked on, offering a large set of rules, from basic Vue style guidelines, to very strict ones, keeping code as close to the [Official Vue Style Guide](https://vuejs.org/v2/style-guide/) as possible. It also allows you to pick between Standard or Airbnb code style rules.
+
+#### How to install Vue ESLint plugin
+
+Installation is as easy as following a few steps. There are official guides that are kept upto date.
+
+<useful-links>
+<useful-links-section title="Official Links">
+
+ *  [Vue CLI ESLint plugin <badge text="Recommended"/>](https://cli.vuejs.org/config/#eslint) - either on project setup or later 
+ *  [Vue ESLint User Guide](https://eslint.vuejs.org/user-guide/) - manually by following the official guide
+ 
+ </useful-links-section>
+ </useful-links>
+ 
+#### How to enforce coding standards (Standard or Airbnb styles)
+
+To have or not to have semicolons, closing brace on the same row or on the next, space after function name or not, these are all coding style related questions and are not connected with Vue in any way. 
+
+These can be enforced by a collection of rules, also called presets or standards. Two very popular ones are [Standard](https://standardjs.com/) and [Airbnb](https://github.com/airbnb/javascript), also known as "no semicolons vs with semicolons". But they are much more than that, take a look at each respectively and decide which one suits your styles best.
+
+ **Note:** The Vue ESLint plugin does not enforce any coding styles like Standard or Airbnb, those can be however setup via Vue CLI or manually. Vue has pre-built setups, that are meant for Vue CLI, but could be used as a guideline.
+ 
+<useful-links>
+<useful-links-section title="Vue ESLint coding styles">
+ 
+ * [@vue/eslint-config-standard](https://github.com/vuejs/eslint-config-standard)
+ * [@vue/eslint-config-airbnb](https://github.com/vuejs/eslint-config-airbnb)
+
+</useful-links-section>
+</useful-links>
+
+#### Usage with Code Editors
+
+Every major editor comes with ESLint support, either by an official or a community driven plugin. Follow the links to the guides below or upto date step by step instructions.
+
+<useful-links>
+<useful-links-section title="Setup ESLint with Editors">
+ 
+ * [VSCode](https://eslint.vuejs.org/user-guide/#visual-studio-code) - Requires plugin install, easy to configure.
+ * [Webstorm](https://eslint.vuejs.org/user-guide/#intellij-idea-jetbrains-webstorm) - Just enable from settings.
+ * [Sublime Text](https://eslint.vuejs.org/user-guide/#sublime-text) - Requires two plugins and a bit more setup.
+ * [Atom](https://eslint.vuejs.org/user-guide/#atom-editor) - Just small option change needed.
+
+</useful-links-section>
+</useful-links>
+ 
 ### Prettier
 
+Prettier is a code formatting tool that enforces a very opinionated coding style onto many languages, among which are JavaScript, CSS and HTML. Its main benefits are that it integrates into any of the popular editors and can format code on each save of the IDE, keeping code styles the as close as possible between multiple developers.
+
+The lack of options are actually one of its strong points. enforcing sensible defaults across the board.
+
+#### How to use Prettier with Vue
+
+If you just want to use prettier, you can do so by installing it and using it directly via the command line. Follow the [installation guide](https://prettier.io/docs/en/install.html) for more details.
+
+#### Using prettier with ESLint
+
+Prettier however does not work well with ESLint, out of the box. When used together, most often they have colliding rules between their styles. The problem is that, you cannot disable most of those in Prettier, as it was made to be "all or nothing" kind of thing.
+
+The solution is to use an [ESLint plugin](https://prettier.io/docs/en/integrating-with-linters.html#eslint) to run Prettier from within ESLint. With the help of another plugin, that disables all colliding rules, ESLint can run prettier without issues and then pick up the rest.
+
+<useful-links>
+<useful-links-section title="ESLint/Prettier links">
+ 
+ * [Official tutorial for Prettier and ESLint](https://prettier.io/docs/en/integrating-with-linters.html#eslint)
+ * [Formatting Vue.js Code with ESLint & Prettier](https://alligator.io/vuejs/vue-eslint-prettier/)
+
+</useful-links-section>
+</useful-links>
+
+#### Integrating Prettier with Code Editors
