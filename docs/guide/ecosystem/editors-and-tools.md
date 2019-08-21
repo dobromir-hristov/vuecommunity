@@ -64,6 +64,23 @@ CodeSandbox has a very generous freemium policy with 50 active sandboxes (projec
 
 ### Atom
 
+An amazing, free, open-source code editor created by GitHub with plenty of extensions and superb user experience. With the available plugins, it supports a wide range of languages and features, including ones dedicated to Vue: smart code completion/suggestions, snippets, syntax highlighting, linting and formatting with both eslint and prettier, that works in template, script and style parts of the Vue SFC.
+
+On top of that, Atom has great integration with GitHub when it comes to managing commits, PRs, reviewing changes and can be further extended with additional plugins. Some say its the most fashionable and good looking editor out there and the code completion is at the same time very smart (thanks to Tern.js), but also completely unintrusive. You’re the developer, you got this!
+
+Some say, that it’s a bit slow, but that’s just a way of hinting that you should refactor your huge components.
+
+<useful-links>
+<useful-links-section title="Useful Links">
+
+- [ternjs](https://github.com/tststs/atom-ternjs)
+- [language-vue](https://github.com/hedefalk/atom-vue)
+- [ide-vue](https://github.com/rwatts3/atom-ide-vue)
+- [vue-fmt](https://github.com/voodeng/vue-fmt)
+
+</useful-links-section>
+</useful-links>
+
 ### SublimeText
 
 Another very popular editor, coming close to VSCode. It is well known for its speed and lightness. Sublime has a very big library of free plugins, extensions and themes, enabling far more features, than was intended in the beginning.
@@ -148,9 +165,11 @@ If you just want to use prettier, you can do so by installing it and using it di
 
 #### Using prettier with ESLint
 
-Prettier however does not work well with ESLint, out of the box. When used together, most often they have colliding rules between their styles. The problem is that, you cannot disable most of those in Prettier, as it was made to be "all or nothing" kind of thing.
+Prettier however does not work well with ESLint, out of the box. When used together, most often they have colliding rules between their style configurations. The problem is that, you cannot disable most of those in Prettier, as it was made to be "all or nothing" kind of thing.
 
-The solution is to use an [ESLint plugin](https://prettier.io/docs/en/integrating-with-linters.html#eslint) to run Prettier from within ESLint. With the help of another plugin, that disables all colliding rules, ESLint can run prettier without issues and then pick up the rest.
+The solution is to use an [ESLint plugin](https://prettier.io/docs/en/integrating-with-linters.html#eslint) to run Prettier from within ESLint. On top of that, with the help of another plugin that disables all colliding rules, ESLint can run Prettier without issues and then fix the rest when used with style standards like Standard or Airbnb.
+
+If you are using Vue CLI, this comes out of the box, so no need to worry what plugins to install.
 
 <useful-links>
 <useful-links-section title="ESLint/Prettier links">
@@ -162,3 +181,12 @@ The solution is to use an [ESLint plugin](https://prettier.io/docs/en/integratin
 </useful-links>
 
 #### Integrating Prettier with Code Editors
+
+<useful-links>
+<useful-links-section title="ESLint/Prettier links">
+
+* [Official Prettier editor integration tutorials](https://prettier.io/docs/en/editors.html)
+* [How to properly set up Nuxt with ESLint and Prettier in VSCode](https://medium.com/@gogl.alex/how-to-properly-set-up-eslint-with-prettier-for-vue-or-nuxt-in-vscode-e42532099a9c)
+
+</useful-links-section>
+</useful-links>
