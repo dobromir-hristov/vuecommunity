@@ -8,9 +8,9 @@ A lot of good work is also done by individuals in the community who blaze the tr
 
 ## Vue Vixens
 
-Founded in 2018, Vue Vixens is [led](http://vuevixens.org/team) by CEO Jen Looper, CTO Natalia Tepluhina, and Worldwide Community Organizer Diana Rodriguez. A program that aims to promote gender diversity within the Vue.js community, Vue Vixens as an organization is specifically focused on promoting people who identify as women, helping them learn Vue.js to build web and mobile apps and build their careers. 
+Founded in 2018, Vue Vixens is [led](http://vuevixens.org/team) by CEO Jen Looper, CTO Michele Cynowicz, and Worldwide Community Organizer Diana Rodriguez. A program that aims to promote gender diversity within the Vue.js community, Vue Vixens as an organization is specifically focused on promoting people who identify as women, helping them learn Vue.js to build web and mobile apps and build their careers. 
 
-They partner with Vue.js conferences to provide free workshops for attendees and other community members either for full-day or for mini three-hour classes called "skulks" centered around specific topics from Vue.js ecosystem.
+They partner with Vue.js conferences to provide free workshops for attendees and other community members either for full-day or for mini three-hour classes called "skulks" centered around specific topics from Vue.js ecosystem. The workshop content was prepared by Vue.js Core Team member Natalia Tepluhina.
 
 Vue Vixens also engages the community in other ways, including crafting full-day events such as Vue Vixens Day Argentina and providing support to local chapters which are led by [chapter leaders](https://www.vuevixens.org/team) around the world. 
 
