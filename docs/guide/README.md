@@ -15,17 +15,18 @@
 * [Video Courses](./learning/courses.md) - Popular Vue video courses
 * [Books](./learning/books.md) - Books about Vue development
 * [Blogs](./learning/blogs.md) - Popular Vue related blogs.
-* [FAQ](./learning/faq.md) - Answers to most common questions asked by Vue developers through chats, forum and other media
+* [Frequently Asked Questions](./learning/faq.md) - Answers to most common questions asked by Vue developers through chats, forum and other media
 * [Podcasts](./learning/podcasts.md) - Vue podcasts or single episodes talking about Vue
 * [Tips from Mentors](./learning/tips-from-mentors.md) - How Vue experts began with Vue, tips on how to learn
 * [Workshops](./learning/workshops.md) - What are Vue workshops and where to find them
 
 ## Ecosystem
+* [Editors and Tools](./ecosystem/editors-and-tools.md) - List of popular code editors and setups for Vue development
 * [UI Libraries](./ecosystem/ui-libraries.md) - Pros and Cons of the most popular Vue UI libraries
-* [Forms](./ecosystem/forms.md) - Libraries for handling forms with Vue
+* [Handling Forms](./ecosystem/forms.md) - Libraries for handling forms with Vue
 * [Boilerplates](./ecosystem/boilerplates.md) - Vue boilerplates
 * [Client-Server Communication](./ecosystem/client-server-communication.md) - How to use Vue with REST, GraphQL or websockets
-* [Documentation](./ecosystem/documentation.md) - Generating and maintaining documentation for Vue projects
+* [Documentation platforms](./ecosystem/documentation.md) - Generating and maintaining documentation for Vue projects
 * [Hosting](./ecosystem/hosting.md) - Where to host your Vue apps
 * [i18n](./ecosystem/i18n.md) - Internationalization (i18n) for Vue
 * [Mobile Apps](./ecosystem/mobile-apps.md) - PWA, native and hybrid mobile applications
