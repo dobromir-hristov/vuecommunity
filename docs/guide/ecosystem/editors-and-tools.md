@@ -22,7 +22,7 @@ The list below shows the top most popular choices with more details later on why
 
 ### VSCode <badge text="Hottest"/>
 
-There is no doubt that VSCode has gained an enormous adoption in the development scene and for good reasons. It is not only highly customisable, with a large selection of plugins, bit it also has support for a wide range of languages, and it is also **free**.
+There is no doubt that VSCode has gained an enormous adoption in the development scene and for good reasons. It is not only highly customisable, with a large selection of plugins, but it also has support for a wide range of languages, and it is also **free**.
 
 Out of the box, VSCode comes pretty bare bones with all the basic JS, TS and HTML editing tools, so to enable proper Vue support, you will need to install a plugin called [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur). It gives you smart code completion and suggestions, syntax highlighting, type hinting, linting, code snippets and much more. It supports TS, JS, Stylus pretty well, with others to follow soon. You may also install a set of snippets to reduce typing the same boilerplate.
 
@@ -34,6 +34,7 @@ Vetur is being developed closely with VSCode and Vue core teams, to ensure maxim
 - [Official Website](https://code.visualstudio.com/)
 - [Vetur Plugin](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - enable improved Vue support
 - [Vue VSCode Extension Pack](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-extensionpack) - collection of useful plugins for Vue app development
+* [Video: How to setup VSCode](https://www.vuemastery.com/courses/real-world-vue-js/optimizing-your-editor/) - Awesome video showing how to setup VSCode by Vue Mastery. Read the [ESLint](#eslint) and [Prettier](#prettier) sections to understand more about the applied settings.
 
 </useful-links-section>
 </useful-links>
@@ -182,11 +183,15 @@ If you are using Vue CLI, this comes out of the box, so no need to worry what pl
 
 #### Integrating Prettier with Code Editors
 
+**VSCode note:**
+It is important to note that the Vetur plugin comes with some integrated version of Prettier which formats js and styles, but not templates, it uses **prettyhtml** for those. If you want to handle that with Prettier and ESLint, read the [Formatting guide](https://github.com/vuejs/vetur/blob/master/docs/formatting.md) on Vetur's docs.
+
 <useful-links>
 <useful-links-section title="ESLint/Prettier links">
 
 * [Official Prettier editor integration tutorials](https://prettier.io/docs/en/editors.html)
-* [How to properly set up Nuxt with ESLint and Prettier in VSCode](https://medium.com/@gogl.alex/how-to-properly-set-up-eslint-with-prettier-for-vue-or-nuxt-in-vscode-e42532099a9c)
+* [How to properly set up Nuxt with ESLint and Prettier in VSCode](https://medium.com/@gogl.alex/how-to-properly-set-up-eslint-with-prettier-for-vue-or-nuxt-in-vscode-e42532099a9c) - Very well written tutorial on how to setup VSCode to work with both ESLint and Prettier.
+* [Veturpack](https://github.com/octref/veturpack) - Project configured to work with Vetur and Prettier for VSCode.
 
 </useful-links-section>
 </useful-links>
