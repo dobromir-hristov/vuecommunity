@@ -7,10 +7,10 @@ The difference is, that the server renders the page only on first page visit, on
 <useful-links>
 <useful-links-section title="Tutorials">
 
-- [The Benefits of Server Side Rendering Over Client Side Rendering](https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8) <badge>Good read</badge>
-- [What’s Server Side Rendering and do I need it?](https://medium.com/@baphemot/whats-server-side-rendering-and-do-i-need-it-cb42dc059b38)
-- [When to use Server-Side Rendering (SSR) in Vue.js projects](https://codeburst.io/when-to-use-server-side-rendering-ssr-in-vue-js-projects-697bd925d57b)
-- [What is React Server Side Rendering and should I use it?](https://dev.to/mladenstojanovic/what-is-react-server-side-rendering-and-should-i-use-it-5b7i) - For React, by the concepts are the same.
+* [The Benefits of Server Side Rendering Over Client Side Rendering](https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8) <badge>Good read</badge>
+* [What’s Server Side Rendering and do I need it?](https://medium.com/@baphemot/whats-server-side-rendering-and-do-i-need-it-cb42dc059b38)
+* [When to use Server-Side Rendering (SSR) in Vue.js projects](https://codeburst.io/when-to-use-server-side-rendering-ssr-in-vue-js-projects-697bd925d57b)
+* [What is React Server Side Rendering and should I use it?](https://dev.to/mladenstojanovic/what-is-react-server-side-rendering-and-should-i-use-it-5b7i) - For React, by the concepts are the same.
 
 </useful-links-section>
 </useful-links>
@@ -19,17 +19,17 @@ The difference is, that the server renders the page only on first page visit, on
 
 Server side rendering solves a few of the most annoying problems of single-page applications:
 
-### SEO friendly
+### SEO friendly 
 
-Most crawlers cannot scan websites that are rendered with JavaScript, resulting search engines registering empty pages without content. This directly leads to bad search engine ranking.
+Most crawlers cannot scan websites that are rendered with JavaScript, resulting search engines registering empty pages without content. This directly leads to bad search engine ranking. 
 
-**Note:** Google can actually parse and crawl JavaScript rendered websites, but this still does not guarantee good ranking. They also use an older version of Chrome to render the pages, which can lead to errors if code is not transpiled to support older browsers.
+**Note:** Google can actually parse and crawl JavaScript rendered websites, but this still does not guarantee good ranking. They also use an older version of Chrome to render the pages, which can lead to errors if code is not transpiled to support older browsers. 
 
 With SSR, pages are returned as fully rendered HTML by the server, allowing for crawlers to scan at will.
 
-### Fast load on slower devices
+### Fast Load on Slower Devices
 
-Heavy applications that require lots of resources for the initial rendering, may cause slower or older devices to struggle. This is a real problem, as the average user doesn't have the latest cutting edge mobile device.
+Heavy applications that require lots of resources for the initial rendering, may cause slower or older devices to struggle. This is a real problem, as the average user doesn't have the latest cutting edge mobile device. 
 
 With SSR, the page is fully rendered on the server, eliminating that initial burden for lower end devices. When paired with some other optimisation techniques, like code splitting, pages can load much faster.
 
@@ -41,7 +41,7 @@ With SSR, pages are displayed with nice previews, as both the page content it se
 
 ### Time To First Paint (TTFP)
 
-Pages will be rendered faster when using SSR, as the browser does not need to download the whole JavaScript bundle to start rendering. This does not however mean a fully functioning website.
+Pages will be rendered faster when using SSR, as the browser does not need to download the whole JavaScript bundle to start rendering. This does not however mean a fully functioning website. 
 
 <useful-links>
 <useful-links-section title="Internal Pages">
@@ -55,15 +55,15 @@ Pages will be rendered faster when using SSR, as the browser does not need to do
 
 SSR sounds awesome, there are however some things that need to be taken in consideration.
 
-### Time to interaction
+### Time to Interactive
 
 Even though users can see the website, it doesn't meant it is fully working. For very dynamic websites, with a lot of JavaScript logic driving the UI, this can lead to weird situations where the page is rendered, looks ready, but the app bundle is still downloading, so no JavaScript logic can be executed yet.
 
-### Time to first byte (TTFB) is slower
+### Time to First Byte (TTFB) is Slower
 
 Because the server has to actually do the rendering, fetch async data and so on, the time it takes for the response to hit the browser is bigger.
 
-### Server costs
+### Server Costs
 
 Because there is usually a live Node.js instance always on, waiting to render a request, server costs are higher than static file hosting.
 
@@ -81,16 +81,16 @@ This is directly related to the above. Server load is higher on initial request,
 
 ### Platform Specific APIs are not Available
 
-Because the app is rendered in server environment, there are specific APIs that are not available, like the `window` object. This means libraries like sliders and carousels may not work, and will throw errors during render.
+Because the app is rendered in server environment, there are specific APIs that are not available, like the `window` object. This means libraries like sliders and carousels may not work, and will throw errors during render. 
 
 To overcome this, developers should not interact with those APIs, in places, that are being called during server rendering. Their usage should be moved to lifecycle hooks like `mounted`, where the browser environment is present.
-
-With sliders and carousels, you could delay their rendering to after the client receives the page, so it gets rendered on the browser.
-
+ 
+ With sliders and carousels, you could delay their rendering to after the client receives the page, so it gets rendered on the browser.
+ 
 <useful-links>
 <useful-links-section title="Tutorials">
  
-* [The guide to writing universal, SSR-ready Vue components](https://blog.lichter.io/posts/the-guide-to-write-universal-ssr-ready-vue-compon/#window%2C-document%2C-and-friends---platform-specific-apis)
+* [The guide to write universal, SSR-ready Vue components](https://blog.lichter.io/posts/the-guide-to-write-universal-ssr-ready-vue-compon/#window%2C-document%2C-and-friends---platform-specific-apis)
 
 </useful-links-section>
 </useful-links>
@@ -120,7 +120,6 @@ If you are searching for a well tested solution, with a large community and nice
 Learn more about it on the dedicated [Nuxt](./nuxt.md) page.
 
 ## Servue
-
 [Servue](https://futureaus.github.io/servue/) shares a similar scope to Nuxtjs, it allows you to render `.vue` files into rendered html. It includes features for head meta tag management, layouts and more. Servue is more suitable for Multi-page-applications using existing server-side routing systems such as koa/koa-router or express.js
 
 ## Ream
@@ -140,13 +139,13 @@ If you don't need some really custom solution, we would advise you to pick one o
 <useful-links>
 <useful-links-section title="Official">
 
-- [SSR Docs](https://ssr.vuejs.org/)
+* [SSR Docs](https://ssr.vuejs.org/)
 
 </useful-links-section>
 <useful-links-section title="Tutorials">
 
-- [Basic Server Side Rendering with Vue.js and Express](https://alligator.io/vuejs/basic-ssr/)
-- [VueJs: Server Side Render with Vue-router](https://medium.com/frontend-fun/vuejs-server-side-render-with-vue-router-e73d51699873)
+* [Basic Server Side Rendering with Vue.js and Express](https://alligator.io/vuejs/basic-ssr/)
+* [VueJs: Server Side Render with Vue-router](https://medium.com/frontend-fun/vuejs-server-side-render-with-vue-router-e73d51699873)
 
 </useful-links-section>
 </useful-links>

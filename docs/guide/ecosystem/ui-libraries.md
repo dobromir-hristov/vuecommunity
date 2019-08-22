@@ -24,19 +24,19 @@ If you don't have time to read all of this and just need a quick answer:
 </useful-links-section>
 <useful-links-section title="Desktop mainly">
 
-- [Element UI](#element-ui) - extensive, desktop oriented, widely popular in asia
-- [iView](#iview)
+ - [Element UI](#element-ui) - extensive, desktop oriented, widely popular in asia
+ - [iView](#iview)
 
 </useful-links-section>
 <useful-links-section title="Easy get into">
 
-- [Bootstrap-Vue](#bootstrap-vue) - Bootstrap based
-- [Buefy](#buefy) - Bulma based
+* [Bootstrap-Vue](#bootstrap-vue) - Bootstrap based
+* [Buefy](#buefy) - Bulma based
 
 </useful-links-section>
 <useful-links-section title="Most flexible">
 
-- [Tailwind](#tailwind-css)
+* [Tailwind](#tailwind-css)
 
 </useful-links-section>
 </useful-links>
@@ -46,7 +46,6 @@ If you don't have time to read all of this and just need a quick answer:
 This section is supposed to contain the guidelines on how to decide which UI library to use.
 
 Here are some topics that should be covered:
-
 - do you really need an UI library?
 - how do you plan to approach mobile version of your website or application
 - are you fine with a library that doesn't provide comprehensive support and large community
@@ -56,14 +55,14 @@ Here are some topics that should be covered:
 
 ## Material Design
 
-Material Design is a very popular design concept not only in Vue.js world. Combining flat visual style with shadows and other lightning effects, it was primarily created with Android mobile applications in mind, but is widely used on traditional websites too.
+Material Design is a very popular design concept not only in Vue.js world. Combining flat visual style with shadows and other lightning effects, it was primarily created with Android mobile applications in mind, but is widely used on traditional websites too. 
 
 The components in libraries such as [Vuetify](#vuetify) or [Vue-Material](#vue-material) look good by default, but since they were written with a certain design style in mind, they're not fully customizable. However, the new Material Design 2 specification brought more focus on flexible theming and we can expect the libraries to follow this move in 2019.
 
 <useful-links>
 <useful-links-section title="Official">
 
-- [Material Design documentation](https://material.io/)
+* [Material Design documentation](https://material.io/)
 
 </useful-links-section>
 </useful-links>
@@ -78,12 +77,13 @@ The library's ecosystem provides multiple tools, such as theme generator, Webpac
 
 Internally, Vuetify is written with Typescript. The upcoming release of Vuetify 2 with improved theme system, accessibility and performance, will also bring the move from Stylus to SASS.
 
+
 <useful-links>
 <useful-links-section title="Official">
 
-- [Vuetify repository](https://github.com/vuetifyjs/vuetify)
-- [Vuetify documentation](https://vuetifyjs.com/en/)
-- [Vuetify chat on Discord](https://community.vuetifyjs.com/)
+* [Vuetify repository](https://github.com/vuetifyjs/vuetify) 
+* [Vuetify documentation](https://vuetifyjs.com/en/) 
+* [Vuetify chat on Discord](https://community.vuetifyjs.com/)
 
 </useful-links-section>
 </useful-links>
@@ -94,19 +94,21 @@ Internally, Vuetify is written with Typescript. The upcoming release of Vuetify 
 
 The difference in popularity is big, but if you're looking for a library that follows Material Design principles to the letter, give it a try.
 
+
 <useful-links>
 <useful-links-section title="Official">
 
-- [Vue Material repository](https://github.com/vuematerial/vue-material)
-- [Vue Material documentation](https://vuematerial.io/)
-- [Vue Material chat on Discord](https://discord.gg/vuematerial)
+* [Vue Material repository](https://github.com/vuematerial/vue-material)
+* [Vue Material documentation](https://vuematerial.io/)
+* [Vue Material chat on Discord](https://discord.gg/vuematerial)
 
 </useful-links-section>
 </useful-links>
 
+
 ## Ant Design
 
-Ant Design is kind of the opposite of previously mentioned Material Design. The libraries following this specification are meant to be used primarily on desktop, so their responsive design support is scarce.
+Ant Design is kind of the opposite of previously mentioned Material Design. The libraries following this specification are meant to be used primarily on desktop, so their responsive design support is scarce. 
 
 The reason? Just like Material Design was created by Google, AntD is brought by designers from Alibaba - the largest e-commerce company in China. It's specifically targeted towards the Chinese web market, where traditional websites aren't usually accessed on mobile devices. Such libraries often provide separate solutions for mobile applications, based on a separate And Design Mobile specification.
 
@@ -117,8 +119,8 @@ Other than standard websites, Ant Design is a good choice for developers writing
 <useful-links>
 <useful-links-section title="Official">
 
-- [Ant Design documentation](https://ant.design/)
-- [Ant Design Vue](https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce/)
+* [Ant Design documentation](https://ant.design/)
+* [Ant Design Vue](https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce/)
 
 </useful-links-section>
 </useful-links>
@@ -131,15 +133,17 @@ Element UI provides starter kits for both general usage and Laravel projects, as
 
 The library's success resulted in porting Element UI to Angular and React ecosystems.
 
+
 <useful-links>
 <useful-links-section title="Official">
 
-- [Element UI repository](https://github.com/ElemeFE/element)
-- [Element UI documentation](https://element.eleme.io/)
-- [Element UI chat on Gitter](https://gitter.im/element-en/Lobby)
+* [Element UI repository](https://github.com/ElemeFE/element) 
+* [Element UI documentation](https://element.eleme.io/) 
+* [Element UI chat on Gitter](https://gitter.im/element-en/Lobby)
 
 </useful-links-section>
 </useful-links>
+
 
 ### iView
 
@@ -148,8 +152,8 @@ While not as well-known as Element UI, Iview is a valid, well maintained alterna
 <useful-links>
 <useful-links-section title="Official">
 
-- [Iview repository](https://github.com/iview/iview)
-- [Iview documentation](https://iviewui.com)
+* [Iview repository](https://github.com/iview/iview)
+* [Iview documentation](https://iviewui.com)
 
 </useful-links-section>
 </useful-links>
@@ -162,49 +166,50 @@ Remember that you will still have to reach out to original framework's documenta
 
 ### Bootstrap-Vue <badge text="Backender's Choice"/>
 
-> Bootstrap-Vue provides one of the most comprehensive implementations of Bootstrap V4.3 components and grid system available for Vue.js 2.6+, complete with extensive and automated WAI-ARIA accessibility markup.
+> Bootstrap-Vue provides one of the most comprehensive implementations of Bootstrap V4.3 components and grid system available for Vue.js 2.6+, complete with extensive and automated WAI-ARIA accessibility markup. 
 
 If you want to use Bootstrap 4 for your project, Bootstrap-Vue is the community's most often recommendation. It's a set of components natively written with Vue.js, so you don't have to worry about mixing Vue with JQuery. It's easy to use it with both Vue CLI and Nuxt.
 
 <useful-links>
 <useful-links-section title="Official">
 
-- [Bootstrap-Vue repository](https://github.com/bootstrap-vue/bootstrap-vue)
-- [Bootstrap-Vue documentation](https://bootstrap-vue.js.org/)
-- [Bootstrap-Vue chat on Discord](https://discordapp.com/invite/j2Mtcny)
+* [Bootstrap-Vue repository](https://github.com/bootstrap-vue/bootstrap-vue) 
+* [Bootstrap-Vue documentation](https://bootstrap-vue.js.org/) 
+* [Bootstrap-Vue chat on Discord](https://discordapp.com/invite/j2Mtcny)
 
 </useful-links-section>
 </useful-links>
 
 ### Buefy
 
-Bulma grew up to be one of top CSS frameworks, but unlike most of them, it doesn't offer any Javascript functionality. That's where Buefy comes into play. It provides both a set of components and an easy way to integrate Bulma into your project.
+Bulma grew up to be one of top CSS frameworks, but unlike most of them, it doesn't offer any Javascript functionality. That's where Buefy comes into play. It provides both a set of components and an easy way to integrate Bulma into your project. 
 
 Buefy's versions are synchronized with Bulma, so you can be sure that same versions of both frameworks are fully compatible with each other.
 
 <useful-links>
 <useful-links-section title="Official">
 
-- [Buefy repository](https://github.com/buefy/buefy)
-- [Buefy documentation](https://buefy.github.io)
-- [Buefy chat on Discord](https://discordapp.com/invite/ZkdFJMr)
+* [Buefy repository](https://github.com/buefy/buefy)
+* [Buefy documentation](https://buefy.github.io)
+* [Buefy chat on Discord](https://discordapp.com/invite/ZkdFJMr)
 
 </useful-links-section>
 </useful-links>
 
 ### Vuikit
 
-Vuikit is a Vue integration library that provides wrappers for [Uikit](https://getuikit.com/) framework. While not as well-known in Vue.js ecosystem as Bootstrap or Bulma, Uikit is a robust library that covers a wide variety of CSS & JS components, with some unique features that you won't find elsewhere out of the box.
+Vuikit is a Vue integration library that provides wrappers for [Uikit](https://getuikit.com/) framework. While not as well-known in Vue.js ecosystem as Bootstrap or Bulma, Uikit is a robust library that covers a wide variety of CSS & JS components, with some unique features that you won't find elsewhere out of the box. 
 
 <useful-links>
 <useful-links-section title="Official">
 
-- [Vuikit repository](https://github.com/vuikit/vuikit)
-- [Vuikit documentation](https://vuikit.js.org/)
-- [UIkit chat on Gitter](https://gitter.im/uikit/uikit)
+* [Vuikit repository](https://github.com/vuikit/vuikit) 
+* [Vuikit documentation](https://vuikit.js.org/) 
+* [UIkit chat on Gitter](https://gitter.im/uikit/uikit)
 
 </useful-links-section>
 </useful-links>
+
 
 ### Semantic-UI-Vue
 
@@ -213,9 +218,9 @@ Despite its popularity, [Semantic UI](https://semantic-ui.com/) never really hit
 <useful-links>
 <useful-links-section title="Official">
 
-- [Semantic-UI-Vue repository](https://github.com/Semantic-UI-Vue/Semantic-UI-Vue)
-- [Semantic-UI-Vue documentation](https://semantic-ui-vue.github.io)
-- [Semantic-UI-Vue chat on Gitter](https://gitter.im/Semantic-UI-Vue)
+* [Semantic-UI-Vue repository](https://github.com/Semantic-UI-Vue/Semantic-UI-Vue)
+* [Semantic-UI-Vue documentation](https://semantic-ui-vue.github.io) 
+* [Semantic-UI-Vue chat on Gitter](https://gitter.im/Semantic-UI-Vue)
 
 </useful-links-section>
 </useful-links>
@@ -224,36 +229,36 @@ Despite its popularity, [Semantic UI](https://semantic-ui.com/) never really hit
 
 ### Tailwind CSS <badge text="Most Flexible"/>
 
-> A utility-first CSS framework for rapidly building custom user interfaces.
+> A utility-first CSS framework for rapidly building custom user interfaces. 
 
 Tailwind is very well accepted in the Vue community as it integrates very nicely with the concept of components. Integration is as simple as installing Tailwind and creating a config and importing it in your app.
 
 <useful-links>
 <useful-links-section title="Official">
 
-- [Tailwind Docs](https://tailwindcss.com/docs/what-is-tailwind/)
+* [Tailwind Docs](https://tailwindcss.com/docs/what-is-tailwind/)
 
 </useful-links-section>
 <useful-links-section title="Tutorials">
 
-- [Using Tailwind with Vue.js](https://flaviocopes.com/vue-tailwind/)
-- [How to use Tailwind CSS in Vue together with CSS Modules](https://stefanzweifel.io/posts/how-to-use-tailwind-css-in-vue-together-with-css-modules)
+* [Using Tailwind with Vue.js](https://flaviocopes.com/vue-tailwind/)
+* [How to use Tailwind CSS in Vue together with CSS Modules](https://stefanzweifel.io/posts/how-to-use-tailwind-css-in-vue-together-with-css-modules)
 
 </useful-links-section>
 </useful-links>
 
 ### VueSax <badge type="warning" text="In Development"/>
 
-From all the rest of available libraries, VueSax seems to be the most promising one in terms of both features and maintainment. The goal is to create an UI library that is fully independent in terms of colors, shapes and design choices, focusing on core JS functionality.
+From all the rest of available libraries, VueSax seems to be the most promising one in terms of both features and maintainment. The goal is to create an UI library that is fully independent in terms of colors, shapes and design choices, focusing on core JS functionality. 
 
 The author doesn't recommend to use it in production yet, but for small non-commercial projects it may be worth trying out.
 
 <useful-links>
 <useful-links-section title="Official">
 
-- [VueSax repository](https://github.com/lusaxweb/vuesax)
-- [VueSax documentation](https://lusaxweb.github.io/vuesax/)
-- [VueSax chat on Discord](https://discord.gg/9dsKtvB)
+* [VueSax repository](https://github.com/lusaxweb/vuesax) 
+* [VueSax documentation](https://lusaxweb.github.io/vuesax/) 
+* [VueSax chat on Discord](https://discord.gg/9dsKtvB)
 
 </useful-links-section>
 </useful-links>
