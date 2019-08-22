@@ -31,7 +31,7 @@ If you dont have time to read all of this and just need a quick answer:
 <useful-links-section title="Easy get into">
 
 * [Bootstrap-Vue](#bootstrap-vue) - Bootstrap based
-* [Bueify](#buefy) - Bulma based
+* [Buefy](#buefy) - Bulma based
 
 </useful-links-section>
 <useful-links-section title="Most flexible">
