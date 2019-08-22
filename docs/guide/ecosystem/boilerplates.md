@@ -47,7 +47,7 @@ It shows best practices for fetching async data, setting up i18n, persisting Vue
 <useful-links>
 <useful-links-section title="Links">
 
-[Vuesion - Github](https://github.com/devCrossNet/vue-starter)
+[Vuesion - Github](https://github.com/vuesion/vuesion)
 
 </useful-links-section>
 </useful-links>
