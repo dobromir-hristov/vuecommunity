@@ -27,7 +27,7 @@ A significant percentage of the income is distributed to the authors of both Vue
 </useful-links-section>
 </useful-links>
 
-## Other platforms
+## Other Platforms
 
 ### StackOverflow
 [Stack overflow](https://stackoverflow.com/jobs/developer-jobs-using-vuejs) has an active jobs section and it has been getting an increase of Vue related job offers lately. 
@@ -35,11 +35,11 @@ A significant percentage of the income is distributed to the authors of both Vue
 ### JSRemotely
 [JS Remotely](https://jsremotely.com/) includes Vue.js among its filters. There should be a new job post around once a week with various seniority level.
 
-## What skills are employers looking for in Vue Developers
+## What Skills are Employers Looking for in Vue Developers
 
 > Some explanation on what is most commonly searched for by employers when looking for Vue developers. Common pitfalls. This section should provide a general overview and leave the individual cases for the next one.
 
-## Tips from the employers' side
+## Tips from the Employers' Side
 
 The guidelines listed in this section come from actual Human Resources workers or Vue.js developers who take active part in the recruitment process in their respective companies. Unlike the summary above, these tips come from individual experiences and should be treated as such. 
 
@@ -67,6 +67,6 @@ I advice you to apply for a position, even if you don't cover all the points. De
   
 A few general advices wen applying to any job ad:
 
-  - Dont answer interview questions with just one word. Explain very briefly why you chose that answer.
+  - Don't answer interview questions with just one word. Explain very briefly why you chose that answer.
   - If a project is still in discussion phase, you can steer towards using Vue as a framework by showcasing usage examples and it's benefits.
   - Do some research about the company. Does it use Vue for other projects. Does it contribute to Open Source libraries. Does it boast a healthy working environment.

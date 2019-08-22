@@ -1,6 +1,6 @@
 # Learning platforms
 
-## Vue specific
+## Vue Specific
 A Vue specific learning platform is one that is solely focused on getting you up and running with Vue.js and its surrounding ecosystem. 
 
 These will focus on building Vue applications, best practices in the real world and usually go deeper into the framework.

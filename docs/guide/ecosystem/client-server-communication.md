@@ -2,7 +2,7 @@
 
 When working with SPA's it is very common to fetch data from remote services. This allows for dynamic content to be displayed depending on certain applied criteria. Fetching of said data can be done in many ways, some of which are described below.
 
-## Ajax requests
+## Ajax Requests
 
 Ajax requests to REST API's are the most common way of fetching data asynchronously from remote services. Requests are sent to a server, where data is processed. In the meantime, depending on the implementation, we can either have a callback based approach or the newer Promise based one, where we can wait until the process either succeeds or errors out.
 
@@ -58,7 +58,7 @@ Fetch is a newer Promise based API that is integrated into [modern Browsers](htt
 
 You can also import a library like `isomorphic-fetch` for using fetch in Node.js environment, where it is not available.
 
-To use it with Vue, you dont need plugins, you can just import `fetch` and start working.
+To use it with Vue, you don't need plugins, you can just import `fetch` and start working.
 
 <useful-links>
 <useful-links-section title="Tutorials">

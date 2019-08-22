@@ -1,4 +1,4 @@
-# How to learn Vue
+# How to Learn Vue
 
 As with any technology, its best to start with the official documentation, in this case the [Vue.js Guide](https://vuejs.org/v2/guide/). The guide is a magnificent, constantly updated learning resource, which does a superb job at giving a good starting point, needed to build an application with Vue. From basic reactivity concepts and caveats, to more advanced use cases, it should be the first place to learn from.
 
@@ -27,13 +27,13 @@ If you want to find out how other people learn, the [Tips from Mentors](./tips-f
 </useful-links-section>
 </useful-links>
 
-## Categorizing applications by technology
+## Categorizing Applications by Technology
 
 When beginning to develop with Vue.js, it helps to know what kind of application you will be building. This will help you outline the kind of technologies you will need to master in order to start developing with Vue.
 
 In this section, we will go over the categories under which most websites fall under and the tech a developer needs to know to develop them with Vue. 
 
-## Vue enhanced websites
+## Vue Enhanced Websites
 
 Vue enhanced websites are traditional websites, rendered by a server side language, be it PHP, Node or other. 
 
@@ -41,7 +41,7 @@ Vue components can be used to enhance certain parts of the website, but they are
 
 Such websites can be split into:
 
-### Vue enhanced websites without a bundler
+### Vue Enhanced Websites Without a Bundler
  
 Vue can be added with a simple CDN link, components are built in plain JavaScript, with templates added to the HTML markup. 
  
@@ -70,7 +70,7 @@ This approach works for smaller websites or those that will not implement comple
 </useful-links-section>
 </useful-links>
 
-### Vue enhanced websites using a bundler
+### Vue Enhanced Websites Using a Bundler
 
  As the approach above, routing and page rendering is handled on the server, while Vue components are built using `.vue` single file components (SFC), keeping the codebase in an easier to manage state. This approach also allows for splitting up different parts of the application into small reusable modules.
  
@@ -130,7 +130,7 @@ If the project allows, it is strongly recommended to use the Vue CLI to build th
 * No real 404 status code - all requests are redirected with a status **200** to a single `index.html` endpoint, as the server generally does not know what endpoints exist on the app.
 :::
 
-## Statically generated websites
+## Statically Generated Websites
 
 Statically generated websites have an automatically generated static HTML file for each web page. Such applications are usually pre-built before being uploaded to the server, using dedicated site builders like [Vuepress](http://vuepress.vuejs.org/), [Gridsome](../ecosystem/gridsome.md), [Nuxt](../ecosystem/nuxt.md) or a tool like [Prerender SPA Plugin](../ecosystem/static-site-generators.md#prerender-spa-plugin).
  
@@ -153,7 +153,7 @@ You can read more on this topic in our [Static site generators](../ecosystem/sta
 * Not suitable for highly dynamic websites
 :::
 
-## SSR SPA websites
+## SSR SPA Websites
 
 Server-side rendered single-page applications are taking best of both worlds and applying them for a both SEO optimized and super fast loading websites. 
 
@@ -176,10 +176,10 @@ This whole process can be quite intimidating to setup, luckily frameworks like N
 * Expensive hosting - Hosting is generally more expensive as it requires a constantly running node server.
 :::
 
-## Coming from other technology
+## Coming from Other Technology
 
 ::: warning
-This page is still in early development. If you feel you can contribute, please dont hesitate to open a PR.
+This page is still in early development. If you feel you can contribute, please don't hesitate to open a PR.
 :::
 
 When coming from another technology, it is normal to compare common methods and patterns to those used in Vue.
@@ -227,7 +227,7 @@ In this section, we will go over the most popular technologies and the struggles
 
 ### Polymer
 
-### No framework - jQuery
+### No Framework - jQuery
 
 ## Usage with Backend Frameworks
 

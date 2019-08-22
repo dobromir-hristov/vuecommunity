@@ -5,7 +5,7 @@ Below is a collection of the most commonly asked questions that new Vue develope
 Answers may contain links to other Vue community pages, external articles and blog posts, or even links to specialized docs, where said feature is explained in detail.
 
 ::: warning
-This page is still in early development. If you feel you can contribute, please dont hesitate to open a PR.
+This page is still in early development. If you feel you can contribute, please don't hesitate to open a PR.
 :::
 
 ## General Vue related
@@ -50,7 +50,7 @@ It is recommended that you know and use ES201x, as it certainly can diminish som
 
 ### How do I pass data to a component from server inside template
 
-You can use props and pass strings, numbers or json directly into the component's element tag. If you are passing numbers or json, dont forget to use `v-bind` or `:` shorthand syntax.
+You can use props and pass strings, numbers or json directly into the component's element tag. If you are passing numbers or json, don't forget to use `v-bind` or `:` shorthand syntax.
 
 <useful-links>
 <useful-links-section title="Tutorials">
@@ -249,7 +249,7 @@ They are most often used to create components, that would be rendered hundreds o
 
 ### How do I use computed properties inside functional component?
 
-Short answer, you dont. 
+Short answer, you don't. 
 
 Functional components generally use render functions or JSX, thus one could import or define simple functions on top of the `render` method, using them inside as data transformers, similar to computed properties. Even though not exactly computed properties, it can help you reduce template logic quite a lot. 
 
@@ -353,7 +353,7 @@ To pass a parameter to a getter, return a function from within the getter. The f
 </useful-links-section>
 <useful-links-section title="Tutorials">
 
-* [Vuex getters are great, but don’t overuse them](https://codeburst.io/vuex-getters-are-great-but-dont-overuse-them-9c946689b414)
+* [Vuex getters are great, but don’t overuse them](https://codeburst.io/vuex-getters-are-great-but-don't-overuse-them-9c946689b414)
 
 </useful-links-section>
 </useful-links>

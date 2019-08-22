@@ -107,7 +107,7 @@ No setup is complete without a good linter or formatter. Some editors offer thei
 
 ESLint is a JavaScript linting utility, designed to find problematic patterns or code that does not adhere to certain style guidelines, by utilizing static analysis patterns. Its popularity has spread like wildfire and is the de facto linting tool for many of the popular frameworks like Vue and React.
 
-[Vue.cli](../ecosystem/build-tools.md#vue-cli) offers a fully setup ESLint configuration, thanks to the incredible work by the people behind the [Vue ESLint](https://eslint.vuejs.org/) project. It is constantly being improved and worked on, offering a large set of rules, from basic Vue style guidelines, to very strict ones, keeping code as close to the [Official Vue Style Guide](https://vuejs.org/v2/style-guide/) as possible. It also allows you to pick between Standard or Airbnb code style rules.
+[Vue CLI](../ecosystem/build-tools.md#vue-cli) offers a fully setup ESLint configuration, thanks to the incredible work by the people behind the [Vue ESLint](https://eslint.vuejs.org/) project. It is constantly being improved and worked on, offering a large set of rules, from basic Vue style guidelines, to very strict ones, keeping code as close to the [Official Vue Style Guide](https://vuejs.org/v2/style-guide/) as possible. It also allows you to pick between Standard or Airbnb code style rules.
 
 #### How to install Vue ESLint plugin
 
@@ -158,13 +158,13 @@ Every major editor comes with ESLint support, either by an official or a communi
 
 Prettier is a code formatting tool that enforces a very opinionated coding style onto many languages, among which are JavaScript, CSS and HTML. Its main benefits are that it integrates into any of the popular editors and can format code on each save of the IDE, keeping code styles the as close as possible between multiple developers.
 
-The lack of options are actually one of its strong points. enforcing sensible defaults across the board.
+The lack of options are actually one of its strong points, enforcing sensible defaults across the board.
 
 #### How to use Prettier with Vue
 
-If you just want to use prettier, you can do so by installing it and using it directly via the command line. Follow the [installation guide](https://prettier.io/docs/en/install.html) for more details.
+If you just want to use Prettier, you can do so by installing it and using it directly via the command line. Follow the [installation guide](https://prettier.io/docs/en/install.html) for more details.
 
-#### Using prettier with ESLint
+#### Using Prettier with ESLint
 
 Prettier however does not work well with ESLint, out of the box. When used together, most often they have colliding rules between their style configurations. The problem is that, you cannot disable most of those in Prettier, as it was made to be "all or nothing" kind of thing.
 

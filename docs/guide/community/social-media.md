@@ -70,7 +70,7 @@ If you want your new resource covered in the upcoming edition, submit it using t
 
 [VuePeople.org](https://vuepeople.org) is an interactive map of Vue.js developers and enthusiasts around the world, with a possibility to filter them with tags. The plan for the future is to make it network that connects the Vue.JS community not only with each other, but also with events and work opportunities. You can register via your Github account.
 
-## Influential people on Twitter
+## Influential People on Twitter
 
 Twitter is the first place where developers share updates on their packages, discuss ideas, point out findings, do polls or just ask for advice. 
  
@@ -83,7 +83,7 @@ Twitter is the first place where developers share updates on their packages, dis
 </useful-links-section>
 </useful-links>
 
-## Other platforms
+## Other Platforms
 
 As the Vue community continues to grow, there are more and more specialized groups appearing on various social platforms. We list some of them below, together with Vue-related groups in other services.
 
@@ -149,6 +149,6 @@ As the Vue community continues to grow, there are more and more specialized grou
 </useful-links-section>
 </useful-links>
 
-## Other language media
+## Other Language Media
 
 Not all of the Vue ecosystem around the world communicates in English. There are multiple other language groups on different platforms. You can find the most popular among them on [awesome-vue](https://github.com/vuejs/awesome-vue#community) repository.

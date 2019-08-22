@@ -1,4 +1,4 @@
-# Official documentation
+# Official Documentation
 
 The official documentation for Vue.js is divided into several parts, spread across multiple websites covering different topics or core libraries such as [Vuex](https://vuex.vuejs.org), [Vue-Router](https://router.vuejs.org) or [SSR](https://ssr.vuejs.org) guides. All these pages have offline support and can be installed on a mobile phone.
 
@@ -18,7 +18,7 @@ However if you want to use `.vue` files while learning, read the [Single File Co
 
 To utilize SFC, you can create a [CodeSandbox](https://codesandbox.io/s/vue) project online or scaffold a new project locally using [Vue CLI](https://cli.vuejs.org/), which comes with its separate documentation.
 
-### Reactivity caveats
+### Reactivity Caveats
 
 Remember to read the [Reactivity in Depth](https://vuejs.org/v2/guide/reactivity.html) chapter which provides ways to deal with some caveats of Vue.js reactivity system, related to working with arrays and objects. This will all be solved in Vue 3 release.
 
