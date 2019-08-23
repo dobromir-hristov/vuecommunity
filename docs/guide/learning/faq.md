@@ -353,7 +353,7 @@ To pass a parameter to a getter, return a function from within the getter. The f
 </useful-links-section>
 <useful-links-section title="Tutorials">
 
-* [Vuex getters are great, but don’t overuse them](https://codeburst.io/vuex-getters-are-great-but-don't-overuse-them-9c946689b414)
+* [Vuex getters are great, but don’t overuse them](https://codeburst.io/vuex-getters-are-great-but-dont-overuse-them-9c946689b414)
 
 </useful-links-section>
 </useful-links>
