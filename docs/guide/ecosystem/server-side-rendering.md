@@ -27,7 +27,7 @@ Most crawlers cannot scan websites that are rendered with JavaScript, resulting 
 
 With SSR, pages are returned as fully rendered HTML by the server, allowing for crawlers to scan at will.
 
-### Fast load on slower devices
+### Fast Load on Slower Devices
 
 Heavy applications that require lots of resources for the initial rendering, may cause slower or older devices to struggle. This is a real problem, as the average user doesn't have the latest cutting edge mobile device. 
 
@@ -35,7 +35,7 @@ With SSR, the page is fully rendered on the server, eliminating that initial bur
 
 ### Social Presence
 
-When sharing your website on various social media, they will show a small preview and extract metadata from it. Normal SPA applications are very poor at this and often result in blank pages with little to no metadata. Social media crawlers cant really parse JavaScript, so they dont know what to do with SPAs.
+When sharing your website on various social media, they will show a small preview and extract metadata from it. Normal SPA applications are very poor at this and often result in blank pages with little to no metadata. Social media crawlers cant really parse JavaScript, so they don't know what to do with SPAs.
 
 With SSR, pages are displayed with nice previews, as both the page content it self and meta tag data is present, allowing for social media crawlers to extract what they need.
 
@@ -55,15 +55,15 @@ Pages will be rendered faster when using SSR, as the browser does not need to do
 
 SSR sounds awesome, there are however some things that need to be taken in consideration.
 
-### Time to interaction
+### Time to Interactive
 
 Even though users can see the website, it doesn't meant it is fully working. For very dynamic websites, with a lot of JavaScript logic driving the UI, this can lead to weird situations where the page is rendered, looks ready, but the app bundle is still downloading, so no JavaScript logic can be executed yet.
 
-### Time to first byte (TTFB) is slower
+### Time to First Byte (TTFB) is Slower
 
 Because the server has to actually do the rendering, fetch async data and so on, the time it takes for the response to hit the browser is bigger.
 
-### Server costs
+### Server Costs
 
 Because there is usually a live Node.js instance always on, waiting to render a request, server costs are higher than static file hosting.
 
@@ -79,7 +79,7 @@ Because there is usually a live Node.js instance always on, waiting to render a 
 
 This is directly related to the above. Server load is higher on initial request, while pages are being rendered, sometimes blocking other operations until the process is done.
 
-### Platform specific APIs are not available
+### Platform Specific APIs are not Available
 
 Because the app is rendered in server environment, there are specific APIs that are not available, like the `window` object. This means libraries like sliders and carousels may not work, and will throw errors during render. 
 
@@ -95,7 +95,7 @@ To overcome this, developers should not interact with those APIs, in places, tha
 </useful-links-section>
 </useful-links>
 
-### Complex to transform deployed SPA to SSR
+### Complex to Transform Deployed SPA to SSR
 
 Because of the above, already deployed websites are harder to transform to SSR, as there might be a lot of plugins or UI components, that rely on the Platform Specific APIs, explained above.
 
@@ -103,7 +103,7 @@ This is an issue mostly related with library and plugin authors not providing SS
 
 There are ways around this, like using the `no-ssr` component helpers, which delay rendering of components to the browser. This means that the component tag will be returned in the initial html response and not its rendered template. This might be problematic for components with SEO heavy content.
 
-## Available options for Vue
+## Available Options for Vue
 
 :::tip
 This part of the page is still in development and could use some help.
@@ -130,11 +130,11 @@ If you need more freedom to configure your application, with little to no interf
 
 ## Vue Server Renderer
 
-Vue server renderer is a lower level tool that is used by most of the above mentioned frameworks to render Vue apps on the server.
+Vue Server Renderer is a lower level tool that is used by most of the above mentioned frameworks to render Vue apps on the server.
 
 You can use it in tandem with an Express server or similar solution, to render pages on each user visit to the app. Just keep in mind, you will have to write a lot more boilerplate and configuration by yourself, compared to the already pre-made solutions.
 
-If you dont need some really custom solution, we would advise you to pick one of the pre-made tools mentioned above.
+If you don't need some really custom solution, we would advise you to pick one of the pre-made tools mentioned above.
 
 <useful-links>
 <useful-links-section title="Official">

@@ -14,7 +14,7 @@ Most of the libraries covered in this chapter are based on either Material Desig
 
 ## Summary (TLDR)
 
-If you dont have time to read all of this and just need a quick answer:
+If you don't have time to read all of this and just need a quick answer:
 
 <useful-links>
 <useful-links-section title="Users choice">

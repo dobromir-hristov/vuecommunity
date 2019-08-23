@@ -1,10 +1,10 @@
-# Documentation platforms
+# Documentation Platforms
 
 Documentation is a very important part of any software, especially if it is going to be used by more than one developer.
 
 There are a few ways to document software, one is directly inside the code via comments and type declarations, while the other is using external documentation sources, from files (usually .md) inside project to full blown websites.
 
-## Documentation websites
+## Documentation Websites
 
 When choosing a platform to write your docs on, think about your priorities and preferences.
 
@@ -92,7 +92,7 @@ Here are the answers from the above questions:
 </useful-links-section>
 </useful-links>
 
-## Other website doc platforms
+## Other Website Doc Platforms
 
 Below is a list of popular documentation generators, that are not connected to Vue.
 
@@ -110,7 +110,7 @@ Below is a list of popular documentation generators, that are not connected to V
 </useful-links-section>
 </useful-links>
 
-## Component workbenches
+## Component Workbenches
 
 A workbench is a development environment for UI components. It allows developers to setup interactive examples of how a UI component can be used. One can setup a live demo of a Vue component by passing different props to it. Perfect to show your designer or for you to test the result of your work
 
@@ -179,7 +179,7 @@ storiesOf('Button', module)
 [Vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) is a port of [react-styleguidist](https://github.com/styleguidist/react-styleguidist) for vue components.
 You are building a Design System. You want a site to showcase your components, this should be your first choice.
 
-#### Documentation style
+#### Documentation Style
 
 Styleguidist uses standard JSDoc comments to extract useful meta data from components.
 
@@ -273,7 +273,7 @@ Here give a reason for using the component. The code samples are going to be ren
 [Vuese](https://github.com/vuese/vuese) is documentation oriented. It sacrifices interactivity to be more integrable.
 If you have to generate your doc to integrate it in a bigger one, this is the workbench that you want. Without sacrificing the Hot Module Reload, it generates a good looking static doc.
 
-#### Documentation style
+#### Documentation Style
 
 Vuese uses its own documentation format, more compact than JSDoc.
 

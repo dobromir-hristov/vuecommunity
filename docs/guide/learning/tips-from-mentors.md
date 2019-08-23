@@ -1,4 +1,4 @@
-# Tips from mentors
+# Tips from Mentors
 This chapter will give you an insight from Vue experts on how they began with Vue, how they approach learning new technologies and other helpful tips.
 
 ## Dobromir Hristov

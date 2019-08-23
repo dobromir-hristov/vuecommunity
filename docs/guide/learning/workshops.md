@@ -4,7 +4,7 @@
  
  Workshops usually work best in smaller groups, around 15 to 20 people, with larger ones usually requiring the help of additional mentors. Downside of larger groups is that attendees cannot interact as close with the lecturer, because of the amount of people the lecturer would need to address.
   
-## Format of a workshop
+## Format of a Workshop
 
 Every workshop is unique, as in each instructor decides on how to structure their event. The same workshop can be different each time it is held, depending on the attendees level, interaction and other factors.
 
@@ -14,7 +14,7 @@ Others follow the "work along with the mentor" approach, where attendees follow 
 
 Workshops mostly range from half a day to the more in depth ones spanning across two or three days. Longer workshops, allow for instructor to dive deeper into a topic, showing a lot more than just the basic requirements to get things working. Attendees have a bigger opportunity to interact with the mentors, ask questions on issues that come up as development goes.
 
-## Where to find workshops
+## Where to Find Workshops
 
 The easiest way is to check on [Events.vuejs.org - Workshops](https://events.vuejs.org/events/#workshops) as that page is officially maintained by core team members.
 
