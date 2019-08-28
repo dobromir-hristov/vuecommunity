@@ -45,6 +45,10 @@ They release well written Vue articles, along with other good material.
 ## Pusher
 [Pusher Blog](https://pusher.com/tutorials?q=vuejs) is a platform that offers APIs to build real-time apps. You can find plenty of Vue related articles that show how you can use Vue with their APIs to build complex applications.
 
+## Techiediaries.com
+
+[Techiediaries](https://www.techiediaries.com/) is a website dedicated to bring you tutorials and articles about the latest software and web technologies including Vue, React and Angular. Check out the Vue.js articles from this [link](https://www.techiediaries.com/vuejs).
+
 ## Personal Blogs
 This list consists of personal developer blogs, where people share their Vue related problems and solutions.
 
