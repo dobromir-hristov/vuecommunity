@@ -72,6 +72,7 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 
 - [Building a Desktop App with Vue: NW.js](https://dev.to/vuevixens/building-a-desktop-app-with-vue-nwjs-1f9e)
 - [Reducing app distribution size in NW.js](https://dev.to/thejaredwilcurt/reducing-app-distribution-size-in-nwjs-3d5f)
+- [NW.js + Vue[tify].js App YouTube series] (http://bit.ly/heartbeat_nwjs)
 
 </useful-links-section>
 </useful-links>
