@@ -245,6 +245,30 @@ In this section, we will go over the most popular technologies and the struggles
 
 #### Reasons to use Laravel and Vue
 
+##### Scaffolded by default
+
+Laravel [by default comes with everything you need](https://laravel.com/docs/5.7/frontend#writing-vue-components) to get up and running with Vue.
+
+After having created a Laravel project, you'll be provided with:
+
+- a `bootstrap.js` file which:
+    - loads some libraries such as lodash, axios and Popper
+    - configures axios for CSRF
+- an `app.js` file which:
+    - makes `Vue` globally available
+    - registers the example component with Vue
+    - provides example code on how to automatically register Vue components
+    - initialises Vue
+- an `ExampleComponent.vue` component
+
+You are of course free to customise these files to your needs - such as by removing unused libraries.
+
+###### Compiling assets
+
+[Laravel Mix](https://laravel.com/docs/5.7/mix)--a fluid API on top of Webpack which is also provided by default--will take much of the pain out of asset compiling for you.
+
+You simply need to run `npm run watch` and then you can get straight to work on writing your Vue components!
+
 ##### Widespread community adoption
 
 Several prominent members of the Laravel community are proponents of Vue (and its ecosystem).
