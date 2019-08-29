@@ -275,17 +275,17 @@ Several prominent members of the Laravel community are proponents of Vue (and it
 
 This includes but is not limited to:
 
-- Taylor Otwell
+- [Taylor Otwell](https://twitter.com/taylorotwell)
     - Founder (and Benevolent Dictator for Life) of Laravel itself
     - Known user of Laravel and Vue
-- Adam Wathan
-    - Author of TailwindCSS
-    - Creator of the Advanced Vue Component Design course
+- [Adam Wathan](https://twitter.com/adamwathan)
+    - Author of [TailwindCSS](https://tailwindcss.com/)
+    - Creator of the [Advanced Vue Component Design course](https://adamwathan.me/advanced-vue-component-design/)
     - Known user of Laravel and Vue
-- Jeffrey Way
-    - Author of various books on Laravel
-    - Speaker at Laracon
-    - Creator of several Laravel/Vue courses
+- [Jeffrey Way](https://twitter.com/jeffrey_way)
+    - Author of [Laravel Testing Decoded](https://leanpub.com/u/jeffreyway)
+    - Reoccuring speaker at [Laracon](https://laracon.eu/)
+    - Creator of [several Laravel/Vue courses](https://laracasts.com)
     - Known user of Laravel and Vue
 
 This advocacy and support of Vue seemingly extends to the Laravel community as a whole, meaning that a majority of Laravel developers will likely be more comfortable and familiar with Vue than say React or Angular.
