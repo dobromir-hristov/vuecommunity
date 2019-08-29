@@ -104,3 +104,20 @@ By the end of the course, users would have made a complete Vue app, built with N
 
 </useful-links-section>
 </useful-links>
+
+## Heartbeat - NW.js + Vue[tify].js Desktop App
+**Author:** Axel Uriel Martínez Castillo
+
+We build together a desktop app using NW.js and Vue.js (featuring also the use of Vuetify.js and some very handy npm packages during the journey).
+
+This is a step by step Youtube video series with short videos that touch one subject at a time. 
+
+We start by building the Vue app from scratch and then moving it into the Desktop environment. 
+
+<useful-links>
+<useful-links-section title="Official">
+
+[YouTube](https://www.youtube.com/playlist?list=PLmJs3lfUmCdT9MyG60Oo6HM7xAn79vwZ0)
+
+</useful-links-section>
+</useful-links>
