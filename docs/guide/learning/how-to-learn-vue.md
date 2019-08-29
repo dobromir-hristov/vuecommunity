@@ -243,6 +243,35 @@ In this section, we will go over the most popular technologies and the struggles
 
 ### Laravel
 
+#### Reasons to use Laravel and Vue
+
+##### Widespread community adoption
+
+Several prominent members of the Laravel community are proponents of Vue (and its ecosystem).
+
+This includes but is not limited to:
+
+- Taylor Otwell
+    - Founder (and Benevolent Dictator for Life) of Laravel itself
+    - Known user of Laravel and Vue
+- Adam Watham
+    - Author of TailwindCSS
+    - Creator of the Advanced Vue Component Design course
+    - Known user of Laravel and Vue
+- Jeffrey Way
+    - Author of various books on Laravel
+    - Speaker at Laracon
+    - Creator of several Laravel/Vue courses
+    - Known user of Laravel and Vue
+
+This advocacy and support of Vue seemingly extends to the Laravel community as a whole, meaning that a majority of Laravel developers will likely be more comfortable and familiar with Vue than say React or Angular.
+
+Naturally, then, it follows that there will be:
+
+- more resources to help you learn (guides, tutorials, articles)
+- more people who have experience with Vue+Laravel (help, support, guidance)
+- in general a healthy ecosystem (plugins, boilerplates, etc.)
+
 ### Ruby
 
 ### Django
