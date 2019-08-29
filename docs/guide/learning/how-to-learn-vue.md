@@ -319,7 +319,13 @@ If you need to escape several moustache statements, you may use the `@verbatim` 
 @endverbatim
 ```
 
-##### Passing PHP data to components
+##### Passing PHP variables as Vue component props
+
+If you ever need to pass a Blade variable as a [prop](https://vuejs.org/v2/guide/components-props.html) into a [Vue component](https://vuejs.org/v2/guide/components.html) from within a [Blade template](https://laravel.com/docs/5.8/blade) then you may be tempted to reach for `json_encode` however you should instead use the `@json` directive:
+
+```html
+<user-profile :user='@json($user)' />
+```
 
 ##### Using Laravel and vue-router routes together
 
