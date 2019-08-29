@@ -278,7 +278,7 @@ This includes but is not limited to:
 - Taylor Otwell
     - Founder (and Benevolent Dictator for Life) of Laravel itself
     - Known user of Laravel and Vue
-- Adam Watham
+- Adam Wathan
     - Author of TailwindCSS
     - Creator of the Advanced Vue Component Design course
     - Known user of Laravel and Vue
