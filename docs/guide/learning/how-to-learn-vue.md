@@ -243,6 +243,26 @@ In this section, we will go over the most popular technologies and the struggles
 
 ### Laravel
 
+**Combination**
+
+- Laravel comes with builtin Vue example component
+- Easy to manage Cookies, Authentication, Routing, Sessions and Caching
+- Single codebase for frontend and backend
+
+**Drawbacks**
+
+- Worse SEO
+- Define a catch-all 404 route on the frontend 
+
+<useful-links>
+<useful-links-section title="Useful links"> 
+ 
+ [Building a Vue SPA with Laravel](https://laravel-news.com/using-vue-router-laravel)
+ [Why should you use Vue.js when using Laravel](https://blog.pusher.com/why-vuejs-laravel/)
+ 
+</useful-links-section>
+</useful-links>
+
 ### Ruby
 
 ### Django
