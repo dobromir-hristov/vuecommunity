@@ -250,8 +250,12 @@ In this section, we will go over the most popular technologies and the struggles
 
 ### ASP.NET Core
 
-We'll be assuming you are using ASP.NET Core and building a SPA with [Vue CLI](https://cli.vuejs.org/). You *could* simply include a `<script src="/dist/my-vue-cli-generated-app.js"></script>` somewhere in `_Layout.cshtml`. However, in doing so, you miss out on the full Vue CLI experience - such as [Hot Reload](https://vue-loader.vuejs.org/guide/hot-reload.html).
+We'll be assuming you are using ASP.NET Core and building a SPA with [Vue CLI](https://cli.vuejs.org/). This means that the entire frontend will be written with Vue, which will then interact with the API.
 
-As you may be aware ASP.NET Core has the concept of [*middleware*](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-2.2). In order to integrate ASP.NET Core with the Vue CLI based SPA we can take advantage of a community developed middleware, [ASP.NET Core Vue CLI Middleware](https://github.com/EEParker/aspnetcore-vueclimiddleware). Simply install the Nuget package and follow the installation instructions. At the time of this writing, the library supports preview versions of ASP.NET Core 3.0.
+When using Vue CLI you *could* simply include a `<script src="/dist/my-vue-cli-generated-app.js"></script>` somewhere in `_Layout.cshtml`. However, in doing so, you miss out on the full Vue CLI experience - such as [Hot Reload](https://vue-loader.vuejs.org/guide/hot-reload.html).
+
+As you may be aware ASP.NET Core has the concept of [*middleware*](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware). In order to integrate ASP.NET Core with the Vue CLI based SPA we can take advantage of a community developed middleware, [ASP.NET Core Vue CLI Middleware](https://github.com/EEParker/aspnetcore-vueclimiddleware). Simply install the Nuget package and follow the installation instructions. At the time of this writing, the library supports preview versions of ASP.NET Core 3.0.
+
+This approach assumes that you wish to have the SPA files *and* the API being served from the same ASP.NET Core application and are using a [monorepo](https://en.wikipedia.org/wiki/Monorepo). Of course, whether you or decide to use a monorepo, or if you wish to host the API and SPA files independently, depends upon a number of factors. For example, you may not need to scale development across multiple teams, or your developers could be full stack developers who will be working on both the API and the Vue application.
 
 In addition to this middleware library there is also a detailed article which discusses "manually" adding a Vue CLI SPA to the ASP.NET Core application. It was written before the middleware was made available, so there is overlap in functionality. https://www.dotnetcurry.com/aspnet-core/1500/aspnet-core-vuejs-template
