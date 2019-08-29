@@ -296,6 +296,33 @@ Naturally, then, it follows that there will be:
 - more people who have experience with Vue+Laravel (help, support, guidance)
 - in general a healthy ecosystem (plugins, boilerplates, etc.)
 
+#### Common gotchas when using Laravel and Vue together
+
+##### Blade and Vue interpolation syntax
+
+As you may be aware both [Blade templates](https://laravel.com/docs/5.8/blade#displaying-data) and [Vue templates](https://vuejs.org/v2/guide/#Declarative-Rendering) use moustache syntax (i.e. `{{ message }}`) for variable interpolation, which presents a problem. Fortunately the solution is simple.
+
+Simply prepend an `@` to the moustache statement. This will [instruct the Blade template rendering engine](https://laravel.com/docs/5.8/blade#blade-and-javascript-frameworks) to ignore this statement, leaving it to be later processed by Vue.
+
+```html
+<p>You have @{{ messageCount }} new message(s).</p>
+```
+
+If you need to escape several moustache statements, you may use the `@verbatim` directive instead.
+
+```html
+@verbatim
+    <div class="container">
+        <p>Welcome {{ user.name }} ({{ user.id }})!</p>
+        <p>Your last visit was: {{ user.lastVisit }}.</p>
+    </div>
+@endverbatim
+```
+
+##### Passing PHP data to components
+
+##### Using Laravel and vue-router routes together
+
 ### Ruby
 
 ### Django
