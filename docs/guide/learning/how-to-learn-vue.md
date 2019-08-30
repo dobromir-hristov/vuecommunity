@@ -327,7 +327,171 @@ If you ever need to pass a Blade variable as a [prop](https://vuejs.org/v2/guide
 <user-profile :user='@json($user)' />
 ```
 
-##### Using Laravel and vue-router routes together
+##### Serving an SPA with Laravel / Using vue-router to process routes
+
+The following are both possible with the [Laravel router](https://laravel.com/docs/5.8/routing) and [vue-router](https://router.vuejs.org/):
+
+- Some routes are handled by vue-router and others by Laravel (i.e. hybrid app)
+- All routes are forwarded for handling by vue-router (i.e. single-page app)
+
+The boilerplate provided by Laravel does not include vue-router by default but that won't be much bother:
+
+###### Install vue-router 
+
+```bash
+npm install vue-router --save
+```
+
+###### Create a router and some routes
+
+Create `resources/js/router.js`:
+
+```js
+import Vue from "vue";
+import VueRouter from "vue-router";
+
+import PageHome from "./pages/Home";
+import PageAbout from "./pages/About";
+
+Vue.use(VueRouter);
+
+const router = new VueRouter({
+    mode: "history",
+    routes: [
+        {
+            path: "/",
+            component: PageHome
+        },
+        {
+            path: "/about",
+            component: PageAbout
+        }
+    ]
+});
+
+export default router;
+```
+
+###### Create a simple App component
+
+
+Create `resources/js/components/App.vue`:
+
+```html
+<template>
+    <div>
+        <nav>
+            <ul>
+                <li>
+                    <router-link to="/">Home</router-link>
+                </li>
+
+                <li>
+                    <router-link to="/about">About</router-link>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <router-view></router-view>
+        </main>
+    </div>
+</template>
+```
+
+###### Create a few page components
+
+Create `resources/js/pages/Home.vue`:
+
+```html
+<template>
+    <div>Home</div>
+</template>
+```
+
+Create `resources/js/pages/About.vue`:
+
+```html
+<template>
+    <div>About</div>
+</template>
+```
+
+###### Configure the root Vue instance
+
+Modify `resources/js/app.js`:
+
+```js
+import router from "./router";
+import App from "./components/App";
+
+const app = new Vue({
+    el: '#app',
+    router,               // <-- register router with Vue
+    render: (h) => h(App) // <-- render App component
+});
+```
+
+###### Configure the Laravel router
+
+This is the important part - we need to instruct Laravel to route all requests to the `index` action on the `SPAController`.
+
+Replace `routes/web.php`:
+
+```php
+<?php
+Route::get('/{vue}', 'SPAController@index')->where('vue', '.*');
+```
+
+> **NOTE:** Any routes registered before this catch-all will still function - this is how we are able to handle some routes with Laravel and others with vue-router.
+
+###### Create the controller and action
+
+Create `app/Http/Controllers/SPAController.php`:
+
+```php
+<?php
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class SPAController extends Controller
+{
+    public function index()
+    {
+        return view("spa");
+    }
+}
+```
+
+###### Create the view
+
+Create `resources/views/spa.blade.php`:
+
+```html
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="csrf-token" content="{{ csrf_token() }}" />
+
+        <title>Laravel + Vue = ❤️</title>
+
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div id="app"></div>
+
+        <script src="{{ asset('js/app.js') }}"></script>
+    </body>
+</html>
+```
+
+That's it! You are now serving a Vue SPA with Laravel and vue-router is in charge of all routing (except for any routes which were defined before the catch-all, which will be handled by Laravel!).
+
+#### Configuring Webpack aliases with Laravel mix
 
 ### Ruby
 
