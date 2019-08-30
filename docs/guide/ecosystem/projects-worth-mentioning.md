@@ -3,6 +3,4 @@ These are projects that we just dont have a category for, but are absolutely wor
 
 ## Vue Storefront
 
-https://www.vuestorefront.io/
-
-Vue Storefront is a standalone PWA storefront for your eCommerce, possible to connect with any eCommerce backend (eg. Magento, Prestashop or Shopware) through the API.
+[Vue Storefront](https://www.vuestorefront.io/) is a standalone PWA storefront for your eCommerce, possible to connect with any eCommerce backend (eg. Magento, Prestashop or Shopware) through the API.
