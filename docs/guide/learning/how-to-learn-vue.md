@@ -81,7 +81,7 @@ This approach works for smaller websites or those that will not implement comple
  Check the [Build Tools Page](../ecosystem/build-tools.md) for information on popular ways to bundle your code.
     
  **Minimum required technologies**
- * Vue CLI or bundler - Knowledge of how to integrate Vue CLI in the application. If not possible, basic knowledge of setting up а modern bundler process. Some frameworks have integrated solutions, like [Laravel Mix](https://laravel.com/docs/5.7/mix). 
+ * Vue CLI or bundler - Knowledge of how to integrate Vue CLI in the application. If not possible, basic knowledge of setting up а modern bundler process. Some frameworks have integrated solutions, like [Laravel Mix](https://laravel.com/docs/mix). 
  * Transpiler Setup - optional if using any ES2015+ features, that are not supported by older browsers. Vue CLI takes care of this as well.
  * HTML - used inside `.vue` files and the website markup.
  
@@ -247,7 +247,7 @@ In this section, we will go over the most popular technologies and the struggles
 
 ##### Scaffolded by default
 
-Laravel [by default comes with everything you need](https://laravel.com/docs/5.7/frontend#writing-vue-components) to get up and running with Vue.
+Laravel [by default comes with everything you need](https://laravel.com/docs/frontend#writing-vue-components) to get up and running with Vue.
 
 After having created a Laravel project, you'll be provided with:
 
@@ -265,7 +265,7 @@ You are of course free to customise these files to your needs - such as by remov
 
 ###### Compiling assets
 
-[Laravel Mix](https://laravel.com/docs/5.7/mix)--a fluid API on top of Webpack which is also provided by default--will take much of the pain out of asset compiling for you.
+[Laravel Mix](https://laravel.com/docs/mix)--a fluid API on top of Webpack which is also provided by default--will take much of the pain out of asset compiling for you.
 
 You simply need to run `npm run watch` and then you can get straight to work on writing your Vue components!
 
@@ -300,9 +300,9 @@ Naturally, then, it follows that there will be:
 
 ##### Blade and Vue interpolation syntax
 
-As you may be aware both [Blade templates](https://laravel.com/docs/5.8/blade#displaying-data) and [Vue templates](https://vuejs.org/v2/guide/#Declarative-Rendering) use moustache syntax (i.e. `{{ message }}`) for variable interpolation, which presents a problem. Fortunately the solution is simple.
+As you may be aware both [Blade templates](https://laravel.com/docs/blade#displaying-data) and [Vue templates](https://vuejs.org/v2/guide/#Declarative-Rendering) use moustache syntax (i.e. `{{ message }}`) for variable interpolation, which presents a problem. Fortunately the solution is simple.
 
-Simply prepend an `@` to the moustache statement. This will [instruct the Blade template rendering engine](https://laravel.com/docs/5.8/blade#blade-and-javascript-frameworks) to ignore this statement, leaving it to be later processed by Vue.
+Simply prepend an `@` to the moustache statement. This will [instruct the Blade template rendering engine](https://laravel.com/docs/blade#blade-and-javascript-frameworks) to ignore this statement, leaving it to be later processed by Vue.
 
 ```html
 <p>You have @{{ messageCount }} new message(s).</p>
@@ -321,7 +321,7 @@ If you need to escape several moustache statements, you may use the `@verbatim` 
 
 ##### Passing PHP variables as Vue component props
 
-If you ever need to pass a Blade variable as a [prop](https://vuejs.org/v2/guide/components-props.html) into a [Vue component](https://vuejs.org/v2/guide/components.html) from within a [Blade template](https://laravel.com/docs/5.8/blade) then you may be tempted to reach for `json_encode` however you should instead use the `@json` directive:
+If you ever need to pass a Blade variable as a [prop](https://vuejs.org/v2/guide/components-props.html) into a [Vue component](https://vuejs.org/v2/guide/components.html) from within a [Blade template](https://laravel.com/5.8/blade) then you may be tempted to reach for `json_encode` however you should instead use the `@json` directive:
 
 ```html
 <user-profile :user='@json($user)' />
@@ -329,7 +329,7 @@ If you ever need to pass a Blade variable as a [prop](https://vuejs.org/v2/guide
 
 ##### Serving an SPA with Laravel / Using vue-router to process routes
 
-The following are both possible with the [Laravel router](https://laravel.com/docs/5.8/routing) and [vue-router](https://router.vuejs.org/):
+The following are both possible with the [Laravel router](https://laravel.com/docs/routing) and [vue-router](https://router.vuejs.org/):
 
 - Some routes are handled by vue-router and others by Laravel (i.e. hybrid app)
 - All routes are forwarded for handling by vue-router (i.e. single-page app)
