@@ -286,28 +286,17 @@ Naturally, then, it follows that there will be:
 
 ##### Blade and Vue interpolation syntax
 
-As you may be aware both [Blade templates](https://laravel.com/docs/blade#displaying-data) and [Vue templates](https://vuejs.org/v2/guide/#Declarative-Rendering) use moustache syntax (i.e. `{{ message }}`) for variable interpolation, which presents a problem. Fortunately the solution is simple.
+Both [Blade templates](https://laravel.com/docs/blade#displaying-data) and [Vue templates](https://vuejs.org/v2/guide/#Declarative-Rendering) use moustache syntax (i.e. `{{ message }}`) for variable interpolation.
 
-Simply prepend an `@` to the moustache statement. This will [instruct the Blade template rendering engine](https://laravel.com/docs/blade#blade-and-javascript-frameworks) to ignore this statement, leaving it to be later processed by Vue.
+If necessary, you can simply prepend an `@` in order to [instruct the Blade template rendering engine](https://laravel.com/docs/blade#blade-and-javascript-frameworks) to ignore this statement, leaving it to be later processed by Vue.
 
 ```html
 <p>You have @{{ messageCount }} new message(s).</p>
 ```
 
-If you need to escape several moustache statements, you may use the `@verbatim` directive instead.
-
-```html
-@verbatim
-    <div class="container">
-        <p>Welcome {{ user.name }} ({{ user.id }})!</p>
-        <p>Your last visit was: {{ user.lastVisit }}.</p>
-    </div>
-@endverbatim
-```
-
 ##### Passing PHP variables as Vue component props
 
-If you ever need to pass a Blade variable as a [prop](https://vuejs.org/v2/guide/components-props.html) into a [Vue component](https://vuejs.org/v2/guide/components.html) from within a [Blade template](https://laravel.com/5.8/blade) then you may be tempted to reach for `json_encode` however you should instead use the `@json` directive:
+If you ever need to pass a Blade variable as a [prop](https://vuejs.org/v2/guide/components-props.html) into a [Vue component](https://vuejs.org/v2/guide/components.html) from within a [Blade template](https://laravel.com/docs/blade) then you may be tempted to reach for `json_encode` however you should instead use the `@json` directive:
 
 ```html
 <user-profile :user='@json($user)' />
