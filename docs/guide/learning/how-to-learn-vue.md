@@ -247,7 +247,7 @@ In this section, we will go over the most popular technologies and the struggles
 
 ##### Scaffolded by default
 
-Laravel [comes with everything you need](https://laravel.com/docs/frontend#writing-vue-components) to get up and running with Vue. All you need to do is [compile the assets](#compiling-assets) and then [include the compiled script in a view](https://laravel.com/docs/helpers#method-asset) with the asset helper
+A default install of Laravel [has everything you need](https://laravel.com/docs/frontend#writing-vue-components) to enhance your server-rendered (Blade) templates with Vue components!
 
 ###### Compiling assets
 
