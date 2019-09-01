@@ -247,7 +247,7 @@ In this section, we will go over the most popular technologies and the struggles
 
 ##### Scaffolded by default
 
-A default install of Laravel [has everything you need](https://laravel.com/docs/frontend#writing-vue-components) to enhance your server-rendered (Blade) templates with Vue components!
+A default install of Laravel [has everything you need](https://laravel.com/docs/frontend#writing-vue-components) to begin enhancing your server-rendered (Blade) templates with Vue components. No setup necessary.
 
 ###### Compiling assets
 
