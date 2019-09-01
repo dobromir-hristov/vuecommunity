@@ -249,11 +249,10 @@ In this section, we will go over the most popular technologies and the struggles
 
 A default install of Laravel [has everything you need](https://laravel.com/docs/frontend#writing-vue-components) to begin enhancing your server-rendered (Blade) templates with Vue components. No setup necessary.
 
-###### Compiling assets
+##### Laravel Mix
 
-[Laravel Mix](https://laravel.com/docs/mix)--a fluid API on top of Webpack which is also provided by default--will take much of the pain out of asset compiling for you.
+[Laravel Mix](https://laravel.com/docs/mix)--a fluid API on top of Webpack, which also comes in the box--will take much of the pain out of asset compiling for you, so you can focus on authoring your Vue components.
 
-You simply need to run `npm run watch` and then you can get straight to work on writing your Vue components!
 
 ##### Widespread community adoption
 
