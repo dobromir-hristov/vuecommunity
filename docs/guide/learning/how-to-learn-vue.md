@@ -247,21 +247,7 @@ In this section, we will go over the most popular technologies and the struggles
 
 ##### Scaffolded by default
 
-Laravel [by default comes with everything you need](https://laravel.com/docs/frontend#writing-vue-components) to get up and running with Vue.
-
-After having created a Laravel project, you'll be provided with:
-
-- a `bootstrap.js` file which:
-    - loads some libraries such as lodash, axios and Popper
-    - configures axios for CSRF
-- an `app.js` file which:
-    - makes `Vue` globally available
-    - registers the example component with Vue
-    - provides example code on how to automatically register Vue components
-    - initialises Vue
-- an `ExampleComponent.vue` component
-
-You are of course free to customise these files to your needs - such as by removing unused libraries.
+Laravel [comes with everything you need](https://laravel.com/docs/frontend#writing-vue-components) to get up and running with Vue. All you need to do is [compile the assets](#compiling-assets) and then [include the compiled script in a view](https://laravel.com/docs/helpers#method-asset) with the asset helper
 
 ###### Compiling assets
 
