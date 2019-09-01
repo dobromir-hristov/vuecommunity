@@ -243,6 +243,11 @@ In this section, we will go over the most popular technologies and the struggles
 
 ### Laravel
 
+<!-- TODO: Missing Link -->
+You may be interested in [checking out the dev.to article](). It mirrors this section entirely (heading for heading), going into greater detail, while providing code samples and demos.
+
+Otherwise, read on for a brief overview of why Laravel and Vue is a fantastic combination.
+
 #### Reasons to use Laravel and Vue
 
 ##### Scaffolded by default
