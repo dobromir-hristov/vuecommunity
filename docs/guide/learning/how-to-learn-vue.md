@@ -256,13 +256,13 @@ A default install of Laravel [has everything you need](https://laravel.com/docs/
 
 ##### Laravel Mix
 
-[Laravel Mix](https://laravel.com/docs/mix)--a fluid API on top of Webpack, which also comes in the box--will take much of the pain out of asset compiling for you, so you can focus on authoring your Vue components.
+[Laravel Mix](https://laravel.com/docs/mix)--a fluid API on top of Webpack, also included in the box--takes much of the pain out of asset compiling for you, so you can focus on authoring your Vue components.
 
 ##### Widespread community adoption
 
-Several prominent members of the Laravel community are proponents of Vue (and its ecosystem), including the [creator of Laravel himself](https://twitter.com/taylorotwell); who is a [rather outspoken proponent of Vue](https://twitter.com/taylorotwell/status/1029744172339789825).
+Several prominent members of the Laravel community are proponents of Vue (and its ecosystem), including the [creator of Laravel himself](https://twitter.com/taylorotwell); who is a [rather outspoken Vue advocate](https://twitter.com/taylorotwell/status/1029744172339789825).
 
-This advocacy and support of Vue extends to the greater Laravel community - most Laravel devs know of (and many use) Vue.
+This endoresement extends to the greater Laravel community - most Laravel devs know of, use and recommend Vue.
 
 Why is this a good thing?
 
@@ -276,7 +276,7 @@ Why is this a good thing?
 
 Both [Blade templates](https://laravel.com/docs/blade#displaying-data) and [Vue templates](https://vuejs.org/v2/guide/#Declarative-Rendering) use moustache syntax (i.e. `{{ message }}`) for variable interpolation.
 
-If necessary, you can simply prepend an `@` in order to [instruct the Blade template rendering engine](https://laravel.com/docs/blade#blade-and-javascript-frameworks) to ignore this statement, leaving it to be later processed by Vue.
+If necessary, you can simply prepend an `@` in order to [instruct the Blade template rendering engine](https://laravel.com/docs/blade#blade-and-javascript-frameworks) to not process the statement; leaving it to be later processed by Vue.
 
 ```html
 <p>You have @{{ messageCount }} new message(s).</p>
@@ -294,14 +294,14 @@ If you ever need to pass a Blade variable as a [prop](https://vuejs.org/v2/guide
 
 You can absolutely use [Laravel router](https://laravel.com/docs/routing) and [vue-router](https://router.vuejs.org/) together without too much effort.
 
-Perhaps you want vue-router to handle **all** routing; or for vue-router to handle most routing via an SPA but for Laravel to handle a small handful of routes; or to serve multiple SPAs using one Laravel app. All of this and more is possible.
+Perhaps you want vue-router to handle **all** routing; or for it to handle only some and for Laravel to handle the others; or to serve multiple SPAs using one Laravel app. All of this and more is possible.
 
 <!-- TODO: Missing Link -->
 If you're having trouble setting any of that up, it's covered in detail in the [dev.to article mentioned before]().
 
 #### Lack of Webpack aliases when using Laravel Mix
 
-If you've used [vue-cli](https://cli.vuejs.org/) then you'll probably be familiar (and used to using) aliases [such as `@` and `~`](https://cli.vuejs.org/guide/html-and-static-assets.html#url-transform-rules).
+If you've used [vue-cli](https://cli.vuejs.org/) then you'll probably be familiar with (and used to using) aliases [such as `@` and `~`](https://cli.vuejs.org/guide/html-and-static-assets.html#url-transform-rules).
 
 Unfortunately this is not setup by default - fortunately though, [there's a plugin](https://laravel-mix.com/extensions/alias).
 
