@@ -39,7 +39,7 @@ You can write a simple form validation yourself, but if you want a well tested s
 
 ### Vee-Validate
 
-[Vee-Validate](https://github.com/baianat/vee-validate) is a an all-inclusive library with string-based validators. One of its biggest advantages is that it's fully compatible with form validation of Laravel framework, which made it very popular among PHP developers. The validation is applied to form fields using custom directives, allowing the users to keep the validators directly in the template if such is their preference.
+[Vee-Validate](https://github.com/baianat/vee-validate) is a an all-inclusive library with string-based validators. One of its biggest advantages is that it's fully compatible with form validation of Laravel framework, which made it very popular among PHP developers. The validation is applied to form fields using scoped slots, allowing the users to keep the validators directly in the template if such is their preference. Another advantage is that it offers many localized error messages.
 
 <useful-links>
 <useful-links-section title="Official">
