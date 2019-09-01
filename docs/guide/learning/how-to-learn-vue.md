@@ -299,7 +299,11 @@ Perhaps you want vue-router to handle **all** routing; or for vue-router to hand
 <!-- TODO: Missing Link -->
 If you're having trouble setting any of that up, it's covered in detail in the [dev.to article mentioned before]().
 
-#### Configuring Webpack aliases with Laravel mix
+#### Lack of Webpack aliases when using Laravel Mix
+
+If you've used [vue-cli](https://cli.vuejs.org/) then you'll probably be familiar (and used to using) aliases [such as `@` and `~`](https://cli.vuejs.org/guide/html-and-static-assets.html#url-transform-rules).
+
+Unfortunately this is not setup by default - fortunately though, [there's a plugin](https://laravel-mix.com/extensions/alias).
 
 ### Ruby
 
