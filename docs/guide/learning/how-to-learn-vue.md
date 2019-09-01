@@ -258,7 +258,6 @@ A default install of Laravel [has everything you need](https://laravel.com/docs/
 
 [Laravel Mix](https://laravel.com/docs/mix)--a fluid API on top of Webpack, which also comes in the box--will take much of the pain out of asset compiling for you, so you can focus on authoring your Vue components.
 
-
 ##### Widespread community adoption
 
 Several prominent members of the Laravel community are proponents of Vue (and its ecosystem).
@@ -312,6 +311,7 @@ You can absolutely use [Laravel router](https://laravel.com/docs/routing) and [v
 
 Perhaps you want vue-router to handle **all** routing; or for vue-router to handle most routing via an SPA but for Laravel to handle a small handful of routes; or to serve multiple SPAs using one Laravel app. All of this and more is possible.
 
+<!-- TODO: Missing Link -->
 If you're having trouble setting any of that up, it's covered in detail in the [dev.to article mentioned before]().
 
 #### Configuring Webpack aliases with Laravel mix
