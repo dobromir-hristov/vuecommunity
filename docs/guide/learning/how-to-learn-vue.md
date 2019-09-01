@@ -260,26 +260,11 @@ A default install of Laravel [has everything you need](https://laravel.com/docs/
 
 ##### Widespread community adoption
 
-Several prominent members of the Laravel community are proponents of Vue (and its ecosystem).
+Several prominent members of the Laravel community are proponents of Vue (and its ecosystem), including the [creator of Laravel himself](https://twitter.com/taylorotwell); who is a [rather outspoken proponent of Vue](https://twitter.com/taylorotwell/status/1029744172339789825).
 
-This includes but is not limited to:
+This advocacy and support of Vue extends to the greater Laravel community - most Laravel devs know of (and many use) Vue.
 
-- [Taylor Otwell](https://twitter.com/taylorotwell)
-    - Founder (and Benevolent Dictator for Life) of Laravel itself
-    - Known user of Laravel and Vue
-- [Adam Wathan](https://twitter.com/adamwathan)
-    - Author of [TailwindCSS](https://tailwindcss.com/)
-    - Creator of the [Advanced Vue Component Design course](https://adamwathan.me/advanced-vue-component-design/)
-    - Known user of Laravel and Vue
-- [Jeffrey Way](https://twitter.com/jeffrey_way)
-    - Author of [Laravel Testing Decoded](https://leanpub.com/u/jeffreyway)
-    - Reoccuring speaker at [Laracon](https://laracon.eu/)
-    - Creator of [several Laravel/Vue courses](https://laracasts.com)
-    - Known user of Laravel and Vue
-
-This advocacy and support of Vue seemingly extends to the Laravel community as a whole, meaning that a majority of Laravel developers will likely be more comfortable and familiar with Vue than say React or Angular.
-
-Naturally, then, it follows that there will be:
+Why is this a good thing?
 
 - more resources to help you learn (guides, tutorials, articles)
 - more people who have experience with Vue+Laravel (help, support, guidance)
