@@ -119,6 +119,22 @@ If you are searching for a well tested solution, with a large community and nice
 
 Learn more about it on the dedicated [Nuxt](./nuxt.md) page.
 
+## Quasar Framework
+
+[Quasar](https://quasar.dev) with its CLI mode of operation, allows for you to build a SPA or PWA and have it served from the server initially. Quasar also allows for your code to be used for other platforms, including Electron and for mobile via Cordova. 
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Quasar repositories](https://github.com/quasarframework) 
+* [Quasar documentation](https://quasar.dev)
++ [Quasar SSR documentation](https://quasar.dev/quasar-cli/developing-ssr/introduction)
+* [Quasar chat on Discord](https://chat.quasar.dev)
+* [Forum](https://forum.quasar.dev)
+
+</useful-links-section>
+</useful-links>
+
 ## Servue
 [Servue](https://futureaus.github.io/servue/) shares a similar scope to Nuxtjs, it allows you to render `.vue` files into rendered html. It includes features for head meta tag management, layouts and more. Servue is more suitable for Multi-page-applications using existing server-side routing systems such as koa/koa-router or express.js
 
