@@ -16,6 +16,10 @@ module.exports = {
   ],
   // serviceWorker: true,
   themeConfig: {
+    algolia: {
+      apiKey: '8c789b5d0ee680a4a383673877be347d',
+      indexName: 'vue-community'
+    },
     logo: '/logo_pin.png',
     docsDir: 'docs',
     repo: 'https://github.com/dobromir-hristov/vuecommunity',
