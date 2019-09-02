@@ -84,6 +84,22 @@ Electron and NW.js share many features: they are both built on top of Chromium a
 - During the build process NW.js builds the whole Chromium; Electron uses [libchromiumcontent](https://github.com/electron/libchromiumcontent) to access Chromium's Content API
 - NW.js has [built-in support](http://docs.nwjs.io/en/latest/For%20Users/Advanced/Protect%20JavaScript%20Source%20Code/) for compiling your source code to protected binaries. Electron is packaging its applications with [asar](https://github.com/electron/asar), which contains the applications' unprotected source code.
 
+## Quasar Framework
+
+[Quasar Framework](https://quasar.dev) is a framework which allows for cross-platform application development. Design your apps with general components and code and use it all for any platform, including Electron for Desktop applications. Quasar's CLI allows you to build your Electron desktop application with one simple command. 
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Quasar repositories](https://github.com/quasarframework) 
+* [Quasar documentation](https://quasar.dev)
+* [Quasar Electron documentation](https://quasar.dev/quasar-cli/developing-electron-apps/introduction)
+* [Quasar chat on Discord](https://chat.quasar.dev)
+* [Forum](https://forum.quasar.dev)
+
+</useful-links-section>
+</useful-links>
+
 ## Vuido
 
 [Vuido](https://vuido.mimec.org/) is a framework for creating native desktop applications based on Vue.js. Applications using Vuido can run on Windows, OS X and Linux, using native GUI components.
