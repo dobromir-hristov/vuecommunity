@@ -20,6 +20,7 @@ If you don't have time to read all of this and just need a quick answer:
 <useful-links-section title="Users choice">
 
 [Vuetify](#vuetify) - mobile and desktop ready, material design.
+[Quasar](#quasar) - also a material design framework, but with cross-platform capabilities.
 
 </useful-links-section>
 <useful-links-section title="Desktop mainly">
@@ -77,13 +78,32 @@ The library's ecosystem provides multiple tools, such as theme generator, Webpac
 
 Internally, Vuetify is written with Typescript. The upcoming release of Vuetify 2 with improved theme system, accessibility and performance, will also bring the move from Stylus to SASS.
 
-
 <useful-links>
 <useful-links-section title="Official">
 
 * [Vuetify repository](https://github.com/vuetifyjs/vuetify) 
 * [Vuetify documentation](https://vuetifyjs.com/en/) 
 * [Vuetify chat on Discord](https://community.vuetifyjs.com/)
+
+</useful-links-section>
+</useful-links>
+
+### Quasar <badge text="Popular"/>
+
+> A massive pool of quality components ready for dropping directly into your existing or new projects today.
+Plus an easy to use build process, fully configurable (although 99% of the time you won't even need to touch it)... following all of the latest and greatest best web practices. Jumpstart a SPA, PWA, SSR, Mobile App or Desktop app in 30 seconds... (yes, it's that easy to get started!)
+
+Quasar's emphasis is on a great developer experience. It offers its own CLI, which helps the developer with building his or her application for multiple platforms, including mobile with Cordova, desktop apps with Electron and PWAs or SPAs with or without SSR. It has a growing community of developers and a great team of devs, who are contributing a lot of time towards the project. 
+
+One of the features that sets Quasar apart from practically all other frameworks is its Application Extension System (or AE for short), where devlopers can not only use it for importing general code for their own projects, but can also share that same code with the general Quasar community. It's a powerful system, which allows Quasar projects to be extended with any number of different additions like with other components, additions of CLI commands and application features. One great example is QCalendar - an intricate component for creating calendars. 
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Quasar repositories](https://github.com/quasarframework) 
+* [Quasar documentation](https://quasar.dev) 
+* [Quasar chat on Discord](https://chat.quasar.dev)
+* [Forum](https://forum.quasar.dev)
 
 </useful-links-section>
 </useful-links>
