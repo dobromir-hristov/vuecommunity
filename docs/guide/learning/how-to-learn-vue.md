@@ -263,7 +263,15 @@ Whether you're building an API-only backend for your SPA, or a traditional serve
 
 #### Want to know more?
 
-You may be interested in [checking out the dev.to article](https://dev.to/sustained/laravel-vue-4530). It mirrors this section entirely (heading for heading), going into greater detail, while providing code samples and demos.
+:::tip Need more details or code samples?
+The "Laravel + Vue = ❤️" article linked below was written at the same time as this article and mirrors it heading-for-heading but goes into more detail, providing code samples and demos.
+:::
+
+- [Laravel + Vue = ❤️](https://dev.to/sustained/laravel-vue-4530)
+- [Building a Vue SPA with Laravel](https://laravel-news.com/using-vue-router-laravel)
+- [Why should you use Vue.js when using Laravel](https://blog.pusher.com/why-vuejs-laravel/)
+
+----
 
 ### Ruby
 
