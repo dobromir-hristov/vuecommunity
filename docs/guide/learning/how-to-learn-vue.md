@@ -264,7 +264,7 @@ Whether you're building an API-only backend for your SPA, or a traditional serve
 #### Want to know more?
 
 :::tip Need more details or code samples?
-The "Laravel + Vue = ❤️" article linked below was written at the same time as this article and mirrors it heading-for-heading but goes into more detail, providing code samples and demos.
+The "Laravel + Vue = ❤️" article linked below was written at the same time as this article, by the same author and mirrors its structure, heading-for-heading but goes into more detail, providing code samples and demos.
 :::
 
 - [Laravel + Vue = ❤️](https://dev.to/sustained/laravel-vue-4530)
