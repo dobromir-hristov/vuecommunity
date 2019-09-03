@@ -245,7 +245,7 @@ In this section, we will go over the most popular technologies and the struggles
 
 #### Reasons to use Laravel and Vue
 
-Read on for a brief overview of why Laravel and Vue is a fantastic combination.
+Whether you're building an API-only backend for your SPA, or a traditional server-rendered website, Laravel and Vue is a common pairing. Despite that Laravel comes with a Vue boilerplate, it is framework-agnostic like Vue; making them a good match. The widespread community adoption also means more plugins, resources and support is available.
 
 - Laravel [comes with Vue setup out of the box](https://laravel.com/docs/frontend#writing-vue-components) - no setup necessary.
 - [Laravel Mix](https://laravel.com/docs/mix) takes the pain out of asset compiling - no fighting with Webpack configuration.
