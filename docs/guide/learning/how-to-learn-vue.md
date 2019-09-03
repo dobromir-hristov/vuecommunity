@@ -256,38 +256,10 @@ Read on for a brief overview of why Laravel and Vue is a fantastic combination.
 
 #### Common gotchas when using Laravel and Vue together
 
-##### Blade and Vue interpolation syntax
-
-Both [Blade templates](https://laravel.com/docs/blade#displaying-data) and [Vue templates](https://vuejs.org/v2/guide/#Declarative-Rendering) use moustache syntax (i.e. `{{ message }}`) for variable interpolation.
-
-If necessary, you can simply prepend an `@` in order to [instruct the Blade template rendering engine](https://laravel.com/docs/blade#blade-and-javascript-frameworks) to not process the statement; leaving it to be later processed by Vue.
-
-```html
-<p>You have @{{ messageCount }} new message(s).</p>
-```
-
-##### Passing PHP variables as Vue component props
-
-If you ever need to pass a Blade variable as a [prop](https://vuejs.org/v2/guide/components-props.html) into a [Vue component](https://vuejs.org/v2/guide/components.html) from within a [Blade template](https://laravel.com/docs/blade) then you may be tempted to reach for `json_encode` however you should instead use the `@json` directive:
-
-```html
-<user-profile :user='@json($user)' />
-```
-
-##### Laravel router and vue-router
-
-You can absolutely use [Laravel router](https://laravel.com/docs/routing) and [vue-router](https://router.vuejs.org/) together without too much effort.
-
-Perhaps you want vue-router to handle **all** routing; or for it to handle only some and for Laravel to handle the others; or to serve multiple SPAs using one Laravel app. All of this and more is possible.
-
-<!-- TODO: Missing Link -->
-If you're having trouble setting any of that up, it's covered in detail in the [dev.to article mentioned before]().
-
-#### Lack of Webpack aliases when using Laravel Mix
-
-If you've used [vue-cli](https://cli.vuejs.org/) then you'll probably be familiar with (and used to using) aliases [such as `@` and `~`](https://cli.vuejs.org/guide/html-and-static-assets.html#url-transform-rules).
-
-Unfortunately this is not setup by default - fortunately though, [there's a plugin](https://laravel-mix.com/extensions/alias).
+- Use Vue moustache syntax in Blade templates by using [`@{{ msg }}` or `@verbatim` directives](https://laravel.com/docs/blade#blade-and-javascript-frameworks).
+- Pass PHP variables into Vue components (as props) by using `v-bind` and the [Blade `@json` directive](https://laravel.com/docs/5.8/blade#displaying-data).
+- Needing to decide whether to use Laravel router, vue-router or both in tandem could be regarded as a con.
+- Wbepack aliases like `@` and `~` are not setup as they would be when using [vue-cli](https://cli.vuejs.org/), fortunately there's [a Mix plugin](https://laravel-mix.com/extensions/alias) for that.
 
 #### Want to know more?
 
