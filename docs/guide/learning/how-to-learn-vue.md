@@ -263,8 +263,7 @@ Read on for a brief overview of why Laravel and Vue is a fantastic combination.
 
 #### Want to know more?
 
-<!-- TODO: Missing Link -->
-You may be interested in [checking out the dev.to article](). It mirrors this section entirely (heading for heading), going into greater detail, while providing code samples and demos.
+You may be interested in [checking out the dev.to article](https://dev.to/sustained/laravel-vue-4530). It mirrors this section entirely (heading for heading), going into greater detail, while providing code samples and demos.
 
 ### Ruby
 
