@@ -245,25 +245,14 @@ In this section, we will go over the most popular technologies and the struggles
 
 #### Reasons to use Laravel and Vue
 
-##### Scaffolded by default
+Read on for a brief overview of why Laravel and Vue is a fantastic combination.
 
-A default install of Laravel [has everything you need](https://laravel.com/docs/frontend#writing-vue-components) to begin enhancing your server-rendered (Blade) templates with Vue components. No setup necessary.
-
-##### Laravel Mix
-
-[Laravel Mix](https://laravel.com/docs/mix)--a fluid API on top of Webpack, also included in the box--takes much of the pain out of asset compiling for you, so you can focus on authoring your Vue components.
-
-##### Widespread community adoption
-
-Several prominent members of the Laravel community are proponents of Vue (and its ecosystem), including the [creator of Laravel himself](https://twitter.com/taylorotwell); who is a [rather outspoken Vue advocate](https://twitter.com/taylorotwell/status/1029744172339789825).
-
-This endoresement extends to the greater Laravel community - most Laravel devs know of, use and recommend Vue.
-
-Why is this a good thing?
-
-- more resources to help you learn (guides, tutorials, articles)
-- more people who have experience with Vue+Laravel (help, support, guidance)
-- in general a healthy ecosystem (plugins, boilerplates, etc.)
+- Laravel [has everything you need](https://laravel.com/docs/frontend#writing-vue-components) to begin enhancing your server-rendered (Blade) templates with Vue components. No setup necessary.
+- [Laravel Mix](https://laravel.com/docs/mix) (a fluid API on top of Webpack) takes much of the pain out of asset compiling, so you can focus on authoring your Vue components.
+- Several prominent members of the Laravel community are proponents of Vue (and its ecosystem), including the [creator of Laravel himself](https://twitter.com/taylorotwell); this endoresement extends to the greater Laravel community also, which means:
+    - there are more resources to help you learn (guides, tutorials, articles)
+    - there are more people who have experience with Vue+Laravel (help, support, guidance)
+    - there is in general a healthier ecosystem (plugins, boilerplates, etc.)
 
 #### Common gotchas when using Laravel and Vue together
 
