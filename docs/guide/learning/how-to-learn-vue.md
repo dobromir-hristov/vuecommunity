@@ -243,11 +243,6 @@ In this section, we will go over the most popular technologies and the struggles
 
 ### Laravel
 
-<!-- TODO: Missing Link -->
-You may be interested in [checking out the dev.to article](). It mirrors this section entirely (heading for heading), going into greater detail, while providing code samples and demos.
-
-Otherwise, read on for a brief overview of why Laravel and Vue is a fantastic combination.
-
 #### Reasons to use Laravel and Vue
 
 ##### Scaffolded by default
@@ -304,6 +299,11 @@ If you're having trouble setting any of that up, it's covered in detail in the [
 If you've used [vue-cli](https://cli.vuejs.org/) then you'll probably be familiar with (and used to using) aliases [such as `@` and `~`](https://cli.vuejs.org/guide/html-and-static-assets.html#url-transform-rules).
 
 Unfortunately this is not setup by default - fortunately though, [there's a plugin](https://laravel-mix.com/extensions/alias).
+
+#### Want to know more?
+
+<!-- TODO: Missing Link -->
+You may be interested in [checking out the dev.to article](). It mirrors this section entirely (heading for heading), going into greater detail, while providing code samples and demos.
 
 ### Ruby
 
