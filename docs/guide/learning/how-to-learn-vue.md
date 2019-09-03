@@ -259,7 +259,7 @@ Whether you're building an API-only backend for your SPA, or a traditional serve
 - Use Vue moustache syntax in Blade templates by using [`@{{ msg }}` or `@verbatim` directives](https://laravel.com/docs/blade#blade-and-javascript-frameworks).
 - Pass PHP variables into Vue components (as props) by using `v-bind` and the [Blade `@json` directive](https://laravel.com/docs/5.8/blade#displaying-data).
 - Needing to decide whether to use Laravel router, vue-router or both in tandem could be regarded as a con, plus that vue-router is not configured by default ([how do I set it up](https://dev.to/sustained/laravel-vue-4530)).
-- Wbepack aliases like `@` and `~` are not setup as they would be when using [vue-cli](https://cli.vuejs.org/), fortunately there's [a Mix plugin](https://laravel-mix.com/extensions/alias) for that.
+- Webpack aliases like `@` and `~` are not setup as they would be when using [vue-cli](https://cli.vuejs.org/), fortunately there's [a Mix plugin](https://laravel-mix.com/extensions/alias) for that.
 
 #### Want to know more?
 
