@@ -247,9 +247,9 @@ In this section, we will go over the most popular technologies and the struggles
 
 Read on for a brief overview of why Laravel and Vue is a fantastic combination.
 
-- Laravel [has everything you need](https://laravel.com/docs/frontend#writing-vue-components) to begin enhancing your server-rendered (Blade) templates with Vue components. No setup necessary.
-- [Laravel Mix](https://laravel.com/docs/mix) (a fluid API on top of Webpack) takes much of the pain out of asset compiling, so you can focus on authoring your Vue components.
-- Several prominent members of the Laravel community are proponents of Vue (and its ecosystem), including the [creator of Laravel himself](https://twitter.com/taylorotwell); this endoresement extends to the greater Laravel community also, which means:
+- Laravel [comes with Vue setup out of the box](https://laravel.com/docs/frontend#writing-vue-components) - no setup necessary.
+- [Laravel Mix](https://laravel.com/docs/mix) takes the pain out of asset compiling - no fighting with Webpack configuration.
+- Prominent members of the Laravel community--including the [creator](https://twitter.com/taylorotwell)--as well as the community itself, are proponents of Vue (and its ecosystem), which means:
     - there are more resources to help you learn (guides, tutorials, articles)
     - there are more people who have experience with Vue+Laravel (help, support, guidance)
     - there is in general a healthier ecosystem (plugins, boilerplates, etc.)
