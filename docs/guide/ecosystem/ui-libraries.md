@@ -93,15 +93,17 @@ Internally, Vuetify is written with Typescript. The upcoming release of Vuetify 
 > A massive pool of quality components ready for dropping directly into your existing or new projects today.
 Plus an easy to use build process, fully configurable (although 99% of the time you won't even need to touch it)... following all of the latest and greatest best web practices. Jumpstart a SPA, PWA, SSR, Mobile App or Desktop app in 30 seconds... (yes, it's that easy to get started!)
 
-Quasar's emphasis is on a great developer experience. It offers its own CLI, which helps the developer with building his or her application for multiple platforms, including mobile with Cordova, desktop apps with Electron and PWAs or SPAs with or without SSR. It has a growing community of developers and a great team of devs, who are contributing a lot of time towards the project. 
+Quasar's emphasis is on a great developer experience. It offers its own CLI, which helps users with building applications for multiple platforms, including mobile apps via Cordova, desktop apps via Electron and PWAs or SPAs with or without Server Side Rendering (SSR). It has a growing community and a great team of developers, who are contributing a lot of time towards the project. 
 
-One of the features that sets Quasar apart from practically all other frameworks is its Application Extension System (or AE for short), where devlopers can not only use it for importing general code for their own projects, but can also share that same code with the general Quasar community. It's a powerful system, which allows Quasar projects to be extended with any number of different additions like with other components, additions of CLI commands and application features. One great example is QCalendar - an intricate component for creating calendars. 
+One of the features that sets Quasar apart from practically all other frameworks is its Application Extension System (or AE for short), where devlopers can not only use AE system for importing general code for their own projects, but can also share that same code with the general Quasar community. It's a powerful system, which allows Quasar projects to be extended with any number of different additions like with other components, additions of CLI commands and even application features. One great example is QCalendar - an intricate component for creating calendars. 
 
 <useful-links>
 <useful-links-section title="Official">
 
 * [Quasar repositories](https://github.com/quasarframework) 
 * [Quasar documentation](https://quasar.dev) 
+* [The QCalendar Component](https://github.com/quasarframework/app-extension-qcalendar)
+* [List of Availabe App Extensions](https://quasar.dev/app-extensions/discover)
 * [Quasar chat on Discord](https://chat.quasar.dev)
 * [Forum](https://forum.quasar.dev)
 
