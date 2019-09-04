@@ -121,7 +121,7 @@ Learn more about it on the dedicated [Nuxt](./nuxt.md) page.
 
 ## Quasar Framework
 
-[Quasar](https://quasar.dev) with its CLI mode of operation, allows for you to build a SPA or PWA and have it served from the server initially. Quasar also allows for your code to be used for other platforms, including Electron and for mobile via Cordova. 
+[Quasar](https://quasar.dev) with its CLI mode of operation, allows for you to build a SPA or PWA and have it served from the server initially. This gives you all of the advantages mentioned above. Quasar's build system offers you a Node Express Server out of the box, which you can also later enhance as you wish. The main point being, one build command through Quasar's CLI does it all for you.
 
 <useful-links>
 <useful-links-section title="Official">
