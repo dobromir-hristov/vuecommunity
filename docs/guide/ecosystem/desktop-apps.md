@@ -86,7 +86,7 @@ Electron and NW.js share many features: they are both built on top of Chromium a
 
 ## Quasar Framework
 
-[Quasar Framework](https://quasar.dev) is a framework which allows for cross-platform application development. Design your apps with general components and code and use it all for any platform, including Electron for Desktop applications. Quasar's CLI allows you to build your Electron desktop application with one simple command. 
+[Quasar Framework](https://quasar.dev) is a framework which allows for cross-platform application development. Design your apps with a large library of VueJS components, then use Quasar's powerful yet simple to use CLI to automatically build your app for the Desktop via Electron. If you are looking to do more with your code than only Electron apps, then Quasar is an excellent solution for your cross-platform application ideas.   
 
 <useful-links>
 <useful-links-section title="Official">
