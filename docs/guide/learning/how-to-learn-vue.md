@@ -81,7 +81,7 @@ This approach works for smaller websites or those that will not implement comple
  Check the [Build Tools Page](../ecosystem/build-tools.md) for information on popular ways to bundle your code.
     
  **Minimum required technologies**
- * Vue CLI or bundler - Knowledge of how to integrate Vue CLI in the application. If not possible, basic knowledge of setting up а modern bundler process. Some frameworks have integrated solutions, like [Laravel Mix](https://laravel.com/docs/5.7/mix). 
+ * Vue CLI or bundler - Knowledge of how to integrate Vue CLI in the application. If not possible, basic knowledge of setting up а modern bundler process. Some frameworks have integrated solutions, like [Laravel Mix](https://laravel.com/docs/mix). 
  * Transpiler Setup - optional if using any ES2015+ features, that are not supported by older browsers. Vue CLI takes care of this as well.
  * HTML - used inside `.vue` files and the website markup.
  
@@ -233,7 +233,8 @@ In this section, we will go over the most popular technologies and the struggles
 
     * List why this combination may be a good fit
     * Showcase possible drawbacks of this combination
-    * Optional links to articles 
+    * Optional links to articles
+    * These sections may need to be given their own pages eventually
 
 ### Express
 
@@ -243,9 +244,48 @@ In this section, we will go over the most popular technologies and the struggles
 
 ### Laravel
 
+#### Reasons to use Laravel and Vue
+
+Whether you're building an API-only backend for your SPA, or a traditional server-rendered website, Laravel and Vue is a common pairing. Despite that Laravel comes with a Vue boilerplate, it is framework-agnostic like Vue; making them a good match. The widespread community adoption also means more plugins, resources and support is available.
+
+- Laravel [comes with Vue setup out of the box](https://laravel.com/docs/frontend#writing-vue-components) - no setup necessary.
+- [Laravel Mix](https://laravel.com/docs/mix) takes the pain out of asset compiling - no fighting with Webpack configuration.
+- Prominent members of the Laravel community--including the [creator](https://twitter.com/taylorotwell)--as well as the community itself, are proponents of Vue (and its ecosystem), which means:
+    - there are more resources to help you learn (guides, tutorials, articles)
+    - there are more people who have experience with Vue+Laravel (help, support, guidance)
+    - there is in general a healthier ecosystem (plugins, boilerplates, etc.)
+
+#### Common gotchas when using Laravel and Vue together
+
+- Use Vue moustache syntax in Blade templates by using [`@{{ msg }}` or `@verbatim` directives](https://laravel.com/docs/blade#blade-and-javascript-frameworks).
+- Pass PHP variables into Vue components (as props) by using `v-bind` and the [Blade `@json` directive](https://laravel.com/docs/5.8/blade#displaying-data).
+- Needing to decide whether to use Laravel router, vue-router or both in tandem could be regarded as a con, plus that vue-router is not configured by default ([how do I set it up](https://dev.to/sustained/laravel-vue-4530)).
+- Webpack aliases like `@` and `~` are not setup as they would be when using [vue-cli](https://cli.vuejs.org/), fortunately there's [a Mix plugin](https://laravel-mix.com/extensions/alias) for that.
+
+#### Want to know more?
+
+:::tip Need more details or code samples?
+The "Laravel + Vue = ❤️" article linked below was written at the same time as this article, by the same author and mirrors its structure, heading-for-heading but goes into more detail, providing code samples and demos.
+:::
+
+- [Laravel + Vue = ❤️](https://dev.to/sustained/laravel-vue-4530)
+- [Building a Vue SPA with Laravel](https://laravel-news.com/using-vue-router-laravel)
+- [Why should you use Vue.js when using Laravel](https://blog.pusher.com/why-vuejs-laravel/)
+
+----
+
 ### Ruby
 
 ### Django
 
-### .Net
+### ASP.NET Core
 
+We'll be assuming you are using ASP.NET Core and building a SPA with [Vue CLI](https://cli.vuejs.org/). This means that the entire frontend will be written with Vue, which will then interact with the API.
+
+When using Vue CLI you *could* simply include a `<script src="/dist/my-vue-cli-generated-app.js"></script>` somewhere in `_Layout.cshtml`. However, in doing so, you miss out on the full Vue CLI experience - such as [Hot Reload](https://vue-loader.vuejs.org/guide/hot-reload.html).
+
+As you may be aware ASP.NET Core has the concept of [*middleware*](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware). In order to integrate ASP.NET Core with the Vue CLI based SPA we can take advantage of a community developed middleware, [ASP.NET Core Vue CLI Middleware](https://github.com/EEParker/aspnetcore-vueclimiddleware). Simply install the Nuget package and follow the installation instructions. At the time of this writing, the library supports preview versions of ASP.NET Core 3.0.
+
+This approach assumes that you wish to have the SPA files *and* the API being served from the same ASP.NET Core application and are using a [monorepo](https://en.wikipedia.org/wiki/Monorepo). Of course, whether you or decide to use a monorepo, or if you wish to host the API and SPA files independently, depends upon a number of factors. For example, you may not need to scale development across multiple teams, or your developers could be full stack developers who will be working on both the API and the Vue application.
+
+In addition to this middleware library there is also a detailed article which discusses "manually" adding a Vue CLI SPA to the ASP.NET Core application. It was written before the middleware was made available, so there is overlap in functionality. [.NET Curry - ASP.NET Core Vue.js Template](https://www.dotnetcurry.com/aspnet-core/1500/aspnet-core-vuejs-template).

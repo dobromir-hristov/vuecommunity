@@ -16,3 +16,4 @@ Below are listed some episodes from various other podcasts that talk about Vue, 
 
 - [Spelunking into the VueJS Frontend JavaScript Framework - Devmode.fm](https://devmode.fm/episodes/spelunking-into-the-vuejs-frontend-javascript-framework#comments)
 - [Episode 99 - VueJs - The Cynical Developer](https://cynicaldeveloper.com/podcast/99/)
+- [Raju Gandhi on Vuejs and Evaluating web frameworks](https://nofluffjuststuff.com/podcast/1/raju_gandhi_on_vuejs_and_evaluating_web_frameworks)

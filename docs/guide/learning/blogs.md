@@ -68,7 +68,11 @@ This list consists of personal developer blogs, where people share their Vue rel
 
 - [Taha Shashtari](https://tahazsh.com/) -  Vue.js, JavaScript, CSS, Frontend development.
 
-- [Alexander Lichter](https://lichter.io/?ref=vuecommunity-guide) - Nuxt.js, Vue.js, JavaScript, Clean Code, Refactoring, SEO, Frontend, Tooling and Performance.
+- [Alexander Lichter](https://blog.lichter.io/?ref=vuecommunity-guide) - Nuxt.js, Vue.js, JavaScript, Clean Code, Refactoring, SEO, Frontend, Tooling and Performance.
+
+- [Jonas Galvez](https://hire.jonasgalvez.com.br) - JavaScript, Nuxt.js, Distributed Systems.
+
+- [Michael Gallagher](https://medium.com/@mike_17305) - Vue.js, Vuex, Javascript, Frontend development.
 
 
 #### If you write articles on Vue, feel free to make a PR and include your blog!

@@ -398,7 +398,7 @@ It is a good practice to namespace all modules, once you begin using them, keepi
 
 ### How can a namespaced module access properties on a global one and vice versa?'
 
-You can use the `rootState` and `rootGetters` parameters in getters to access global, none-namespaced data. Actions have a rooGetters also these two helpers inside its `context` parameter.
+You can use the `rootState` and `rootGetters` parameters in getters to access global, none-namespaced data. Actions have a rootGetters also these two helpers inside its `context` parameter.
 
 [Accessing Global Assets in Namespaced Modules](https://vuex.vuejs.org/guide/modules.html#accessing-global-assets-in-namespaced-modules)
 

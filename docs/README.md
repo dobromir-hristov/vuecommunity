@@ -2,7 +2,7 @@
 home: true
 actionText: Get Started →
 actionLink: /guide/
-heroImage: /logo_full.png
+heroImage: /logo_full.svg
 heroAlt: Vue Community Guide
 heroText: 
 features:
@@ -14,6 +14,7 @@ features:
   details: Explore popular tools and libraries like Nuxt, Vuetify or Vuepress. Learn about their specific use cases and differences.
 footer: MIT Licensed
 ---
+
 Welcome to a beginner's guide to Vue.js community and ecosystem, written and maintained by the community itself.
 
 Alongside the official documentation like the [guide](https://vuejs.org/v2/guide/) or [cookbook](https://vuejs.org/v2/cookbook/) both of which are meant to teach you how to use Vue.js, this website focuses more on helping newcomers to find their way around the evergrowing ecosystem, by providing meaningful summaries or comparisons of popular projects and available resources.
