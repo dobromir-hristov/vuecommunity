@@ -5,5 +5,6 @@
 - what projects are good for nuxt
 - advantages of nuxt
 - modules
+  - a nuxtpress section
 - ecosystem
 - vue-cli and other tools
