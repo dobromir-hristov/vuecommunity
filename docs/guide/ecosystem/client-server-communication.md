@@ -70,9 +70,10 @@ To use it with Vue, you don't need plugins, you can just import `fetch` and star
 </useful-links>
 
 ## GraphQL
-::: tip
- This part of the page needs a bit of love. If you can, please contribute by adding the missing info.
+
+::: contribute
 :::
+
 - What is GraphQL
 - When does it make sense to use it
 - Links to tutorials
@@ -153,8 +154,7 @@ Implementing Firebase into your Vue app directly with their SDK can be a bit of 
 
 ### SocketIO
 
-::: tip
- This part of the page needs a bit of love. If you can, please contribute by adding the missing info.
+::: contribute
 :::
 
 - What is SocketIO
@@ -167,8 +167,7 @@ Implementing Firebase into your Vue app directly with their SDK can be a bit of 
 
 ## SSE - Server Sent Events
 
-::: tip
- This part of the page needs a bit of love. If you can, please contribute by adding the missing info.
+::: contribute
 :::
 
 - What are SSE
@@ -181,8 +180,7 @@ https://github.com/tserkov/vue-sse#readme
 
 ## MQTT
 
-::: tip
- This part of the page needs a bit of love. If you can, please contribute by adding the missing info.
+::: contribute
 :::
 
 > MQTT is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. - MQTT.org
