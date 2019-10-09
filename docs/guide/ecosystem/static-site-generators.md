@@ -115,6 +115,28 @@ Most people know Nuxt for its Server-side rendering capabilities, it however als
 </useful-links-section>
 </useful-links>
 
+### NuxtPress <badge text="newcomer"/>
+NuxtPress is an addon for [Nuxt](#nuxt-static-generated-mode) (thus it also supports pre-rendering) which adds the ability to create Nuxt pages as `.md` files.
+
+There currently exist 3 modes: `docs`, `blog` & `slides` (experimental) and so it is already quite versatile.
+
+Since it's just a Nuxt module, one major benefit is that you have all the power and flexibility of vanilla Nuxt (and its ecosystem) at your fingertips.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [NuxtPress documentation](https://nuxt.press/en/guide/)
+* [NuxtPress repository](https://github.com/nuxt/press)
+
+</useful-links-section>
+
+<useful-links-section title="Articles">
+
+* [The story of NuxtPress](https://hire.jonasgalvez.com.br/2019/aug/19/the-story-of-nuxtpress/)
+
+</useful-links-section>
+</useful-links>
+
 ## Poi + vue-static
 Using the vue-static plugin for Poi by EGOIST, you can leverage pre-rendering for each route of your SPA at build time. You need to give it a map of your dynamic routes and it will do the rest. Keep in mind it uses vue-server-renderer, so all limitations of SSR will apply here as well (no window object so on). 
 
