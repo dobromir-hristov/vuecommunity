@@ -150,3 +150,6 @@ One would use such a hosting service typically for hosting a PHP, Python or Node
 
 
 ### Digital Ocean
+
+::: contribute
+:::

@@ -12,7 +12,20 @@ module.exports = {
       {
         'ga': 'UA-29425482-12'
       }
-    ]
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'contribute',
+        before: () => [
+          '<div class="tip custom-block">',
+          `<p><strong>This section could use a little bit of love.</strong></p>`,
+          "<p>If you're able to, please consider helping the Vue Community by contributing a PR.</p>",
+          "<p>You'll find a link to edit this page at the bottom.</p>"
+        ].join(''),
+        after: '</div>'
+      },
+    ],
   ],
   // serviceWorker: true,
   themeConfig: {

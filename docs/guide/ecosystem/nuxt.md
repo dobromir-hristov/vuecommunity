@@ -1,5 +1,8 @@
 # Nuxt
 
+::: contribute
+:::
+
 - should i learn vue first
 - who is nuxt for
 - what projects are good for nuxt
