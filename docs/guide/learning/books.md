@@ -175,3 +175,19 @@ Readers will then use Laravel to set up a web service and integrate the front en
 </useful-links-section>
 </useful-links>
 
+### Pro Vue.js 2
+**Author:** Adam Freeman
+**Publisher:** Apress
+
+> From beginner to pro guide to Vue.js written in simple language by best-selling author Adam Freeman.
+
+Explore Vue.js to take advantage of the capabilities of modern browsers and devices using the fastest-growing framework for building dynamic JavaScript applications. You will work with the power of the Model-View-Controller (MVC) pattern on the client, creating a strong foundation for complex and rich web apps.
+
+<useful-links>
+<useful-links-section title="Link">
+
+[Homepage](https://www.apress.com/us/book/9781484238042)
+
+</useful-links-section>
+</useful-links>
+
