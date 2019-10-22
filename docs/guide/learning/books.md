@@ -175,3 +175,17 @@ Readers will then use Laravel to set up a web service and integrate the front en
 </useful-links-section>
 </useful-links>
 
+### Building Forms with Vue.js
+**Author**: Marina Mosti
+
+> Learn how to build dynamic schema-driven forms with Vue from scratch
+
+This book builds upon a sample registration form, starting from the basics of component composition all the way through to having a complete schema driven, validated, and global state powered form. Each chapter builds upon the concepts learned in the previous ones, but allows the user to skip ahead to the topics of interest. It serves as a reference and learning experience from the very basics to the most advanced concepts.
+
+<useful-links>
+<useful-links-section title="Link">
+
+[Building Forms with Vue.js](https://www.amazon.com/Building-Forms-Vue-js-Patterns-building-ebook/dp/B07YY7MGDD)
+
+</useful-links-section>
+</useful-links>
