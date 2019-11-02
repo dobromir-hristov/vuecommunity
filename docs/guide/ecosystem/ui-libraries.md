@@ -284,3 +284,19 @@ The author doesn't recommend to use it in production yet, but for small non-comm
 
 </useful-links-section>
 </useful-links>
+
+### Inkline <badge type="success" text="Developer Experience"/>
+
+> Inkline is a modern UI/UX Framework for Vue.js designed for creating flawless responsive web applications. 
+
+Inkline provides you with hundreds of intuitive, well-designed components, and a built-in schema-based Form Validation Framework. The framework has been chosen as a finalist for the Open Source Awards at Vue.js London 2019, in the Developer Experience category. 
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Inkline repository](https://github.com/inkline/inkline) 
+* [Inkline documentation](https://inkline.io/) 
+* [Inkline chat on Discord](https://discord.gg/2w5UGnK)
+
+</useful-links-section>
+</useful-links>
