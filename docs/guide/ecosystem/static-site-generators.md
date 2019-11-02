@@ -16,6 +16,11 @@ Pre-rendering is not a silver bullet and has some caveats:
 
 [Vuepress](#vuepress) - uses markdown and Vue components to build docs, blogs and more
 
+<useful-links>
+<useful-links-section title="Markdown Based +">
+
+[Sabre](#sabre) - uses markdown, Vue components and JS files. Options for view layer.
+
 </useful-links-section>
 <useful-links-section title="Customizable">
 
@@ -30,6 +35,11 @@ Pre-rendering is not a silver bullet and has some caveats:
 <useful-links-section title="Manual">
 
 [Prerender SPA Plugin](#prerender-spa-plugin) - low lever prerendering plugin
+
+</useful-links-section>
+<useful-links-section title="Webpack + Plugin">
+
+[Poi + vue-static](#poi-+-vue-static) - leverage pre-rendering for each route at build time
 
 </useful-links-section>
 </useful-links>
