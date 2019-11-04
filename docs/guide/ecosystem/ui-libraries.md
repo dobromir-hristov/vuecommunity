@@ -289,7 +289,7 @@ The author doesn't recommend to use it in production yet, but for small non-comm
 
 > Inkline is a modern UI/UX Framework for Vue.js designed for creating flawless responsive web applications. 
 
-Inkline provides you with hundreds of intuitive, well-designed components, and a built-in schema-based Form Validation Framework. The framework has been chosen as a finalist for the Open Source Awards at Vue.js London 2019, in the Developer Experience category. 
+Inkline provides you with over 50 customizable components, hundreds of utility classes, and built-in schema-based Form Validation. The framework has been chosen as a finalist for the Open Source Awards at Vue.js London 2019, in the Developer Experience category. 
 
 <useful-links>
 <useful-links-section title="Official">
