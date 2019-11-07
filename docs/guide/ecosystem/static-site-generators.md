@@ -16,7 +16,7 @@ Pre-rendering is not a silver bullet and has some caveats:
 
 [Vuepress](#vuepress) - uses markdown and Vue components to build docs, blogs and more
 
-<useful-links>
+</useful-links-section>
 <useful-links-section title="Markdown Based +">
 
 [Sabre](#sabre) - uses markdown, Vue components and JS files. Options for view layer.
