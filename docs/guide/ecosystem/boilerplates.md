@@ -160,3 +160,32 @@ Not a boilerplate, but a very well structured application, showing how to approa
 
 </useful-links-section>
 </useful-links>
+
+## Kocal/vue-web-extension
+
+> A boilerplate for quickly starting a web extension with Vue, webpack 4, ESLint and more!
+
+This vue-cli template allows you to quickly start a web extension containing:
+
+- Boilerplate for `manifest.json` and `background.js` files, and for `icons` / `popup` folders
+- [Vue](https://github.com/vuejs/vue)
+- [Vue-router](https://github.com/vuejs/vue-router) (configurable)
+- [Vuex](https://github.com/vuejs/vuex) (configurable)
+- [Axios](https://github.com/axios/axios) (configurable)
+- [Webpack 4](https://github.com/webpack/webpack)
+- [Babel](https://github.com/babel/babel) with [preset-env](https://github.com/babel/babel/tree/master/packages/babel-preset-env)
+- [ESLint](https://github.com/eslint/eslint) (configurable)
+- [Prettier](https://github.com/prettier/prettier) (configurable)
+- A git precommit hook for running Prettier by using [pretty-quick](https://github.com/azz/pretty-quick) or [precise-commits](https://github.com/nrwl/precise-commits) (configurable)
+- CSS extraction, with [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)
+- Compliable with the **C**ontent **S**ecurity **P**olicy of Chrome and Firefox web stores (some usages [`eval`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) are removed)
+- A script to package your extension into a `.zip` file
+
+
+<useful-links>
+<useful-links-section title="Links">
+
+[Kocal/vue-web-extension - Github](https://github.com/Kocal/vue-web-extension)
+
+</useful-links-section>
+</useful-links>
