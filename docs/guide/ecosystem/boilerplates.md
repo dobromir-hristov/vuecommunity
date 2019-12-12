@@ -13,7 +13,7 @@ Bad part about boilerplates is that once you start developing on top of one, it 
 </useful-links-section>
 <useful-links-section title="Desktop Apps">
 
-- [NW.js + Vue-CLI](#nwjs--vue-cli)
+- [NW.js + Vue-CLI](#nw-js-vue-cli)
 - [Electron-Vue](#electron-vue)
 
 </useful-links-section>
