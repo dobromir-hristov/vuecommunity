@@ -13,7 +13,8 @@ Bad part about boilerplates is that once you start developing on top of one, it 
 </useful-links-section>
 <useful-links-section title="Desktop Apps">
 
-[Electron-Vue](#electron-vue)
+- [NW.js + Vue-CLI](#nw-js-vue-cli)
+- [Electron-Vue](#electron-vue)
 
 </useful-links-section>
 <useful-links-section title="Node rendered apps">
@@ -48,6 +49,19 @@ It shows best practices for fetching async data, setting up i18n, persisting Vue
 <useful-links-section title="Links">
 
 [Vuesion - Github](https://github.com/vuesion/vuesion)
+
+</useful-links-section>
+</useful-links>
+
+## NW.js + Vue-CLI
+Comes with the latest versions of NW.js, Vue-CLI, Vue, Vue-DevTools, Babel, ESLint, and Jest. Including 100% test coverage, and basic examples of interacting with the file system, OS, and node_modules directly from your component. Automated builds for each OS are set up via `npm run build` and are easily customized in the `package.json`.
+
+This is repo is meant to be the "go to" option for building all desktop apps with Vue. So it avoids pushing any particular choices on to you. Particularly things easily added via Vue-CLI (like Vue-Router, Vuex, etc.). With the exception of testing being set up for Jest, and Linting being set up to ensure quality of the boilerplate itself. Both of which can be easily modified, ignored, or removed.
+
+<useful-links>
+<useful-links-section title="Links">
+
+[NW.js + Vue-CLI - Github](https://github.com/nwutils/nw-vue-cli-example)
 
 </useful-links-section>
 </useful-links>
