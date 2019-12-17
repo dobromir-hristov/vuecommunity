@@ -58,7 +58,7 @@ CodeSandbox has a very generous freemium policy with 50 active sandboxes (projec
 <useful-links>
 <useful-links-section title="Useful Links">
 
-- [Official Website](https://codesandbox.net)
+- [Official Website](https://codesandbox.io)
 
 </useful-links-section>
 </useful-links>
