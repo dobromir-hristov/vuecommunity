@@ -174,3 +174,15 @@ Not a boilerplate, but a very well structured application, showing how to approa
 
 </useful-links-section>
 </useful-links>
+
+## pre-vue - Vue Nuxt.js
+
+A boilerplate project that uses Vue 2.0 and Nuxt.js to pre-render an app. It includes built-in suport for a sitemap, robots.txt, per-page `<title>` tags, per-page Open Graph tags, Google Analytics, and favicons.
+
+<useful-links>
+<useful-links-section title="Links">
+
+[pre-vue - Github](https://github.com/mtlynch/pre-vue)
+
+</useful-links-section>
+</useful-links>
