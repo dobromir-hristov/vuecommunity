@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "vuepress": "^1.0.0-alpha.44",
-    "vuepress-plugin-container": "^2.0.2"
+    "vuepress-plugin-container": "^2.0.2",
+    "yaml-front-matter": "^4.1.0"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.47",
