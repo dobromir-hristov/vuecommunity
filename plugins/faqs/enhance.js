@@ -10,11 +10,7 @@ export default ({ Vue, siteData }) => {
   Vue.mixin({ methods: { slugify } })
 
   const faqPage = siteData.pages
-    .find(page => page.relativePath === 'guide/learning/faq.md')
-  
-  console.log(
-    siteData.pages.map(({ path, relativePath, regularPath }) => ({ path, relativePath, regularPath }))
-  )
+    .find(page => page.path === '/guide/learning/faq.html')
 
   if ( ! faqPage) {
     throw new Error("The FAQ plugin couldn't find the FAQ page (guide/learning/faq.md)! Did its path change?")
