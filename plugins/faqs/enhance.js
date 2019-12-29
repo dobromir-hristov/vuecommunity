@@ -11,6 +11,10 @@ export default ({ Vue, siteData }) => {
 
   const faqPage = siteData.pages
     .find(page => page.relativePath === 'guide/learning/faq.md')
+  
+  console.log(
+    siteData.pages.map(({ path, relativePath, regularPath }) => ({ path, relativePath, regularPath }))
+  )
 
   if ( ! faqPage) {
     throw new Error("The FAQ plugin couldn't find the FAQ page (guide/learning/faq.md)! Did its path change?")
