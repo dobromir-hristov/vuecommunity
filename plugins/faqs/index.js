@@ -1,7 +1,7 @@
 const { resolve, join, basename } = require('path')
 const { readdirSync, readFileSync, existsSync, lstatSync } = require('fs')
 const { logger } = require('@vuepress/shared-utils')
-const { gray, magenta } = require('chalk')
+const { gray, cyan, magenta } = require('chalk')
 const YAML = require('yaml-front-matter')
 
 module.exports = options => {
@@ -13,7 +13,7 @@ module.exports = options => {
     return
   }
 
-  logger.info(`FAQ Plugin ${gray('Loading and processing FAQs.')}`)
+  logger.info(`FAQ Plugin ${cyan('Loading and processing FAQs.')}`)
 
   try {
     faqData = readdirSync(basePath)
@@ -35,7 +35,7 @@ module.exports = options => {
     logger.error(e)
   }
 
-  logger.info(`FAQ Plugin ${gray('...done!')}`)
+  logger.info(`FAQ Plugin ${cyan('...done!')}`)
 
   return {
     md: null,
