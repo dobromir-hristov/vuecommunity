@@ -32,7 +32,7 @@ When choosing a platform to write your docs on, think about your priorities and 
 * [Storybook](#storybook)
 
 </useful-links-section>
-<useful-links-section title="Automated workbech">
+<useful-links-section title="Automated workbench">
 
 * [Vue Styleguidist](#vue-styleguidist)
 

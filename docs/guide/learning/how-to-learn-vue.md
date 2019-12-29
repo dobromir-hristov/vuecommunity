@@ -193,6 +193,9 @@ In this section, we will go over the most popular technologies and the struggles
 
 ### Angular
 
+::: contribute
+:::
+
 ### AngularJS (Angular 1.x)
 
 **Similarities**
@@ -225,9 +228,18 @@ In this section, we will go over the most popular technologies and the struggles
 
 ### React
 
+::: contribute
+:::
+
 ### Polymer
 
+::: contribute
+:::
+
 ### No Framework - jQuery
+
+::: contribute
+:::
 
 ## Usage with Backend Frameworks
 
@@ -238,9 +250,18 @@ In this section, we will go over the most popular technologies and the struggles
 
 ### Express
 
+::: contribute
+:::
+
 ### Koa
 
+::: contribute
+:::
+
 ### Adonis
+
+::: contribute
+:::
 
 ### Laravel
 
@@ -276,7 +297,13 @@ The "Laravel + Vue = ❤️" article linked below was written at the same time a
 
 ### Ruby
 
+::: contribute
+:::
+
 ### Django
+
+::: contribute
+:::
 
 ### ASP.NET Core
 
