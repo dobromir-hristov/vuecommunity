@@ -1,3 +1,5 @@
+const { resolve } = require('path')
+
 module.exports = {
   locales: {
     '/': {
@@ -26,6 +28,12 @@ module.exports = {
         after: '</div>'
       },
     ],
+    [
+      require(resolve('./plugins/faqs')),
+      {
+        basePath: './faqs'
+      }
+    ]
   ],
   // serviceWorker: true,
   themeConfig: {
