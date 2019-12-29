@@ -3,8 +3,7 @@ question: What are the benefits of an SSR app?
 category: Server Side Rendering
 links:
   More Info:
-    -
-      href: ../ecosystem/server-side-rendering.md#benefits-of-ssr
+    - href: ../ecosystem/server-side-rendering.md#benefits-of-ssr
       text: Server Side Rendering - Benefits of SSR
 ---
 
