@@ -20,7 +20,7 @@
 
     <footer class="page-edit">
       <div class="edit-link">
-        <a :href="githubPath" target="_blank" rel="noopener noreferrer">
+        <a :href="editLink" target="_blank" rel="noopener noreferrer">
           Edit this FAQ item on Github
         </a>
         
@@ -35,7 +35,7 @@ import slugify from '../../../plugins/faqs/utils/slugify'
 
 export default {
   props: {
-    path: {
+    editLink: {
       type: String,
       required: true
     },
@@ -58,9 +58,6 @@ export default {
     slugify
   },
   computed: {
-    githubPath() {
-      return `https://github.com/dobromir-hristov/vuecommunity/edit/master/${this.path}`
-    },
     hasLinks() {
       return this.links && Object.keys(this.links).length
     }

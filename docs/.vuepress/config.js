@@ -29,7 +29,10 @@ module.exports = {
     [
       require('../../plugins/faqs'),
       {
-        basePath: './faqs'
+        // Where is the FAQ data stored, relative to the root directory.
+        faqsBase: './faqs',
+        // The main repository, used to build the "Edit on Github" links.
+        githubRepo: 'https://github.com/dobromir-hristov/vuecommunity'
       }
     ]
   ],

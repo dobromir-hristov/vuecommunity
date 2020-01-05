@@ -1,4 +1,4 @@
-const { resolve, join, basename } = require('path')
+const { resolve, join, basename, normalize } = require('path')
 const { readdirSync, readFileSync, existsSync, lstatSync } = require('fs')
 const { logger } = require('@vuepress/shared-utils')
 const { gray, cyan, magenta } = require('chalk')
@@ -6,7 +6,9 @@ const YAML = require('yaml-front-matter')
 
 module.exports = options => {
   let faqData = []
-  const basePath = resolve(options.basePath || './faqs')
+  const faqsBase = options.faqsBase
+  const basePath = resolve(options.faqsBaseDir || './faqs')
+  const githubRepo = normalize(`${options.githubRepo}/`)
 
   if (!existsSync(basePath)) {
     logger.error(`FAQ directory ${magenta(basePath)} does not exist!`)
@@ -23,8 +25,8 @@ module.exports = options => {
         const files = readdirSync(dirPath)
           .map(fileName => join(dirPath, fileName))
           .map(readFileContents)
+          .map(faq => addPathsAndLinks(faq, basePath, faqsBase, githubRepo))
           .map(extractFrontMatter)
-          .map(faq => makePathsRelative(faq, basePath)) // Make paths relative again (for Github edit links).
           .filter(validateFAQs)
 
         faqs.push(...files)
@@ -68,25 +70,26 @@ module.exports = options => {
 
 function readFileContents(fileName) {
   return {
-    path: fileName,
+    fileName,
     contents: readFileSync(fileName, { encoding: 'utf8' })
   }
 }
 
-function makePathsRelative(entry, basePath) {
-  entry.path = join('faqs', entry.path.replace(basePath, ''))
+function addPathsAndLinks(entry, basePath, faqsBase, githubRepo) {
+  entry.editLink = join(githubRepo, '/edit/master/', entry.fileName.replace(basePath, faqsBase))
+  entry.fileName = basename(entry.fileName)
   return entry
 }
 
-function extractFrontMatter({ path, contents }) {
+function extractFrontMatter({ editLink, contents }) {
   return {
-    path,
+    editLink,
     ...YAML.safeLoadFront(contents, { contentKeyName: 'content' })
   }
 }
 
 function validateFAQs(faq) {
-  const fileName = basename(faq.path)
+  const fileName = { faq }
 
   if ( ! faq.question) {
     logger.warn(`FAQ Plugin ${magenta(fileName)} ${gray('Required field "question" missing - skipping!')}`)
