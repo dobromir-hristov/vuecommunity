@@ -16,12 +16,10 @@ export default ({ Vue, siteData }) => {
     throw new Error("The FAQ plugin couldn't find the FAQ page (guide/learning/faq.md)! Did its path change?")
   }
 
-  faqPage.headers = faqPage.faqData
-    .reduce((headers, faq) => {
-      const category = faq.category || 'Uncategorised'
-
-      // Add category to markdown headings.
-      if (!headers.find(header => header.title === faq.category)) {
+  faqPage.headers = Object.entries(faqPage.faqsByCategory)
+    .reduce((headers, [category, faqs]) => {
+      if (!headers.find(header => header.title === category)) {
+        // Add category to markdown headings.
         headers.push({
           level: 2,
           title: category,
@@ -29,12 +27,14 @@ export default ({ Vue, siteData }) => {
         })
       }
 
-      // Add FAQ item to markdown headings.
-      headers.push({
-        level: 3,
-        title: faq.question,
-        slug: slugify(faq.question),
-      })
+      for (const faq of faqs) {
+        // Add FAQ item to markdown headings.
+        headers.push({
+          level: 3,
+          title: faq.question,
+          slug: slugify(faq.question),
+        })
+      }
 
       return headers
     }, [])

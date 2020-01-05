@@ -8,7 +8,6 @@ Answers may contain links to other Vue community pages, external articles and bl
 This page is still in early development. If you feel you can contribute, please don't hesitate to open a PR.
 :::
 
-
 <!--
   Contributors:
 
@@ -18,27 +17,9 @@ This page is still in early development. If you feel you can contribute, please 
     README: https://github.com/dobromir-hristov/vuecommunity/tree/master/faqs/README.md
 -->
 
-<faq-category v-for="(faqs, categoryName) in faqsByCategory" :name="categoryName">
+<faq-category v-for="(faqs, categoryName) in $page.faqsByCategory" :name="categoryName">
   <faq-item v-for="faq in faqs" v-bind="faq" />
 </faq-category>
-
-<script>
-export default {
-  computed: {
-    faqsByCategory() {
-      return (this.$page.faqData || [])
-        .reduce((categories, page) => {
-          const category = page.category || 'Uncategorised'
-          if ( ! categories[category]) {
-            categories[category] = []
-          }
-          categories[category].push(page)
-          return categories
-        }, {})
-    }
-  },
-}
-</script>
 
 <style>
 /*

@@ -46,10 +46,19 @@ module.exports = options => {
     // Expose FAQ data to FAQ page.
     extendPageData(page) {
       if (page.path && page.path.startsWith('/guide/learning/faq')) {
-        page.faqData = faqData.map(faq => {
+        faqData = faqData.map(faq => {
           faq.content = this.md.render(faq.content).html
           return { ...faq }
         })
+
+        page.faqsByCategory = faqData.reduce((categories, page) => {
+          const category = page.category || 'Uncategorised'
+          if (!categories[category]) {
+            categories[category] = []
+          }
+          categories[category].push(page)
+          return categories
+        }, {})
       }
     },
     // Generate markdown headings and inject slugify method.
