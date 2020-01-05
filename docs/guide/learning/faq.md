@@ -20,16 +20,3 @@ This page is still in early development. If you feel you can contribute, please 
 <faq-category v-for="(faqs, categoryName) in $page.faqsByCategory" :name="categoryName">
   <faq-item v-for="faq in faqs" v-bind="faq" />
 </faq-category>
-
-<style>
-/*
-  HACK: Without this the headings are hidden behind the navigation, this 
-        snippet is taken from the live site. It has something to do with a 
-        `.custom` CSS class. I don't understand it. There must be a better way?
-*/
-h1, h2, h3, h4, h5, h6 {
-  margin-top: -3.1rem;
-  padding-top: 4.6rem;
-  margin-bottom: 0;
-}
-</style>
