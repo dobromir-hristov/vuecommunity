@@ -1,5 +1,3 @@
-const { resolve } = require('path')
-
 module.exports = {
   locales: {
     '/': {
@@ -29,7 +27,7 @@ module.exports = {
       },
     ],
     [
-      require(resolve('./plugins/faqs')),
+      require('../../plugins/faqs'),
       {
         basePath: './faqs'
       }
