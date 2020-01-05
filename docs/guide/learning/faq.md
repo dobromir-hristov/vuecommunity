@@ -11,7 +11,7 @@ This page is still in early development. If you feel you can contribute, please 
 <!--
   Contributors:
 
-    The FAQs are now stored outsode of the docs/ directory, in faqs/
+    The FAQs are now stored outside of the docs/ directory, in faqs/
 
     FAQS:   https://github.com/dobromir-hristov/vuecommunity/tree/master/faqs
     README: https://github.com/dobromir-hristov/vuecommunity/tree/master/faqs/README.md
