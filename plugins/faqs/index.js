@@ -7,7 +7,7 @@ const YAML = require('yaml-front-matter')
 module.exports = options => {
   let faqData = []
   const faqsBase = options.faqsBase
-  const basePath = resolve(options.faqsBaseDir || './faqs')
+  const basePath = resolve(faqsBase || './faqs')
   const githubRepo = normalize(`${options.githubRepo}/`)
 
   if (!existsSync(basePath)) {
