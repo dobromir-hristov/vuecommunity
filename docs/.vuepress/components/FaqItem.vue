@@ -31,6 +31,8 @@
 </template>
 
 <script>
+import slugify from '../../../plugins/faqs/utils/slugify'
+
 export default {
   props: {
     path: {
@@ -51,6 +53,9 @@ export default {
         return {}
       }
     }
+  },
+  methods: {
+    slugify
   },
   computed: {
     githubPath() {

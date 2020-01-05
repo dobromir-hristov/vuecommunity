@@ -1,14 +1,6 @@
-function slugify(input) {
-  return String(input)
-    .trim()
-    .toLowerCase()
-    .replace(/([^\w]|\s)+/g, '-')
-    .replace(/-$/g, '')
-}
+import slugify from './utils/slugify'
 
 export default ({ Vue, siteData }) => {
-  Vue.mixin({ methods: { slugify } })
-
   const faqPage = siteData.pages
     .find(page => page.path === '/guide/learning/faq.html')
 

@@ -9,12 +9,17 @@
 </template>
 
 <script>
+import slugify from '../../../plugins/faqs/utils/slugify'
+
 export default {
   props: {
     name: {
       type: String,
       required: true
     }
+  },
+  methods: {
+    slugify
   }
 }
 </script>
