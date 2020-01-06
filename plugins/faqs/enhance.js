@@ -14,7 +14,7 @@ export default ({ Vue, siteData }) => {
         // Add category to markdown headings.
         headers.push({
           level: 2,
-          title: category,
+          title: faqPage.categories[category].title,
           slug: slugify(category),
         })
       }

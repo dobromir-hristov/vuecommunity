@@ -17,6 +17,6 @@ This page is still in early development. If you feel you can contribute, please 
     README: https://github.com/dobromir-hristov/vuecommunity/tree/master/faqs/README.md
 -->
 
-<faq-category v-for="(faqs, categoryName) in $page.faqsByCategory" :name="categoryName">
+<faq-category v-for="(faqs, category) in $page.faqsByCategory" :category="category">
   <faq-item v-for="faq in faqs" v-bind="faq" />
 </faq-category>

@@ -1,8 +1,10 @@
 <template>
   <section class="faq-category">
-    <h2 :id="slugify(name)">
-      <a :href="`#${slugify(name)}`" aria-hidden="true" class="header-anchor">#</a> {{ name }}
+    <h2 :id="slug">
+      <a :href="`#${slug}`" aria-hidden="true" class="header-anchor">#</a> {{ title }}
     </h2>
+
+    <p v-if="description" v-text="description"></p>
 
     <slot></slot>
   </section>
@@ -13,13 +15,24 @@ import slugify from '../../../plugins/faqs/utils/slugify'
 
 export default {
   props: {
-    name: {
+    category: {
       type: String,
       required: true
     }
   },
   methods: {
     slugify
+  },
+  computed: {
+    slug() {
+      return slugify(this.category)
+    },
+    title() {
+      return this.$page.categories[this.category].title
+    },
+    description() {
+      return this.$page.categories[this.category].description
+    }
   }
 }
 </script>

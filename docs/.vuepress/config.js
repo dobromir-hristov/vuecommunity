@@ -32,7 +32,32 @@ module.exports = {
         // Where is the FAQ data stored, relative to the root directory.
         faqsBase: './faqs',
         // The main repository, used to build the "Edit on Github" links.
-        githubRepo: 'https://github.com/dobromir-hristov/vuecommunity'
+        githubRepo: 'https://github.com/dobromir-hristov/vuecommunity',
+        // Valid FAQ categories; description is optional; will be displayed in the same order.
+        categories: {
+          vue: {
+            title: 'General Vue-related',
+            description: 'These are general Vue-related questions that span from basic component usage to more specific caveats and edge cases.'
+          },
+          components: {
+            title: 'Vue Components'
+          },
+          vuex: {
+            title: 'Vuex'
+          },
+          'ui-libraries': {
+            title: 'UI Libraries'
+          },
+          ssr: {
+            title: 'Server Side Rendering'
+          },
+          toolchain: {
+            title: 'Toolchain'
+          },
+          css: {
+            title: 'Cascading Style Sheets'
+          }
+        }
       }
     ]
   ],

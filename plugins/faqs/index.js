@@ -9,6 +9,12 @@ module.exports = options => {
   const faqsBase = options.faqsBase
   const basePath = resolve(faqsBase || './faqs')
   const githubRepo = normalize(`${options.githubRepo}/`)
+  
+  const categories = options.categories
+  if (!categories.uncategorised) {
+    categories.uncategorised = { title: 'Uncategorised' }
+  }
+  const categoryNames = Object.keys(categories)
 
   if (!existsSync(basePath)) {
     logger.error(`FAQ directory ${magenta(basePath)} does not exist!`)
@@ -20,14 +26,16 @@ module.exports = options => {
   try {
     faqData = readdirSync(basePath)
       .filter(path => lstatSync(join(basePath, path)).isDirectory()) // Filter out non-directories.
+      .sort(sortCategories(categoryNames, categories))
       .reduce((faqs, directory) => {
         const dirPath = join(basePath, directory)
         const files = readdirSync(dirPath)
           .map(fileName => join(dirPath, fileName))
           .map(readFileContents)
           .map(faq => addPathsAndLinks(faq, basePath, faqsBase, githubRepo))
+          .map(faq => addCategories(faq, directory))
           .map(extractFrontMatter)
-          .filter(validateFAQs)
+          .filter(faq => validateFAQs(faq, categoryNames))
 
         faqs.push(...files)
         return faqs
@@ -53,13 +61,15 @@ module.exports = options => {
           return { ...faq }
         })
 
-        page.faqsByCategory = faqData.reduce((categories, page) => {
-          const category = page.category || 'Uncategorised'
-          if (!categories[category]) {
-            categories[category] = []
+        page.categories = categories
+
+        page.faqsByCategory = faqData.reduce((cats, page) => {
+          const category = page.category || 'uncategorised'
+          if (!cats[category]) {
+            cats[category] = []
           }
-          categories[category].push(page)
-          return categories
+          cats[category].push(page)
+          return cats
         }, {})
       }
     },
@@ -81,23 +91,35 @@ function addPathsAndLinks(entry, basePath, faqsBase, githubRepo) {
   return entry
 }
 
-function extractFrontMatter({ editLink, contents }) {
+function addCategories(entry, category) {
+  entry.category = category
+  return entry
+}
+
+function extractFrontMatter({ editLink, fileName, category, contents }) {
   return {
     editLink,
-    ...YAML.safeLoadFront(contents, { contentKeyName: 'content' })
+    fileName,
+    ...YAML.safeLoadFront(contents, { contentKeyName: 'content' }),
+    category
   }
 }
 
-function validateFAQs(faq) {
-  const fileName = { faq }
+function sortCategories(categoryNames, categories) {
+  return (a, b) => categoryNames.indexOf(a) - categoryNames.indexOf(b)
+}
+
+function validateFAQs(faq, categories) {
+  const { fileName } = faq
 
   if ( ! faq.question) {
     logger.warn(`FAQ Plugin ${magenta(fileName)} ${gray('Required field "question" missing - skipping!')}`)
     return false
   }
 
-  if ( ! faq.category) {
-    logger.warn(`FAQ Plugin ${magenta(fileName)} ${gray('Recommended field "category" missing - defaulting!')}`)
+  if ( ! categories.includes(faq.category)) {
+    logger.warn(`FAQ Plugin ${magenta(fileName)} Unknown category ${cyan(faq.category)} ${gray('Did you make a typo or forget to define it docs/.vuepress/config.js?')}`)
+    return false
   }
 
   if (faq.links) { 
