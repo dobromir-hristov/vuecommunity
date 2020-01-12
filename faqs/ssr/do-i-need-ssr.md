@@ -1,6 +1,5 @@
 ---
 question: Do I need Server Side Rendering?
-category: Server Side Rendering
 links:
   More Info:
     - href: ../ecosystem/server-side-rendering.md#when-and-why-to-use-ssr

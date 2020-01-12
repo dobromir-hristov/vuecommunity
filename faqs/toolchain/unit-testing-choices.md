@@ -1,6 +1,5 @@
 ---
 question: What should I use for unit testing, Jest or Vue Test Utils?
-category: Toolchain
 links:
   Books:
     - href: https://www.manning.com/books/testing-vue-js-applications

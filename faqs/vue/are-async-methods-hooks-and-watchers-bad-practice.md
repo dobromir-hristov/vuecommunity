@@ -1,6 +1,5 @@
 ---
 question: Is it bad practice to make methods, lifecycle hooks or watchers async?
-category: General Vue
 order: 16
 ---
 

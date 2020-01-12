@@ -1,6 +1,5 @@
 ---
 question: What is the difference between scoped styles and CSS modules?
-category: Cascading Style Sheets
 links:
   Articles:
     - href: https://www.netguru.com/codestories/vue.js-scoped-styles-vs-css-modules

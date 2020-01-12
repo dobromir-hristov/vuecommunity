@@ -1,6 +1,5 @@
 ---
 question: Can I bundle Vue plugins with Vue CLI?
-category: Toolchain
 links:
   Official Resources:
     - href: https://cli.vuejs.org/guide/build-targets.html#library

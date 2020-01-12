@@ -1,6 +1,5 @@
 ---
 question: Why isn't my property reactive?
-category: General Vue
 links:
   Official Resources:
     - href: https://vuejs.org/v2/guide/reactivity.html#Change-Detection-Caveats

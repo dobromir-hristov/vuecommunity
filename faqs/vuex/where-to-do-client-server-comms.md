@@ -1,6 +1,5 @@
 ---
 question: Should I do client-server communication in components or vuex actions?
-category: Vuex
 order: 8
 ---
 

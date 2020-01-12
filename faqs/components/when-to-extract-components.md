@@ -1,6 +1,5 @@
 ---
 question: When should I extract components into subcomponents?
-category: Components
 links:
   Articles:
     - href: https://markus.oberlehner.net/blog/how-the-bem-css-naming-scheme-can-improve-vue-component-architecture/

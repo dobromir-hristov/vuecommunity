@@ -1,6 +1,5 @@
 ---
 question: How do I pass data to a component from the server, inside a template?
-category: General Vue
 links:
   More Info:
     - href: https://medium.com/@m_ramsden/passing-data-from-laravel-to-vue-98b9d2a4bd23

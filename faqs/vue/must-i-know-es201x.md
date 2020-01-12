@@ -1,6 +1,5 @@
 ---
 question: Must I know ES201x or can I use normal JavaScript?
-category: General Vue
 order: 4
 ---
 

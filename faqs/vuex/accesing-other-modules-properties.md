@@ -1,6 +1,5 @@
 ---
 question: How can a namespaced module access properties on a global one and vice versa?
-category: Vuex
 links:
   Official Resources:
     - href: https://vuex.vuejs.org/guide/modules.html#accessing-global-assets-in-namespaced-modules

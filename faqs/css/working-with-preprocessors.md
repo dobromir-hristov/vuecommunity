@@ -1,6 +1,5 @@
 ---
 question: How to work with preprocessors?
-category: Cascading Style Sheets
 links:
   Official Resources:
     - href: https://vue-loader.vuejs.org/guide/pre-processors.html

@@ -1,6 +1,5 @@
 ---
 question: Should all my modules be namespaced, or can I mix them with global ones?
-category: Vuex
 order: 13
 ---
 

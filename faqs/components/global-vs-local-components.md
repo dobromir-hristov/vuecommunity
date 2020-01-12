@@ -1,6 +1,5 @@
 ---
 question: When to use globally- vs locally-registered components?
-category: Components
 order: 2
 ---
 

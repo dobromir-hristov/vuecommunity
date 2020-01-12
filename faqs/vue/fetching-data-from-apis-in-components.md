@@ -1,6 +1,5 @@
 ---
 question: Where and how can I fetch data from an API in components?
-category: General Vue
 order: 13
 ---
 

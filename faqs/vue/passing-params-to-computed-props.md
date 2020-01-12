@@ -1,6 +1,5 @@
 ---
 question: How can I pass parameters to a computed property?
-category: General Vue
 links:
   Useful Links:
     - href: https://laracasts.com/discuss/channels/vue/pass-arguments-to-computed-properties

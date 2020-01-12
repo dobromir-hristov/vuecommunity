@@ -1,6 +1,5 @@
 ---
 question: How to define methods or computed properties inside functional template components?
-category: Components
 links:
   Github Issues:
     - href: https://github.com/vuejs/vue-loader/issues/1291#issuecomment-393823929

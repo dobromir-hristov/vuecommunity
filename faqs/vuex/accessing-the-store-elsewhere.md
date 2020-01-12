@@ -1,6 +1,5 @@
 ---
 question: How do I access the Vuex store outside of Vue components, or in hooks without access to the instance?
-category: Vuex
 links:
   Stack Overflow Answers:
     - href: https://stackoverflow.com/questions/42603909/accessing-vuex-state-when-defining-vue-router-routes

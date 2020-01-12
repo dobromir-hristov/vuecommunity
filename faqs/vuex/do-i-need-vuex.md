@@ -1,6 +1,5 @@
 ---
 question: Do I even need Vuex?
-category: Vuex
 order: 2
 ---
 

@@ -1,6 +1,5 @@
 ---
 question: How do I pass data to distant component?
-category: General Vue
 links:
   Official Resources:
     - href: https://vuex.vuejs.org/guide

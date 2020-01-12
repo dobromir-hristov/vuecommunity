@@ -1,6 +1,5 @@
 ---
 question: When should I use a UI Library?
-category: UI Libraries
 order: 2
 ---
 

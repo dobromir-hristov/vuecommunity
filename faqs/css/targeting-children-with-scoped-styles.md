@@ -1,6 +1,5 @@
 ---
 question: How can I target children with scoped styles?
-category: Cascading Style Sheets
 links:
   Official Resources:
     - href: https://vue-loader.vuejs.org/guide/scoped-css.html#deep-selectors

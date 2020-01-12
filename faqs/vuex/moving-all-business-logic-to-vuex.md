@@ -1,6 +1,5 @@
 ---
 question: Should I move all my business logic to Vuex?
-category: Vuex
 order: 9
 ---
 

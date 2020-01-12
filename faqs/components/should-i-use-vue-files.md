@@ -1,6 +1,5 @@
 ---
 question: Am I supposed to use .vue files?
-category: Components
 order: 3
 ---
 

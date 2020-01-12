@@ -1,6 +1,5 @@
 ---
 question: Are there any alternatives to Vue CLI?
-category: Toolchain
 links:
   More Info:
     - href: ../ecosystem/build-tools.md

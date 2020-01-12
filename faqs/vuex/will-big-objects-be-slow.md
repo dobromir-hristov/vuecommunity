@@ -1,6 +1,5 @@
 ---
 question: Can adding very big objects in Vuex slow my website down?
-category: Vuex
 order: 12
 ---
 

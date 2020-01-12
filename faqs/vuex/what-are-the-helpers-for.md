@@ -1,6 +1,5 @@
 ---
 question: What is the point of mapGetter, mapState and other helpers?
-category: Vuex
 order: 11
 ---
 

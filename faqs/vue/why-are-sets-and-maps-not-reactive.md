@@ -1,6 +1,5 @@
 ---
 question: Why are Set and Map not reactive when I have predefined them in my data?
-category: General Vue
 order: 18
 ---
 

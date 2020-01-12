@@ -1,6 +1,5 @@
 ---
 question: When and why should I use global state management?
-category: Vuex
 links:
   Tutorials:
     - href: Should I Store This Data in Vuex?

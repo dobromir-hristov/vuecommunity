@@ -1,6 +1,5 @@
 ---
 question: When and why should I use Vue CLI?
-category: Toolchain
 order: 1
 ---
 

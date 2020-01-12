@@ -1,6 +1,5 @@
 ---
 question: How do I pass data to a component?
-category: General Vue
 links:
   Official Resources:
     - href: https://vuejs.org/v2/guide/components.html

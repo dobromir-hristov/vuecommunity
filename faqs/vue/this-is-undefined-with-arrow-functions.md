@@ -1,6 +1,5 @@
 ---
 question: Why is this undefined when using fat arrow functions?
-category: General Vue
 links:
   Useful Links:
     - href: https://github.com/vuejs-templates/browserify-simple/issues/6#issuecomment-214003282

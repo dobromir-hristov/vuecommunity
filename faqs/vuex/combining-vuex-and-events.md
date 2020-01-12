@@ -1,6 +1,5 @@
 ---
 question: When I use vuex should I still use events?
-category: Vuex
 order: 4
 ---
 

@@ -1,6 +1,5 @@
 ---
 question: What is a UI library?
-category: UI Libraries
 links:
   More Info:
     - href: ../ecosystem/ui-libraries.md

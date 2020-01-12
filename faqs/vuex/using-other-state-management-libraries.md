@@ -1,6 +1,5 @@
 ---
 question: How do I use state management libraries from other frameworks (e.g. Redux, RxJS)?
-category: Vuex
 links:
   Tutorials:
     - href: https://snipcart.com/blog/redux-vue

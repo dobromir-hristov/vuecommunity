@@ -1,6 +1,5 @@
 ---
 question: Are there alternative solutions to using Vuex?
-category: Vuex
 links:
   Tutorials:
     - href: https://markus.oberlehner.net/blog/should-i-store-this-data-in-vuex/

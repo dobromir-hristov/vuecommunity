@@ -1,6 +1,5 @@
 ---
 question: How can I call a method when vuex getter/state updates?
-category: General Vue
 order: 15
 ---
 

@@ -1,6 +1,5 @@
 ---
 question: How to import files in style tags?
-category: Cascading Style Sheets
 order: 2
 ---
 

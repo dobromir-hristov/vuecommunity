@@ -1,6 +1,5 @@
 ---
 question: What are functional components used for?
-category: Components
 order: 4
 ---
 

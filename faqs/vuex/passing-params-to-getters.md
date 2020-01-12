@@ -1,6 +1,5 @@
 ---
 question: How can I pass parameters to getters?
-category: Vuex
 links:
   Official Resources:
     - href: https://vuex.vuejs.org/guide/getters.html#method-style-access

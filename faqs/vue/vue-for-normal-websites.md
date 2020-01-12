@@ -1,6 +1,5 @@
 ---
 question: Is Vue a good solution for normal websites?
-category: General Vue
 links:
   More Info:
     - href: ./how-to-learn-vue.md

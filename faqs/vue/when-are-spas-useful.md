@@ -1,6 +1,5 @@
 ---
 question: What kinds of websites can take advantage of being an SPA?
-category: General Vue
 order: 2
 ---
 

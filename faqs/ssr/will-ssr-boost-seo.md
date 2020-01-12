@@ -1,6 +1,5 @@
 ---
 question: Will SSR boost my website to the top google spot?
-category: Server Side Rendering
 links:
   More Info:
     - href: ../ecosystem/server-side-rendering.md#benefits-of-ssr

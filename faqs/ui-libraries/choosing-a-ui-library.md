@@ -1,6 +1,5 @@
 ---
 question: Which UI library should I use?
-category: UI Libraries
 links:
   More Info:
     - href: ../ecosystem/ui-libraries.md#how-to-chose-an-optimal-ui-library

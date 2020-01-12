@@ -1,6 +1,5 @@
 ---
 question: How do scoped styles work?
-category: Cascading Style Sheets
 links:
   Offcial Resources:
     - href: https://vue-loader.vuejs.org/guide/scoped-css.html

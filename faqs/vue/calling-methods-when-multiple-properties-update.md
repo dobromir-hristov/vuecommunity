@@ -1,6 +1,5 @@
 ---
 question: How can I call a method when more than one property on the instance updates?
-category: General Vue
 links:
   Github Issues:
     - href: https://github.com/vuejs/vue/issues/844

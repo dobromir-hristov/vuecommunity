@@ -1,6 +1,5 @@
 ---
 question: Which SSR solution should I pick?
-category: Server Side Rendering
 links:
   Solutions:
     - href: ../ecosystem/server-side-rendering.md#nuxt

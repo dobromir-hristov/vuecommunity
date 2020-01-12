@@ -1,6 +1,5 @@
 ---
 question: How do I update a prop?
-category: General Vue
 order: 11
 ---
 

@@ -1,6 +1,5 @@
 ---
 question: What do I need for SSR to work?
-category: Server Side Rendering
 links:
   More Info:
     - href: ../ecosystem/server-side-rendering.md#available-options-for-vue

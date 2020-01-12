@@ -1,6 +1,5 @@
 ---
 question: How do I attach event listeners to a slot?
-category: General Vue
 links:
   Tutorials:
     - href: https://adamwathan.me/advanced-vue-component-design/

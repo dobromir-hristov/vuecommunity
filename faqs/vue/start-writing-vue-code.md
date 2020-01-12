@@ -1,6 +1,5 @@
 ---
 question: What do I need to know to start writing Vue code?
-category: General Vue
 links:
   More Info:
     - href: ./how-to-learn-vue.md

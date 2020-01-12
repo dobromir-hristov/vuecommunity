@@ -1,6 +1,5 @@
 ---
 question: What makes a good Vue UI library?
-category: UI Libraries
 order: 4
 ---
 

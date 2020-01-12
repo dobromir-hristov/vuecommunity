@@ -1,6 +1,5 @@
 ---
 question: What are the differences between Mobile, PWA and Native?
-category: UI Libraries
 links:
   More Info:
     - href: ../ecosystem/mobile-apps.md
