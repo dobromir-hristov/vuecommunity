@@ -1,27 +1,30 @@
 # How to create FAQs
 
-**NOTE:** The numbers at the beginning of the categories *and* items determine their ordering.
-
 ## FAQ Categories
 
-Each directory corresponds to a category however the directory name does not matter, as the actual category name is stored in the YAML Front Matter of each FAQ.
+Categories are defined in `docs/.vuepress/config.js` in the options object that is 
+passed to the FAQ plugin. The order of the keys is the same as the order of display.
 
 ## FAQ Items
 
 Every `.md` file within a category corresponds to an FAQ item.
 
-An FAQ item comprises a question, an answer and optional links to internal and external resources.
+An FAQ item comprises:
+
+- `question` - The question, used as the title/heading
+- `order` - An integer, used to determine the ordering
+- `links` - Option links to related internal/external resources
 
 ### Example file
 
 ```md
 ---
 question: How do I create an FAQ?
-category: Meta
 links:
   Meta:
     - href: https://github.com/dobromir-hristov/vuecommunity/tree/master/faqs/README.md
       text: A link to the file you're already reading.
+order: 1
 ---
 
 Creating an FAQ *couldn't* be **easier**!
@@ -32,22 +35,6 @@ Creating an FAQ *couldn't* be **easier**!
 The `question` is essentially the title but is also used to build the slug.
 
 It should be phrased as a question and is required.
-
-### Category
-
-The `category` is the heading that the question will be filed under and is required.
-
-Currently the categories are: 
-
-1. General Vue
-2. Components
-3. Vuex
-4. UI Libraries
-5. Server Side Rendering
-6. Toolchain
-7. Cascading Style Sheets
-
-For now, they are case-sensitive, so watch out for that.
 
 ### Links
 
@@ -74,3 +61,6 @@ links:
 ### Content
 
 Everything below the YAML Front Matter is just Markdown.
+
+> **NOTE** For now, you cannot use Vue components (such as badges) 
+> inside the Markdown but this will be rectified as soon as possible.
