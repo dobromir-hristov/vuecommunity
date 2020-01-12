@@ -1,6 +1,7 @@
 ---
 question: When to use globally- vs locally-registered components?
 category: Components
+order: 2
 ---
 
 The rule of the thumb is, if a component is generic enough to be used across the whole app, it can be registered globally - buttons, dropdowns, inputs.

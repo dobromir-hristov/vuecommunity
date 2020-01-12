@@ -7,6 +7,7 @@ links:
       text: Should I Store This Data in Vuex?
     - href: http://vuetips.com/simple-state-management-vue-stash
       text: Simple state management, simpler than Vuex
+order: 5
 ---
 
 You could use the `$root` object for very small applications. You could also try the provide/inject api for tightly coupled components, which does have some caveats though. One could also try using Redux.

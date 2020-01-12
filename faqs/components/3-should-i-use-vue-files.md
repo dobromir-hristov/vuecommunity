@@ -1,6 +1,7 @@
 ---
 question: Am I supposed to use .vue files?
 category: Components
+order: 3
 ---
 
 Short answer - no. You can work anyway you see fit.

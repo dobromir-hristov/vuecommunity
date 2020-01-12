@@ -1,6 +1,7 @@
 ---
 question: What kinds of websites can take advantage of being an SPA?
 category: General Vue
+order: 2
 ---
 
 SPA websites are most suitable for web applications, aka Software as a Service, where the user interacts with the website as he would with a desktop application/program. 

@@ -5,6 +5,7 @@ links:
   More Info:
     - href: ../ecosystem/mobile-apps.md
       text: Mobile Apps
+order: 6
 ---
 
 Even though you can build mobile apps with all 3 of these technologies, each has its weaknesses and advantages.

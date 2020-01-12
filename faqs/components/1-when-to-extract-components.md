@@ -5,6 +5,7 @@ links:
   Articles:
     - href: https://markus.oberlehner.net/blog/how-the-bem-css-naming-scheme-can-improve-vue-component-architecture/
       text: How the BEM CSS Naming Scheme Can Improve Vue.js Component Architecture
+order: 1
 ---
 
 There is no golden rule, however there are some rough guidelines:

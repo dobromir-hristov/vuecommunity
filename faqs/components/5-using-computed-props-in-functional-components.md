@@ -7,6 +7,7 @@ links:
       text: What’s the deal with functional components in Vue.js?
     - href: https://alligator.io/vuejs/functional-components/
       text: Functional Components in Vue.js
+order: 5
 ---
 
 Short answer, you don't. 

@@ -5,6 +5,7 @@ links:
   Articles:
     - href: https://www.netguru.com/codestories/vue.js-scoped-styles-vs-css-modules
       text: Vue.js - Scoped Styles vs CSS Modules
+order: 5
 ---
 
 Scoped styles automatically change the css rules to match the auto generated data-attributes on each element that is being styled. This is done without any extra effort from the developer.

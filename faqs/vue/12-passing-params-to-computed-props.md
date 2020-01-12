@@ -5,6 +5,7 @@ links:
   Useful Links:
     - href: https://laracasts.com/discuss/channels/vue/pass-arguments-to-computed-properties
       text: Pass arguments to computed properties - Laracasts Forum
+order: 12
 ---
 
 In two words you shouldn't need to. If you feel the need to do so, you can:

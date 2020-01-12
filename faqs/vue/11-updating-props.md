@@ -1,6 +1,7 @@
 ---
 question: How do I update a prop?
 category: General Vue
+order: 11
 ---
 
 Props are considered immutable to the component that defines them. The only way to change a prop, is to notify the parent component passing the prop, to augment it. 

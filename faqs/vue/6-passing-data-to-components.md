@@ -8,6 +8,7 @@ links:
   Tutorials:
     - href: https://alligator.io/vuejs/component-communication/
       text: Vue.js Component Communication Patterns
+order: 6
 ---
 
 Data is most often passed down to child components via Props, and emitted up to the parents via Events.

@@ -5,6 +5,7 @@ links:
   Official Resources:
     - href: https://vue-loader.vuejs.org/guide/pre-processors.html
       text: Using Preprocessors
+order: 1
 ---
 
 Simply specify the preprocessor you need by adding a `lang="scss"` tag, with its value being the preprocessor you need. 

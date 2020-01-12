@@ -8,6 +8,7 @@ links:
   Tutorials:
     - href: https://bambielli.com/til/2018-08-19-how-to-target-child-components-with-scoped-css-in-vue/#
       text: How to Target Child Components with Scoped CSS in Vue
+order: 6
 ---
 
 Using the `deep` selector in your sass files.

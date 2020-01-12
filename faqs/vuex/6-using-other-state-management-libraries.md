@@ -13,6 +13,7 @@ links:
       text: Integrating RxJS with Vue.js
     - href: https://egghead.io/courses/build-async-vue-js-apps-with-rxjs
       text: Build Async Vue.js Apps with RxJS
+order: 6
 ---
 
 Vue is very flexible and can be used with any state management library. Check a few examples in the list below.

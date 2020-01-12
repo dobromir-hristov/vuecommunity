@@ -1,6 +1,7 @@
 ---
 question: Where and how can I fetch data from an API in components?
 category: General Vue
+order: 13
 ---
 
 Most people use the `created` or `mounted` hooks to fetch data. If you are using VueRouter, you can use the `beforeRouterEnter` hook, to even control page rendering and redirects.

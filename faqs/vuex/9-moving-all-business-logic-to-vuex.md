@@ -1,6 +1,7 @@
 ---
 question: Should I move all my business logic to Vuex?
 category: Vuex
+order: 9
 ---
 
 You are not required to, as this will substantially increase the amount of boilerplate you need to write. This could however make components lighter and easier to refactor, with most of the heavy lifting moved to Vuex, plus more components can perform these actions. 

@@ -5,6 +5,7 @@ links:
   More Info:
     - href: ../ecosystem/server-side-rendering.md#benefits-of-ssr
       text: Server Side Rendering - Benefits of SSR
+order: 3
 ---
 
 Server side rendering can help tremendously with SEO and website speed. 

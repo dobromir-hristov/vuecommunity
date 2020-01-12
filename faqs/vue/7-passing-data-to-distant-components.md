@@ -10,6 +10,7 @@ links:
   Tutorials:
     - href: https://medium.com/@znck/provide-inject-in-vue-2-2-b6473a7f7816
       text: Provide/Inject in Vue 2.2
+order: 7
 ---
 
 You have a few options: 

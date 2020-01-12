@@ -1,6 +1,7 @@
 ---
 question: What makes a good Vue UI library?
 category: UI Libraries
+order: 4
 ---
 
 A good UI library must follow Vue's best practices:

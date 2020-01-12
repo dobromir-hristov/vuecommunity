@@ -12,6 +12,7 @@ links:
       text: Testing real world VueJs apps
     - href: https://alligator.io/vuejs/testing-vue-with-jest/
       text: Testing Vue with Jest
+order: 4
 ---
 
 Jest is a testing framework, where as Vue Test Utils is a utility library (set of helpers). You use Vue Test Utils in tandem with some testing library, like Jest or Mocha.

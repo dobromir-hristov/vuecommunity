@@ -1,6 +1,7 @@
 ---
 question: Should all my modules be namespaced, or can I mix them with global ones?
 category: Vuex
+order: 13
 ---
 
 It is a good practice to namespace all modules, once you begin using them, keeping store access and mutations consistent across modules.

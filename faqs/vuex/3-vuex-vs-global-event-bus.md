@@ -1,6 +1,7 @@
 ---
 question: What's the difference between Vuex and a global event bus?
 category: Vuex
+order: 3
 ---
 
 :::warning

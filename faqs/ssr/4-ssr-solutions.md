@@ -12,6 +12,7 @@ links:
   More Info:
     - href: ../ecosystem/static-site-generators.md
       text: Static site generators
+order: 4
 ---
 
 If you want something that just works with little to no configuration, go with **Nuxt**. To have more freedom and to configure most of the things yourself, **Ream** is a good pick. If you need to have full control and setup everything yourself, then **Vue Server Renderer** is the one for you.
