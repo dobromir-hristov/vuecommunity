@@ -20,9 +20,6 @@ export default {
       required: true
     }
   },
-  methods: {
-    slugify
-  },
   computed: {
     slug() {
       return slugify(this.category)

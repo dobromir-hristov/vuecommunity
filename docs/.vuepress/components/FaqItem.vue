@@ -1,7 +1,7 @@
 <template>
   <article class="faq">
-    <h3 :id="slugify(question)">
-      <a :href="`#${slugify(question)}`" aria-hidden="true" class="header-anchor">#</a> {{ question }}
+    <h3 :id="slug">
+      <a :href="`#${slug}`" aria-hidden="true" class="header-anchor">#</a> {{ question }}
     </h3>
 
     <main v-html="content"></main>
@@ -54,10 +54,10 @@ export default {
       }
     }
   },
-  methods: {
-    slugify
-  },
   computed: {
+    slug() {
+      return slugify(this.question)
+    },
     hasLinks() {
       return this.links && Object.keys(this.links).length
     }
