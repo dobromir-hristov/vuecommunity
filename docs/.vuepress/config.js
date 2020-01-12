@@ -1,3 +1,5 @@
+const GITHUB_REPO = 'https://github.com/dobromir-hristov/vuecommunity'
+
 module.exports = {
   locales: {
     '/': {
@@ -32,7 +34,7 @@ module.exports = {
         // Where is the FAQ data stored, relative to the root directory.
         faqsBase: './faqs',
         // The main repository, used to build the "Edit on Github" links.
-        githubRepo: 'https://github.com/dobromir-hristov/vuecommunity',
+        githubRepo: GITHUB_REPO,
         // Valid FAQ categories; description is optional; will be displayed in the same order.
         categories: {
           vue: {
@@ -69,7 +71,7 @@ module.exports = {
     },
     logo: '/logo_pin.png',
     docsDir: 'docs',
-    repo: 'https://github.com/dobromir-hristov/vuecommunity',
+    repo: GITHUB_REPO,
     editLinks: true,
     sidebarDepth: 3,
     locales: {
