@@ -19,7 +19,7 @@ An FAQ item comprises:
 
 - `question` - The question, used as the title/heading
 - `order` - An integer, used to determine the ordering
-- `links` - Option links to related internal/external resources
+- `links` - Optional links to related internal/external resources
 
 ### Example file
 
