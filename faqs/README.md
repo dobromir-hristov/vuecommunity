@@ -5,9 +5,15 @@
 Categories are defined in `docs/.vuepress/config.js` in the options object that is 
 passed to the FAQ plugin. The order of the keys is the same as the order of display.
 
+For each category defined in the config file, there is also a corresponding directory 
+in `faqs/` and that is where you will be putting the FAQ items.
+
+> **NOTE:** Remember, if you need to create a new category, you must both define 
+> the category in the config file as well as create a directory in `faqs/`.
+
 ## FAQ Items
 
-Every `.md` file within a category corresponds to an FAQ item.
+Every `.md` file within a category's directory corresponds to an FAQ item.
 
 An FAQ item comprises:
 
