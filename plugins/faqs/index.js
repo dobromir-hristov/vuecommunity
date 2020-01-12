@@ -36,6 +36,7 @@ module.exports = options => {
           .map(faq => addCategories(faq, directory))
           .map(extractFrontMatter)
           .filter(faq => validateFAQs(faq, categoryNames))
+          .sort(sortFAQs)
 
         faqs.push(...files)
         return faqs
@@ -107,6 +108,10 @@ function extractFrontMatter({ editLink, fileName, category, contents }) {
 
 function sortCategories(categoryNames, categories) {
   return (a, b) => categoryNames.indexOf(a) - categoryNames.indexOf(b)
+}
+
+function sortFAQs(a, b) {
+  return a.order - b.order
 }
 
 function validateFAQs(faq, categories) {
