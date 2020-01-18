@@ -70,7 +70,8 @@ module.exports = {
               '/guide/community/social-media.md',
               '/guide/community/diversity.md',
               '/guide/community/job-market.md',
-              '/guide/community/adopt-vue-at-work.md'
+              '/guide/community/adopt-vue-at-work.md',
+              '/guide/community/vue-3.md'
             ]
           },
           {

@@ -7,6 +7,7 @@
 * [Diversity](./community/diversity.md) - Diversity and inclusion in Vue.js
 * [Job Market](./community/job-market.md) - How to find job with Vue.js and related topics
 * [Adopting Vue at work](./community/adopt-vue-at-work.md) - How to pitch Vue at your workplace
+* [Vue 3](./community/vue-3.md) - Vue 3 learning resources and plugins
 
 ## Learning
 * [Official Documentation](./learning/official-documentation.md) - All the official Vue docs, listed on one place
