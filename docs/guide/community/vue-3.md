@@ -1,6 +1,6 @@
 # Vue 3 Related Articles
 
-As of the time of this writing, Vue 3 has still not landed officially, but we do have a publicly available alpha version. More and more people are getting excited about the upcoming release and are sharing their thoughts, findings, and speculations about the changes to come.
+At the time of writing, Vue 3 has still not landed officially, but we do have a publicly available alpha version. More and more people are getting excited about the upcoming release and are sharing their thoughts, findings, and speculations about the changes to come.
 
 ## Official Repositories
 
