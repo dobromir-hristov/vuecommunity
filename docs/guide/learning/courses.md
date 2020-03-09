@@ -123,7 +123,7 @@ The video series starts by building the Vue app from scratch and then moving it 
 ## Vue Js 2 Tutorial
 **Author:** The Net Ninja
 
-Simple and most comprehensive totorial on the planet for getting started with Vue js 
+Simple and beginner friendly tutorial for getting started with Vuejs 
 
 This youtube series covers the entire basics of Vuejs and important topics such as the Vue Instance, Event Listeners, Data binding, Life cycle Hooks and Setting up the vue-router plugin.
 
