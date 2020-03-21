@@ -44,8 +44,8 @@ You can write a simple form validation yourself, but if you want a well tested s
 <useful-links>
 <useful-links-section title="Official">
 
-* [GitHub Repo](https://github.com/baianat/vee-validate) 
-* [Docs](https://baianat.github.io/vee-validate) 
+* [GitHub Repo](https://github.com/logaretm/vee-validate) 
+* [Docs](https://logaretm.github.io/vee-validate) 
 
 </useful-links-section>
 <useful-links-section title="Tutorials">
