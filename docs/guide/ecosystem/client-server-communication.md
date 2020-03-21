@@ -80,6 +80,9 @@ To use it with Vue, you don't need plugins, you can just import `fetch` and star
 
 ### Vue Apollo <badge text="rising star"/>
 
+::: contribute
+:::
+
 - What is Apollo
 - Common use cases
 - Why use with Vue
@@ -138,6 +141,9 @@ Implementing Firebase into your Vue app directly with their SDK can be a bit of 
 
 ### Feathers
 
+::: contribute
+:::
+
 - What is Feathers
 - Common usages
 - Why use with Vue
@@ -145,6 +151,9 @@ Implementing Firebase into your Vue app directly with their SDK can be a bit of 
 - Tutorials
 
 ### Meteor
+
+::: contribute
+:::
 
 - What is Meteor
 - Common usages
