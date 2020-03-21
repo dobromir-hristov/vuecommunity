@@ -132,7 +132,7 @@ This youtube series covers the entire basics of Vuejs and important topics such 
  
 [YouTube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa)
 
-<useful-links-section title="Official">
-<useful-links>
+</useful-links-section>
+</useful-links>
 
  
