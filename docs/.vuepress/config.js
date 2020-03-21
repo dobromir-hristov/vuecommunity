@@ -1,3 +1,5 @@
+const GITHUB_REPO = 'https://github.com/dobromir-hristov/vuecommunity'
+
 module.exports = {
   locales: {
     '/': {
@@ -26,6 +28,40 @@ module.exports = {
         after: '</div>'
       },
     ],
+    [
+      require('../../plugins/faqs'),
+      {
+        // Where is the FAQ data stored, relative to the root directory.
+        faqsBase: './faqs',
+        // The main repository, used to build the "Edit on Github" links.
+        githubRepo: GITHUB_REPO,
+        // Valid FAQ categories; description is optional; will be displayed in the same order.
+        categories: {
+          vue: {
+            title: 'General Vue-related',
+            description: 'These are general Vue-related questions that span from basic component usage to more specific caveats and edge cases.'
+          },
+          components: {
+            title: 'Vue Components'
+          },
+          vuex: {
+            title: 'Vuex'
+          },
+          'ui-libraries': {
+            title: 'UI Libraries'
+          },
+          ssr: {
+            title: 'Server Side Rendering'
+          },
+          toolchain: {
+            title: 'Toolchain'
+          },
+          css: {
+            title: 'Cascading Style Sheets'
+          }
+        }
+      }
+    ]
   ],
   // serviceWorker: true,
   themeConfig: {
@@ -35,7 +71,7 @@ module.exports = {
     },
     logo: '/logo_pin.png',
     docsDir: 'docs',
-    repo: 'https://github.com/dobromir-hristov/vuecommunity',
+    repo: GITHUB_REPO,
     editLinks: true,
     sidebarDepth: 3,
     locales: {

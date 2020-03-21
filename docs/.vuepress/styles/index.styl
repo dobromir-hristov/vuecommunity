@@ -1,3 +1,5 @@
+@import "~@vuepress/core/lib/client/style/config.styl"
+
 .content
   blockquote {
     color: #575757
@@ -7,3 +9,14 @@
 
 #app .home .hero img
   max-height 135px;
+
+/*
+  Fix FAQ headings because they are not immediate children of .theme-default-content.
+
+  See: node_modules/@vuepress/core/lib/client/style/index.styl, line 116.
+*/
+section.faq-category > h2,
+article.faq > h3
+  margin-top (0.5rem - $navbarHeight)
+  padding-top ($navbarHeight + 1rem)
+  margin-bottom 0
