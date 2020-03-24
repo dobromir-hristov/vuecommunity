@@ -1,3 +1,10 @@
+const autometaOptions = {
+  site: {
+    name: 'Vue Community'
+  },
+  canonical_base: 'https://vue-community.org'
+}
+
 module.exports = {
   locales: {
     '/': {
@@ -14,18 +21,18 @@ module.exports = {
       }
     ],
     [
-      'vuepress-plugin-container',
+      'container',
       {
         type: 'contribute',
-        before: () => [
-          '<div class="tip custom-block">',
-          `<p><strong>This section could use a little bit of love.</strong></p>`,
-          "<p>If you're able to, please consider helping the Vue Community by contributing a PR.</p>",
-          "<p>You'll find a link to edit this page at the bottom.</p>"
-        ].join(''),
+        before: () => `<div class="tip custom-block">
+          <p><strong>This section could use a little bit of love.</strong></p>
+          <p>If you're able to, please consider helping the Vue Community by contributing a PR.</p>
+          <p>You'll find a link to edit this page at the bottom.</p>`
+        ,
         after: '</div>'
-      },
+      }
     ],
+    ['autometa', autometaOptions]
   ],
   // serviceWorker: true,
   themeConfig: {
