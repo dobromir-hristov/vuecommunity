@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.47",
-    "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
     "vuepress-plugin-autometa": "^0.1.13"
   }
 }
