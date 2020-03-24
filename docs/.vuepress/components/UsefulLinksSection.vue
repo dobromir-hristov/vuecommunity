@@ -48,14 +48,16 @@ export default {
     border-left: 4px solid $color-primary;
     padding-left: $spacing-tiny;
     margin-bottom: $spacing;
+    color: transparentize($color-gray, .1);
   }
 
   &__content {
     padding-left: $spacing-small;
 
     p {
+      line-height: 1.2;
+      font-size: 0.9rem;
       margin: 0;
-      line-height: 1;
 
       & + p {
         margin-top: $spacing-small;
@@ -69,7 +71,8 @@ export default {
     }
 
     ul {
-      line-height: 1;
+      line-height: 1.2;
+      font-size: 0.9rem;
       margin: 0;
       list-style-type: none;
       padding: 0;
@@ -77,7 +80,6 @@ export default {
       li {
         margin-bottom: $spacing-small;
         padding-bottom: $spacing-small;
-        border-bottom: 1px solid $border-default-color;
 
         &:last-of-type {
           border-bottom: none;
