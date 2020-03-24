@@ -144,11 +144,11 @@ Learn more about it on the dedicated [Nuxt](./nuxt.md) page.
 ## Servue
 [Servue](https://futureaus.github.io/servue/) shares a similar scope to Nuxtjs, it allows you to render `.vue` files into rendered html. It includes features for head meta tag management, layouts and more. Servue is more suitable for Multi-page-applications using existing server-side routing systems such as koa/koa-router or express.js
 
-## Ream
+## Vapper
 
-[Ream](https://ream.js.org/) is a lighter framework for building server-rendered applications using Vue. Opposed to Nuxt, Ream is more lower level oriented, meaning it does not rely so much on conventions, but rather lets the user choose how to configure their app.
+[Vapper](https://vapperjs.org/) is a lighter framework for building server-rendered applications using Vue. Opposed to Nuxt, Vapper is more lower level oriented, meaning it does not rely so much on conventions, but rather lets the user choose how to configure their app.
 
-If you need more freedom to configure your application, with little to no interference from the SSR framework, Ream may be your choice.
+If you need more freedom to configure your application, with little to no interference from the SSR framework, Vapper may be your choice.
 
 ## Vue Server Renderer
 
