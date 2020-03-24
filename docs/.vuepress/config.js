@@ -1,4 +1,5 @@
 const autometaOptions = {
+  image: false,
   site: {
     name: 'Vue Community'
   },
@@ -133,6 +134,7 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
     ['meta', { name: 'msapplication-config', content: '/favicons/browserconfig.xml' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
-    ['meta', { property: 'og:image', content: '/cover.png' }]
+    ['meta', { property: 'og:image', content: '/cover.png' }],
+    ['meta', { property: 'twitter:image', content: '/cover.png' }]
   ]
 }
