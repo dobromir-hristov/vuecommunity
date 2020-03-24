@@ -110,6 +110,7 @@ module.exports = {
               '/guide/ecosystem/documentation.md',
               '/guide/ecosystem/hosting.md',
               '/guide/ecosystem/i18n.md',
+              '/guide/ecosystem/testing.md',
               '/guide/ecosystem/mobile-apps.md',
               '/guide/ecosystem/desktop-apps.md',
               '/guide/ecosystem/nuxt.md',
