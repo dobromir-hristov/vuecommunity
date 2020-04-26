@@ -196,7 +196,7 @@ If you want to use Bootstrap 4 for your project, Bootstrap-Vue is the community'
 <useful-links-section title="Official">
 
 * [Bootstrap-Vue repository](https://github.com/bootstrap-vue/bootstrap-vue) 
-* [Bootstrap-Vue documentation](https://bootstrap-vue.js.org/) 
+* [Bootstrap-Vue documentation](https://bootstrap-vue.org/) 
 * [Bootstrap-Vue chat on Discord](https://discordapp.com/invite/j2Mtcny)
 
 </useful-links-section>
