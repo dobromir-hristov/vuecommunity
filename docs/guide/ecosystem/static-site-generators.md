@@ -19,7 +19,7 @@ Pre-rendering is not a silver bullet and has some caveats:
 </useful-links-section>
 <useful-links-section title="Markdown Based +">
 
-[Sabre](#sabre) - uses markdown, Vue components and JS files. Options for view layer.
+[Saber](#saber) - uses markdown, Vue components and JS files. Options for view layer.
 
 </useful-links-section>
 <useful-links-section title="Customizable">
