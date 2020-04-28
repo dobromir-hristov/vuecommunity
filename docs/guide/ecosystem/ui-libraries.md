@@ -186,17 +186,19 @@ Third group of UI libraries includes those that provide sets of components for t
 
 Remember that you will still have to reach out to original framework's documentation and community for help, especially with styling.
 
-### Bootstrap-Vue <badge text="Backender's Choice"/>
+### BootstrapVue <badge text="Backender's Choice"/>
 
-> Bootstrap-Vue provides one of the most comprehensive implementations of Bootstrap V4.3 components and grid system available for Vue.js 2.6+, complete with extensive and automated WAI-ARIA accessibility markup. 
+> BootstrapVue provides one of the most comprehensive implementations of Bootstrap V4.3 components and grid system available for Vue.js 2.6+, complete with extensive and automated WAI-ARIA accessibility markup.
 
-If you want to use Bootstrap 4 for your project, Bootstrap-Vue is the community's most often recommendation. It's a set of components natively written with Vue.js, so you don't have to worry about mixing Vue with JQuery. It's easy to use it with both Vue CLI and Nuxt.
+If you want to use Bootstrap 4 for your project, BootstrapVue is the community's most often recommendation. It's a set of components natively written with Vue.js, so you don't have to worry about mixing Vue with JQuery. It's easy to use it with both Vue CLI and Nuxt.
+
+BootstrapVue also includes several custom components based on Bootstrap v4 styling.
 
 <useful-links>
 <useful-links-section title="Official">
 
 * [Bootstrap-Vue repository](https://github.com/bootstrap-vue/bootstrap-vue) 
-* [Bootstrap-Vue documentation](https://bootstrap-vue.js.org/) 
+* [Bootstrap-Vue documentation](https://bootstrap-vue.org/) 
 * [Bootstrap-Vue chat on Discord](https://discordapp.com/invite/j2Mtcny)
 
 </useful-links-section>
