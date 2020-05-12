@@ -17,6 +17,10 @@ They also host Vue.js conference videos and co-organize and record the weekly Vu
 
 Lessons are developed by core team members Alex Kyriakidis, Chris Fritz and experts like Rolf Haug, Roman Kuba, Chopin brothers (nuxt.js authors) and many more.
 
+### Become a Ninja with Vue 3
+[Become a Ninja with Vue](https://vue-exercises.ninja-squad.com/) teaches you how to build a complete Vue 3 application, using the Vue CLI, TypeScript and the Composition API, step by step.
+Each exercise comes with instructions, unit tests and e2e tests to check the code you write. When you've completed the exercise, you can submit your result to the platform. The first exercises are available for free, and you can upgrade to access more content, and learn about the router, HTTP, forms, etc.
+
 ## General Development
 The platforms listed below cover wider range of topics, with some more specialized than others. 
 
