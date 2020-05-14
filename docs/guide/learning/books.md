@@ -189,3 +189,21 @@ This book builds upon a sample registration form, starting from the basics of co
 
 </useful-links-section>
 </useful-links>
+
+### Become a Ninja with Vue 3
+**Author**: Cédric Exbrayat
+
+> Learn how to build complete applications with Vue.js 3
+
+This ebook is addressed to anyone interested in learning Vue 3, from new developers, to those who already use Vue.js 2.x. The book starts with learning ES2015, TypeScript, to building components with the Composition API, then covers the most useful libraries (Vue Router, Vue Test Utils, etc.),
+the new features of Vue 3 (Suspense, Teleport), before ending with advanced topics, like how Vue works under the hood, performance tips, and how to ship an application to production. The readers that want to code along the ebook can follow the exercises available, to build a full application step by step.
+
+You can pay what you want for this ebook, and give part of the price to support the Vue team. Available in English and in French.
+
+<useful-links>
+<useful-links-section title="Link">
+
+[Become a Ninja with Vue 3](https://books.ninja-squad.com/vue)
+
+</useful-links-section>
+</useful-links>
