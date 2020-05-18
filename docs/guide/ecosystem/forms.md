@@ -128,7 +128,7 @@ Form state management libraries usually have smaller scope than form generators 
 
 ### Vue-Final-Form
 
-[Vue-Final-Form](https://github.com/egoist/vue-final-form) is a scoped slots based integration of Final Form, a framework-agnostic library that became pretty famous thanks to its subscription based state management system. Among its advantages are nice API and the focus on performance. Being written by [Egoist](https://twitter.com/_egoistlily), one of Vue.js Core Team members, will also be a plus for many.
+[Vue-Final-Form](https://github.com/egoist/vue-final-form) is a scoped slots based integration of Final Form, a framework-agnostic library that became pretty famous thanks to its subscription based state management system. Among its advantages are nice API and the focus on performance. Being written by [Egoist](https://twitter.com/_egoistlily), a Vue.js Core Team alumni, will also be a plus for many.
 
 <useful-links>
 <useful-links-section title="Official">
