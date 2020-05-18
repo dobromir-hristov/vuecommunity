@@ -192,14 +192,19 @@ Out of all kinds of form fields, multiselect is usually the most tricky to imple
 </useful-links>
 
 
-## Form Tutorials
+## Learning materials
 
-Here's a list of selected general tutorials on how to write forms in Vue.js that don't require using any specific library.
+Here's a list of selected general materials on how to write forms in Vue.js that don't require using any specific library.
 
 <useful-links>
 <useful-links-section title="Tutorials">
 
 * [An imperative guide to forms in Vue.js 2](https://logrocket.com/blog/an-imperative-guide-to-forms-in-vue-js-2/)
+
+</useful-links-section>
+<useful-links-section title="Books">
+
+* [Building Forms with Vue.js](https://vue-community.org/guide/learning/books.html#building-forms-with-vue-js)
 
 </useful-links-section>
 </useful-links>
