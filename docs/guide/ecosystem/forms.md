@@ -23,12 +23,12 @@ Here are the top pics from each category
 </useful-links-section>
 <useful-links-section title="Forms generator">
 
-[Vue Form Generator](#vue-form-generator)
+[Vue Form Generator](#vue-form-generator) - provides the most fields out of the box
 
 </useful-links-section>
-<useful-links-section title="Managing State">
+<useful-links-section title="Most flexible">
 
-[Vue-Final-Form](#vue-final-form)
+[Vue Formulate](#vue-formulate) - covers both form generator and state management use cases
 
 </useful-links-section>
 </useful-links>
