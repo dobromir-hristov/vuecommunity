@@ -75,7 +75,7 @@ With [Vuelidate](https://github.com/monterail/vuelidate) you don't validate your
 
 ## Form Generators
 
-Form generators are libraries that allow users to generate a set of form elements based on so called schema - data representation of form fields with support for various custom properties that are later applied to some more or less generic templates. There were multiple projects with an ambition to write an ideal form generator for Vue.js, but out of them, only two achieved the stage at which they're suitable for actual use.
+Form generators are libraries that allow users to generate a set of form elements based on so called schema - data representation of form fields with support for various custom properties that are later applied to some more or less generic templates. There were multiple projects with an ambition to write an ideal form generator for Vue.js, but out of them, the following ones achieved a state in which they're suitable for actual use.
 
 ### Vue-Form-Generator
 
