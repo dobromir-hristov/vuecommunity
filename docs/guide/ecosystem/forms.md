@@ -79,15 +79,15 @@ Form generators are libraries that allow users to generate a set of form element
 
 ### Vue-Form-Generator
 
-[Vue-Form-Generator](https://github.com/icebob/vue-form-generator) is the most popular form generator for Vue.js. It uses an array based schema, it's own validation solution and a set of templates based on Bootstrap. You can use one of two builds - basic with most commonly used fields and full with all the bells and whistles the library has to offer. Both can be extended with your custom fields.
+[Vue-Form-Generator](https://github.com/icebob/vue-form-generator) is the most popular form generator for Vue.js. It uses an array based schema, it's own validation solution and a set of templates based on Bootstrap. You can use one of two builds - basic with most commonly used fields and the full one, with all the bells and whistles the library has to offer. Both can be extended with your custom fields.
 
-Having good documentation, high test coverage and being well-maintained for a long time, Vue-Form-Generator can be considered fully production ready.
+The library has good documentation, high test coverage, and was the first fully production ready project of its kind for Vue.
 
 <useful-links>
 <useful-links-section title="Official">
 
-* [GitHub Repo](https://github.com/icebob/vue-form-generator) 
-* [Docs](https://icebob.gitbooks.io/vueformgenerator/content)
+* [GitHub Repo](https://github.com/icebob/vue-form-generator)
+* [Docs](https://icebob.gitbooks.io/vueformgenerator)
 
 </useful-links-section>
 </useful-links>
