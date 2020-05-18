@@ -92,6 +92,21 @@ Having good documentation, high test coverage and being well-maintained for a lo
 </useful-links-section>
 </useful-links>
 
+### Vue-Formulate
+
+[Vue Formulate](https://github.com/wearebraid/vue-formulate) excels in its flexibility. You can treat it as a form generator or compose the forms directly in the template from provided components. Out of the box, it comes without the more complex components available for Vue-Form-Generator, but it's easy to create your own thanks to robust plugin and scoped slots architecture, which gives hopes for an ecosystem of 3rd party extensions in the future. You're also not bound to a specific CSS framework.
+
+The project is well maintained and offers extensive documentation, good internalization support, and built-in validators.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [GitHub Repo](https://github.com/wearebraid/vue-formulate)
+* [Docs](https://vueformulate.com)
+
+</useful-links-section>
+</useful-links>
+
 ### Vue-Formly
 
 [Vue-Formly](https://github.com/formly-js/vue-formly) takes obvious inspiration from [Angular-Formly](http://angular-formly.com). It's an older project, written originally for Vue 1, but now fully working with Vue 2. 
