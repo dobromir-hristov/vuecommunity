@@ -23,12 +23,12 @@ Here are the top pics from each category
 </useful-links-section>
 <useful-links-section title="Forms generator">
 
-[Vue Form Generator](#vue-form-generator)
+[Vue Form Generator](#vue-form-generator) - provides the most fields out of the box
 
 </useful-links-section>
-<useful-links-section title="Managing State">
+<useful-links-section title="Most flexible">
 
-[Vue-Final-Form](#vue-final-form)
+[Vue Formulate](#vue-formulate) - covers both form generator and state management use cases
 
 </useful-links-section>
 </useful-links>
@@ -75,19 +75,34 @@ With [Vuelidate](https://github.com/monterail/vuelidate) you don't validate your
 
 ## Form Generators
 
-Form generators are libraries that allow users to generate a set of form elements based on so called schema - data representation of form fields with support for various custom properties that are later applied to some more or less generic templates. There were multiple projects with an ambition to write an ideal form generator for Vue.js, but out of them, only two achieved the stage at which they're suitable for actual use.
+Form generators are libraries that allow users to generate a set of form elements based on so called schema - data representation of form fields with support for various custom properties that are later applied to some more or less generic templates. There were multiple projects with an ambition to write an ideal form generator for Vue.js, but out of them, the following ones achieved a state in which they're suitable for actual use.
 
 ### Vue-Form-Generator
 
-[Vue-Form-Generator](https://github.com/icebob/vue-form-generator) is the most popular form generator for Vue.js. It uses an array based schema, it's own validation solution and a set of templates based on Bootstrap. You can use one of two builds - basic with most commonly used fields and full with all the bells and whistles the library has to offer. Both can be extended with your custom fields.
+[Vue-Form-Generator](https://github.com/icebob/vue-form-generator) is the most popular form generator for Vue.js. It uses an array based schema, it's own validation solution and a set of templates based on Bootstrap. You can use one of two builds - basic with most commonly used fields and the full one, with all the bells and whistles the library has to offer. Both can be extended with your custom fields.
 
-Having good documentation, high test coverage and being well-maintained for a long time, Vue-Form-Generator can be considered fully production ready.
+The library has good documentation, high test coverage, and was the first fully production ready project of its kind for Vue.
 
 <useful-links>
 <useful-links-section title="Official">
 
-* [GitHub Repo](https://github.com/icebob/vue-form-generator) 
-* [Docs](https://icebob.gitbooks.io/vueformgenerator/content)
+* [GitHub Repo](https://github.com/icebob/vue-form-generator)
+* [Docs](https://icebob.gitbooks.io/vueformgenerator)
+
+</useful-links-section>
+</useful-links>
+
+### Vue Formulate <badge text="Most Flexible"/>
+
+[Vue Formulate](https://github.com/wearebraid/vue-formulate) excels in its flexibility. You can treat it as a form generator or compose the forms directly in the template from provided components. Out of the box, it comes without the more complex components available for Vue-Form-Generator, but it's easy to create your own thanks to robust plugin and scoped slots architecture, which gives hopes for an ecosystem of 3rd party extensions in the future. You're also not bound to a specific CSS framework.
+
+The project is well maintained and offers extensive documentation, good internalization support, and built-in validators.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [GitHub Repo](https://github.com/wearebraid/vue-formulate)
+* [Docs](https://vueformulate.com)
 
 </useful-links-section>
 </useful-links>
@@ -113,7 +128,7 @@ Form state management libraries usually have smaller scope than form generators 
 
 ### Vue-Final-Form
 
-[Vue-Final-Form](https://github.com/egoist/vue-final-form) is a scoped slots based integration of Final Form, a framework-agnostic library that became pretty famous thanks to its subscription based state management system. Among its advantages are nice API and the focus on performance. Being written by [Egoist](https://twitter.com/_egoistlily), one of Vue.js Core Team members, will also be a plus for many.
+[Vue-Final-Form](https://github.com/egoist/vue-final-form) is a scoped slots based integration of Final Form, a framework-agnostic library that became pretty famous thanks to its subscription based state management system. Among its advantages are nice API and the focus on performance. Being written by [Egoist](https://twitter.com/_egoistlily), a Vue.js Core Team alumni, will also be a plus for many.
 
 <useful-links>
 <useful-links-section title="Official">
@@ -177,14 +192,19 @@ Out of all kinds of form fields, multiselect is usually the most tricky to imple
 </useful-links>
 
 
-## Form Tutorials
+## Learning materials
 
-Here's a list of selected general tutorials on how to write forms in Vue.js that don't require using any specific library.
+Here's a list of selected general materials on how to write forms in Vue.js that don't require using any specific library.
 
 <useful-links>
 <useful-links-section title="Tutorials">
 
 * [An imperative guide to forms in Vue.js 2](https://logrocket.com/blog/an-imperative-guide-to-forms-in-vue-js-2/)
+
+</useful-links-section>
+<useful-links-section title="Books">
+
+* [Building Forms with Vue.js](https://vue-community.org/guide/learning/books.html#building-forms-with-vue-js)
 
 </useful-links-section>
 </useful-links>
