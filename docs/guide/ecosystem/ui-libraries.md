@@ -302,3 +302,18 @@ Inkline provides you with over 50 customizable components, hundreds of utility c
 
 </useful-links-section>
 </useful-links>
+
+### Vuetensils
+
+> A "naked" component library for building accessible, lightweight, on-brand applications. 
+
+Rather than a full-fledged framework, Vuetensils offers  a set of base components that you can use to create your own UI system. It takes care of the raw JS functionality and accessibility, with only a minimal amount of default styling.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Vuetensils repository](https://github.com/stegosource/vuetensils) 
+* [Vuetensils documentation](https://vuetensils.stegosource.com) 
+
+</useful-links-section>
+</useful-links>
