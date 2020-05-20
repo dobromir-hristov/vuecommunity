@@ -317,3 +317,18 @@ Rather than a full-fledged framework, Vuetensils offers  a set of base component
 
 </useful-links-section>
 </useful-links>
+
+### Chakra UI
+
+Chakra is a Vue version of a popular UI library for React, with focus on accessibility. It makes use of [Styled System](https://styled-system.com/) which allows to declare CSS style properties directly via props, with a constrained set of utility classes.
+
+While it depends on CSS-in-JS under the hood, you don't need to know it in order to use the library.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Chakra UI repository](https://github.com/chakra-ui/chakra-ui-vue) 
+* [Chakra UI documentation](https://vue.chakra-ui.com/) 
+
+</useful-links-section>
+</useful-links>
