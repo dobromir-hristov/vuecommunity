@@ -271,11 +271,11 @@ Tailwind is very well accepted in the Vue community as it integrates very nicely
 </useful-links-section>
 </useful-links>
 
-### VueSax <badge type="warning" text="In Development"/>
+### VueSax
 
-From all the rest of available libraries, VueSax seems to be the most promising one in terms of both features and maintainment. The goal is to create an UI library that is fully independent in terms of colors, shapes and design choices, focusing on core JS functionality. 
+The goal of VueSax is to provide an UI library focused on core JS functionality. While it offers a default design based on warm color palette, doesn't depend on any specific design language or CSS framework and by default uses native CSS variables rather than preprocessors.
 
-The author doesn't recommend to use it in production yet, but for small non-commercial projects it may be worth trying out.
+Despite being less known than its mainstream competitors, VueSax has a track of consistent maintainment and managed to get a reputation of a stable UI solution.
 
 <useful-links>
 <useful-links-section title="Official">
