@@ -136,6 +136,6 @@ module.exports = {
     ['meta', { name: 'msapplication-config', content: '/favicons/browserconfig.xml' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { property: 'og:image', content: '/cover.png' }],
-    ['meta', { property: 'twitter:image', content: '/cover.png' }]
+    ['meta', { property: 'twitter:image:src', content: 'https://vue-community.org/cover.png' }]
   ]
 }
