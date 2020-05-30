@@ -122,6 +122,21 @@ It allows you to write your custom set of templates or use the standard componen
 </useful-links-section>
 </useful-links>
 
+### FormVueLatte
+
+[FormVueLatte](https://github.com/vuelidate/formvuelatte) is a zero dependency library that allows you to generate schema-driven forms with extreme ease.
+
+The schema that you use for your form can be as flexible as you need it to be, it can be modified at run-time with an expected reactive result, and can even be fetched directly from you backend’s API.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [GitHub Repo](https://github.com/vuelidate/formvuelatte) 
+* [Docs](https://formvuelatte.netlify.app/)
+
+</useful-links-section>
+</useful-links>
+
 ## Form State Management
 
 Form state management libraries usually have smaller scope than form generators and their main task is to help the developer to get rid of the common boilerplate. It takes care of the most annoying parts of writing forms, while still leaving you the full control over your templates. Such libraries can have different structure, based on classes, scoped slots or mixins.
