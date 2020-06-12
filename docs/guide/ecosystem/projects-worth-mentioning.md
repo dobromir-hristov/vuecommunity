@@ -7,4 +7,4 @@ These are projects that we just dont have a category for, but are absolutely wor
 
 ## d-patterns.js.org
 
-[Discord Patterns](d-patterns.js.org) is FOSS Discord templates listing website written in Vue.js & Nuxt. The website is entirely static and generated. Thanks to Vuetify, his material UI is modern and very functional.
+[Discord Patterns](https://d-patterns.js.org) is FOSS Discord templates listing website written in Vue.js & Nuxt. The website is entirely static and generated. Thanks to Vuetify, his material UI is modern and very functional.
