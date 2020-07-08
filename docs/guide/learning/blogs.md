@@ -74,5 +74,7 @@ This list consists of personal developer blogs, where people share their Vue rel
 
 - [Michael Gallagher](https://medium.com/@mike_17305) - Vue.js, Vuex, Javascript, Frontend development.
 
+- [Michael Gallagher](https://medium.com/@sadiridinovotabek) - Javascript, Frontend development, Vue.js, Vuex, Vuepress, Quasar, Vuetify and other VueJS frameworks and libraries. .
+
 
 #### If you write articles on Vue, feel free to make a PR and include your blog!
