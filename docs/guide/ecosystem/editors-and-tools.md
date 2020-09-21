@@ -63,6 +63,21 @@ CodeSandbox has a very generous freemium policy with 50 active sandboxes (projec
 </useful-links-section>
 </useful-links>
 
+### Codelobster IDE
+
+A light-weight but full-featured multi-platform IDE. Free version has a comprehensive HTML, CSS, JavaScript and PHP editor. The Pro version has a lot of useful plugins including one for Vue support.
+
+Vue Plugin could download the latest framework version to the necessary folder, provides syntax highlighting, functions autocomplete and help tooltips for functions, you can get context help from Vue documentation by placing pointer on element you want to review help topic for and pressing F1 button.
+
+<useful-links>
+<useful-links-section title="Useful Links">
+
+- [Official Website](http://codelobster.com)
+- [Vue.js Plugin User Guide](http://codelobster.com/vuejs.html)
+
+</useful-links-section>
+</useful-links>
+
 ### Atom
 
 An amazing, free, open-source code editor created by GitHub with plenty of extensions and superb user experience. With the available plugins, it supports a wide range of languages and features, including ones dedicated to Vue: smart code completion/suggestions, snippets, syntax highlighting, linting and formatting with both eslint and prettier, that works in template, script and style parts of the Vue SFC.
