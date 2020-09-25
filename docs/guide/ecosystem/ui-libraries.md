@@ -249,6 +249,20 @@ Despite its popularity, [Semantic UI](https://semantic-ui.com/) never really hit
 </useful-links-section>
 </useful-links>
 
+### vectre
+
+[Specter.CSS](https://picturepan2.github.io/spectre/) is a lightweight, responsive and modern CSS framework for faster and extensible development. The hallmark of this framework is its tiny size and consistent design language. But up to this point, there has been no full implementation of most of the components in any ecosystem. This was the motivation to create a fast, small and user friendly Vectre framework that will have modern features like typescript/tsx support, tree shaking, multiple JavaScript module systems and of course tiny size.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [vectre repository](https://github.com/vectrejs/vectre)
+* [vectre documentation](https://vectrejs.github.io/docs/) 
+* [vectre chat on Discord](https://discord.gg/4YTfpB)
+
+</useful-links-section>
+</useful-links>
+
 ## Other solutions
 
 ### Tailwind CSS <badge text="Most Flexible"/>
