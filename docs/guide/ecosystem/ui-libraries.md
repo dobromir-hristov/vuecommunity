@@ -263,6 +263,21 @@ Despite its popularity, [Semantic UI](https://semantic-ui.com/) never really hit
 </useful-links-section>
 </useful-links>
 
+### PrimeVue
+
+[PrimeVue](https://www.primefaces.org/primevue/showcase/) is an advanced UI component library for Vue featuring 60+ rich set of components, a theme designer, various theme alternatives such as Material, Bootstrap, FluentUI, VueCLI templates and professional support. All widgets are open source and free to use under MIT License.
+
+PrimeVue is developed by [PrimeTek Informatics](https://www.primetek.com.tr), a vendor with years of expertise in developing open source UI solutions including PrimeFaces, PrimeNG and PrimeReact
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [PrimeVue repository](https://github.com/primefaces/primevue)
+* [PrimeVue documentation](https://www.primefaces.org/primevue/showcase/) 
+
+</useful-links-section>
+</useful-links>
+
 ## Other solutions
 
 ### Tailwind CSS <badge text="Most Flexible"/>
