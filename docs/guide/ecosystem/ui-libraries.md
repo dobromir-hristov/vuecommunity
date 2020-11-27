@@ -278,6 +278,21 @@ PrimeVue is developed by [PrimeTek Informatics](https://www.primetek.com.tr), a 
 </useful-links-section>
 </useful-links>
 
+### Kendo UI for Vue
+
+[Kendo UI for Vue](https://www.telerik.com/kendo-vue-ui) is a professionally built commercial UI library with 90+ components that is built for business applications. It provides [high-quality learning resources](https://www.telerik.com/kendo-vue-ui/components/) and an [award-winning technical support](https://www.telerik.com/best-tech-support).  The components are fully responsive with support for multiple design systems like Kendo Default, Material Design, Bootstrap and the ability to create a custom variety of theme in [Theme Builder](https://themebuilder.telerik.com/kendo-vue-ui).
+
+In [Telerik](https://www.telerik.com/) we've been solving this problem for the past 18 years across many development platforms, which now include four JavaScript frameworks so you can count on us in the long run.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Kendo UI for Vue repository](https://github.com/telerik/kendo-vue)
+* [Kendo UI for Vue documentation](https://www.telerik.com/kendo-vue-ui/components/) 
+
+</useful-links-section>
+</useful-links>
+
 ## Other solutions
 
 ### Tailwind CSS <badge text="Most Flexible"/>
