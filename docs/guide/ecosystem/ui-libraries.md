@@ -356,7 +356,7 @@ Ionic is an open source UI toolkit focused on building high quality cross platfo
 <useful-links>
 <useful-links-section title="Official">
 
-* [Ionic Vue repository](https://github.com/ionic-team/ionic-framework/tree/master/packages/vue)
+* [Ionic Vue components](https://ionicframework.com/docs/components)
 * [Ionic Vue documentation](https://ionicframework.com/docs/vue/overview)
 * [Ionic Vue forum](https://forum.ionicframework.com/c/ionic/vue/29)
 
