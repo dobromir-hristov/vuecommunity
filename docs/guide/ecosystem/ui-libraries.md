@@ -174,8 +174,8 @@ While not as well-known as Element UI, Iview is a valid, well maintained alterna
 <useful-links>
 <useful-links-section title="Official">
 
-* [Iview repository](https://github.com/iview/iview)
-* [Iview documentation](https://iviewui.com)
+* [iView repository](https://github.com/iview/iview)
+* [iView documentation](https://iviewui.com)
 
 </useful-links-section>
 </useful-links>
