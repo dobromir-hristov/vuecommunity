@@ -169,7 +169,7 @@ The library's success resulted in porting Element UI to Angular and React ecosys
 
 ### iView
 
-While not as well-known as Element UI, Iview is a valid, well maintained alternative. It provides a large set of components which we can import on demand and useful tools to make working with them easier, together with Typescript support and the official admin panel template. It's a good choice especially if you prefer to work with LESS over SASS.
+While not as well-known as Element UI, iView is a valid, well maintained alternative. It provides a large set of components which we can import on demand and useful tools to make working with them easier, together with Typescript support and the official admin panel template. It's a good choice especially if you prefer to work with LESS over SASS.
 
 <useful-links>
 <useful-links-section title="Official">
