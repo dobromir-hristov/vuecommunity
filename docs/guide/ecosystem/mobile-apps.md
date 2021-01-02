@@ -233,7 +233,8 @@ As with other frameworks, it provides a set of components that change look depen
 <useful-links>
 <useful-links-section title="Official">
   
-* [Ionic Vue Docs](https://ionicframework.com/docs/vue/overview)
+* [Ionic Vue Documentation](https://ionicframework.com/docs/vue/overview)
+* [Ionic Components](https://ionicframework.com/docs/components)
 * [Announcing Ionic Vue](https://ionicframework.com/blog/announcing-ionic-vue)
 
 </useful-links-section>
