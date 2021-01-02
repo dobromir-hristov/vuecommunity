@@ -19,19 +19,25 @@ If you don't have time to read all of this and just need a quick answer:
 <useful-links>
 <useful-links-section title="Users choice">
 
-[Vuetify](#vuetify) - mobile and desktop ready, material design.
-[Quasar](#quasar) - also a material design framework, but with cross-platform capabilities.
+ * [Vuetify](#vuetify) - mobile and desktop ready, material design
+ * [Quasar](#quasar) - also a material design framework, but with cross-platform capabilities
 
 </useful-links-section>
-<useful-links-section title="Desktop mainly">
+<useful-links-section title="Any platform">
+
+ * [Quasar](#quasar) - all-in-one framework, option of Cordova or Capacitor for mobile builds
+ * [Ionic Vue](#ionic-vue) - UI toolkit built on top of Vue CLI, uses Capacitor for native mobile
+
+</useful-links-section>
+<useful-links-section title="Desktop focused">
 
  - [Element UI](#element-ui) - extensive, desktop oriented, widely popular in asia
  - [iView](#iview)
 
 </useful-links-section>
-<useful-links-section title="Easy get into">
+<useful-links-section title="Easy if familiar">
 
-* [Bootstrap-Vue](#bootstrap-vue) - Bootstrap based
+* [BootstrapVue](#bootstrapvue) - Bootstrap based
 * [Buefy](#buefy) - Bulma based
 
 </useful-links-section>
