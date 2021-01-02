@@ -1,4 +1,4 @@
-# UI libraries
+# UI Libraries
 
 _"Which UI library is the best"_ stands among the most common questions from newcomers to Vue.js ecosystem. The answer isn't easy though, since there is no such thing as "the best" components library for Vue, due to many factors that should be considered. What you can look for instead is a solution optimal for your specific use case.
 
@@ -249,7 +249,7 @@ Despite its popularity, [Semantic UI](https://semantic-ui.com/) never really hit
 </useful-links-section>
 </useful-links>
 
-### vectre
+### Vectre
 
 [Specter.CSS](https://picturepan2.github.io/spectre/) is a lightweight, responsive and modern CSS framework for faster and extensible development. The hallmark of this framework is its tiny size and consistent design language. But up to this point, there has been no full implementation of most of the components in any ecosystem. This was the motivation to create a fast, small and user friendly Vectre framework that will have modern features like typescript/tsx support, tree shaking, multiple JavaScript module systems and of course tiny size.
 
@@ -351,7 +351,7 @@ Inkline provides you with over 50 customizable components, hundreds of utility c
 
 > A native Vue version of Ionic Framework that makes it easy to build apps for iOS, Android, and the web as a Progressive Web App. Our components allow developers to build native experiences, all while using web technology.
 
-Ionic is an open source UI toolkit focused on building high quality cross platform apps. Originally built for Angular and already one of the most popular frameworks in the world, the latest release now supports Vue as well as React thanks to their [move to native web components](https://blog.ionicframework.com/introducing-ionic-4-ionic-for-everyone) in version 4. The Ionic team reports the framework powers roughly (15% of all mobile apps)[https://appfigures.com/top-sdks/development/apps].
+Ionic is an open source UI toolkit focused on building high quality cross platform apps. Originally built for Angular and already one of the most popular frameworks in the world, the latest release now supports Vue as well as React thanks to their [move to native web components](https://blog.ionicframework.com/introducing-ionic-4-ionic-for-everyone) in version 4. The Ionic team reports the framework powers roughly [15% of all mobile apps](https://appfigures.com/top-sdks/development/apps).
 
 <useful-links>
 <useful-links-section title="Official">
