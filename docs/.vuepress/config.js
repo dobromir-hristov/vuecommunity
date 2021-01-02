@@ -108,6 +108,7 @@ module.exports = {
               '/guide/ecosystem/boilerplates.md',
               '/guide/ecosystem/client-server-communication.md',
               '/guide/ecosystem/documentation.md',
+              '/guide/ecosystem/accessibility.md',
               '/guide/ecosystem/hosting.md',
               '/guide/ecosystem/i18n.md',
               '/guide/ecosystem/testing.md',
