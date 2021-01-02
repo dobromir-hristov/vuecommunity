@@ -72,7 +72,7 @@ The components in libraries such as [Vuetify](#vuetify) or [Vue-Material](#vue-m
 
 > Vuetify is a semantic component framework for Vue. It aims to provide clean, semantic and reusable components that make building your application a breeze. Build amazing applications with the power of Vue, Material Design and a massive library of beautifully crafted components and features.
 
-Vuetify is praised not only for a wide selection of components, but also for the way it's maintained. Currently it's developed by a full team of developers and it's got big and well organized community. The project is funded via Patreon and Open Collective.
+Vuetify is praised not only for a wide selection of components, but also for the way it's maintained. Currently it's developed by a full team of developers and it's got a big and well organized community. The project is funded via Patreon and Open Collective.
 
 The library's ecosystem provides multiple tools, such as theme generator, Webpack loader or opinionated Eslint config. It's also easy to implement Vuetify in your application thanks to provided plugins for Vue CLI and Nuxt.
 
@@ -343,6 +343,27 @@ Inkline provides you with over 50 customizable components, hundreds of utility c
 * [Inkline repository](https://github.com/inkline/inkline) 
 * [Inkline documentation](https://inkline.io/) 
 * [Inkline chat on Discord](https://discord.gg/2w5UGnK)
+
+</useful-links-section>
+</useful-links>
+
+### Ionic Vue <badge text="Web Native"/>
+
+> A native Vue version of Ionic Framework that makes it easy to build apps for iOS, Android, and the web as a Progressive Web App. Our components allow developers to build native experiences, all while using web technology.
+
+Ionic is an open source UI toolkit focused on building high quality mobile apps for native iOS, native Android, and the web. It is one of the most popular frameworks in the world, originally built for Angular, the latest release now supports Vue as well as React thanks to their [move to native web components](https://blog.ionicframework.com/introducing-ionic-4-ionic-for-everyone). The Ionic team reports the framework powers roughly (15% of all mobile apps)[https://appfigures.com/top-sdks/development/apps].
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Ionic Vue repository](https://github.com/ionic-team/ionic-framework/tree/master/packages/vue)
+* [Ionic Vue documentation](https://ionicframework.com/docs/vue/overview)
+* [Ionic Vue forum](https://forum.ionicframework.com/c/ionic/vue/29)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
+* [Your First Ionic Vue App](https://ionicframework.com/blog/new-tutorial-your-first-ionic-vue-app)
 
 </useful-links-section>
 </useful-links>
