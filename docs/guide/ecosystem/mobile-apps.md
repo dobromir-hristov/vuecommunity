@@ -179,7 +179,7 @@ Hybrid apps are built by reusing well established tools for making websites like
 
 ::: danger Cons
 * Generally slower than Native apps
-* Access to lower level device APIs is dependent on wrapper (Cordova)
+* Access to lower level device APIs is dependent on wrapper (Cordova or Capacitor)
 * Platform inconsistencies
 :::
 
@@ -227,7 +227,7 @@ Ionic has a vast community, but as most tutorials are for the previous versions,
 As with other frameworks, it provides a set of components that change look depending on the OS they are built for and a CLI tool for starting projects and easily integrating Capacitor for native builds.
 
 ::: warning Keep in mind
-* Young and small community still
+* Still young and small community
 :::
 
 <useful-links>
