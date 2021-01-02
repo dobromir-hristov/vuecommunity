@@ -20,13 +20,13 @@ If you don't have time to read all of this and just need a quick answer:
 <useful-links-section title="Users choice">
 
  * [Vuetify](#vuetify) - mobile and desktop ready, material design
- * [Quasar](#quasar) - also a material design framework, but with cross-platform capabilities
+ * [Quasar](#quasar) - material design as well but with cross-platform capabilities
 
 </useful-links-section>
 <useful-links-section title="Any platform">
 
- * [Quasar](#quasar) - all-in-one framework, option of Cordova or Capacitor for mobile builds
- * [Ionic Vue](#ionic-vue) - UI toolkit built on top of Vue CLI, uses Capacitor for native mobile
+ * [Quasar](#quasar) - full framework, option of Cordova or Capacitor for mobile builds
+ * [Ionic Vue](#ionic-vue) - cross-platform UI toolkit, uses Capacitor for native mobile
 
 </useful-links-section>
 <useful-links-section title="Desktop focused">
