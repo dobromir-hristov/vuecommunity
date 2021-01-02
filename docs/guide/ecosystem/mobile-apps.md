@@ -166,7 +166,7 @@ Below is a list of popular tools to generate a PWA quickly:
 
 ## Hybrid Apps
 
-Hybrid apps are built by reusing already establishes knowledge about making websites using HTML, CSS and JavaScript with a minimal extra learning curve. SPA's can be converted to mobile apps with a tool called Cordova. It acts as a wrapper around your web app by providing access to device hardware and functions via a unified JavaScript API. It allows developers to write one code that can run on all platforms.
+Hybrid apps are built by reusing well established tools for making websites like HTML, CSS and JavaScript with a minimal extra learning curve. These web based projects can then be compiled to native cross-platform applications with build tools such as (Cordova)[https://cordova.apache.org] or it's more recent successor (Capacitor)[https://capacitorjs.com]. The build tool wraps the web app in a native shell and provides access to native device functionality via unified JavaScript APIs. This allows developers to write one code base that can then run natively across platforms.
 
 ::: tip Pros
 * Uses plain HTML, CSS and JavaScript
@@ -192,9 +192,9 @@ Some frameworks focus more towards one platform, so careful consideration must b
 
 ### Quasar <badge text="Popular"/>
 
-Quasar is a very active and fast growing Vue UI framework, one of the first targeting desktop and mobile in particular. It offers a large and ever extending set of pre-built components, some mimic mobile elements, and a bunch of other useful general use case ones. 
+Quasar is a very active and fast growing Vue UI framework, one of the first targeting desktop and mobile in particular. It offers a large and ever extending set of pre-built components, some mimic mobile elements, and a bunch of other useful general use case ones.
 
-Quasar comes with a CLI for managing and bundling your mobile app for each platform, using PhoneGap. CLI allows easy application bootstrapping, with support for PWA, i18n, Vuex, VueRouter, Async Code splitting and more.
+Quasar comes with a CLI for managing and bundling your mobile app for each platform, using PhoneGap. CLI allows easy application bootstrapping, with support for PWA, i18n, Vuex, VueRouter, Async Code splitting, option of Cordova or Capacitor for native builds and more.
 
 <useful-links>
 <useful-links-section title="Official">
@@ -223,7 +223,7 @@ One of the most popular mobile UI frameworks in the world, Ionic was originally 
 
 Ionic has a vast community, but as most tutorials are for the previous versions, using Angular, Vue users might have to adopt the examples, but the concepts are the same. More new material targeting Ionic Vue is starting to emerge gradually now that it has finished beta.
 
-As with other frameworks, it provides a set of components that change look depending on the OS they are built for.
+As with other frameworks, it provides a set of components that change look depending on the OS they are built for and a CLI tool for starting projects and easily integrating Capacitor for native builds.
 
 ::: warning Keep in mind
 * Young and small community still
@@ -248,7 +248,7 @@ As with other frameworks, it provides a set of components that change look depen
 
 Framework 7 is an already established, mobile focused UI framework, offering native like looking themes for both IOS and Android. It was originally built with IOS in mind, with Material Design added later.
 
-They officially support Vue on top of their components. Along with mobile apps, you can easily develop Web Apps (SPA) with PWA support via their CLI.
+They officially support Vue on top of their components. Along with mobile apps using Capacitor, you can easily develop Web Apps (SPA) with PWA support via their CLI.
 
 They have a nice documentation, though the Vue part is lacking a bit on explanations, so jumping between it and standard component docs may be necessary.
 
