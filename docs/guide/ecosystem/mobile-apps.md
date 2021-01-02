@@ -217,6 +217,33 @@ Quasar comes with a CLI for managing and bundling your mobile app for each platf
 </useful-links-section>
 </useful-links>
 
+### Ionic Vue <badge text="New"/>
+
+One of the most popular mobile UI frameworks in the world, Ionic was originally built for Angular, but with their latest release they now support Vue 3, thanks to their [move to web components](https://blog.ionicframework.com/introducing-ionic-4-ionic-for-everyone/). 
+
+Ionic has a vast community, but as most tutorials are for the previous versions, using Angular, Vue users might have to adopt the examples, but the concepts are the same. New material covering Ionic Vue specifically is slowly emerging now that it has finished beta.
+
+As with other frameworks, it provides a set of components that change look depending on the OS they are built for.
+
+::: warning Keep in mind
+* Very young and small community still
+:::
+
+<useful-links>
+<useful-links-section title="Official">
+* [Ionic Vue Docs](https://ionicframework.com/docs/vue/overview)
+* [Announcing Ionic Vue](https://ionicframework.com/blog/announcing-ionic-vue)
+</useful-links-section>
+
+<useful-links-section title="Tutorials">
+* [Build a chat app using Framework7](https://ionicframework.com/blog/new-tutorial-your-first-ionic-vue-app)
+</useful-links-section>
+
+<useful-links-section title="Videos">
+* [Mobile apps with Vue and Ionic](https://www.youtube.com/watch?v=bJKwPsOqcqM)
+</useful-links-section>
+</useful-links>
+
 ### Framework 7
 
 Framework 7 is an already established, mobile focused UI framework, offering native like looking themes for both IOS and Android. It was originally built with IOS in mind, with Material Design added later.
@@ -255,24 +282,3 @@ They have a nice documentation, though the Vue part is lacking a bit on explanat
 ::: contribute
 :::
 
-### Ionic Vue <badge text="Beta" type="error"/>
-
-One of the most popular mobile UI frameworks in the world, Ionic was originally built for Angular, but with their latest release they support Vue, thanks to their [move to web components](https://blog.ionicframework.com/introducing-ionic-4-ionic-for-everyone/). 
-
-Keep in mind their Vue implementation is still in **Beta** and is yet to be ironed out. Ionic has a vast community, but as most tutorials are for the previous versions, using Angular, Vue users might have to adopt the examples, but the concept is the same.
-
-As with other frameworks, it provides a set of components that change look depending on the OS they are built for.
-
-::: warning Keep in mind
-* Still in Beta and developed
-* Very young and little to no community around it
-* Almost no docs or learning material
-:::
-
-<useful-links>
-<useful-links-section title="Official">
-
-* [A Vue from Ionic](https://blog.ionicframework.com/a-vue-from-ionic/)
-
-</useful-links-section>
-</useful-links>
