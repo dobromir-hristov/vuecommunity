@@ -351,7 +351,7 @@ Inkline provides you with over 50 customizable components, hundreds of utility c
 
 > A native Vue version of Ionic Framework that makes it easy to build apps for iOS, Android, and the web as a Progressive Web App. Our components allow developers to build native experiences, all while using web technology.
 
-Ionic is an open source UI toolkit focused on building high quality cross platform apps. Originally built for Angular and already one of the most popular frameworks in the world, the latest release now supports Vue as well as React thanks to their [move to native web components](https://blog.ionicframework.com/introducing-ionic-4-ionic-for-everyone) in version 4. The Ionic team reports the framework powers roughly [15% of all mobile apps](https://appfigures.com/top-sdks/development/apps).
+Ionic is an open source UI toolkit focused on building high quality cross platform apps. Originally built for Angular and already one of the most popular frameworks in the world, the latest release now supports Vue 3 as well as React thanks to their [move to native web components](https://blog.ionicframework.com/introducing-ionic-4-ionic-for-everyone) in version 4. The Ionic team reports the framework powers roughly [15% of all mobile apps](https://appfigures.com/top-sdks/development/apps).
 
 <useful-links>
 <useful-links-section title="Official">
