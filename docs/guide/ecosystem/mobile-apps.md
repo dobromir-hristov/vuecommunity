@@ -226,7 +226,7 @@ Ionic has a vast community, but as most tutorials are for the previous versions,
 As with other frameworks, it provides a set of components that change look depending on the OS they are built for.
 
 ::: warning Keep in mind
-* Very young and small community still
+* Young and small community still
 :::
 
 <useful-links>
