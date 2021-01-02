@@ -253,7 +253,7 @@ As with other frameworks, it provides a set of components that change look depen
 
 Framework 7 is an already established, mobile focused UI framework, offering native like looking themes for both IOS and Android. It was originally built with IOS in mind, with Material Design added later.
 
-They officially support Vue on top of their components. Along with mobile apps using Capacitor, you can easily develop Web Apps (SPA) with PWA support via their CLI.
+They officially support Vue on top of their components. Along with mobile apps using Cordova, you can easily develop Web Apps (SPA) with PWA support via their CLI.
 
 They have a nice documentation, though the Vue part is lacking a bit on explanations, so jumping between it and standard component docs may be necessary.
 
