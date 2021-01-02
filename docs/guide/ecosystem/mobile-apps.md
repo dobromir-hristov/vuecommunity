@@ -221,7 +221,7 @@ Quasar comes with a CLI for managing and bundling your mobile app for each platf
 
 One of the most popular mobile UI frameworks in the world, Ionic was originally built for Angular, but with their latest release they now support Vue 3, thanks to their [move to web components](https://blog.ionicframework.com/introducing-ionic-4-ionic-for-everyone/). 
 
-Ionic has a vast community, but as most tutorials are for the previous versions, using Angular, Vue users might have to adopt the examples, but the concepts are the same. New material covering Ionic Vue specifically is slowly emerging now that it has finished beta.
+Ionic has a vast community, but as most tutorials are for the previous versions, using Angular, Vue users might have to adopt the examples, but the concepts are the same. More new material targeting Ionic Vue is starting to emerge gradually now that it has finished beta.
 
 As with other frameworks, it provides a set of components that change look depending on the OS they are built for.
 
