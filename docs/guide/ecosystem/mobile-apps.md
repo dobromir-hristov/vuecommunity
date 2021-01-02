@@ -23,7 +23,8 @@ On this page, we will go through the different ways one can build a mobile app w
 </useful-links-section>
 <useful-links-section title="Hybrid Apps">
 
-[Quasar](#quasar-badge-textpopular)
+* [Quasar](#quasar)
+* [Ionic Vue](#ionic-vue)
 
 </useful-links-section>
 <useful-links-section title="PWA">
@@ -221,7 +222,7 @@ Quasar comes with a CLI for managing and bundling your mobile app for each platf
 
 One of the most popular mobile UI frameworks in the world, Ionic was originally built for Angular, but with their latest release they now support Vue 3, thanks to their [move to web components](https://blog.ionicframework.com/introducing-ionic-4-ionic-for-everyone/). 
 
-Ionic has a vast community, but as most tutorials are for the previous versions, using Angular, Vue users might have to adopt the examples, but the concepts are the same. More new material targeting Ionic Vue is starting to emerge gradually now that it has finished beta.
+Ionic has a vast community, but as most tutorials are for the previous versions, using Angular, Vue users might have to adopt the examples, but the concepts are the same. New material targeting Ionic Vue is starting to emerge gradually now that it has finished beta.
 
 As with other frameworks, it provides a set of components that change look depending on the OS they are built for and a CLI tool for starting projects and easily integrating Capacitor for native builds.
 
@@ -231,16 +232,20 @@ As with other frameworks, it provides a set of components that change look depen
 
 <useful-links>
 <useful-links-section title="Official">
+  
 * [Ionic Vue Docs](https://ionicframework.com/docs/vue/overview)
 * [Announcing Ionic Vue](https://ionicframework.com/blog/announcing-ionic-vue)
-</useful-links-section>
 
+</useful-links-section>
 <useful-links-section title="Tutorials">
+  
 * [Your First Ionic Vue App](https://ionicframework.com/blog/new-tutorial-your-first-ionic-vue-app)
-</useful-links-section>
 
+</useful-links-section>
 <useful-links-section title="Videos">
+  
 * [Mobile apps with Vue and Ionic](https://www.youtube.com/watch?v=bJKwPsOqcqM)
+
 </useful-links-section>
 </useful-links>
 
