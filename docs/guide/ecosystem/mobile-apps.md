@@ -236,7 +236,7 @@ As with other frameworks, it provides a set of components that change look depen
 </useful-links-section>
 
 <useful-links-section title="Tutorials">
-* [Build a chat app using Framework7](https://ionicframework.com/blog/new-tutorial-your-first-ionic-vue-app)
+* [Your First Ionic Vue App](https://ionicframework.com/blog/new-tutorial-your-first-ionic-vue-app)
 </useful-links-section>
 
 <useful-links-section title="Videos">
