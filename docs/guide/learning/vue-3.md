@@ -4,8 +4,6 @@ Vue 3 has arrived!
 
 ## Upgrading
 
-If you are one of those who likes to get their hands dirty and likes digging through source code, here are a few repos that you must check out.
-
 <useful-links>
 <useful-links-section title="Official">
 
