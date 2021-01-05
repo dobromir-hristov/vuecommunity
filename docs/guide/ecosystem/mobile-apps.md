@@ -281,7 +281,7 @@ They have a nice documentation, though the Vue part is lacking a bit on explanat
 ### Onsen UI
 
 ::: contribute
-:::..
+:::
 
 ### Mint UI
 
