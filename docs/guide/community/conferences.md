@@ -15,8 +15,6 @@
 
 Here we will list Vue Conferences around the world and what is unique about them.
 
-## 
-
 ## VueConf US
 
 Hosted by Evan You
