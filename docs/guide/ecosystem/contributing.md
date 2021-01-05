@@ -3,3 +3,6 @@
 ## How to write your own library
 
 ## Why NOT to write your own library
+
+::: contribute
+:::

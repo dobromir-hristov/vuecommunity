@@ -38,3 +38,4 @@
 * [Build Tools](./ecosystem/build-tools.md) - Build tools used across Vue ecosystem
 * [Projects worth mentioning](./ecosystem/projects-worth-mentioning.md) - Important Vue projects that don't fit in other categories.
 * [Legacy Packages](./ecosystem/legacy.md) - Outdated or deprecated Vue packages and features
+* [Contributing](./ecosystem/contributing.md) - Notes on contributing to the ecosystem
