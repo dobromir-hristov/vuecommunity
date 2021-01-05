@@ -7,8 +7,8 @@ Vue 3 has arrived!
 <useful-links>
 <useful-links-section title="Official">
 
-* [Vue 2 Composition API Plugin](https://github.com/vuejs/composition-api) - If you are eager to try out the new Composition API in Vue 2.
 * [Migration Guide](https://v3.vuejs.org/guide/migration/introduction.html)
+* [Composition API Plugin for Vue 2](https://github.com/vuejs/composition-api)
 
 </useful-links-section>
 </useful-links>
