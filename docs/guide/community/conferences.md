@@ -6,9 +6,16 @@
 - [Vue Conference Videos By Vue Mastery](https://www.vuemastery.com/conferences)
 
 </useful-links-section>
+<useful-links-section title="See also">
+
+- [Vue.js Events](events.vuejs.org) - Official events and community portal
+
+</useful-links-section>
 </useful-links>
 
 Here we will list Vue Conferences around the world and what is unique about them.
+
+## 
 
 ## VueConf US
 
