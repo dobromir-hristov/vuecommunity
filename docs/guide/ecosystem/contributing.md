@@ -1,8 +1,10 @@
-# How to contribute to the Vue Core and its accompanying ecosystem
+# Contributing
 
-## How to write your own library
+## How to contribute to the Vue Core and its accompanying ecosystem
 
-## Why NOT to write your own library
+### How to write your own library
+
+### Why NOT to write your own library
 
 ::: contribute
 :::
