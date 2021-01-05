@@ -27,6 +27,18 @@ Hosted by Evan You
 </useful-links-section>
 </useful-links>
 
+## VueConf Toronto
+
+> Join 10,000+ Vue.js developers from more than 100 countries for a two-day conference to learn and discuss about the latest of Vue.js and related technologies
+
+<useful-links>
+<useful-links-section title="Links">
+
+- [vuetoronto.com](https://vuetoronto.com/)
+- [YouTube Channel](https://www.youtube.com/c/VueConfToronto)
+
+</useful-links-section>
+</useful-links>
 
 ## Vue.js Amsterdam
 
@@ -38,19 +50,6 @@ Hosted by Evan You
 - [vuejs.amsterdam](https://vuejs.amsterdam)
 - [YouTube Channel](https://www.youtube.com/c/VuejsAmsterdam)
   
-</useful-links-section>
-</useful-links>
-
-## VueConf Toronto
-
-> Join 10,000+ Vue.js developers from more than 100 countries for a two-day conference to learn and discuss about the latest of Vue.js and related technologies
-
-<useful-links>
-<useful-links-section title="Links">
-
-- [vuetoronto.com](https://vuetoronto.com/)
-- [YouTube Channel](https://www.youtube.com/c/VueConfToronto)
-
 </useful-links-section>
 </useful-links>
 
