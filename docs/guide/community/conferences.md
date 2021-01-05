@@ -8,9 +8,9 @@
 </useful-links-section>
 </useful-links>
 
-Here we will list Vue Conferences around the world, when each is held and what is unique about it.
+Here we will list Vue Conferences around the world and what is unique about them.
 
-### VueConf US (Apr)
+### VueConf US
 
 Hosted by Evan You
 
@@ -23,7 +23,7 @@ Hosted by Evan You
 </useful-links>
 
 
-### Vue.js Amsterdam (Jan)
+### Vue.js Amsterdam
 
 > Vuejs Amsterdam is the Largest & Most Epic Vue Conference in the World
 
@@ -36,7 +36,7 @@ Hosted by Evan You
 </useful-links-section>
 </useful-links>
 
-### VueConf Toronto (Nov)
+### VueConf Toronto
 
 > Join 10,000+ Vue.js developers from more than 100 countries for a two-day conference to learn and discuss about the latest of Vue.js and related technologies
 
@@ -49,7 +49,7 @@ Hosted by Evan You
 </useful-links-section>
 </useful-links>
 
-### Vue.js London (tbd)
+### Vue.js London
 
 <useful-links>
 <useful-links-section title="Links">
