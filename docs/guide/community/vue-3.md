@@ -9,9 +9,9 @@ If you are one of those who likes to get their hands dirty and likes digging thr
 <useful-links>
 <useful-links-section title="Official">
 
-- [Vue 2 Composition API Plugin](https://github.com/vuejs/composition-api) - If you are eager to try out the new Composition API in Vue 2.
-- [Vue 3 pre-alpha](https://github.com/vuejs/vue-next) - The repo for Vue 3 itself.
-- [Vue RFCs repository](https://github.com/vuejs/rfcs) - The repo with all RFCs. If something is going to be changed, it can most probably be found there.
+* [Vue 2 Composition API Plugin](https://github.com/vuejs/composition-api) - If you are eager to try out the new Composition API in Vue 2.
+* [Vue 3 pre-alpha](https://github.com/vuejs/vue-next) - The repo for Vue 3 itself.
+* [Vue RFCs repository](https://github.com/vuejs/rfcs) - The repo with all RFCs. If something is going to be changed, it can most probably be found there.
 
 </useful-links-section>
 </useful-links>
@@ -59,7 +59,7 @@ Vue 3 is not yet published but we are already seeing courses and tutorials poppi
 <useful-links>
 <useful-links-section title="Vue 3 talks">
 
-- [Design Principals of Vue 3.0 by Evan You](https://www.youtube.com/watch?v=WLpLYhnGqPA)
+- [Design Principals of Vue 3.0 by Evan You](https://www.youtube.com/watch?v=WLpLYhnGqPA) 
 - [Evan You on What's Coming in Vue 3.0](https://www.youtube.com/watch?v=8Hgt9HYaCDA)
 
 </useful-links-section>
@@ -69,6 +69,7 @@ Vue 3 is not yet published but we are already seeing courses and tutorials poppi
 
 <useful-links>
 <useful-links-section title="Vue 3 books">
+
 
 - [Become a Ninja with Vue 3](https://books.ninja-squad.com/vue)
 - [Vue - The Road To Enterprise](https://bit.ly/3iDzjir)
