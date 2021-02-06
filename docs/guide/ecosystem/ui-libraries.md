@@ -1,4 +1,4 @@
-# UI libraries
+# UI Libraries
 
 _"Which UI library is the best"_ stands among the most common questions from newcomers to Vue.js ecosystem. The answer isn't easy though, since there is no such thing as "the best" components library for Vue, due to many factors that should be considered. What you can look for instead is a solution optimal for your specific use case.
 
@@ -19,19 +19,25 @@ If you don't have time to read all of this and just need a quick answer:
 <useful-links>
 <useful-links-section title="Users choice">
 
-[Vuetify](#vuetify) - mobile and desktop ready, material design.
-[Quasar](#quasar) - also a material design framework, but with cross-platform capabilities.
+ * [Vuetify](#vuetify) - mobile and desktop ready, material design
+ * [Quasar](#quasar) - material design as well but with cross-platform capabilities
 
 </useful-links-section>
-<useful-links-section title="Desktop mainly">
+<useful-links-section title="Any platform">
+
+ * [Quasar](#quasar) - full framework, option of Cordova or Capacitor for mobile builds
+ * [Ionic Vue](#ionic-vue) - cross-platform UI toolkit, uses Capacitor for native mobile
+
+</useful-links-section>
+<useful-links-section title="Desktop focused">
 
  - [Element UI](#element-ui) - extensive, desktop oriented, widely popular in asia
  - [iView](#iview)
 
 </useful-links-section>
-<useful-links-section title="Easy get into">
+<useful-links-section title="Easy if familiar">
 
-* [Bootstrap-Vue](#bootstrap-vue) - Bootstrap based
+* [BootstrapVue](#bootstrapvue) - Bootstrap based
 * [Buefy](#buefy) - Bulma based
 
 </useful-links-section>
@@ -72,7 +78,7 @@ The components in libraries such as [Vuetify](#vuetify) or [Vue-Material](#vue-m
 
 > Vuetify is a semantic component framework for Vue. It aims to provide clean, semantic and reusable components that make building your application a breeze. Build amazing applications with the power of Vue, Material Design and a massive library of beautifully crafted components and features.
 
-Vuetify is praised not only for a wide selection of components, but also for the way it's maintained. Currently it's developed by a full team of developers and it's got big and well organized community. The project is funded via Patreon and Open Collective.
+Vuetify is praised not only for a wide selection of components, but also for the way it's maintained. Currently it's developed by a full team of developers and it's got a big and well organized community. The project is funded via Patreon and Open Collective.
 
 The library's ecosystem provides multiple tools, such as theme generator, Webpack loader or opinionated Eslint config. It's also easy to implement Vuetify in your application thanks to provided plugins for Vue CLI and Nuxt.
 
@@ -169,13 +175,13 @@ The library's success resulted in porting Element UI to Angular and React ecosys
 
 ### iView
 
-While not as well-known as Element UI, Iview is a valid, well maintained alternative. It provides a large set of components which we can import on demand and useful tools to make working with them easier, together with Typescript support and the official admin panel template. It's a good choice especially if you prefer to work with LESS over SASS.
+While not as well-known as Element UI, iView is a valid, well maintained alternative. It provides a large set of components which we can import on demand and useful tools to make working with them easier, together with Typescript support and the official admin panel template. It's a good choice especially if you prefer to work with LESS over SASS.
 
 <useful-links>
 <useful-links-section title="Official">
 
-* [Iview repository](https://github.com/iview/iview)
-* [Iview documentation](https://iviewui.com)
+* [iView repository](https://github.com/iview/iview)
+* [iView documentation](https://iviewui.com)
 
 </useful-links-section>
 </useful-links>
@@ -249,6 +255,50 @@ Despite its popularity, [Semantic UI](https://semantic-ui.com/) never really hit
 </useful-links-section>
 </useful-links>
 
+### Vectre
+
+[Specter.CSS](https://picturepan2.github.io/spectre/) is a lightweight, responsive and modern CSS framework for faster and extensible development. The hallmark of this framework is its tiny size and consistent design language. But up to this point, there has been no full implementation of most of the components in any ecosystem. This was the motivation to create a fast, small and user friendly Vectre framework that will have modern features like typescript/tsx support, tree shaking, multiple JavaScript module systems and of course tiny size.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [vectre repository](https://github.com/vectrejs/vectre)
+* [vectre documentation](https://vectrejs.github.io/docs/) 
+* [vectre chat on Discord](https://discord.gg/4YTfpB)
+
+</useful-links-section>
+</useful-links>
+
+### PrimeVue
+
+[PrimeVue](https://www.primefaces.org/primevue/showcase/) is an advanced UI component library for Vue featuring 60+ rich set of components, a theme designer, various theme alternatives such as Material, Bootstrap, FluentUI, VueCLI templates and professional support. All widgets are open source and free to use under MIT License.
+
+PrimeVue is developed by [PrimeTek Informatics](https://www.primetek.com.tr), a vendor with years of expertise in developing open source UI solutions including PrimeFaces, PrimeNG and PrimeReact
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [PrimeVue repository](https://github.com/primefaces/primevue)
+* [PrimeVue documentation](https://www.primefaces.org/primevue/showcase/) 
+
+</useful-links-section>
+</useful-links>
+
+### Kendo UI for Vue
+
+[Kendo UI for Vue](https://www.telerik.com/kendo-vue-ui) is a professionally built commercial UI library with 90+ components that is built for business applications. It provides [high-quality learning resources](https://www.telerik.com/kendo-vue-ui/components/) and an [award-winning technical support](https://www.telerik.com/best-tech-support).  The components are fully responsive and accessible with support for multiple design systems like Kendo Default, Material Design, Bootstrap and the ability to create a custom variety of theme in [Theme Builder](https://themebuilder.telerik.com/kendo-vue-ui).
+
+In [Telerik](https://www.telerik.com/) we've been solving this problem for the past 18 years across many development platforms, which now include four JavaScript frameworks.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Kendo UI for Vue repository](https://github.com/telerik/kendo-vue)
+* [Kendo UI for Vue documentation](https://www.telerik.com/kendo-vue-ui/components/) 
+
+</useful-links-section>
+</useful-links>
+
 ## Other solutions
 
 ### Tailwind CSS <badge text="Most Flexible"/>
@@ -299,6 +349,27 @@ Inkline provides you with over 50 customizable components, hundreds of utility c
 * [Inkline repository](https://github.com/inkline/inkline) 
 * [Inkline documentation](https://inkline.io/) 
 * [Inkline chat on Discord](https://discord.gg/2w5UGnK)
+
+</useful-links-section>
+</useful-links>
+
+### Ionic Vue <badge text="Web Native"/>
+
+> A native Vue version of Ionic Framework that makes it easy to build apps for iOS, Android, and the web as a Progressive Web App. Our components allow developers to build native experiences, all while using web technology.
+
+Ionic is an open source UI toolkit focused on building high quality cross platform apps. Originally built for Angular and already one of the most popular frameworks in the world, the latest release now supports Vue 3 as well as React thanks to their [move to native web components](https://blog.ionicframework.com/introducing-ionic-4-ionic-for-everyone) in version 4. The Ionic team reports the framework powers roughly [15% of all mobile apps](https://appfigures.com/top-sdks/development/apps).
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Ionic Vue components](https://ionicframework.com/docs/components)
+* [Ionic Vue documentation](https://ionicframework.com/docs/vue/overview)
+* [Ionic Vue forum](https://forum.ionicframework.com/c/ionic/vue/29)
+
+</useful-links-section>
+<useful-links-section title="Tutorials">
+
+* [Your First Ionic Vue App](https://ionicframework.com/blog/new-tutorial-your-first-ionic-vue-app)
 
 </useful-links-section>
 </useful-links>

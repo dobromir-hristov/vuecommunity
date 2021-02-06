@@ -57,13 +57,13 @@ You can write a simple form validation yourself, but if you want a well tested s
 
 ### Vuelidate
 
-With [Vuelidate](https://github.com/monterail/vuelidate) you don't validate your form fields directly, but rather by validating the data of your component, which state is compared to provided validation schema. Unlike string-based Vee-Validate, all validators in Vuelidate are functions. Vuelidate has many useful features but you will have to write some additional code too or use 3rd party plugins, like for the missing error messages handling.
+With [Vuelidate](https://github.com/vuelidate/vuelidate) you don't validate your form fields directly, but rather by validating the data of your component, which state is compared to provided validation schema. Unlike string-based Vee-Validate, all validators in Vuelidate are functions. Vuelidate has many useful features but you will have to write some additional code too or use 3rd party plugins, like for the missing error messages handling.
 
 <useful-links>
 <useful-links-section title="Official">
 
-* [GitHub Repo](https://github.com/monterail/vuelidate) 
-* [Docs](https://monterail.github.io/vuelidate) 
+* [GitHub Repo](https://github.com/vuelidate/vuelidate) 
+* [Docs](https://vuelidate.js.org/) 
 
 </useful-links-section>
 <useful-links-section title="Tutorials">

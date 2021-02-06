@@ -71,6 +71,7 @@ Vue 3 is not yet published but we are already seeing courses and tutorials poppi
 <useful-links-section title="Vue 3 books">
 
 - [Become a Ninja with Vue 3](https://books.ninja-squad.com/vue)
+- [Vue - The Road To Enterprise](https://bit.ly/3iDzjir)
 
 </useful-links-section>
 </useful-links>
