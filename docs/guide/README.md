@@ -7,17 +7,17 @@
 * [Diversity](./community/diversity.md) - Diversity and inclusion in Vue.js
 * [Job Market](./community/job-market.md) - How to find job with Vue.js and related topics
 * [Adopting Vue at work](./community/adopt-vue-at-work.md) - How to pitch Vue at your workplace
-* [Vue 3](./community/vue-3.md) - Vue 3 learning resources and plugins
 
 ## Learning
 * [Official Documentation](./learning/official-documentation.md) - All the official Vue docs, listed on one place
 * [How to learn Vue](./learning/how-to-learn-vue.md) - Tips on how to learn Vue if coming from other technologies
+* [Vue 3](./community/vue-3.md) - Vue 3 learning resources and plugins
 * [Learning platforms](./learning/learning-platforms.md) - Learning platforms that also offer Vue.js video courses
 * [Video Courses](./learning/courses.md) - Popular Vue video courses
 * [Books](./learning/books.md) - Books about Vue development
 * [Blogs](./learning/blogs.md) - Popular Vue related blogs.
-* [Frequently Asked Questions](./learning/faq.md) - Answers to most common questions asked by Vue developers through chats, forum and other media
 * [Podcasts](./learning/podcasts.md) - Vue podcasts or single episodes talking about Vue
+* [Frequently Asked Questions](./learning/faq.md) - Answers to most common questions asked by Vue developers
 * [Tips from Mentors](./learning/tips-from-mentors.md) - How Vue experts began with Vue, tips on how to learn
 * [Workshops](./learning/workshops.md) - What are Vue workshops and where to find them
 
