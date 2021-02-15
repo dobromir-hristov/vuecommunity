@@ -61,10 +61,6 @@ module.exports = {
             items: [
               { text: 'Spanish', link: '/multilingual/spanish.md' }
             ]
-          },
-          {
-            text: 'Contributing',
-            link: '/contributing/'
           }
         ],
         sidebar: [
@@ -118,7 +114,8 @@ module.exports = {
               '/guide/ecosystem/static-site-generators.md',
               '/guide/ecosystem/build-tools.md',
               '/guide/ecosystem/projects-worth-mentioning.md',
-              '/guide/ecosystem/legacy.md'
+              '/guide/ecosystem/legacy.md',
+              '/guide/ecosystem/contributing.md'
             ]
           }
         ]
