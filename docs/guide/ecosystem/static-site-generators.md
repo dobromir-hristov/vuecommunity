@@ -34,7 +34,7 @@ Pre-rendering is not a silver bullet and has some caveats:
 </useful-links-section>
 <useful-links-section title="Manual">
 
-[Prerender SPA Plugin](#prerender-spa-plugin) - low lever prerendering plugin
+[Prerender SPA Plugin](#prerender-spa-plugin) - low-level prerendering plugin
 
 </useful-links-section>
 <useful-links-section title="Webpack + Plugin">
@@ -126,6 +126,7 @@ Most people know Nuxt for its Server-side rendering capabilities, it however als
 </useful-links>
 
 ### NuxtPress <badge text="newcomer"/>
+
 NuxtPress is an addon for [Nuxt](#nuxt-static-generated-mode) (thus it also supports pre-rendering) which adds the ability to create Nuxt pages as `.md` files.
 
 There currently exist 3 modes: `docs`, `blog` & `slides` (experimental) and so it is already quite versatile.
@@ -148,6 +149,7 @@ Since it's just a Nuxt module, one major benefit is that you have all the power 
 </useful-links>
 
 ## Poi + vue-static
+
 Using the vue-static plugin for Poi by EGOIST, you can leverage pre-rendering for each route of your SPA at build time. You need to give it a map of your dynamic routes and it will do the rest. Keep in mind it uses vue-server-renderer, so all limitations of SSR will apply here as well (no window object so on). 
 
 This approach is useful for simpler applications, which when bundled with Poi, can get pre-rendering almost for free.
@@ -161,6 +163,7 @@ This approach is useful for simpler applications, which when bundled with Poi, c
 </useful-links>
 
 ## Saber
+
 Saber.js is a framework for building Modern Static Websites, also built by EGOIST. You can think of it as Gridsome or Gatsby but without the GraphQL part. It is very easy to get started with, like Nuxt.js it uses file-system as the routing API and it supports `.md` and `.vue` pages out of the box, however you can also add pages programmatically. Saber has first-class support for blogging, theming, i18n and page transition, it's also highly extensible thanks to the plugin system.
 
 For now Saber only works with Vue.js, but React support is planned for the future.
