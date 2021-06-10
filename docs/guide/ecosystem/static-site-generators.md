@@ -34,7 +34,7 @@ Pre-rendering is not a silver bullet and has some caveats:
 </useful-links-section>
 <useful-links-section title="Manual">
 
-[Prerender SPA Plugin](#prerender-spa-plugin) - low lever prerendering plugin
+[Prerender SPA Plugin](#prerender-spa-plugin) - low level prerendering plugin
 
 </useful-links-section>
 <useful-links-section title="Webpack + Plugin">
