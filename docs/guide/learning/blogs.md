@@ -45,6 +45,9 @@ They release well written Vue articles, along with other good material.
 ## Pusher
 [Pusher Blog](https://pusher.com/tutorials?q=vuejs) is a platform that offers APIs to build real-time apps. You can find plenty of Vue related articles that show how you can use Vue with their APIs to build complex applications.
 
+## The Road To Enterprise
+[The Road To Enterprise](https://theroadtoenterprise.com/blog) - is a platform that, besides technical ebooks, has a blog with various technical programming concepts covering frameworks and tools such as Vue.js, Nuxt, JavaScript, CSS, React, Next, ECMAScript, Node, Testing, Vite, Tailwindcss, and more.
+
 ## Personal Blogs
 This list consists of personal developer blogs, where people share their Vue related problems and solutions.
 
