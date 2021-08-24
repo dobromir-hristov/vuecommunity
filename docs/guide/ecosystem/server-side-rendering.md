@@ -57,7 +57,7 @@ SSR sounds awesome, there are however some things that need to be taken in consi
 
 ### Time to Interactive
 
-Even though users can see the website, it doesn't meant it is fully working. For very dynamic websites, with a lot of JavaScript logic driving the UI, this can lead to weird situations where the page is rendered, looks ready, but the app bundle is still downloading, so no JavaScript logic can be executed yet.
+Even though users can see the website, it doesn't mean it is fully working. For very dynamic websites with a lot of JavaScript logic driving the UI, this can lead to weird situations where the page is rendered and looks ready, but the app bundle is still downloading, so no JavaScript logic can be executed yet.
 
 ### Time to First Byte (TTFB) is Slower
 
