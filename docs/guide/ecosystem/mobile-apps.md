@@ -195,7 +195,7 @@ Some frameworks focus more towards one platform, so careful consideration must b
 
 Quasar is a very active and fast growing Vue UI framework, one of the first targeting desktop and mobile in particular. It offers a large and ever extending set of pre-built components, some mimic mobile elements, and a bunch of other useful general use case ones.
 
-Quasar comes with a CLI for managing and bundling your mobile app for each platform, using PhoneGap. CLI allows easy application bootstrapping, with support for PWA, i18n, Vuex, VueRouter, Async Code splitting, option of Cordova or Capacitor for native builds and more.
+Quasar comes with a CLI for easy application bootstrapping, managing, and bundling your mobile app for each platform. Integrates many tools into a full featured framework including support for PWAs, i18n, Vuex, Vue Router, code splitting, option of Cordova or Capacitor for native builds and more.
 
 <useful-links>
 <useful-links-section title="Official">
@@ -281,7 +281,7 @@ They have a nice documentation, though the Vue part is lacking a bit on explanat
 ### Onsen UI
 
 ::: contribute
-:::..
+:::
 
 ### Mint UI
 
