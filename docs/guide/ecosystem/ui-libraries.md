@@ -220,7 +220,7 @@ Buefy's versions are synchronized with Bulma, so you can be sure that same versi
 <useful-links-section title="Official">
 
 * [Buefy repository](https://github.com/buefy/buefy)
-* [Buefy documentation](https://buefy.github.io)
+* [Buefy documentation](https://buefy.org/)
 * [Buefy chat on Discord](https://discordapp.com/invite/ZkdFJMr)
 
 </useful-links-section>
