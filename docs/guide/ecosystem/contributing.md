@@ -2,7 +2,7 @@
 
 ## Contributing
 
-</useful-links-section>
+<useful-links>
 <useful-links-section title="Official links">
 
 - [Join the Vue.js Community!](https://v3.vuejs.org/community/join.html)
