@@ -78,8 +78,7 @@ module.exports = {
               '/guide/community/social-media.md',
               '/guide/community/diversity.md',
               '/guide/community/job-market.md',
-              '/guide/community/adopt-vue-at-work.md',
-              '/guide/community/vue-3.md'
+              '/guide/community/adopt-vue-at-work.md'
             ]
           },
           {
@@ -88,12 +87,13 @@ module.exports = {
             children: [
               '/guide/learning/official-documentation.md',
               '/guide/learning/how-to-learn-vue.md',
+              '/guide/learning/vue-3.md',
               '/guide/learning/learning-platforms.md',
               '/guide/learning/courses.md',
               '/guide/learning/books.md',
               '/guide/learning/blogs.md',
-              '/guide/learning/faq.md',
               '/guide/learning/podcasts.md',
+              '/guide/learning/faq.md',
               '/guide/learning/tips-from-mentors.md',
               '/guide/learning/workshops.md'
             ]

@@ -1,17 +1,14 @@
-# Vue 3 Related Articles
+# Vue 3
 
-At the time of writing, Vue 3 has still not landed officially, but we do have a publicly available alpha version. More and more people are getting excited about the upcoming release and are sharing their thoughts, findings, and speculations about the changes to come.
+Vue 3 has arrived!
 
-## Official Repositories
-
-If you are one of those who likes to get their hands dirty and likes digging through source code, here are a few repos that you must check out.
+## Upgrading
 
 <useful-links>
 <useful-links-section title="Official">
 
-* [Vue 2 Composition API Plugin](https://github.com/vuejs/composition-api) - If you are eager to try out the new Composition API in Vue 2.
-* [Vue 3 pre-alpha](https://github.com/vuejs/vue-next) - The repo for Vue 3 itself.
-* [Vue RFCs repository](https://github.com/vuejs/rfcs) - The repo with all RFCs. If something is going to be changed, it can most probably be found there.
+* [Migration Guide](https://v3.vuejs.org/guide/migration/introduction.html)
+* [Composition API Plugin for Vue 2](https://github.com/vuejs/composition-api)
 
 </useful-links-section>
 </useful-links>
