@@ -81,7 +81,7 @@ Weex has a deep integration with Vue, thus the support parity between the two is
 
 > NativeScript-Vue is a NativeScript plugin which allows you to use Vue.js to craft your mobile application. 
 
-[NativeScript-Vue](https://www.nativescript.org/vue) is one of the most popular solutions for native mobile apps with Vue.
+[NativeScript-Vue](https://www.nativescript.org) is one of the most popular solutions for native mobile apps with Vue.
 
 It offers excellent developer experience for building truly native mobile apps. Similar to ReactNative, as with other similar frameworks, you develop using a set of pre-built Vue components, using the existing Vue and JS knowledge. Knowledge of Native API's is required
 
