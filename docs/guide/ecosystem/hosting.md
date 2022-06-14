@@ -120,6 +120,20 @@ Free static file hosting with support for lambda functions. "Now" is a pretty go
 </useful-links-section>
 </useful-links>
 
+### Layer0
+
+The powerful CDN platform that integrates edge logic into your application code & extends the edge to the browser.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Deploying a Vue CLI app to Layer0](https://docs.layer0.co/guides/vue)
+* [Deploying a Nuxt app to Layer0](https://nuxtjs.org/deployments/layer0)
+* [Layer0 Documentation](https://docs.layer0.co/)
+
+</useful-links-section>
+</useful-links>
+
 ## Server Rendered Websites
 
 These websites can be SPAs or normal websites that have only parts of them written in Vue. They usually require a script to be run on the server to render the page, be it Node.js, PHP or other server language. Examples of such are Laravel websites, Node.js apps written in Express, Koa, Adonis or other similar framework.
