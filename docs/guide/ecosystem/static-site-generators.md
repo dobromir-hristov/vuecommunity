@@ -90,7 +90,7 @@ To learn more, go check out the [Gridsome](./gridsome.md) page.
 * [How does Gridsome compare to Nuxt?](https://github.com/gridsome/gridsome/issues/193)
 * [Getting Started with Gridsome](https://scotch.io/tutorials/getting-started-with-gridsome)
 * [Leveraging Vue.js & GraphQL with Gridsome](https://snipcart.com/blog/vuejs-graphql-airtable-example)
-* [Building a blog with Gridsome: Creating the Blog](https://alligator.io/vuejs/gridsome-blog/)
+* [Building a blog with Gridsome: Creating the Blog](https://www.digitalocean.com/community/tutorials/vuejs-gridsome-blog)
 
 </useful-links-section>
 </useful-links>
