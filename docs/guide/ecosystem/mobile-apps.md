@@ -167,7 +167,7 @@ Below is a list of popular tools to generate a PWA quickly:
 
 ## Hybrid Apps
 
-Hybrid apps are built by reusing well established tools for making websites like HTML, CSS and JavaScript with a minimal extra learning curve. These web based projects can then be compiled to native mobile apps with build tools such as (Cordova)[https://cordova.apache.org] or it's more recent successor (Capacitor)[https://capacitorjs.com]. The build tool wraps the web app in a native shell and provides access to native device functionality via unified JavaScript APIs. This allows developers to write one code base that can then run natively across platforms.
+Hybrid apps are built by reusing well established tools for making websites like HTML, CSS and JavaScript with a minimal extra learning curve. These web based projects can then be compiled to native mobile apps with build tools such as [Cordova](https://cordova.apache.org) or it's more recent successor [Capacitor](https://capacitorjs.com). The build tool wraps the web app in a native shell and provides access to native device functionality via unified JavaScript APIs. This allows developers to write one code base that can then run natively across platforms.
 
 ::: tip Pros
 * Uses plain HTML, CSS and JavaScript
