@@ -121,9 +121,9 @@ With a vast growing popularity and community, the wide adoption of NativeScript 
 
 ### Vue-Native
 
-Vue Native is a mobile framework made for building native mobile apps using Vue.js. It acts as a wrapper around **React Native** APIs, which allows you to use Vue.js to compose rich mobile User Interfaces. For APIs that React Native does not support, you have to write **"bridges"** in the platform's native code or install external plugins. 
+Vue Native is a deprecated mobile framework made for building native mobile apps using Vue.js. It acts as a wrapper around **React Native** APIs, which allows you to use Vue.js to compose rich mobile User Interfaces. For APIs that React Native does not support, you have to write **"bridges"** in the platform's native code or install external plugins. 
 
-Being younger than NativeScript-Vue, it has a smaller community and adoption, but is nonetheless growing as well.
+Being deprecated with no further maintenance planned since 11/2021, it should not be used for new projects.
 
 <useful-links>
 <useful-links-section title="Official">
