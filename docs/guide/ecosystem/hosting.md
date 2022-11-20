@@ -139,6 +139,10 @@ Opposed to static file hosting, this kind of hosting offers a configured server,
 One would use such a hosting service typically for hosting a PHP, Python or Node.js backed website. 
 
 ### Heroku
+Heroku is moving from totally free service (limited) to paid plans. "Free Dynos" will no longer be available after November 28, 2022. 
+
+You can read this message on the website.
+*Upgrade your dynos to a paid plan as soon as possible Starting November 28th, 2022, free dynos will no longer be available. To ensure your app continues to run, subscribe to Eco or upgrade to another paid plan.*
 
 <useful-links>
 <useful-links-section title="Tutorials">
