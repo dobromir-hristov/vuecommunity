@@ -284,11 +284,24 @@ PrimeVue is developed by [PrimeTek Informatics](https://www.primetek.com.tr), a 
 </useful-links-section>
 </useful-links>
 
+### Maz-UI for Vue & Nuxt
+
+[Maz-UI](https://louismazel.github.io/maz-ui-3/) is a lightweight and efficient library of standalone components, plugins, composables and helpers to build beautiful & efficient interfaces. Use the your own [theme simply](https://louismazel.github.io/maz-ui-3/guide/theme). Fully written with Typescript, all types are directly available. Support dark mode and let your users toggle it with a smart composable. SSR friendly, use all modules with NuxtJS.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [Maz-UI Github Repository](https://github.com/LouisMazel/maz-ui)
+* [Maz-UI Documentation](https://louismazel.github.io/maz-ui-3/)
+
+</useful-links-section>
+</useful-links>
+
 ### Kendo UI for Vue
 
 [Kendo UI for Vue](https://www.telerik.com/kendo-vue-ui) is a professionally built commercial UI library with 90+ components that is built for business applications. It provides [high-quality learning resources](https://www.telerik.com/kendo-vue-ui/components/) and an [award-winning technical support](https://www.telerik.com/best-tech-support).  The components are fully responsive and accessible with support for multiple design systems like Kendo Default, Material Design, Bootstrap and the ability to create a custom variety of theme in [Theme Builder](https://themebuilder.telerik.com/kendo-vue-ui).
 
-In [Telerik](https://www.telerik.com/) we've been solving this problem for the past 18 years across many development platforms, which now include four JavaScript frameworks.
+In [Telerik](https://www.telerik.com/) we've been solving this problem for the past 18 years across many development platforms, which now include four JavaScript frameworks.ad
 
 <useful-links>
 <useful-links-section title="Official">
