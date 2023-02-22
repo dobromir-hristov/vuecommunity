@@ -6,7 +6,7 @@ The official documentation for Vue.js is divided into several parts, spread acro
 
 The [guide](https://vuejs.org/v2/guide) is commonly praised as one of the main reasons why new developers find Vue.js easy to pick up. It's usually the starting point for a developer interested in learning Vue.
 
-The best way to learn from the guide is by following the [Essentials](https://vuejs.org/v2/guide) section chapter by chapter. Then you can continue with [Components In-Depth](https://vuejs.org/v2/guide/components-registration.html). 
+The best way to learn from the guide is by following the [Essentials](https://vuejs.org/v2/guide) section chapter by chapter. Then you can continue with [Components In-Depth](https://vuejs.org/v2/guide/components-registration.html).
 
 If you need more details on specific features, use the robust search system or browse the [API documentation](https://vuejs.org/v2/api/).
 
@@ -14,7 +14,7 @@ If you need more details on specific features, use the robust search system or b
 
 Everything in the guide is written with old Javascript syntax (ES5) and without any build tools required, to make it easy to gradually enhance your websites.
 
-However if you want to use `.vue` files while learning, read the [Single File Components](https://vuejs.org/v2/guide/single-file-components.html) chapter first and then start the guide from the beginning. 
+However if you want to use `.vue` files while learning, read the [Single File Components](https://vuejs.org/v2/guide/single-file-components.html) chapter first and then start the guide from the beginning.
 
 To utilize SFC, you can create a [CodeSandbox](https://codesandbox.io/s/vue) project online or scaffold a new project locally using [Vue CLI](https://cli.vuejs.org/), which comes with its separate documentation.
 
@@ -34,7 +34,7 @@ The Style Guide is accompanied by an [ESLint plugin](https://github.com/vuejs/es
 
 ## Cookbook
 
-While the role of the guide is to teach you how to use individual features of Vue API, the [cookbook](https://vuejs.org/v2/cookbook) gathers curated recipes for common tasks and use cases. 
+While the role of the guide is to teach you how to use individual features of Vue API, the [cookbook](https://vuejs.org/v2/cookbook) gathers curated recipes for common tasks and use cases.
 
 It consists of separate chapters that focus on particular concepts, such as form validation or working with external API. It's still a work in progress and you're welcome to help with new recipes.
 

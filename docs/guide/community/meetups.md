@@ -1,26 +1,19 @@
 # Meetups and Events
 
-Meetups and Events hold a crucial role in building a strong community. Both newcomers and seasoned developers can benefit from meeting and interacting with people from various levels of expertise and backgrounds. 
+Meetups and Events hold a crucial role in building a strong community. Both newcomers and seasoned developers can benefit from meeting and interacting with people from various levels of expertise and backgrounds.
 
 A typical meetup can vary from just a gathering at a bar/restaurant, to more learning oriented ones, where speakers give small talks, on a topic they are passionate about. The first part is better for bonding and finding fresh blood, where as the second one is better for leveling up the group's expertise. Both attendees skills as well as the speaker's teaching abilities can greatly improve with such events.
- 
 
 ## Events.vuejs.org
- Finding or organising a local meetup in your area can be quite hard, as it involves a lot of searching, preparations, etc. 
+
+Finding or organising a local meetup in your area can be quite hard, as it involves a lot of searching, preparations, etc.
 
 [events.vuejs.org](https://events.vuejs.org) is the official guide to finding meetups, conferences, workshops and more in the Vue ecosystem. It is maintained and curated by Vue Core members, but contributions from the community are more than welcome.
-
-
-<useful-links>
-<useful-links-section title="Features">
 
 * [List of upcoming events](https://events.vuejs.org/events/) - Conferences, Workshops, Local Meetups
 * [List of local groups](https://events.vuejs.org/meetups/) - "Meetups" groups, Facebook groups, local group chats, etc.
 * [Handbook for Organisers](https://events.vuejs.org/resources/#organizers-handbook) - helpful tips on how ot run a meetup.
 * [Handbook for Speakers](https://events.vuejs.org/resources/#speakers-handbook) - Tips, list of potential topics for new speakers.
-
-</useful-links-section>
-</useful-links>
 
 ## Spread the Word
 

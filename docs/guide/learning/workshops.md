@@ -1,9 +1,9 @@
 # Workshops
 
- Workshops are hands on practical events, where seasoned experts teach a group of attendees about a certain topic. Opposed to normal events, where speaking and showcasing slides is the main activity, workshops focus more on building something under the guidance of the lecturer in exchange for shorter theoretical sessions.
- 
- Workshops usually work best in smaller groups, around 15 to 20 people, with larger ones usually requiring the help of additional mentors. Downside of larger groups is that attendees cannot interact as close with the lecturer, because of the amount of people the lecturer would need to address.
-  
+Workshops are hands on practical events, where seasoned experts teach a group of attendees about a certain topic. Opposed to normal events, where speaking and showcasing slides is the main activity, workshops focus more on building something under the guidance of the lecturer in exchange for shorter theoretical sessions.
+
+Workshops usually work best in smaller groups, around 15 to 20 people, with larger ones usually requiring the help of additional mentors. Downside of larger groups is that attendees cannot interact as close with the lecturer, because of the amount of people the lecturer would need to address.
+
 ## Format of a Workshop
 
 Every workshop is unique, as in each instructor decides on how to structure their event. The same workshop can be different each time it is held, depending on the attendees level, interaction and other factors.
