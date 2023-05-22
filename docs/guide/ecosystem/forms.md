@@ -92,17 +92,31 @@ The library has good documentation, high test coverage, and was the first fully 
 </useful-links-section>
 </useful-links>
 
-### Vue Formulate <badge text="Most Flexible"/>
+### Vue Formulate (Vue 2.x) 
 
 [Vue Formulate](https://github.com/wearebraid/vue-formulate) excels in its flexibility. You can treat it as a form generator or compose the forms directly in the template from provided components. Out of the box, it comes without the more complex components available for Vue-Form-Generator, but it's easy to create your own thanks to robust plugin and scoped slots architecture, which gives hopes for an ecosystem of 3rd party extensions in the future. You're also not bound to a specific CSS framework.
-
-The project is well maintained and offers extensive documentation, good internalization support, and built-in validators.
 
 <useful-links>
 <useful-links-section title="Official">
 
 * [GitHub Repo](https://github.com/wearebraid/vue-formulate)
 * [Docs](https://vueformulate.com)
+
+</useful-links-section>
+</useful-links>
+
+### FormKit (Vue 3.x) <badge text="Most Flexible"/>
+
+[FormKit](https://github.com/formkit/formkit) Is the Vue 3 successor to Vue Formulate made by the same core authors. FormKit takes all the learnings from Vue Formulate and improves on them. The new FormKit Schema for form generation has support for dynamic expressions allowing developers to leverage conditional logic in their schemas while still being fully serializable for storage in a database. FormKit also features numerous plugins to extend functionality, over 30 built-in validation rules, internationalization (i18n) with more than 40 community provided translations, and an optional commercial collection of Pro (non-native) input types for those who want to support the development of the open-source project.
+
+The project is well maintained and offers extensive documentation, interactive examples with a built-in playground, and active support via their 1200+ member Discord community.
+
+<useful-links>
+<useful-links-section title="Official">
+
+* [GitHub Repo](https://github.com/formkit/formkit)
+* [Docs](https://formkit.com)
+* [Discord](https://discord.gg/2q3UZkUQbR)
 
 </useful-links-section>
 </useful-links>
