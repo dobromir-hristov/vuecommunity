@@ -99,6 +99,21 @@ If you have to choose a light editor for Vue, we recommend VSCode.
 </useful-links-section>
 </useful-links>
 
+### CodeLobster IDE
+
+CodeLobster IDE is a smart free cross-platform IDE primarily intended for editing PHP, HTML, CSS, JavaScript files with special support Drupal CMS, Joomla CMS, Magento CMS, Twig template engine, JQuery library, AngularJS, BackboneJS, Laravel, MeteorJS, Phalcon, CodeIgniter, CakePHP, Symfony, Yii and WordPress.
+
+Also it includes a special VueJS plug-in for VueJS download, autocomplete and tooltips for VueJS functions, context and dynamic help.
+
+<useful-links>
+<useful-links-section title="Useful Links">
+
+- [Official Website](https://code.codelobster.com/)
+- [VueJS plug-in](https://www.codelobster.com/vuejs.html)
+
+</useful-links-section>
+</useful-links>
+
 ## Tools
 
 No setup is complete without a good linter or formatter. Some editors offer their own implementations, others offer good integration with already existing tools, and third offer both. Below we will show the most popular tools, why one should use them, and how they integrate with the above editors, and with each other.
