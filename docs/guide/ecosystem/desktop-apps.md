@@ -38,7 +38,7 @@ Electron is by far the most popular library for writing JavaScript desktop appli
 <useful-links-section title="Tutorials">
 
 - [Vue.js & Electron: The easy way](https://medium.com/@mikeal/vue-js-electron-the-easy-way-adc3ca09234a)
-- [Building a Desktop App with Vue: Electron](https://dev.to/vuevixens/building-a-desktop-app-with-vue-electron-3pl)
+- [Building a Desktop App with Vue: Electron](https://dev.to/n_tepluhina/building-a-desktop-app-with-vue-electron-3pl)
 
 </useful-links-section>
 </useful-links>
