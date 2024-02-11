@@ -18,7 +18,7 @@ On this page, we will go through the different ways one can build a mobile app w
 <useful-links>
 <useful-links-section title="Native Apps">
 
-[NativeScript-Vue](#nativescript-vue-badge-textpopular)
+[NativeScript-Vue](#nativescript-vue)
 
 </useful-links-section>
 <useful-links-section title="Hybrid Apps">
